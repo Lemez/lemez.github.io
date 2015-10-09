@@ -23,6 +23,14 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
+.navbar-header > a, .nav > li > a{
+  text-decoration: none;
+}
+
+.navbar-header > a:hover, .nav > li > a:hover{
+  text-decoration: underline;
+}
+
 /* posts index */
 .post > h3.title {
   position: relative;
