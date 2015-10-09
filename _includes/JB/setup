@@ -23,5 +23,5 @@
     {% endif %}  
   {% endif %}
 
-  {% capture IMAGE_PATH %}{{ASSET_PATH}}/images{% endcapture %}
+  {% capture IMAGE_PATH %}{{ASSET_PATH}}tufte/images{% endcapture %}
 {% endcapture %}{% assign jbcache = nil %}
