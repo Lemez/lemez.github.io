@@ -12,7 +12,7 @@ group: navigation
           <figcaption>Condensed milk label, by Ariadne Arendt</figcaption>
         </figure>
     <h1>Jonathan Walton</h1>
-    <p><span class="marginnote"><img src="LL.jpg"/></p>
+    <p><span class="marginnote"><img src="{{IMAGE_PATH}}/LL.jpg"/></p>
     <subtitle>some people call me Lemez</subtitle>
     <section>
       <p><span class="newthought">Hello. </span>Here you can find some things about me, not least that someone once made me customised tins of Russian condensed milk, сгущёнка.<span class="sidenote-number"></span><span class="sidenote">Just to be clear, I'm not <a href="http://nypost.com/2015/01/04/harlem-man-dies-in-six-floor-plunge/" target="_blank">this person</a> or <a href="http://harvardmagazine.com/2012/04/jonathan-walton-named-memorial-church-minister" target="_blank">this person.</a></span></p>
@@ -52,7 +52,7 @@ group: navigation
       <p><span class="newthought">A London social history</span> art project,  I set this band up with the brilliant Ben Mandelson and Robin Harris. It is damn funky <em>what if</em> from Soho's glorious post-war period. The <a href="https://www.behance.net/gallery/26470597/Yiddish-twist-orchestra" target="_blank">artwork</a> from Melamed, is even better. I wrote some arrangements, but didn't play on stage long, as they soon got too good and too busy. Still going <a href="http://yiddishtwistorchestra.com" target="_blank">very strong indeed.</a></p>
       <p>
         <figure>
-          <img src="figure3.png"/>
+          <img src="{{IMAGE_PATH}}/figure3.png"/>
           <figcaption>Condensed milk, by Ariadne Arendt</figcaption>
         </figure>
       </p>
@@ -144,18 +144,18 @@ group: navigation
     <section>
       <h2>Figures</h2>
       <p>Tufte emphasizes tight integration of graphics with text. Data, graphs, and figures are kept with the text that discusses them. In print, this means they are not relegated to a separate page. On the web, that means readability of graphics and their accompanying text without extra clicks, tab-switching, or scrolling.</p>
-      <p><span class="marginnote"><img src="figure1.png"/>Figure 1: Sepal length vs. petal length, colored by species</span>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a <span class="code">p</span> tag, as seen in Figure 1 to the right of this paragraph.</p>      
+      <p><span class="marginnote"><img src="{{IMAGE_PATH}}/figure1.png"/>Figure 1: Sepal length vs. petal length, colored by species</span>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a <span class="code">p</span> tag, as seen in Figure 1 to the right of this paragraph.</p>      
       <p>If you need a full-width figure, give it the <span class="code">fullwidth</span> class. Make sure that's inside an <span class="code">article</span>, and it will take up (almost) the full width of the screen. Don't wrap the figure in a paragraph tag. To give it a caption, use a <span class="code">figcaption</span> tag inside the <span class="code">figure</span> tag. This approach is demonstrated in Figure 2, which I suppose plots the data in the following code:</p>
       <p class="code">qplot(wt, mpg, data = mtcars, colour = factor(cyl))</p>
       <figure class="fullwidth">
-        <img src="figure2.png"/>
+        <img src="{{IMAGE_PATH}}/figure2.png"/>
         <figcaption>Figure 2: Full width figure</figcaption>
       </figure>
       <br/>
       <p>Besides margin and full width figures, you can of course also include figures constrained to the main column. You're going to have to police yourself with the size of any images. Wrap the <span class="code">figure</span> tag in a paragraph tag. Any label or margin note goes in a <span class="code">figcaption</span> tag inside the figure.</p>
       <p>
         <figure>
-          <img src="figure3.png"/>
+          <img src="{{IMAGE_PATH}}/figure3.png"/>
           <figcaption>Figure 3: A figure the width of the main column</figcaption>
         </figure>
       </p>
