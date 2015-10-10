@@ -65,6 +65,9 @@ h1, h2, h3, h4 {
 .tag_box.inline li {
   float: left; }
 
+.tag_box.noindent {
+  padding-left: 0; }
+
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;

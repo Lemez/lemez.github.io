@@ -1,19 +1,23 @@
 ---
 layout: post
 title: "Wet Sounds"
-description: "'Wet Sounds': an underwater sound art festival"
+original_date: "July 2008"
+original_published: "Jewish Chronicle"
+description: "Profile of the underwater sound art festival"
+image: wetsounds.jpg
 category: Journalism
 tags: ["sound art", "jewish chronicle","experimental", "festival"]
 ---
 {% include JB/setup %}
-
-- ### Jewish Chronicle, July 2008
 
 <span class="marginnote">!['Wet Sounds live picture']({{ASSET_PATH}}tufte/images/wetsounds.jpg)</span><span class="marginnote">A recent Wet Sounds in Brussels. Forthcoming shows are <a href="http://newtoyweb.wix.com/newtoy#!wet-sounds/c175r" target="_blank">here</a></span>
 
 In the world of British contemporary art, where crude shock tactics have long been the dull norm, it takes an awful lot – or a beautifully simple idea – to really grab the public’s attention. 
 
 Step forward London-resident Israeli sound artist [Joel Cahen](http://www.newtoy.org/), curator of Wet Sounds, a delightfully appealing new art gallery that doesn’t require anything from audiences except for a swimming costume and an open mind.
+
+
+
  
 Supported and nurtured in collaboration with the cultural development team at Hackney Council, Wet Sounds is a touring gallery of sound art that is appearing at nine swimming pools nationwide, culminating in a large concert at Hackney Lido on 19th July. The idea is a refreshingly unpretentious one: to use the familiarity of your local swimming pool and the acoustic properties of water to introduce the sound art to a whole new audience.
 

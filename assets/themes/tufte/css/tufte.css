@@ -179,3 +179,22 @@ pre.code { padding: 0 0 0 2em; }
 
 span.newthought { font-variant: small-caps; }
 
+span.all_page_tagline{
+  float: right;
+  display: block;
+  font-size: 12px;
+}
+
+span.post_tagline {
+  display: block;
+  min-width: 100%;
+  font-size: 12px;
+  color: red;
+  line-height: 12px;
+}
+
+span.post_tagline:last-child  {
+
+  margin-bottom: 20px;
+}
+

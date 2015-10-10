@@ -1,0 +1,23 @@
+---
+layout: default
+title : All
+header : Post Archive
+group: navigation
+---
+{% include JB/setup %}
+
+{% for post in site.posts %} 
+  <p>
+		<!--     {{post.content | strip_html | truncatewords:50}} -->
+		<span class="marginnote"><img src={{IMAGE_PATH}}/{{post.image}} height="100"/></span>	
+  </p>
+  <a href={{post.url}}>
+  	<h3>	{{post.title}}</h3>
+	 <p> {{post.description}}
+	  	<span class="all_page_tagline">	{{post.original_date}}</span>
+	  	<span class="all_page_tagline">	{{post.original_published}}</span>
+	 </p>
+  </a>
+  
+  <hr>
+{% endfor %}

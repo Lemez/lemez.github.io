@@ -11,11 +11,10 @@ highlighter: pygments
 title : Jonathan Walton
 tagline: some people call me Lemez
 author :
-  name : Name Lastname
+  name : Jonathan Walton
   email : lemez9@gmail.com
   github : Lemez
   twitter : lemez1
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
