@@ -127,7 +127,7 @@ sup, sub { vertical-align: baseline;
 
 sub { top: 0.4rem; }
 
-.sidenote, .marginnote { float: right;
+.sidenote, .marginnote, .allnote { float: right;
                          clear: right;
                          margin-right: -60%;
                          width: 50%;
@@ -137,6 +137,17 @@ sub { top: 0.4rem; }
                          line-height: 1.6;
                          vertical-align: baseline;
                          position: relative; }
+
+.allnote {
+  margin-right: -20%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.allnote img {
+  vertical-align: middle;
+}
 
 .topmargin{
   margin-top: 2%;
@@ -174,8 +185,9 @@ pre.code { padding: 0 0 0 2em; }
 .fullwidth { max-width: 95%; }
 
 @media screen and (max-width: 600px) { .sidenote, .marginnote { width: 35%;
-                                                                margin-right: -45%; }}
-@media screen and (max-width: 400px) { .sidenote-number, .sidenote, .marginnote { display: none; }}
+                                                                margin-right: -45%; }
+                                        .allnote {display: none}}
+@media screen and (max-width: 400px) { .sidenote-number, .sidenote, .marginnote, .allnote { display: none; }}
 
 span.newthought { font-variant: small-caps; }
 
@@ -200,7 +212,15 @@ span.post_tagline:last-child  {
   margin-bottom: 20px;
 }
 
-.all_page_links {
+.all_page_links, .all_page_links > a {
   text-decoration: none;
+  height: 100%;
 }
+
+.nomargin {
+  margin: 0;
+  padding: 0;
+}
+
+
 

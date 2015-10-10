@@ -2,6 +2,7 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
+source: "Jekyll"
 tags : [intro]
 ---
 {% include JB/setup %}

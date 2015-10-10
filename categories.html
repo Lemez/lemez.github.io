@@ -6,16 +6,48 @@ group: navigation
 ---
 {% include JB/setup %}
 
+
+<!-- list of tags by category -->
 <ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
+	{% assign categories_list = (site.categories | sort ) %}
+   {% include JB/categories_list %}
 </ul>
 
+<!-- list of tags by source -->
+<ul class="tag_box source_box inline">
+ {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
-{% for category in site.categories %} 
+ {% for source in source_list %} 
+	
+ 	 	<li>
+ 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
+    		{{ source.items[0].source }} 
+    		</a>
+    </li>
+ {% endfor %}
+</ul>
+  
+
+<!--  -->
+<!-- headings and links to article by category -->
+
+
+{% assign sorted_categories_list = (site.categories | sort ) %}
+{% for category in sorted_categories_list %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
   <ul>
     {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
+
+<!--  -->
+<!-- headings and links to article by source -->
+{% for source in source_list  %} 
+  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = source.items %}  
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
