@@ -183,6 +183,8 @@ span.all_page_tagline{
   float: right;
   display: block;
   font-size: 12px;
+  line-height: 12px;
+  margin-right: 30px;
 }
 
 span.post_tagline {
@@ -196,5 +198,9 @@ span.post_tagline {
 span.post_tagline:last-child  {
 
   margin-bottom: 20px;
+}
+
+.all_page_links {
+  text-decoration: none;
 }
 
