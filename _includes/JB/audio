@@ -1,0 +1,5 @@
+<p>
+	<span class="marginnote">
+		<audio controls src="{{include.url}}"></audio>
+	</span>
+</p>

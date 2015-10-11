@@ -47,6 +47,9 @@ task :post do
   title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
+  source = ENV["source"] || ""
+  location = ENV["location"] || "[]"
+  artist = ENV["artist"] || "[]"
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
@@ -66,13 +69,29 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'original_date: ""'
-    post.puts 'original_published: ""'
+    post.puts "source: #{source}"
     post.puts 'description: ""'
     post.puts 'image: ""'
     post.puts "category: #{category}"
+    post.puts "location: #{location}"
+    post.puts "artist: #{artist}"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    post.puts '{% comment %}
+------------HELPERS------------->
+video helper
+{% include JB/video yt_id="UXwLBS3yUkA" text="Buena Vista" pre="" %} 
+
+image helper: remote
+{% include JB/sideimage url="http://..." text="Buena Vista" %}
+
+image helper: local
+{% include JB/sideimage img="mypic.jpg" text="Buena Vista" %}
+
+link helper: open in new tab
+{% include JB/link url="http://..." linktext="Buena" %}
+{% endcomment %}'
   end
 end # task :post
 

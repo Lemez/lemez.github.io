@@ -6,12 +6,25 @@ source: "WOMEX Guide"
 description: "A Call For A New World Music"
 image: "womex1.jpg"
 category: "journalism"
-tags: ['world music','house concerts','folk','jazz','sustainability']
+location: ["Denmark","UK"]
+genres: [world music, folk, contemporary classical, jazz, acoustic, pop]
+artist: ["Sam Lee","Sarah McQuaid","Buena Vista"]
+tags: ['world music','house concerts','folk','sustainability',"Denmark","UK","Sam Lee","Sarah McQuaid","Buena Vista", state subsidy, contemporary classical, jazz, acoustic, pop ]
 ---
 {% include JB/setup %}
  
+<!--------------HELPERS------------->
+<!-- video helper -->
+<!-- {% include JB/video yt_id="UXwLBS3yUkA" text="Buena Vista: it never did get better than this." pre='' %} -->
+<!-- image helper: remote -->
+<!-- {% include JB/sideimage url="http://..." text="Buena Vista: it never did get better than this." %} -->
+<!-- image helper: local -->
+<!-- {% include JB/sideimage img="mypic.jpg" text="Buena Vista: it never did get better than this." %} -->
+<!-- link helper: open in new tab -->
+<!-- {% include JB/link url="http://..." linktext="Buena Vista: it never did get better than this." %} -->
 
-<p><span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/UXwLBS3yUkA" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">Buena Vista: it never did get better than this.</span></p>
+
+
 
 <blockquote >
 <p>“Five or ten years ago, world music saw itself as breaking into mainstream. It was marketed as the new reggae: black music with politics, easy for white people to dance to. Like pop… it could create huge stars like Mariza and Buena Vista Social Club. It felt like a sexy, growing sector.”</p>
@@ -23,8 +36,7 @@ tags: ['world music','house concerts','folk','jazz','sustainability']
 
 <p>Where those ideas come from is another matter. The mainstream industry seems to have settled – finally – on a plan of action for new music: 360 degree deals and global rights management replacing old-fashioned record and publishing contracts; a growing digital sector supported by tough file-sharing legislation, and the biggest hope of all – a ‘live revolution’ fuelled by high ticket prices and public hunger for an undownloadable experience.
 
-<span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/ZCrDAmi1OJo" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">Fred & Ginger: Eggs In One Basket.<br/> Just because I can.</span>
-
+{% include JB/video yt_id="ZCrDAmi1OJo" text="Fred & Ginger: Eggs In One Basket.<br/> Just because I can." %}
 
 The cracks, however, are already showing: increasing opposition to the concept of boosting online sales through punishment; big promoters for top names spending much of this year scrambling to sell off cut-price tickets like traders on a market stall; and we have yet to find a grandmother who will advise artists to put all their eggs in one basket.</p>
 
@@ -35,11 +47,9 @@ The cracks, however, are already showing: increasing opposition to the concept o
 <footer>Nick Hallam, Marketing Director of the English Folk Dance and Song Society. </footer>
 </blockquote>
 
-
-<p><span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/1it2M7-ME0Y" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">English folk star Sam Lee</span></p>
+{% include JB/video yt_id="1it2M7-ME0Y" text="English folk star Sam Lee" %}
 
 <p> There is a huge network of local folk clubs run by volunteers – some 420 in England at the last count. The catch is that most of them are sessions for local players that don’t often book external artists. So how can professionals make a living? One commercial and independent grass-roots phenomenon from the USA is taking live self-empowerment to a new level: house concerts.
-
 
 <blockquote >
 <p>“The idea is rather than having a concert in a standard venue that is totally open to the public, it is a concert by invitation, publicised to friends. Some people have massive houses with interconnecting rooms to seat 40 or 50 people – others, like one man in Yorkshire, has a purpose built shed in his garden with seating for 30 friends. Most of the hosts don’t take anything from the door –they charge about the same as normal venue, even sell your CDs for you and give all profit to the artist directly.”</p>
@@ -54,11 +64,7 @@ The cracks, however, are already showing: increasing opposition to the concept o
 
 </blockquote> 
 
-<p>
-
-<span class="marginnote">Update:<iframe width="auto" height="auto" src="https://www.youtube.com/embed/CspgkFXF_y4" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">  <a href="https://www.sofarsounds.com/" target="_blank"> Sofar Sounds<a/>: bringing the music industry up to speed</span>
-</p>
-<p>
+{% include JB/video yt_id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a>bringing the music industry up to speed" %}
 
 One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com" target="_blank">Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu" target="_blank">houseconcert.eu</a> looks to provide a similar, free service.</p>
 
@@ -74,11 +80,10 @@ One organisation that works to make more musicians’ experiences as good as pos
 </blockquote>
 
 
+<p>The only constraint Da Capo has is in its choice of material: it receives its subsidy from national government in return for recording exclusively Danish-related repertoire. </p>
 
-<p>The only constraint Da Capo has is in its choice of material: it receives its subsidy from national government in return for recording exclusively Danish-related repertoire. 
+{% include JB/video yt_id="nMMya61V1CM" text="A refreshingly honest artist on Da Capo" %}
 
-<span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/nMMya61V1CM" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote"> A refreshingly honest artist on Da Capo</span>
-</p>
 
 <blockquote >
 <p>I wouldn’t say that the concept of commercial success really applies to classical music at all, certainly not to 95% of what we do. This is why we get funding from the government, and the situation is the same for many other similar labels. All national arts – including the European film industry – are very fragile now. Without this support, there are two choices – to cut activity by 90% or follow the major labels and issue only the 200 most popular pieces by Beethoven, Mozart, Mahler. Working with repertoire that pays the bills… is not the way to develop a national cultural life.</p>
@@ -89,7 +94,7 @@ One organisation that works to make more musicians’ experiences as good as pos
 
 <p>Book Slam in London provides a tantalising hint of ways in which promoters can score big successes with minimum costs. Elliot Jack is a partner in this monthly event that has turned the UK spoken word scene on its head. “The idea of Book Slam was to mix up genres and styles – performance poets, authors, stand-up comedy and music.”</p><p> Thanks to Book Slam’s vision of reinventing literature readings as raucous live parties with DJs and poet MCs, they have a loyal fan base, a 20,000 strong mailing list and top book publishers and pop labels beating down their door for a slot.
 
-<span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/Y_8rwilWsAk" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote"> Some also-ran performing at Book Slam</span>
+{% include JB/video yt_id="Y_8rwilWsAk" text="Some also-ran performing at Book Slam" %}
 
 </p>
 

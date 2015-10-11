@@ -1,0 +1,13 @@
+
+{% if {{include.url}} == %}
+ {% assign image = {{include.url}} %}
+{% else %}
+ {% assign image = {{IMAGE_PATH}}/{{include.img}} %}
+{% endif %}
+
+ <p>
+ 		<span class='marginnote'><img src='{{image}}' alt='{{include.alt}}' />
+ 		{{image}}
+ 		</span>
+ 		<span class="marginnote">{{include.text}}</span>
+</p>

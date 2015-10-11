@@ -6,7 +6,10 @@ source: "FRoots"
 description: "At the world's biggest trumpet festival, Guca, in Serbia"
 image: "guca.jpg"
 category: "journalism"
-tags: ['festival','brass','gypsy','balkan']
+location: ["Serbia"]
+genres: [balkan brass, turbofolk, gypsy, jazz]
+artist: ['RTB Big Band','Goran Bregovic','Bojan Krstic', 'Boban Markovic']
+tags: ['festival','brass','gypsy','balkan brass', 'turbofolk',Serbia,'RTB Big Band',Goran Bregovic,'Bojan Krstic', 'Boban Markovic', jazz]
 ---
 {% include JB/setup %}
 

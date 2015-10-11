@@ -3,30 +3,125 @@ layout: page
 title: Categories
 header: Posts By Category
 group: navigation
+weight: "C"
 ---
 {% include JB/setup %}
 
-
 <!-- list of tags by category -->
-<ul class="tag_box inline">
-	{% assign categories_list = (site.categories | sort ) %}
-   {% include JB/categories_list %}
-</ul>
+<div class="index">category
+	<ul class="tag_box inline">
+		{% assign categories_list = (site.categories | sort ) %}
+	   {% include JB/categories_list %}
+	</ul>
+</div>
 
 <!-- list of tags by source -->
-<ul class="tag_box source_box inline">
- {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
+<div class="index">source
+	<ul class="tag_box source_box inline">
+	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
- {% for source in source_list %} 
-	
- 	 	<li>
- 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
-    		{{ source.items[0].source }} 
-    		</a>
-    </li>
- {% endfor %}
-</ul>
+	 {% for source in source_list %} 
+	 	<li>
+	 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
+	    		{{ source.items[0].source }} 
+	    		</a>
+	    </li>
+	 {% endfor %}
+
+	</ul>
+</div>
+
+<!-- list of tags by genre -->
+<div class="index">genre
+	<ul class="tag_box inline">
+
+		{% assign genreArray = site.genrearray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.genre %}
+
+			 	{% unless genreArray contains tag %}
+				 	{% assign genreArray = genreArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedGenres = (genreArray | sort )%}
+
+		{% for tag in sortedGenres %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>
+
+<!-- list of tags by artist -->
+<div class="index">artist
+	<ul class="tag_box source_box inline">
+
+		{% assign artistArray = site.locationarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.artist %}
+
+			 	{% unless artistArray contains tag %}
+				 	{% assign artistArray = artistArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedArtists = (artistArray | sort) %}
+
+		 {% for tag in sortedArtists %} 
+		
+		 	 <li>
+
+				<a href="{{ BASE_PATH }}#{{ tag }}-ref">{{tag}} </a>
+
+		    </li>
+
+		 {% endfor %}
+	</ul>
+</div>
+
+<!-- list of tags by location -->
+<div class="index">geo
+	<ul class="tag_box inline">
+
+		{% assign locationArray = site.locationarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.location %}
+
+			 	{% unless locationArray contains tag %}
+				 	{% assign locationArray = locationArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedLocations = (locationArray | sort )%}
+
+		{% for tag in sortedLocations %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{ tag }}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>
   
+<!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
+
+
+
 
 <!--  -->
 <!-- headings and links to article by category -->
@@ -52,3 +147,36 @@ group: navigation
   </ul>
 {% endfor %}
 
+
+<!--  -->
+<!-- headings and links to article by genre -->
+
+{% for genre in sortedGenres  %} 
+  <h2 id="{{genre}}-ref">{{genre}}</h2>
+  <ul>
+    {% assign pages_list = site.tags[genre] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
+<!--  -->
+<!-- headings and links to article by artist -->
+
+{% for artist in sortedArtists  %} 
+  <h2 id="{{artist}}-ref">{{artist}}</h2>
+  <ul>
+    {% assign pages_list = site.tags[artist] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
+<!--  -->
+<!-- headings and links to article by location -->
+
+{% for location in sortedLocations  %} 
+  <h2 id="{{location}}-ref">{{location}}</h2>
+  <ul>
+    {% assign pages_list = site.tags[location] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
