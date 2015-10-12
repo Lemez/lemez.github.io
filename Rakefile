@@ -74,6 +74,7 @@ task :post do
     post.puts 'image: ""'
     post.puts "category: #{category}"
     post.puts "location: #{location}"
+    post.puts "genre: []"
     post.puts "artist: #{artist}"
     post.puts "tags: #{tags}"
     post.puts "---"

@@ -7,8 +7,9 @@ description: "Awe-inspiring memorial concert for Mandolin Srinivas"
 image: "srinivas.jpg"
 category: "diary"
 location: [South India, Pondicherry]
+genre: [carnatic, "hindu devotional"]
 artist: ['Mandolin U Rajesh', 'U Srinivas', 'AK Pazhanivel']
-tags: [South India, carnatic, mandolin, "U Rajesh", tavul, devotion, improvisation, classical]
+tags: [South India, carnatic, mandolin, "U Rajesh", thavil, "hindu devotional", improvisation, classical]
 ---
 {% include JB/setup %}
 
@@ -34,6 +35,8 @@ Just back from my first Carnatic concert.
  L'Ecole Societe Progressiste is a once-grand building, crumbling like so much else in Pondicherry, the one-time bastion of French India. Inside is a large square corridor that wraps around a square courtyard. Now a school, it was doubtless built as a traditional Tamil-style merchant's house, where the central courtyard provided a place for ritual, breathing, communal living. We are in the internal part of Pondicherry, 'la Ville Noire', where all the houses once followed this design: rooms around a central courtyard, supported by a phalanx of rounded hardwood pillars with intricate curlicues at the top.
 
  In the courtyard itself, while the crowd of curious intellectuals gather on white plastic chairs, they shift from once spot to another to get an unobstructed view of the stage past the rounded pillars. These are the same hardwood pillars that you see lining the East Coast Rd, propped up against antique shop-fronts alongside gnarled, but beautifully carved wooden doors and windows. There are so many exquisitely shaped pillars and doors on display, stacked up in great, mouldy piles, that you can imagine Pondicherry's grandeur in its full glory. A town where these carved pillars, strong like the trees they were cut from, held up every grand veranda. 
+
+{% include JB/sideimage img="carnatic-oldpondy.jpg" text='Grand colonial Pondicherry' %}
 
 Children's drawings hang from the ceiling, blowing to the rhythm of the electric fans. The courtyard roof has been long been closed to make the building work better in its present function as a school. Most space on the walls is taken: mostly garish educational printed posters with number, letters and vegetables in Tamil and English, and old photographs of gods, saints and patrons. Everything in the room it seems, was once white: now everything has been coloured by time and humidity, etching the same old stains of brown, ochre, mottled grey on every surface.
 
