@@ -16,7 +16,7 @@ tags: [Israel, Palestine, evangelist, bagpipes, Sufi, Korean choir,Jerusalem Cat
 {% comment %}
 ------------HELPERS------------->
 video helper
-{% include JB/video yt_id="UXwLBS3yUkA" text="Buena Vista" pre="" %} 
+{% include JB/video id="UXwLBS3yUkA" text="Buena Vista" pre="" %} 
 
 image helper: remote
 {% include JB/sideimage url="http://..." text="Buena Vista" %}

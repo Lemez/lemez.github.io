@@ -22,7 +22,7 @@ Step forward London-resident Israeli sound artist [Joel Cahen](http://www.newtoy
 
 Supported and nurtured in collaboration with the cultural development team at Hackney Council, Wet Sounds is a touring gallery of sound art that is appearing at nine swimming pools nationwide, culminating in a large concert at Hackney Lido on 19th July. The idea is a refreshingly unpretentious one: to use the familiarity of your local swimming pool and the acoustic properties of water to introduce the sound art to a whole new audience.
 
-{% include JB/video yt_id="dj9AUrwq_OM" text="Early 20th Soviet Noise from Velimir Khlebnikov. I know."%}
+{% include JB/video id="dj9AUrwq_OM" text="Early 20th Soviet Noise from Velimir Khlebnikov. I know."%}
 
 “When I started this project,” says Cahen from his studio in London’s East End,  “I was surprised to see just how ignorant people are about sound art. I don’t mean ignorant in a derogatory way – but rather that people aren’t aware that sound art exists at all: it is just like any other art form, but one that uses sound to express its intentions.”
 
@@ -38,7 +38,7 @@ By placing special underwater speakers strategically around the swimming pool, C
 
  Works by sound artists from as far afield as South Korea, Turkey and Australia will be featured alongside a host of British and European contributors. Artists to listen out for include a piece recorded in the Galapagos Islands by Chris Watson, best known for his work with art punk band Cabaret Voltaire, and Klaus Osterwald, who recorded the surprisingly noisy underwater sound world in a lake outside Dusseldorf using specialist microphones. But if you think that sound art is all about running water and whalesong, Cahen’s own contribution is a lot more down to earth: “Soap” splices the theme tune from Jaws with dialogue from TV soap operas such as Eastenders.
 
-{% include JB/video yt_id="VJsEahHlnEg" text="Nurse With Wound, Beetle Crawls Across My Back"%}
+{% include JB/video id="VJsEahHlnEg" text="Nurse With Wound, Beetle Crawls Across My Back"%}
 
 Entrance to the Wet Sounds tour is free - the only cost being the regular admission cost to the swimming pool – with one exception: the closing event at Hackney Lido on 19th July featuring a rare UK performance by legendary psychadelic improv band Nurse With Wound, who were one of the highlights at last year’s Ether Festival on London’s South Bank.
 

@@ -14,7 +14,7 @@ tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism
 
 {% include JB/setup %}
 
-{% include JB/video yt_id="F8udhM8QKxg" text="Joseph Nye on soft power" %}
+{% include JB/video id="F8udhM8QKxg" text="Joseph Nye on soft power" %}
 
 <blockquote>
 	<p>Political leaders have long understood the power that comes from attraction. If I can get you to want to do what I want, then I do not have to use carrots or sticks to make you do it... The ability to establish preferences tends to be associated with intangible assets such as an attractive personality, culture, political values and institutions. 
@@ -37,7 +37,7 @@ tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism
 
 <p>Governments love us world music people, and rightly so. What's not to like? Wholesome, positive and as clean as a toothpaste commercial: when you're feeling a bit depressed, and there are clouds gathering over your neighbourhood and/or popularity ratings, world music can be relied on to make everyone feel good, both about themselves and about you too.</p> 
 
-{% include JB/video yt_id="7Qa-z73rMCM" text="3 Mustaphas 3 with a song about a girl in a barn." %}
+{% include JB/video id="7Qa-z73rMCM" text="3 Mustaphas 3 with a song about a girl in a barn." %}
 
 <p>We're not loud or aggressive; half of our music is instrumental and looks as pretty as our national dress; and as for the other half, the songs are mostly about waiting for a lover in a barn or a group of friends coming together as one, and anyway most of the people we play to can't understand the lyrics anyway. We don't make too much money or promote values that might offend anyone, but as long as we sound different enough from our neighbours and don't mind waving the flag, our governments love us, and will send us abroad to spread the message of what it is that our great country stands for. </p>
 
@@ -45,7 +45,7 @@ tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism
 
 <p>We could be forgiven for pinching ourselves. The music business claims to be in a crisis, and those who aren't in crisis are keeping quiet to save money. It's getting more and more difficult for world music artists to get signed, distributed and launch an international career for themselves, and even if you get lucky, tough visa procedures and lower fees are making it harder than ever to tour an average sized band. So the current love affair between regional and national governments and world music artists has, one might argue, come at a very useful time indeed. World music is now a key plank in – whisper it – 'cultural diplomacy'.
 
-{% include JB/video yt_id="1X7fZoDs9KU" text="Simon Anholt on culture's role in the battle for our heads."%}
+{% include JB/video id="1X7fZoDs9KU" text="Simon Anholt on culture's role in the battle for our heads."%}
 
 </p>  
 
@@ -78,7 +78,7 @@ tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism
 
 <p>
 
-{% include JB/video yt_id="UeIzH2EJGW0" text="But did Khrushchev like jazz?"%}
+{% include JB/video id="UeIzH2EJGW0" text="But did Khrushchev like jazz?"%}
 
 Top American jazzmen featured heavily in US diplomacy at the height of the Cold War – Benny Goodman's tour to Russia in 1962 and Louis Armstrong and Duke Ellington going to Africa in the fifties and sixties, a tradition continued by artists like Winton Marsalis in more recent times. 
 </p>
@@ -89,7 +89,7 @@ Top American jazzmen featured heavily in US diplomacy at the height of the Cold 
 
 <p>The band might seem like an unusual choice for diplomatic envoys – they met at the city's Peace and Justice Center, first performing for picketers at a strike, and were approached by the US State Department during the Presidency of George W Bush. The need to combat the swift rise in anti-Americanism at the time found a perfect partner in a band who may not have agreed with US policies, but who projected values that showed a positive, alternative side of American culture. However, it wasn't an easy courtship for either party.
 
-{% include JB/video yt_id="XAfhPgcTmI4" text="Ozomatli before their US State Dept tour."%}
+{% include JB/video id="XAfhPgcTmI4" text="Ozomatli before their US State Dept tour."%}
 
 </p>
 
@@ -104,7 +104,7 @@ Top American jazzmen featured heavily in US diplomacy at the height of the Cold 
 
 <p>Colin Hicks is a cultural broker who spent 18 years as the Cultural Attache for the Quebec Government Office in London.
 
-{% include JB/video yt_id="zqinwtbAsLQ" text="The biggest Quebecois export of all time."%}
+{% include JB/video id="zqinwtbAsLQ" text="The biggest Quebecois export of all time."%}
 
 <blockquote >
 <p>What happened during the 2nd Iraq war was that George Bush forgot the central tenet of diplomacy – the reputation of your country is your major asset.”  One problem of cultural diplomacy he sees is that what governments want out of musicians and what constitutes good art is not necessarily the same thing. I've seen a lot of artists become instruments of diplomacy provided they were saying the right things. When they were on message they were funded, when they weren't, they weren't.
@@ -115,7 +115,7 @@ Top American jazzmen featured heavily in US diplomacy at the height of the Cold 
 
 <p>It isn't just big countries with troublesome military campaigns who are seeing the value of sending out cultural diplomats. Brendan Quinlivan is a Senior Policy Advisor at the New Zealand Cultural Diplomacy International Programme, whose stated aim is to 'maintain a New Zealand cultural presence in key overseas regions or countries in order to boost New Zealand’s profile and economic, trade, tourism, diplomatic and cultural interests.'
 
-{% include JB/video yt_id="mlYkIJVguCU" text="Two guys helping to make Brendan's job a lot easier."%}
+{% include JB/video id="mlYkIJVguCU" text="Two guys helping to make Brendan's job a lot easier."%}
 
 </p>
 
@@ -159,7 +159,7 @@ Top American jazzmen featured heavily in US diplomacy at the height of the Cold 
 <p>
 
 
-{% include JB/video yt_id="3BDyFuDxA-I" text="Cash vs conscience made clear by the master."%}
+{% include JB/video id="3BDyFuDxA-I" text="Cash vs conscience made clear by the master."%}
 
 However, a couple of niggling questions remain – many artists would be uncomfortable flying the flag for a corporation or brand whose politics they don't like. So why are countries any different? And if we, as world music artists, fit our government's agenda of what sort of image they'd like to project, shouldn't we be – well – just a little bit worried? 
 </p>

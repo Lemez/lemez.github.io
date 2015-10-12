@@ -15,7 +15,7 @@ tags: ['world music','house concerts','folk','sustainability',"Denmark","UK","Sa
  
 <!--------------HELPERS------------->
 <!-- video helper -->
-<!-- {% include JB/video yt_id="UXwLBS3yUkA" text="Buena Vista: it never did get better than this." pre='' %} -->
+<!-- {% include JB/video id="UXwLBS3yUkA" text="Buena Vista: it never did get better than this." pre='' %} -->
 <!-- image helper: remote -->
 <!-- {% include JB/sideimage url="http://..." text="Buena Vista: it never did get better than this." %} -->
 <!-- image helper: local -->
@@ -36,7 +36,7 @@ tags: ['world music','house concerts','folk','sustainability',"Denmark","UK","Sa
 
 <p>Where those ideas come from is another matter. The mainstream industry seems to have settled – finally – on a plan of action for new music: 360 degree deals and global rights management replacing old-fashioned record and publishing contracts; a growing digital sector supported by tough file-sharing legislation, and the biggest hope of all – a ‘live revolution’ fuelled by high ticket prices and public hunger for an undownloadable experience.
 
-{% include JB/video yt_id="ZCrDAmi1OJo" text="Fred & Ginger: Eggs In One Basket.<br/> Just because I can." %}
+{% include JB/video id="ZCrDAmi1OJo" text="Fred & Ginger: Eggs In One Basket.<br/> Just because I can." %}
 
 The cracks, however, are already showing: increasing opposition to the concept of boosting online sales through punishment; big promoters for top names spending much of this year scrambling to sell off cut-price tickets like traders on a market stall; and we have yet to find a grandmother who will advise artists to put all their eggs in one basket.</p>
 
@@ -47,7 +47,7 @@ The cracks, however, are already showing: increasing opposition to the concept o
 <footer>Nick Hallam, Marketing Director of the English Folk Dance and Song Society. </footer>
 </blockquote>
 
-{% include JB/video yt_id="1it2M7-ME0Y" text="English folk star Sam Lee" %}
+{% include JB/video id="1it2M7-ME0Y" text="English folk star Sam Lee" %}
 
 <p> There is a huge network of local folk clubs run by volunteers – some 420 in England at the last count. The catch is that most of them are sessions for local players that don’t often book external artists. So how can professionals make a living? One commercial and independent grass-roots phenomenon from the USA is taking live self-empowerment to a new level: house concerts.
 
@@ -64,7 +64,7 @@ The cracks, however, are already showing: increasing opposition to the concept o
 
 </blockquote> 
 
-{% include JB/video yt_id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a>bringing the music industry up to speed" %}
+{% include JB/video id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a>bringing the music industry up to speed" %}
 
 One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com" target="_blank">Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu" target="_blank">houseconcert.eu</a> looks to provide a similar, free service.</p>
 
@@ -82,7 +82,7 @@ One organisation that works to make more musicians’ experiences as good as pos
 
 <p>The only constraint Da Capo has is in its choice of material: it receives its subsidy from national government in return for recording exclusively Danish-related repertoire. </p>
 
-{% include JB/video yt_id="nMMya61V1CM" text="A refreshingly honest artist on Da Capo" %}
+{% include JB/video id="nMMya61V1CM" text="A refreshingly honest artist on Da Capo" %}
 
 
 <blockquote >
@@ -94,7 +94,7 @@ One organisation that works to make more musicians’ experiences as good as pos
 
 <p>Book Slam in London provides a tantalising hint of ways in which promoters can score big successes with minimum costs. Elliot Jack is a partner in this monthly event that has turned the UK spoken word scene on its head. “The idea of Book Slam was to mix up genres and styles – performance poets, authors, stand-up comedy and music.”</p><p> Thanks to Book Slam’s vision of reinventing literature readings as raucous live parties with DJs and poet MCs, they have a loyal fan base, a 20,000 strong mailing list and top book publishers and pop labels beating down their door for a slot.
 
-{% include JB/video yt_id="Y_8rwilWsAk" text="Some also-ran performing at Book Slam" %}
+{% include JB/video id="Y_8rwilWsAk" text="Some also-ran performing at Book Slam" %}
 
 </p>
 

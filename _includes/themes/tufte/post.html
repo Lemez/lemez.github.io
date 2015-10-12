@@ -10,6 +10,17 @@
 
       <h1>{{page.title}}</h1>
       <h3>{{page.description}}</h3>
+      {% assign words = page.content | size %}
+      {% assign mins = words | divided_by: 400 %}
+      {% assign mins_adjusted = (mins | minus:2) %}
+
+      {% if mins == 18 or mins==8 or mins==11 %}
+      {% assign indefarticle = "An" %}
+      {% else %}
+       {% assign indefarticle = "A" %}
+       {% endif %}
+
+      <h5> {{indefarticle}} {{ mins }} minute read</h5>
 
       {% unless page.source == empty %}
         <p>

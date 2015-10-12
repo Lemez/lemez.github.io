@@ -21,7 +21,7 @@ tags: [jazz,Trunk Records,rare gems,synagogue liturgy,NYC,N16,Herbie Hancock,Jon
 <p>I like a lot of movie music, and of course the masters are Jewish songwriters, really.  And I always find it quite interesting when you’ve got people like Anthony Newly, and Leslie Brickers, who when they started out they called themselves Brickman and Newberg to sound more Jewish even though they weren’t, just to get more attention, or a bit more trust.  I mean, they’re great songwriters anyway, but, you know, the Jewish songwriters are the masters. The Sherman Brothers are possibly my favourite.  They wrote a large majority of the music for Disney back in the Golden Era of Disney, so a lot of the recordings from The Jungle Book, a lot of the recordings from Mary Poppins is theirs: fantastically clever lyrics, great patterns, just brilliant music, really. That’s my favorite, really, that sort of classic Jewish songwriters.  They’re just masters, master of the art and the craft.  I don’t think anyone else gets close.</p>
 </blockquote>
 
-{% include JB/video yt_id="bQl98IHNE74" text="Sherman Brothers singing with Walt Disney" %}
+{% include JB/video id="bQl98IHNE74" text="Sherman Brothers singing with Walt Disney" %}
 
 <p>
 Retro music king Jonny Trunk is sitting in a garden café near his North London home in Stoke Newington doing what he does best – talking excitedly about obscure recordings. Trunk is a particularly English kind of hero: a bespectacled, mild-mannered, good-humoured anorak with a cheeky past and passion for the unusual. In American slang, he could been called a ‘foamer’: a trainspotter who gets so excited by a sighting of a rare locomotive that they start foaming at the mouth, unable to hold their pencil straight. Luckily for us, it is not trains that get him all steamed up, but music: Trunk is part of that very select breed of cultural trainspotters, the obsessive record collector. </p>
@@ -41,7 +41,7 @@ Retro music king Jonny Trunk is sitting in a garden café near his North London 
 
 <p>With scant details to go on, Trunk discovered that the recording was owned by the Union for Reform Judaism, who had commissioned in the 1960s from a rabbi from Worcester, Massachusetts, and a teenage composer called Jonathan Klein. </p>
 
-{% include JB/video yt_id="IGZwGaNptXE" text="An ethereal liturgical piece from the Who's Who" %}
+{% include JB/video id="IGZwGaNptXE" text="An ethereal liturgical piece from the Who's Who" %}
 
 <p>  The music Klein composed is a adaptation of a Friday night service arranged for jazz sextet with two singers and a male reader, couched in a late 60s, modal jazz idiom, complete with furious solos and angular female voices darting about high above the fray. What is remarkable about this recording is not so much how it sounds, but quite how it came to pass that one of the world’s most famous jazz musicians – without any documented relation to Judaism  – went to a studio to record versions of the Sh’ma and Kiddush in the first place.</p>
 
@@ -56,7 +56,7 @@ And this is where it gets foggy because I don’t know how a Jewish organization
 
 <p>What makes this album so compelling is that its premise – the jazz service – seems to have been at the forefront of the modern movement to make synagogue culture hip to young Jews who would rather be out dancing than in davening on a Friday night. The great liturgical  revolutionary, Shlomo Carlebach “the Singing Rabbi”, was taking his yeshiva folk to the masses in exactly the same period, but while Carlebach was a prolific spiritual songwriter, he was no great musician. Herbie Hancock, on the other hand, is another story. </p>
 
-{% include JB/video yt_id="swCNYJaiZ6E" text="Another Jewish jazz spiritual epic from the period" %}
+{% include JB/video id="swCNYJaiZ6E" text="Another Jewish jazz spiritual epic from the period" %}
 
 <p>When I finally manage to catch Rabbi David Davis on the telephone from his West coast home one Friday morning, he sets about filling in some intriguing gaps.</p>
 
@@ -77,7 +77,7 @@ He used to say to me, “David, you can try whatever you want, just keep the kid
 
 <p>The recording sessions themselves came about when Davis left Worcester and went to New York to work for the youth movement of the Union of American Hebrew Congregations, who were looking for a project to sponsor. “The guy I worked for was a music fan, and I told him we had this number that we just did that really took New England by storm. We had a little extra money, and the record producer that he hired knew Herbie Hancock and the crew of guys you hear on the record – major league guys. On the record it’s them plus a seventeen year old kid and a twenty eight year old rabbi trying to knock it out with these guys.”</p>
 
-{% include JB/video yt_id="1V4cETHxBlM" text="Even Tom Jones was getting in on the act." %}
+{% include JB/video id="1V4cETHxBlM" text="Even Tom Jones was getting in on the act." %}
 
 <p>Sadly, what Davis has to say about the session doesn’t reveal anything juicy like an explosive story about Hancock’s secret conversion to Judaism. The mechanics of it were all quite banal: “To use their language, I guess they were between gigs. We did the whole thing in two sessions; they weren’t too many takes, they seemed to study the music like you would study for a quiz before they picked up their instruments. They were warm guys, very professional.”</p>
 

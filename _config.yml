@@ -28,6 +28,7 @@ author :
 production_url : http://lemez.github.io
 locationarray: []
 genrearray: []
+offset: 2
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
