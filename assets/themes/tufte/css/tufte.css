@@ -182,18 +182,15 @@ pre.code { padding: 0 0 0 2em; }
 
 @media screen and (max-width: 600px) { .sidenote, .marginnote { width: 35%;
                                                                 margin-right: -45%; }
-                                        .allnote {display: none}}
-@media screen and (max-width: 400px) { .sidenote-number, .sidenote, .marginnote, .allnote { display: none; }}
+                                        .allnote {display: none}
+                                      p.all_desc {clear: both;}}
+@media screen and (max-width: 400px) { 
+  .sidenote-number, .sidenote, .marginnote, .allnote { display: none; }
+}
 
 span.newthought { font-variant: small-caps; }
 
-span.all_page_tagline{
-  float: right;
-  display: block;
-  font-size: 12px;
-  line-height: 12px;
-  margin-right: 30px;
-}
+
 
 span.post_tagline {
   display: block;
@@ -228,6 +225,20 @@ span.post_tagline:last-child  {
   vertical-align: middle;
   margin-left: 20px;
 }
+
+span.all_page_tagline{
+  float: left;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+span.all_page_main {
+  float: left;
+  display: inline-block;
+
+}
+
 
 
 

@@ -21,11 +21,17 @@ weight: "C"
 	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
 	 {% for source in source_list %} 
-	 	<li>
-	 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
-	    		{{ source.items[0].source }} 
-	    		</a>
-	    </li>
+
+		 {% if (source.items[0].source | size ) > 0 %}
+
+		 	<li>
+		 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
+		    		{{ source.items[0].source }} 
+		    		</a>
+		    </li>
+
+		 {% endif %}
+
 	 {% endfor %}
 
 	</ul>
@@ -140,11 +146,17 @@ weight: "C"
 <!--  -->
 <!-- headings and links to article by source -->
 {% for source in source_list  %} 
-  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = source.items %}  
-    {% include JB/pages_list %}
-  </ul>
+
+	{% if (source.items[0].source | size ) > 0 %}
+
+	  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
+	  <ul>
+	    {% assign pages_list = source.items %}  
+	    {% include JB/pages_list %}
+	  </ul>
+
+	{% endif %}
+	
 {% endfor %}
 
 
