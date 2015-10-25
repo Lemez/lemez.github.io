@@ -11,7 +11,7 @@ tags: [CV, BBC Radio 2, BBC Radio 3, BBC Radio 4, BBC World Service, BBC Russian
 
 <h2>Presenting / Producing</h2>
 
-- <a href="http://nightjar.co.uk/tag/world-class-brass/" target="_blank">World Class Brass</a>, BBC Radio 2 (three part series), 2012
+- <a href="http://nightjar.co.uk/tag/world-class-brass/"  >World Class Brass</a>, BBC Radio 2 (three part series), 2012
 - Various packages and features, BBC Russian Service, 2005-8
 - The Oud and Coexistence Through Music, CBC Radio Canada, 2007
 - <a href="https://youtu.be/aRNAJCHxa7w">Digging For Trouble</a>, DigressMedia for Al Jazeera, 2007

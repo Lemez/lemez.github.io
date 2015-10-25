@@ -19,7 +19,7 @@ tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop]
 <iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228893268&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 <subtitle>&</subtitle>
-<a href="http://www.wired.co.uk/news/archive/2010-04/22/the-election-song-contest-where-politics-get-musical" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/1280px-Wired_logo.svg.png" /> </a> 
+<a href="http://www.wired.co.uk/news/archive/2010-04/22/the-election-song-contest-where-politics-get-musical"  ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/1280px-Wired_logo.svg.png" /> </a> 
 </figure>
 
 {% include sideimage img="ESCflyer_small.jpg" %}

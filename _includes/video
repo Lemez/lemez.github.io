@@ -1,10 +1,14 @@
 <p>
- 	<span class="marginnote">
+	<span class="marginnote">
  		{{include.pre}}
  		<iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{include.id}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen >
  		</iframe>
  	</span>
- 	<span class="marginnote">
+ 	{% if {{include.sidenote}} %}
+		<span class="sidenote">
+	{% else %}
+ 		<span class="marginnote">
+	{% endif %}
  	{{include.text}}
  	</span>
 </p>

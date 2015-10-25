@@ -55,7 +55,7 @@ link helper: open in new tab
 
 <blockquote >
 <p>The main challenge for the world music industry is the same as it is for everyone. How can artists build a sustainable career without income from recordings and record company advances?</p>
-<footer>Andrew Missingham, author, <a href="http://amissingham.com/wp-content/uploads/2011/10/UK-Music-Copyright-Report-v4.pdf" target="_blank"></a>"The role of copyright in the digital economy"</footer>
+<footer>Andrew Missingham, author, <a href="http://amissingham.com/wp-content/uploads/2011/10/UK-Music-Copyright-Report-v4.pdf"  ></a>"The role of copyright in the digital economy"</footer>
 </blockquote >
 </p>
 <p>Part of that answer might lie in parts of the world where recording royalties and advances have never been a part of the local music scene. Groove Armada’s recent exclusive deal with Bacardi – a drinks company with limited experience in music – will be familiar to musicians in Russia, where recordings are often financed by commercial sponsors, and CDs can look like flyers covered in logos. Radiohead’s internet release of In Rainbows for free to generate maximum publicity will be familiar to artists in Africa and elsewhere who know that a high public profile in the local marketplace means more demand for live shows and better paying gigs.
@@ -65,7 +65,7 @@ link helper: open in new tab
 
 <blockquote >
 <p>I was working for Heineken and Shell but as a music fan I felt constantly frustrated by the music I was being fed by mainstream media. At the same time, I would consistently hear live acts I thought were much better. When Myspace launched, and I saw how bands were accumulating friends, the thought struck me: what would happen if each fan, instead of just being a ‘friend’, chipped in ten dollars?</p>
-<footer>Pim Betist, <a href="http://http://africaunsigned.com/" target="_blank" >Africa Unsigned</a></footer>
+<footer>Pim Betist, <a href="http://http://africaunsigned.com/"   >Africa Unsigned</a></footer>
 </blockquote >
 <p>
 Betist’s first new model Sellaband was born, and with it the idea that music lovers – the same people who will go on to buy a record – are both the best A&R men and women around, and potential investors who can earn money through helping an artist to finance their first album without the artist being forced to sign away their rights in an exploitative record contract.</p>
@@ -88,7 +88,7 @@ Initially established in five countries - Senegal, Mali, Kenya, Zimbabwe, South 
 </p>
 
 <p>While not as radical as sharing profit with fans, 
-<span class="marginnote">Update: crowdfunding is evidently a hard gig. AU has now become an interactive agency <a href="http://africaunsigned.com/video-release-nadia-number/" target="_blank">working with brands and African music</a>.
+<span class="marginnote">Update: crowdfunding is evidently a hard gig. AU has now become an interactive agency <a href="http://africaunsigned.com/video-release-nadia-number/"  >working with brands and African music</a>.
 </span>
 another interesting way in which parts of the music industry are using networks to help break the mainstream media deadlock also comes from the Netherlands. For Peter Smidt from Eurosonic Noorderslag, the key to helping new artists –particularly from non-Anglophone countries who can find it much harder to break into mainstream media –  is closer industry collaboration between media, festivals and record companies. One key joint initiative is The European Talent Exchange Programme (ETEP), run by Eurosonic Noorderslag in cooperation with the European Music Office, Sena Performers, Yourope and the European Broadcasting Union amongst others. For new European artists, ETEP is an effective means of bypassing traditional barriers to mainstream exposure and plugging straight into a network of big European public broadcasters and major summer festivals like Glastonbury and Lowlands.</p>
 
@@ -115,7 +115,7 @@ Despite the explosion in the sheer availability of music over the internet, Smid
 <footer>Bernard Batzen from French live agency Azimuth</footer>
 </blockquote >
 
-<p>Today <a href="http://www.live-boutique.com/site/A-propos" target="_blank">Live Boutique</a> is a collective of twelve live agencies with a roster of three hundred artists performing six thousand shows a year. Their joint promotions of new acts have been so successful that they are even looking into buying a venue together to reduce their expenses. This strength in numbers, coupled with the new commercial importance of performing live for the industry as a whole, means that the industry is being forced to work together to break new artists.</p>
+<p>Today <a href="http://www.live-boutique.com/site/A-propos"  >Live Boutique</a> is a collective of twelve live agencies with a roster of three hundred artists performing six thousand shows a year. Their joint promotions of new acts have been so successful that they are even looking into buying a venue together to reduce their expenses. This strength in numbers, coupled with the new commercial importance of performing live for the industry as a whole, means that the industry is being forced to work together to break new artists.</p>
 
 <blockquote >
 <p>A few years ago we were considered as peanuts by record companies. Since the crisis started, there is no plan that gets put together for a new act without meetings between the record company, publishers and promoters. This is a big change: teamwork. Now every part of the puzzle – record company, promoter, publisher, manager – is just as important.  My feeling is that a project that will be successful is one with a good team and good synergy. If an act has a strong, professional entourage, then you have a chance.</p>

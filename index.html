@@ -11,6 +11,7 @@ weight: "A"
 	<ul class="tag_box inline">
     <li><a href="#diary">diary</a></li>
     <li><a href="#journalism">journalism</a></li>
+    <li><a href="#radio">radio</a></li>
 	</ul>
 </div>
 
@@ -85,7 +86,12 @@ weight: "A"
     <a href="{{post.url}}">
        <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
        <div class="index-title">
-         <h3 class="all_page_main">{{post.title}}</h3>
+         <h3> 
+          <span class="all_page_main">{{post.title}}</span><br>
+          <span class="all_page_tagline"> {{post.source}} / </span>
+          <span class="all_page_tagline">/ {{post.original_date}}</span>
+       </h3>
+       <br>
          <p class='all_desc'> {{post.description}}</p>
         </div>
     </a>

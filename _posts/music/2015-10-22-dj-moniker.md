@@ -19,7 +19,7 @@ Again.
 
 In a fit of nausea I made this political mashup with audio samples courtesy of the BBC.
 
-Thanks to <a href="https://www.indymedia.org.uk/en/2005/04/309023.html?c=on#c113985" target="_blank">this Indymedia user</a> for writing out the lyrics.
+Thanks to <a href="https://www.indymedia.org.uk/en/2005/04/309023.html?c=on#c113985"  >this Indymedia user</a> for writing out the lyrics.
 
 <em>B: Blair
 	H: Howard

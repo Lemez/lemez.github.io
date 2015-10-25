@@ -8,5 +8,5 @@
  <p>
  		<span class='marginnote'><img src='{{base}}/assets/themes/tufte/images/{{image}}' />
  		</span>
- 		<span class="marginnote">{{include.text}}</span>
+ 		<span class="marginnote buffer">{{include.text}}</span>
 </p>

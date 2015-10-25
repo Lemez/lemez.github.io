@@ -23,10 +23,10 @@ nav {
 
 nav > span { float: right; padding-right: 2%; }
 
-body { width: 87.5%;
+body { width: 90%;
        margin-left: 0;
        margin-right: 0;
-       padding-left: 12.5%;
+       padding-left: 10%;
        font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        background-color: #fffff8;
        color: #111;
@@ -137,7 +137,7 @@ sub { top: 0.4rem; }
 .allnote {
   display: inline-block;
   float: right;
-  width: 30%;
+  width: 25%;
   max-width: 250px;
   margin-top: -20px;
 }
@@ -219,7 +219,6 @@ span.post_tagline {
 }
 
 span.post_tagline:last-child  {
-
   margin-bottom: 20px;
 }
 
@@ -235,6 +234,7 @@ span.post_tagline:last-child  {
 
 .index{
   margin: 0;
+  padding: 0;
   margin-bottom: 1em;
 }
 
@@ -337,6 +337,11 @@ td {
   width: 100%;
   height: 100%;
 }
+
+.buffer {
+  margin-top: 5px;
+}
+
 
 
 

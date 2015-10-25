@@ -19,7 +19,7 @@ tags: ['festival','gypsy','balkan brass', 'turbofolk',Serbia,'RTB Big Band',Gora
 
 <p><span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/t9mras9Giok" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">RTB Big Band, Belgrade, tearing it up in the 60s.</span></p>
 
-<p><span class="newthought">When you think of dance music</span> in Europe, Yugoslavia may not be the first place that springs to mind. Fans of Gilles Peterson and jazzdance/breakbeat will know about the Belgrade club scene, which on the strength of recent releases by UK label <a href="http://www.cosmicsounds-london.com/label/cs-34/cs-34.html" target="_blank">Cosmic Sounds</a> is as dynamic and creative as any in Europe. But it is the acoustic dance music of Yugoslavia that has been attracting serious attention over the last ten years – in particular, the hard-blowing, hard-dancing Rom (Gypsy) brass music of Serbia and Macedonia. It has fiery horn riffs, wild solos and shimmering rhythms that are funky and dirty enough to challenge the hardest Salsa and Afrobeat tunes for a place on the dancefloor. So roll over Fela, and let those Balkan trumpets lead the way…</p>
+<p><span class="newthought">When you think of dance music</span> in Europe, Yugoslavia may not be the first place that springs to mind. Fans of Gilles Peterson and jazzdance/breakbeat will know about the Belgrade club scene, which on the strength of recent releases by UK label <a href="http://www.cosmicsounds-london.com/label/cs-34/cs-34.html"  >Cosmic Sounds</a> is as dynamic and creative as any in Europe. But it is the acoustic dance music of Yugoslavia that has been attracting serious attention over the last ten years – in particular, the hard-blowing, hard-dancing Rom (Gypsy) brass music of Serbia and Macedonia. It has fiery horn riffs, wild solos and shimmering rhythms that are funky and dirty enough to challenge the hardest Salsa and Afrobeat tunes for a place on the dancefloor. So roll over Fela, and let those Balkan trumpets lead the way…</p>
 
 
 <p>But before we get to the party, a bit of background information. In historical terms, the Socialist Federal Republic of Yugoslavia was generally more supportive of folk music than its Eastern Bloc counterparts. The relationship between folklore and ethnic nationalism in Europe has long been problematic, marked by aggressive adoption of folk culture to support theories of racial superiority in WWII and more recently in post-Communist times. 
@@ -97,7 +97,7 @@ Tables of rich businessman, both émigrés and local Serbs, seem to vie to displ
 <p>If your Serbian is a little rusty, getting to Guca and organizing accommodation can be a daunting prospect.
 
 <span class="marginnote"><img src="http://www.guca.rs/images/slika_pocetna.jpg" alt="Image of drunken man with his head in a trumpet" /></span>
-<span class="marginnote">Update: there is now an official <a href="http://www.guca.rs/eng/" target="_blank">website</a>.</span>
+<span class="marginnote">Update: there is now an official <a href="http://www.guca.rs/eng/"  >website</a>.</span>
 
 
 
@@ -107,5 +107,5 @@ Unlike many towns across former Yugoslavia – especially on the more tourist-or
 
 
 <p>
-And while the festival’s reputation is growing year on year, the programme notes are in Serbian only. By far the best source of information is <a href="http://www.galbeno.com/" target="_blank">Galbeno</a>. Run by two English-speaking Roma cultural producers from Belgrade, they can organize transport, accommodation and be on hand for any questions, from where to buy a tapan drum to the best recipe for cheese-filled peppers. They also run highly recommended Serbian and Gypsy music, dance and language courses in Valjevo, a beautiful town in the centre of the country, throughout the summer. Check the internet links below for more details. </p>
+And while the festival’s reputation is growing year on year, the programme notes are in Serbian only. By far the best source of information is <a href="http://www.galbeno.com/"  >Galbeno</a>. Run by two English-speaking Roma cultural producers from Belgrade, they can organize transport, accommodation and be on hand for any questions, from where to buy a tapan drum to the best recipe for cheese-filled peppers. They also run highly recommended Serbian and Gypsy music, dance and language courses in Valjevo, a beautiful town in the centre of the country, throughout the summer. Check the internet links below for more details. </p>
 

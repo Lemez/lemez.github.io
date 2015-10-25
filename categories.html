@@ -7,96 +7,10 @@ weight: "C"
 ---
 {% include JB/setup %}
 
-
-<!-- list of tags by topic -->
-<div class="index">topic
-	<ul class="tag_box inline">
-
-		{% assign topicArray = site.topicarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.topic %}
-
-			 	{% unless topicArray contains tag %}
-				 	{% assign topicArray = topicArray | push: tag %}
-				{% endunless %}
-
-			 {% endfor %}
-		{% endfor %}
-
-		{% assign sortedTopics = (topicArray | sort )%}
-
-		{% for tag in sortedTopics %}
-			<li>
-				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
-				 		{{tag}}
-				 		</a>
-			</li>
-
-		{% endfor %}
-
-	</ul>
-</div>
-
-<!-- list of tags by genre -->
-<div class="index">genre
-	<ul class="tag_box inline">
-
-		{% assign genreArray = site.genrearray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.genre %}
-
-			 	{% unless genreArray contains tag %}
-				 	{% assign genreArray = genreArray | push: tag %}
-				{% endunless %}
-
-			 {% endfor %}
-		{% endfor %}
-
-		{% assign sortedGenres = (genreArray | sort )%}
-
-		{% for tag in sortedGenres %}
-			<li>
-				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
-				 		{{tag}}
-				 		</a>
-			</li>
-
-		{% endfor %}
-
-	</ul>
-</div>
-
-<!-- list of tags by artist -->
-<div class="index">artist
-	<ul class="tag_box source_box inline">
-
-		{% assign artistArray = site.locationarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.artist %}
-
-			 	{% unless artistArray contains tag %}
-				 	{% assign artistArray = artistArray | push: tag %}
-				{% endunless %}
-
-			 {% endfor %}
-		{% endfor %}
-
-		{% assign sortedArtists = (artistArray | sort) %}
-
-		 {% for tag in sortedArtists %} 
-		
-		 	 <li>
-
-				<a href="{{ BASE_PATH }}#{{ tag }}-ref">{{tag}} </a>
-
-		    </li>
-
-		 {% endfor %}
-	</ul>
-</div>
-
 <!-- list of tags by location -->
-<div class="index">geo
+<div class='allindextags'>
+<div class="index">
+	<span class='catheader'>geo</span>
 	<ul class="tag_box inline">
 
 		{% assign locationArray = site.locationarray %}
@@ -125,15 +39,109 @@ weight: "C"
 </div>
 
 <!-- list of tags by category -->
-<div class="index">category
+<div class="index">
+	<span class='catheader'>category</span>
 	<ul class="tag_box inline">
 		{% assign categories_list = (site.categories | sort ) %}
 	   {% include JB/categories_list %}
 	</ul>
 </div>
 
+<!-- list of tags by topic -->
+<div class="index">
+	<span class='catheader'>topic</span>
+	<ul class="tag_box inline">
+
+		{% assign topicArray = site.topicarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.topic %}
+
+			 	{% unless topicArray contains tag %}
+				 	{% assign topicArray = topicArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedTopics = (topicArray | sort )%}
+
+		{% for tag in sortedTopics %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>
+
+<!-- list of tags by genre -->
+<div class="index">
+	<span class='catheader'>genre</span>
+	<ul class="tag_box inline">
+
+		{% assign genreArray = site.genrearray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.genre %}
+
+			 	{% unless genreArray contains tag %}
+				 	{% assign genreArray = genreArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedGenres = (genreArray | sort )%}
+
+		{% for tag in sortedGenres %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>
+
+<!-- list of tags by artist -->
+<div class="index">
+	<span class='catheader'>artist</span>
+	<ul class="tag_box inline">
+
+		{% assign artistArray = site.locationarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.artist %}
+
+			 	{% unless artistArray contains tag %}
+				 	{% assign artistArray = artistArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedArtists = (artistArray | sort) %}
+
+		 {% for tag in sortedArtists %} 
+		
+		 	 <li>
+
+				<a href="{{ BASE_PATH }}#{{ tag }}-ref">{{tag}} </a>
+
+		    </li>
+
+		 {% endfor %}
+	</ul>
+</div>
+</div>
+
+
+
 <!-- list of tags by source -->
-<div class="index">source
+<!-- <div class="index">source
 	<ul class="tag_box source_box inline">
 	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
@@ -152,16 +160,15 @@ weight: "C"
 	 {% endfor %}
 
 	</ul>
-</div>
+</div> -->
   
 <!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
-
-
 
 
 <!--  -->
 <!-- headings and links to article by category -->
 
+<div class='allindexstories'>
 
 {% assign sorted_categories_list = (site.categories | sort ) %}
 {% for category in sorted_categories_list %} 
@@ -233,3 +240,5 @@ weight: "C"
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
+
+</div>

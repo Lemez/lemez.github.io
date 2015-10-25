@@ -53,8 +53,14 @@ h1, h2, h3, h4 {
 /* tag_box */
 .tag_box {
   list-style: none;
+  float: left;
   margin: 0;
   overflow: hidden; }
+
+.catheader {
+  float: left;
+  width: 100%;
+}
 
 .tag_box li {
   line-height: 28px; }
@@ -63,7 +69,10 @@ h1, h2, h3, h4 {
   opacity: 0.9; }
 
 .tag_box.inline li {
-  float: left; }
+  float: left; 
+margin-left: 0;
+padding-left: 0;
+}
 
 .tag_box.noindent {
   padding-left: 0; }
@@ -94,4 +103,11 @@ h1, h2, h3, h4 {
 
 ul li {
   font-size: 16px;
+}
+
+.allindextags {
+  float: left;
+}
+.allindexstories{
+  clear: both;
 }

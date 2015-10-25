@@ -67,7 +67,7 @@ The cracks, however, are already showing: increasing opposition to the concept o
 
 {% include video id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a>bringing the music industry up to speed" %}
 
-One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com" target="_blank">Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu" target="_blank">houseconcert.eu</a> looks to provide a similar, free service.</p>
+One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com"  >Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu"  >houseconcert.eu</a> looks to provide a similar, free service.</p>
 
  <p>Folk music’s attitude towards commercial self-reliance may well be just what world music needs. As the global economic crisis continues to bite, major reduction in state funding for culture looks certain, and the more subsidy a sector has, the more pain it will feel. World music initiatives – with our walk-on role as the cheerleader of multi-cultural politics – will be at the front of the firing line. </p>
 
