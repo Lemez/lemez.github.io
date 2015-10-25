@@ -10,23 +10,57 @@
 
       <h1>{{page.title}}</h1>
       <h3>{{page.description}}</h3>
-      {% assign words = page.content | size %}
-      {% assign mins = words | divided_by: 900 %}
 
-       {% if mins == 18 or mins == 8 or mins == 11 %}
-       {% assign indefarticle = "An" %}
-       {% else %}
-       {% assign indefarticle = "A" %}
-       {% endif %}
+       {% unless page.categories contains 'music' %}
 
-      <h5> {{indefarticle}} {{ mins }} minute read</h5>
+          {% assign words = page.content | size %}
+          {% assign mins = words | divided_by: 900 %}
 
-      {% unless page.source == empty %}
-        <p>
-          <span class="post_tagline">{{page.source}}</span>
-          <span class="post_tagline">{{page.original_date}}</span>
-        </p>
-      {% endunless %} 
+           {% if mins == 18 or mins == 8 or mins == 11 %}
+           {% assign indefarticle = "An" %}
+           {% else %}
+           {% assign indefarticle = "A" %}
+           {% endif %}
+
+          <h5> {{indefarticle}} {{ mins }} minute read</h5>
+
+          {% unless page.source == empty %}
+            <p>
+              <span class="post_tagline">{{page.source}}</span>
+              <span class="post_tagline">{{page.original_date}}</span>
+            </p>
+          {% endunless %} 
+
+          {% unless page.categories == empty %}
+            <ul class="tag_box inline">
+              <li><i class="glyphicon glyphicon-open"></i></li>
+              {% assign categories_list = page.categories %}
+              {% include JB/categories_list %}
+               <li><i class="glyphicon glyphicon-tags"></i></li>
+              {% assign tags_list = page.tags %}
+              {% include JB/tags_list %}
+            </ul>
+          {% endunless %}  
+        {% endunless %} 
+
+        {% if (page.video | size) > 0 %}
+          <br>
+          <p class='videofull'>
+            <span>
+            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
+            </iframe>
+            <br>
+            </span>
+            <span class='videomain-desc'>
+            {{page.videotext}}
+            </span>
+          </p>
+      {% endif %} 
+        
+      {{ content }}
+    </div>
+
+    {% unless page.categories contains 'music' %}
 
       {% unless page.categories == empty %}
         <ul class="tag_box inline">
@@ -39,40 +73,28 @@
         </ul>
       {% endunless %}  
 
-      {{ content }}
-    </div>
-
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-       <li><i class="glyphicon glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-
-<!--   {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-     
-  {% endunless %}   -->
-  
-    <hr>
-    <ul class="pagination">
-    {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
-    {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
-    {% endif %}
-      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-    {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&raquo; {{ page.next.title }}</a></li>
-    {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-    {% endif %}
-    </ul>
-    <hr>
-    {% include JB/comments %}
+      {% unless page.tags == empty %}
+        <ul class="tag_box inline">
+         
+      {% endunless %}  
+      
+        <hr>
+        <ul class="pagination">
+        {% if page.previous %}
+          <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
+        {% else %}
+          <li class="prev disabled"><a>&larr; Previous</a></li>
+        {% endif %}
+          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+        {% if page.next %}
+          <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&raquo; {{ page.next.title }}</a></li>
+        {% else %}
+          <li class="next disabled"><a>Next &rarr;</a>
+        {% endif %}
+        </ul>
+       
+        <hr>
+        {% include JB/comments %}
+      {% endunless %}  
   </div>
 </div>

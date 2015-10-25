@@ -123,7 +123,7 @@ sup, sub { vertical-align: baseline;
 
 sub { top: 0.4rem; }
 
-.sidenote, .marginnote, .allnote { float: right;
+.sidenote, .marginnote{ float: right;
                          clear: right;
                          margin-right: -60%;
                          width: 50%;
@@ -135,14 +135,16 @@ sub { top: 0.4rem; }
                          position: relative; }
 
 .allnote {
-  margin-right: -20%;
   display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+  float: right;
+  width: 30%;
+  max-width: 250px;
+  margin-top: -20px;
 }
 
-.allnote img {
-  vertical-align: middle;
+.index-title > h3 {
+  max-width: 65%;
+  white-space: wrap;
 }
 
 .topmargin{
@@ -180,17 +182,33 @@ pre.code { padding: 0 0 0 2em; }
 
 .fullwidth { max-width: 95%; }
 
+.fullwidthtext { font-size: 1.0 rem; }
+
+p.all_desc {clear: left;}
+
+@media screen and (max-width: 800px) {
+  .videoleft, .videoright{width: 100%;float:left;display: block;}
+}
+
 @media screen and (max-width: 600px) { .sidenote, .marginnote { width: 35%;
                                                                 margin-right: -45%; }
-                                        .allnote {display: none}
-                                      p.all_desc {clear: both;}}
+                                        .allnote {display: none;}
+
+                                      .index-title > h3 {
+                                        max-width: 100%;
+                                        white-space: wrap;
+                                      }
+
+                                      p.all_desc {
+                                        width: 100%;
+                                      }
+
+                                    }
 @media screen and (max-width: 400px) { 
   .sidenote-number, .sidenote, .marginnote, .allnote { display: none; }
 }
 
 span.newthought { font-variant: small-caps; }
-
-
 
 span.post_tagline {
   display: block;
@@ -228,7 +246,7 @@ span.post_tagline:last-child  {
 
 span.all_page_tagline{
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 5px;
   margin-bottom: 0;
 }
@@ -239,7 +257,68 @@ span.all_page_main {
 
 }
 
+img.navpic {
+  border-radius: 25px;
+  float: left;
+}
 
+.videoleft {
+  float: left;
+  width: 47%;
+  min-height: 280px;
+}
+
+.videoright {
+  float: right;
+  width: 47%;
+  min-height: 280px;
+}
+
+.videofull {
+  width: 95%;
+  max-height: 280px;
+  text-align: center;
+}
+
+.category {
+
+font-variant: small-caps;
+}
+
+.videomain-desc {
+  font-size: 18px;
+}
+
+.lyrics, .lyrics > p {
+  display: block;
+}
+
+
+.album  {
+  margin-left: 5%;
+}
+
+h3.album {
+  color: #111;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+h3.lyrics {
+  margin: 0;
+}
+
+.year {
+  display: inline;
+}
+
+.music {
+  display: block;
+}
+
+td {
+  text-align: left;
+}
 
 
 

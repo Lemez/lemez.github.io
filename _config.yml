@@ -28,7 +28,18 @@ author :
 production_url : http://lemez.github.io
 locationarray: []
 genrearray: []
+topicarray: []
+albumarray: []
+categoriesarray: []
+catarray: []
+urlarray: []
+cathash: {}
 offset: 2
+
+
+collections:
+  lyrics:
+    output: true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -77,7 +88,8 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
-
+  permalink: pretty
+      
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
@@ -85,7 +97,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : lemez
     livefyre :
       site_id : 123
     intensedebate :

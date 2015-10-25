@@ -1,0 +1,39 @@
+---
+layout: default
+title: Lyrics
+header: Lyrics
+group: navigation
+weight: "B"
+---
+{% include JB/setup %}
+
+{% assign songs = (site.lyrics | sort: 'album') %}
+{% assign prevalbum = '' %}
+{% assign prevband = '' %}
+
+<ul>
+{% for song in songs reversed %}
+
+	{% if prevband != song.band %}
+		</ul>
+		<h2 class='band'>{{song.band}}</h2>
+		<ul class='album'>
+	{% endif %}
+		
+	{% if prevalbum != song.album %}
+		</ul>
+		<h3 class='album'>{{song.album}}</h3>
+		<ul class='album'>
+	{% endif %}
+
+      <li>
+	<a href="{{song.url}}">{{ song.title }}{{album}} </a>
+      </li>
+
+      {% assign prevband = song.band %}
+      {% assign prevalbum = song.album %}
+
+
+{% endfor %}
+
+</ul>

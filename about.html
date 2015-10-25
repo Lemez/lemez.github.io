@@ -1,11 +1,19 @@
 ---
 layout: about
-title: About 
-header: About
+title: About Me 
+header: About Me 
 group: navigation
-weight: "B"
+weight: "DE"
 ---
 {% include JB/setup %}
+
+<ul class="tag_box inline">
+  {% for post in site.categories.cv %} 
+  <li>
+    <a HREF="{{post.url}}">{{post.title}}</a>
+  </li>
+  {% endfor %}
+</ul>
 
   <article>
      <figure style="width:87.5%;">
@@ -13,31 +21,35 @@ weight: "B"
           <figcaption>Condensed milk label, by Ariadne Arendt</figcaption>
         </figure>
     <h1>Jonathan Walton</h1>
+    <subtitle>aka Lemez Lovas</subtitle> 
     <p><span class="marginnote"><img src="{{IMAGE_PATH}}/LL.jpg"/></p>
-    <subtitle>some people call me Lemez</subtitle>
     <section>
       <p><span class="newthought">Hello. </span>Here you can find some things about me, not least that someone once made me customised tins of Russian condensed milk, сгущёнка.<span class="sidenote-number"></span><span class="sidenote">Just to be clear, I'm not <a href="http://nypost.com/2015/01/04/harlem-man-dies-in-six-floor-plunge/" target="_blank">this person</a> or <a href="http://harvardmagazine.com/2012/04/jonathan-walton-named-memorial-church-minister" target="_blank">this person.</a></span></p>
       <p>If there are some things that aren't clear, don't worry as I will be providing notes.<span class="sidenote-number"></span><span class="sidenote topmargin">I crave academic legitimacy, you should know. Probably ever since I dropped out of my Masters to <a href="http://www.bandsintown.com/OiVaVoi/past_events?page=2" target="_blank">go on tour.</a></span>
       
-      <p>I'm interested, in no particular order, in ethnomusicology, radio, languages, singing and vocal techniques, sound, acoustics, education, identity, language acquisition and loss, dance, natural language processing, machine learning, front end technologies, censorship, Russia and the former Soviet Union, India, Roma and Jewish issues, liminal spaces, sacred music, infrasound.</p>
+      <p>I'm interested, in no particular order, in ethnomusicology, radio, languages, singing and vocal techniques, sound, acoustics, education, identity, language acquisition and loss, dance, natural language processing, machine learning, front end technologies, censorship, Russia and the former Soviet Union, India, Roma and Jewish issues, liminal spaces, sacred music, infrasound, social communication, ownership and politics.</p>
 
-      <p>I know a few languages, some better than others.<span class="sidenote-number"></span><span class="sidenote topmargin">Russian, French, Croatian, Japanese, Hungarian, Tamil, Hebrew, Arabic, Ruby, Javascript, Python, CSS.</span></p>
+     
     </section>
 
     <section>
       <h2>Research</h2>
-      <p>To use Tufte CSS, copy <span class="code">tufte.css</span> and <span class="code">ETBembo-RomanLF.ttf</span> to your project directory and add the following to your HTML document's <span class="code">head</span> block:</p>
+      <h3>Language</h3>
+       <p>I know a few languages, some better than others.<span class="sidenote-number"></span><span class="sidenote topmargin">Russian, French, Croatian, Japanese, Hungarian, Tamil, Hebrew, Arabic, Ruby, Javascript, Python, CSS.</span> I love language, deeply.</p>
 
-      <pre class="code">&lt;link rel="stylesheet"
-      href="tufte.css"/&gt;</pre>
 
-      <p>Now you just have to use the provided CSS rules, and the Tufte CSS conventions described in this document. For best results, View Source and Inspect Element frequently.</p>
+       <h3>Music Medicine</h3>
+       <p>I'm the son of an anaesthetist, so you could say it's in my haemoglobin.</p>
+
+        <h3>Ethnomusicology</h3>
+       <p>I'm the son of an anaesthetist, so you could say it's in my haemoglobin.</p>
+      
     </section>
 
 
 
     <section>
-      <h2>Music</h2>
+      <h2>Bands</h2>
       <h3>Oi Va Voi</h3>
       <p><span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/h2572hLy7AA" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">At this show the crowd even sang me Happy Birthday. sigh. Happy Days.</</span></p>
       <p><span class="newthought">I founded, </span>wrote for and led a band for 7 years. On stage, I sang and played trumpet. People seemed to like us, and we played some decent shows. We were signed to Outcaste/EMI, and then Virgin/V2. I was lucky enough to work at length with some outrageously talented people, like KT Tunstall, Mike Spencer, Paul Epworth, Maurice El Medioni.</p>
@@ -140,21 +152,14 @@ weight: "B"
       <p>One of the most distinctive features of Tufte's style is his extensive use of sidenotes.<span class="sidenote-number"></span><span class="sidenote">This is a sidenote.</span> Perhaps you have noticed their use in this document already. You are very astute.</p>
       <p>On sufficiently large viewports, Tufte CSS uses the margin for sidenotes, margin notes, and small figures. Sidenotes consist of 1) a superscript reference number that goes inline with the text, and 2) a sidenote containing content that repeats the superscripted number to reinforce its connection to the text. To add the former, just put <span class="code">&lt;span class="sidenote-number"&gt;&lt;/span&gt;</span> where you want the reference to go. Immediately after that goes the <span class="code">span</span> with class <span class="code">sidenote</span>, inserted directly into the middle of the <span class="code">p</span> tag containing the referent text. This will give the sidenote the correct height.</p>
       <p><span class="marginnote">This is a margin note. Notice there isn't a number preceding the note.</span>If you don't want footnote-style numberings on your sidenotes, what you want is a margin note. They are currently identical to sidenotes but are kept semantically distinct because one might wish to style them separately. Figures in the margin are created as margin notes, as demonstrated in the next section.</p>
-    </section>
-
-    <section>
-      <h2>Figures</h2>
-      <p>Tufte emphasizes tight integration of graphics with text. Data, graphs, and figures are kept with the text that discusses them. In print, this means they are not relegated to a separate page. On the web, that means readability of graphics and their accompanying text without extra clicks, tab-switching, or scrolling.</p>
-      <p><span class="marginnote"><img src="{{IMAGE_PATH}}/figure1.png"/>Figure 1: Sepal length vs. petal length, colored by species</span>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a <span class="code">p</span> tag, as seen in Figure 1 to the right of this paragraph.</p>      
-      <p>If you need a full-width figure, give it the <span class="code">fullwidth</span> class. Make sure that's inside an <span class="code">article</span>, and it will take up (almost) the full width of the screen. Don't wrap the figure in a paragraph tag. To give it a caption, use a <span class="code">figcaption</span> tag inside the <span class="code">figure</span> tag. This approach is demonstrated in Figure 2, which I suppose plots the data in the following code:</p>
+    
       <p class="code">qplot(wt, mpg, data = mtcars, colour = factor(cyl))</p>
       <figure class="fullwidth">
         <img src="{{IMAGE_PATH}}/figure2.png"/>
         <figcaption>Figure 2: Full width figure</figcaption>
       </figure>
       <br/>
-      <p>Besides margin and full width figures, you can of course also include figures constrained to the main column. You're going to have to police yourself with the size of any images. Wrap the <span class="code">figure</span> tag in a paragraph tag. Any label or margin note goes in a <span class="code">figcaption</span> tag inside the figure.</p>
-      <p>
+     
         <figure>
           <img src="{{IMAGE_PATH}}/figure3.png"/>
           <figcaption>Figure 3: A figure the width of the main column</figcaption>
@@ -166,19 +171,80 @@ weight: "B"
       <h2>Tables</h2>
       <p>Tabular data are presented by default with right-aligned numbers, left-aligned text, and minimal grid lines. Table labels are margin notes placed inside a <span class="code">p</span> tag that wraps the <span class="code">table</span>.</p>
       <p>
-        <span class="marginnote">Table 1: first row of metcars.</span>
+        <span class="marginnote">Table 1: What's On This Site</span>
         <table>
-          <thead><th></th><th>mpg</th><th>cyl</th><th>disp</th><th>hp</th><th>drat</th><th>wt</th></thead>
+          <thead>
+
+            <th></th>
+            {% for cat in site.categories %}
+              <th>{{cat[0]}}</th>
+            {% endfor %}
+
+          </thead>
           <tbody>
-            <tr><td class="text">Mazda RX4</td><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.62</td></tr>
-            <tr><td class="text">Mazda RX4 Wag</td><td>21.0</td><td>6</td><td>160</td><td>110</td><td>3.90</td><td>2.88</td></tr>
-            <tr><td class="text">Datsun 710</td><td>22.8</td><td>4</td><td>108</td><td>93</td><td>3.85</td><td>2.32</td></tr>
-            <tr><td class="text">Hornet 4 Drive</td><td>21.4</td><td>6</td><td>258</td><td>110</td><td>3.08</td><td>3.21</td></tr>
-            <tr><td class="text">Hornet Sportabout</td><td>18.7</td><td>8</td><td>360</td><td>175</td><td>3.15</td><td>3.44</td></tr>
-            <tr><td class="text">Valiant</td><td>18.1</td><td>6</td><td>225</td><td>105</td><td>2.76</td><td>3.46</td></tr>
+            <tr>
+
+              <td class="text">Articles</td>
+              {% for cat in site.categories %}
+                {% assign tag = cat[0] %}
+                <td>{{site.categories[tag] | size }}</td>
+              {% endfor %}
+
+          </tr>
           </tbody>
         </table>
       </p>
+
+         <p>
+        <span class="marginnote">Table 2: What Tags Are On This Site</span>
+        <table>
+          <thead>
+
+            <th>Name</th>
+            <th>Number</th>
+          
+          </thead>
+          <tbody>
+
+            {% for cat in site.tags %}
+              {% assign tag = cat[0] %}
+
+              <tr>
+                  <td>{{tag}}</td>
+                  <td>{{site.tags[tag] | size}}</td>
+              </tr>
+
+           {% endfor %}
+
+          </tbody>
+        </table>
+      </p>
+
+         <p>
+        <span class="marginnote">Table 3: What's Also On This Site</span>
+        <table>
+          <thead>
+            <th>Songs</th>
+            <th>Journalism</th>
+            <th>Music</th>
+            <th>Diary</th>
+            <th>CV</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text">{{site.posts | size}}</td>
+              <td>{{site.categories.journalism | size}}</td>
+              <td>{{site.categories.music | size}}</td>
+              <td>{{(site.categories.diary | size)}}</td>
+              <td>{{site.categories.cv | size}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
+
+     
+
+
       <p>Please understand: this is not the One True Table. Such a style does not exist. One must craft each data table with custom care to the narrative one is telling with that specific data. So take this not as "the table style to use", but rather as "a table style to start from". From here, use principles to guide you: avoid chartjunk, optimize the data-ink ratio ("within reason", as Tufte says), and <span class="sidenote-number">"mobilize every graphical element, perhaps several times over, to show the data."</span><span class="sidenote">Page 139, The Visual Display of Quantitative Information, Edward Tufte 2001.</span> Know when to reach for more complex data presentation tools, like a custom graphic or a JavaScript charting library.</p>
     </section>
 

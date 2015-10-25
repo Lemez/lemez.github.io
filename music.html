@@ -1,0 +1,33 @@
+---
+layout: default
+title : Music
+header : Post Archive
+group: navigation
+weight: "A"
+---
+{% include JB/setup %}
+<subtitle>Music Projects</subtitle>
+
+{% assign music_list = (site.categories.music | sort: 'area' ) %}
+
+{% for post in music_list %} 
+<span class="all_page_tagline category"> {{post.area}} :</span>
+<span class="all_page_tagline category"> {{post.year}}</span>
+<br>
+<div class="all_page_links" >
+
+<a  href={{post.url}}>
+<!--     {{post.content | strip_html | truncatewords:50}} -->
+<span class="allnote"><img src="{{IMAGE_CROP_PATH}}/{{post.image}}" height="100"/></span>
+ 
+<h3 class="music">	
+<span class="all_page_main">{{post.title}}</span><br>
+</h3>
+
+
+<p> {{post.description}}</p>
+</a>
+<div>
+
+<hr class='nomargin'>
+{% endfor %}

@@ -7,32 +7,32 @@ weight: "C"
 ---
 {% include JB/setup %}
 
-<!-- list of tags by category -->
-<div class="index">category
+
+<!-- list of tags by topic -->
+<div class="index">topic
 	<ul class="tag_box inline">
-		{% assign categories_list = (site.categories | sort ) %}
-	   {% include JB/categories_list %}
-	</ul>
-</div>
 
-<!-- list of tags by source -->
-<div class="index">source
-	<ul class="tag_box source_box inline">
-	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
+		{% assign topicArray = site.topicarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.topic %}
 
-	 {% for source in source_list %} 
+			 	{% unless topicArray contains tag %}
+				 	{% assign topicArray = topicArray | push: tag %}
+				{% endunless %}
 
-		 {% if (source.items[0].source | size ) > 0 %}
+			 {% endfor %}
+		{% endfor %}
 
-		 	<li>
-		 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
-		    		{{ source.items[0].source }} 
-		    		</a>
-		    </li>
+		{% assign sortedTopics = (topicArray | sort )%}
 
-		 {% endif %}
+		{% for tag in sortedTopics %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
 
-	 {% endfor %}
+		{% endfor %}
 
 	</ul>
 </div>
@@ -123,6 +123,36 @@ weight: "C"
 
 	</ul>
 </div>
+
+<!-- list of tags by category -->
+<div class="index">category
+	<ul class="tag_box inline">
+		{% assign categories_list = (site.categories | sort ) %}
+	   {% include JB/categories_list %}
+	</ul>
+</div>
+
+<!-- list of tags by source -->
+<div class="index">source
+	<ul class="tag_box source_box inline">
+	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
+
+	 {% for source in source_list %} 
+
+		 {% if (source.items[0].source | size ) > 0 %}
+
+		 	<li>
+		 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
+		    		{{ source.items[0].source }} 
+		    		</a>
+		    </li>
+
+		 {% endif %}
+
+	 {% endfor %}
+
+	</ul>
+</div>
   
 <!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
 
@@ -157,6 +187,17 @@ weight: "C"
 
 	{% endif %}
 	
+{% endfor %}
+
+<!--  -->
+<!-- headings and links to article by topic -->
+
+{% for item in sortedTopics  %} 
+  <h2 id="{{item}}-ref">{{item}}</h2>
+  <ul>
+    {% assign pages_list = site.tags[item] %}  
+    {% include JB/pages_list %}
+  </ul>
 {% endfor %}
 
 

@@ -76,23 +76,11 @@ task :post do
     post.puts "location: #{location}"
     post.puts "genre: []"
     post.puts "artist: #{artist}"
+    post.puts "topic: []"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
-    post.puts '{% comment %}
-------------HELPERS------------->
-video helper
-{% include JB/video id="UXwLBS3yUkA" text="Buena Vista" pre="" %} 
 
-image helper: remote
-{% include JB/sideimage url="http://..." text="Buena Vista" %}
-
-image helper: local
-{% include JB/sideimage img="mypic.jpg" text="Buena Vista" %}
-
-link helper: open in new tab
-{% include JB/link url="http://..." linktext="Buena" %}
-{% endcomment %}'
   end
 end # task :post
 

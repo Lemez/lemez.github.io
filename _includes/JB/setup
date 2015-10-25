@@ -19,10 +19,10 @@
     {% if site.JB.ASSET_PATH %}
       {% assign ASSET_PATH = site.JB.ASSET_PATH %}
     {% else %}
-      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ page.theme.name }}{% endcapture %}
+      {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/tufte{% endcapture %}
     {% endif %}  
   {% endif %}
 
-  {% capture IMAGE_PATH %}{{ASSET_PATH}}tufte/images{% endcapture %}
-  {% capture IMAGE_CROP_PATH %}{{ASSET_PATH}}tufte/images_crop{% endcapture %}
+  {% capture IMAGE_PATH %}{{ASSET_PATH}}/images{% endcapture %}
+  {% capture IMAGE_CROP_PATH %}{{ASSET_PATH}}/images_crop{% endcapture %}
 {% endcapture %}{% assign jbcache = nil %}
