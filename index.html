@@ -71,3 +71,25 @@ weight: "A"
 
 <hr class='nomargin thick'>
 <hr class='nomargin thick'>
+
+{% for post in site.categories.radio %} 
+
+    {% if forloop.index0 == 0 %}
+    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+    <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+
+    <br>
+    <div class="all_page_links" >
+    <a href="{{post.url}}">
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+         <h3 class="all_page_main">{{post.title}}</h3>
+         <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+  <hr class='nomargin'>
+
+{% endfor %}

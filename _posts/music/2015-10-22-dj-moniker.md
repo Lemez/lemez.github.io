@@ -10,6 +10,7 @@ genre: ['political','pop']
 artist: [DJ Moniker]
 tags: [DJ Moniker, political, pop]
 soundcloud-track: 2466684
+label: Indymedia
 ---
 
 It was the UK General Elections in 2005, and Labour and the Conservatives were vying to outdo each other on how strict they could be on immigration. 
@@ -18,12 +19,12 @@ Again.
 
 In a fit of nausea I made this political mashup with audio samples courtesy of the BBC.
 
-Thanks to <a href="https://www.indymedia.org.uk/en/2005/04/309023.html?c=on#c113985" target="_blank"></a>this Indymedia user</a> for writing out the lyrics.
+Thanks to <a href="https://www.indymedia.org.uk/en/2005/04/309023.html?c=on#c113985" target="_blank">this Indymedia user</a> for writing out the lyrics.
 
-Released: <em>Indymedia, online</em>  
-Composed: <em>May 2005</em>  
-Featuring: <em>B: Blair, H: Howard, C: Churchill, J: Journalists (various)</em>  
-
+<em>B: Blair
+	H: Howard
+	C: Churchill
+	J: Journalists (various)</em>  
 
 >>  This is my island in the sun  
 Where my people have toiled since time begun  

@@ -3,14 +3,14 @@ layout: post
 title: "World Class Brass: The Sound of Empire"
 original_date: "December 2012"
 source: "BBC Radio 2"
-description: ""
+description: "BBC Radio 2 series on the musical legacy of the British Empire"
 image: darbarband_640x480.jpg
 category: radio
 location: [Ghana, Malta, Trinidad, New Orleans, India]
-genre: [radio, highlife, marching band]
+genre: [radio, highlife, marching band, brass]
 artist: [Ebo Taylor, Fela Kuti ]
 topic: [empire, colonialism, military history]
-tags: [radio]
+tags: [radio, empire, colonialism, military history, highlife, marching band, brass]
 ---
 {% include JB/setup %}
 

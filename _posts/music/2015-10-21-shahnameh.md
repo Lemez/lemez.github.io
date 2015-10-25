@@ -9,6 +9,10 @@ genre: [iranian]
 area: theatre
 artist: [Tikran Aleksanyan, Matthaios Tsahourides]
 tags: [Iran, Shahnameh]
+director: Tim Supple
+writer: Ferdowsi (adapted by Dick Davis)
+venue: National Theatre Studios
+producer: Dash Arts
 ---
 {% include JB/setup %}
 
