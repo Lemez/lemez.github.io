@@ -2,8 +2,8 @@
 layout: lyrics
 title: "A Modern Matchmaker"
 year: 2010
-band: Shtetl Superstars
 artist: Shtetl Superstars
+group: Shtetl Superstars
 label: Skycap
 album: A Day In The Life
 publisher: none

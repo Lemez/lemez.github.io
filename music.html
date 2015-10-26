@@ -3,7 +3,7 @@ layout: default
 title : Music
 header : Post Archive
 group: navigation
-weight: "A"
+weight: "AC"
 ---
 {% include JB/setup %}
 <subtitle>Music Projects</subtitle>
@@ -11,8 +11,8 @@ weight: "A"
 {% assign music_list = (site.categories.music | sort: 'area' ) %}
 
 {% for post in music_list %} 
-<span class="all_page_tagline category"> {{post.area}} :</span>
-<span class="all_page_tagline category"> {{post.year}}</span>
+<span class="all_page_tagline category"> {{post.area}}</span>
+<span class="all_page_tagline category">: {{post.year}}</span>
 <br>
 <div class="all_page_links" >
 

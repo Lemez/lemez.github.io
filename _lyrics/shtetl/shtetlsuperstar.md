@@ -2,7 +2,7 @@
 layout: lyrics
 title: "Shtetl Superstar"
 year: 2012
-band: Shtetl Superstars
+group: Shtetl Superstars
 artist: Shtetl Superstars
 label: Skycap
 album: A Day In The Life

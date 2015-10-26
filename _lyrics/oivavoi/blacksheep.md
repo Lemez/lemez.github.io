@@ -3,6 +3,7 @@ layout: lyrics
 title: "Black Sheep"
 year: 2007
 artist: Oi Va Voi
+group: Oi Va Voi
 label: V2
 album: Oi Va Voi
 publisher: Outcaste/EMI

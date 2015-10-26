@@ -14,9 +14,9 @@ weight: "B"
 <ul>
 {% for song in songs reversed %}
 
-	{% if prevband != song.band %}
+	{% if prevband != song.group %}
 		</ul>
-		<h2 class='band'>{{song.band}}</h2>
+		<h2 class='band'>{{song.group}}</h2>
 		<ul class='album'>
 	{% endif %}
 		
@@ -27,10 +27,10 @@ weight: "B"
 	{% endif %}
 
       <li>
-	<a href="{{song.url}}">{{ song.title }}{{album}} </a>
+	<a href="{{song.url}}">{{ song.title }}</a>
       </li>
 
-      {% assign prevband = song.band %}
+      {% assign prevband = song.group %}
       {% assign prevalbum = song.album %}
 
 

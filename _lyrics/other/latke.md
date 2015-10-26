@@ -2,9 +2,10 @@
 layout: lyrics
 title: "There's Noone Luckier Than a Latke"
 year: 2012
-band: Various
+group: Songs For Kids
+album: The Latke Who Wouldn't Stop Screaming
 publisher: 
-artist: Tall Stories / The Latke Who Wouldn't Stop Screaming
+artist: Tall Stories
 category: lyrics
 tag: [latke, theatre, kids]
 soundcloud: 229401032

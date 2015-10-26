@@ -2,7 +2,7 @@
 layout: lyrics
 title: "City"
 year: 2008
-band: Various
+group: Various
 publisher: 
 artist: Sevara Nazarkhan
 category: lyrics

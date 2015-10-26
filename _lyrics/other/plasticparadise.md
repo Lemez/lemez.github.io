@@ -2,7 +2,7 @@
 layout: lyrics
 title: "Plastic Paradise"
 year: 2010
-band: Various
+group: Various
 publisher: 
 artist: Ofer Bashan
 category: lyrics

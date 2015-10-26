@@ -2,8 +2,8 @@
 layout: lyrics
 title: "Girl From Birobidzhan"
 year: 2012
-band: Shtetl Superstars
 artist: Shtetl Superstars
+group: Shtetl Superstars
 label: Skycap
 album: A Day In The Life
 publisher: none

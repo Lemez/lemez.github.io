@@ -3,6 +3,7 @@ layout: lyrics
 title: "Refugee"
 year: 2003
 artist: Oi Va Voi
+group: Oi Va Voi
 label: Outcaste
 album: Laughter Through Tears
 publisher: Outcaste/EMI

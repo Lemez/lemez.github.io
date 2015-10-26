@@ -58,13 +58,48 @@ task :post do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+
+  if category
+    folder = File.join(CONFIG['posts'],category.gsub(/[^0-9a-z]/i, '')) 
+  else
+    folder = CONFIG['posts']
+  end
+
+  filename = File.join(folder, "#{date}-#{slug}.#{CONFIG['post_ext']}")
+
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
+
+  case category.gsub(/[^0-9a-z]/i, '').length
+  when 1..100
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "category: #{category}"
+    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts 'description: '
+    post.puts 'image: '
+    post.puts "genre: []"
+    post.puts "artist: #{artist}"
+    post.puts "label: "
+    post.puts "publisher: "
+    post.puts 'year: '
+    post.puts "director: "
+    post.puts "writer: "
+    post.puts "producer: "
+    post.puts "venue: "
+    post.puts "area: art"
+    post.puts "soundcloud: "
+    post.puts "soundcloud-track: "
+    post.puts "video: "
+    post.puts "vimeo: "
+    post.puts "tags: #{tags}"
+    post.puts "---"
+    post.puts "{% include JB/setup %}"
+  else
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
@@ -80,8 +115,10 @@ task :post do
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
-
+    
   end
+end 
+  
 end # task :post
 
 # Usage: rake page name="about.html"

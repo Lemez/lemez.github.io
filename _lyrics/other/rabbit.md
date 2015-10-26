@@ -2,7 +2,7 @@
 layout: lyrics
 title: "Rabbit Not A Man"
 year: 2012
-band: Various
+group: Various
 publisher: 
 artist: Lazlo
 category: lyrics
