@@ -2,7 +2,7 @@
 layout: post
 category: "tech"
 title: "Linking Out"
-description: 
+description: "A bot to create the ultimate algorithm-busting LinkedIn profile"
 image: 
 genre: []
 artist: []

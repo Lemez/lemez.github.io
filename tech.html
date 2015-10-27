@@ -7,7 +7,8 @@ weight: "AB"
 ---
 {% include JB/setup %}
 
-<subtitle>Tech</subtitle>
+<subtitle>{{page.title}}</subtitle>
+
 	<ul class="tag_box inline">
 
 		{% assign techArray = site.techarray %}
@@ -30,14 +31,15 @@ weight: "AB"
 
 		{% endfor %}
 	</ul>
-<br>
-<br>
 
+
+<div class='clear'>
 {% assign tech_list = (site.categories.tech | sort: 'area' ) %}
-{% assign space = " " %}
+
+{% assign prevtag = '' %}
 {% for post in tech_list %} 
 
- {% if forloop.index0 == 0 %}
+ {% if prevtag != post.area %}
     <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
     {% else %}
     <span class="all_page_tagline category"> {{post.area}}</span>
@@ -61,4 +63,7 @@ weight: "AB"
 <div>
 
 <hr class='nomargin'>
+
+{% assign prevtag = post.area %}
 {% endfor %}
+</div>

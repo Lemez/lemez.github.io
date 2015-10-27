@@ -173,8 +173,8 @@ weight: "C"
 {% assign sorted_categories_list = (site.categories | sort ) %}
 {% for category in sorted_categories_list %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
+  <ul class='icon'>
+    {% assign pages_list = (category[1] | sort: 'title') %}  
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
@@ -187,7 +187,7 @@ weight: "C"
 	{% if (source.items[0].source | size ) > 0 %}
 
 	  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
-	  <ul>
+	  <ul class='icon'>
 	    {% assign pages_list = source.items %}  
 	    {% include JB/pages_list %}
 	  </ul>
@@ -201,7 +201,7 @@ weight: "C"
 
 {% for item in sortedTopics  %} 
   <h2 id="{{item}}-ref">{{item}}</h2>
-  <ul>
+   <ul class='icon'>
     {% assign pages_list = site.tags[item] %}  
     {% include JB/pages_list %}
   </ul>
@@ -213,7 +213,7 @@ weight: "C"
 
 {% for genre in sortedGenres  %} 
   <h2 id="{{genre}}-ref">{{genre}}</h2>
-  <ul>
+   <ul class='icon'>
     {% assign pages_list = site.tags[genre] %}  
     {% include JB/pages_list %}
   </ul>
@@ -224,7 +224,7 @@ weight: "C"
 
 {% for artist in sortedArtists  %} 
   <h2 id="{{artist}}-ref">{{artist}}</h2>
-  <ul>
+   <ul class='icon'>
     {% assign pages_list = site.tags[artist] %}  
     {% include JB/pages_list %}
   </ul>
@@ -235,7 +235,7 @@ weight: "C"
 
 {% for location in sortedLocations  %} 
   <h2 id="{{location}}-ref">{{location}}</h2>
-  <ul>
+  <ul class='icon'>
     {% assign pages_list = site.tags[location] %}  
     {% include JB/pages_list %}
   </ul>

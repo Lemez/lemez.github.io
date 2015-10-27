@@ -2,7 +2,7 @@
 layout: post
 category: "tech"
 title: "British Newspaper Negativity Index"
-description: 
+description: "A way to check empirically who is poisoning your mind this morning"
 image: 
 genre: []
 artist: []

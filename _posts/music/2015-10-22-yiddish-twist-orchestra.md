@@ -12,16 +12,6 @@ artist: [Yiddish Twist Orchestra]
 tags: [Yiddish Twist Orchestra, Soho]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{% include video id="0lC8A0P4y00" text="Natty Bo and crew doing what they do best" %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<span class="newthought">A London social history</span> art project,  I set this band up with the brilliant Ben Mandelson and Robin Harris. It is damn funky <em>what if</em> from Soho's glorious post-war period. The <a href="https://www.behance.net/gallery/26470597/Yiddish-twist-orchestra"  >artwork</a> from Melamed, is even better. I wrote some arrangements, but didn't play on stage long, as they soon got too good and too busy. Still going <a href="http://yiddishtwistorchestra.com"  >very strong indeed.</a>

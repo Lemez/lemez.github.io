@@ -6,7 +6,7 @@ group: navigation
 weight: "A"
 ---
 {% include JB/setup %}
-
+<subtitle>{{page.title}}</subtitle>
 <div class="index">
 	<ul class="tag_box inline">
     <li><a href="#diary">diary</a></li>
@@ -14,8 +14,8 @@ weight: "A"
     <li><a href="#radio">radio</a></li>
 	</ul>
 </div>
-<br>
-<br>
+
+<div class='clear'>
 {% for post in site.categories.diary %} 
 
     {% if forloop.index0 == 0 %}
@@ -100,3 +100,4 @@ weight: "A"
   <hr class='nomargin'>
 
 {% endfor %}
+</div>

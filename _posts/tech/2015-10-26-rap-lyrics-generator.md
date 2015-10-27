@@ -2,7 +2,7 @@
 layout: post
 category: "tech"
 title: "Rap Lyrics Generator"
-description: 
+description: "What would happen if you asked a Markov chain to write lyrics?"
 image: 
 genre: []
 artist: []

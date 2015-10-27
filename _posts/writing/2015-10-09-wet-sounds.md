@@ -5,7 +5,7 @@ original_date: "July 2008"
 source: "Jewish Chronicle"
 description: "Profile of the underwater sound art festival"
 image: wetsounds.jpg
-category: Journalism
+category: journalism
 location: ["Galapagos","UK"]
 genre: ["sound art","experimental", noise]
 artist: ['Joel Cahen','Chris Watson','Nurse With Wound']

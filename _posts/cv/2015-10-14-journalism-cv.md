@@ -4,7 +4,7 @@ collection: cv
 title: "Journalism CV"
 description: "Media work"
 image: bbc.jpg
-category: CV
+category: cv
 tags: [CV, BBC Radio 2, BBC Radio 3, BBC Radio 4, BBC World Service, BBC Russian Service, SVT2 Sweden, CBC Canada, Al Jazeera, UNESCO, Marie Claire, Jerusalem Post, Songlines, FRoots, Wired]
 ---
 {% include JB/setup %}

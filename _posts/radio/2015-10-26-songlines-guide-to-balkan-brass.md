@@ -1,28 +1,26 @@
 ---
 layout: post
-category: "tech"
-title: "Lazy News / Twitter Bot"
-description: "Instant music startup news for those too lazy to browse"
-image: 
+category: "radio"
+title: "Songlines Guide to Balkan Brass"
+source: Songlines
+description: "A podcast to accompany my Balkan Brass feature"
+image: trubac.jpg
 genre: []
 artist: []
 label: 
 publisher: 
-year: 2014-5
-area: art
-soundcloud: 
-soundcloud-track: 
+year: 
+director: 
+writer: 
+producer: 
+venue: 
+area: radio
+soundcloud-track: 229980134
 video: 
 vimeo: 
-area: scraper
 tags: []
 ---
 {% include JB/setup %}
-
-Hello
-
-https://lazy-news.herokuapp.com
- https://twitter.com/NewsLazy
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
