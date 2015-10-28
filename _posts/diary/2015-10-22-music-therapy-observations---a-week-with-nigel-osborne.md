@@ -4,7 +4,7 @@ title: "Towards an Indian Music Therapy"
 original_date: 
 source: 
 description: "Reflections on a week with Nigel Osborne"
-image: musictherapy3.jpg
+image: musictherapy-new.jpg
 category: "diary"
 location: [Pondicherry]
 genre: [music therapy, hindu devotional]
