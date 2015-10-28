@@ -10,7 +10,7 @@ location: [Ghana, Malta, Trinidad, New Orleans, India]
 genre: [radio, highlife, marching band, brass]
 artist: [Ebo Taylor, Fela Kuti ]
 topic: [empire, colonialism, military history]
-tags: [radio, empire, colonialism, military history, highlife, marching band, brass]
+tags: [radio, empire, colonialism, military history, highlife, marching band, brass, Ghana, Malta, Trinidad, New Orleans, India]
 ---
 {% include JB/setup %}
 

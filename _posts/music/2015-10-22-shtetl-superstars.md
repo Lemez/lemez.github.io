@@ -8,8 +8,9 @@ category: "music"
 area: band
 genre: ['political','pop']
 artist: [Shtetl Superstars]
+location: [United Kingdom, Germany]
 soundcloud: 153135409
-tags: [Shtetl Superstars, political, pop]
+tags: [Shtetl Superstars, political, pop, United Kingdom, Germany]
 ---
 
 <p><span class="marginnote"><iframe width="auto" height="auto" src="https://www.youtube.com/embed/25owARaHmoM" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe></span><span class="marginnote">Yes, I am singing in Czech. And yes, I'm surprised too.</span></p>

@@ -8,7 +8,8 @@ category: "music"
 area: political
 genre: ['political','pop']
 artist: [DJ Moniker]
-tags: [DJ Moniker, political, pop]
+location: "United Kingdom"
+tags: [DJ Moniker, political, pop, United Kingdom]
 soundcloud-track: 2466684
 label: Indymedia
 ---

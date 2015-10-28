@@ -5,14 +5,15 @@ title: "Shahnameh"
 description: "The Persian Epic"
 image: "shahnameh.jpg"
 category: "music"
-genre: [iranian]
+genre: [persian]
 area: theatre
 artist: [Tikran Aleksanyan, Matthaios Tsahourides]
-tags: [Iran, Shahnameh]
+location: [United Kingdom, Iran]
 director: Tim Supple
 writer: Ferdowsi (adapted by Dick Davis)
 venue: National Theatre Studios
 producer: Dash Arts
+tags: [Iran, Shahnameh, United Kingdom, persian, Tikran Aleksanyan, Matthaios Tsahourides]
 ---
 {% include JB/setup %}
 

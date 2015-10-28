@@ -10,7 +10,8 @@ label: Rif Mountain
 year: 2010
 area: tribute
 soundcloud-track: 4883910
-tags: []
+tags: [United Kingdom, Bristol, folk]
+location: [United Kingdom, Bristol]
 ---
 {% include JB/setup %}
 {% include sideimage img='aljonescoverback.jpg' %}

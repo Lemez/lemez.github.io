@@ -16,9 +16,10 @@ venue:
 area: about
 soundcloud: 
 soundcloud-track: 
+location: [Serbia, Turkey, India]
 video: 
 vimeo: 
-tags: []
+tags: [Serbia, Turkey, India, Desert Island Discs]
 ---
 {% include JB/setup %}
 

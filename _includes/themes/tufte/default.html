@@ -45,6 +45,10 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+     <script src="{{ ASSET_PATH }}/js/jquery-1.11.3.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/main.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
   </head>
 
   <body>
@@ -61,7 +65,7 @@
             <span class="icon-bar"></span>
           </button>
           <img class='navpic' src='{{base}}/assets/themes/tufte/images/LL.jpg' height='50' />
-          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ HOME_PATH }}"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -89,13 +93,13 @@
 
     </div>
 
-    <div id="footer">
+ <!--    <div id="footer">
       <div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}: built with <a href="http://jekyllbootstrap.com"   title="The Definitive Jekyll Blogging Framework">Jekyll</a>
           and <a href="http://www.daveliepmann.com/tufte-css"  >Tufte CSS</a>
         </p>
       </div>
-    </div>
+    </div> -->
 
     {% include JB/analytics %}
 
@@ -103,9 +107,7 @@
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <script src="{{ ASSET_PATH }}/js/jquery-1.11.3.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/main.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+   
 
   </body>
 </html>

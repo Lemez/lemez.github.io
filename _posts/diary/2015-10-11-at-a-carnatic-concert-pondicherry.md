@@ -6,11 +6,11 @@ source:
 description: "Awe-inspiring memorial concert for Mandolin Srinivas"
 image: "srinivas.jpg"
 category: "diary"
-location: [South India, Pondicherry]
+location: [India, Pondicherry]
 genre: [carnatic, "hindu devotional", classical]
 artist: ['Mandolin U Rajesh', 'Mandolin Srinivas', 'AK Pazhanivel']
 topic: [improvisation, rhythm, performance, art]
-tags: [South India, carnatic, mandolin, "Mandolin U Rajesh", thavil, "hindu devotional", improvisation, classical, 'Mandolin U Rajesh', 'Mandolin Srinivas', 'AK Pazhanivel', Pondicherry, rhythm, performance, art]
+tags: [India, carnatic, mandolin, thavil, "hindu devotional", improvisation, classical, 'Mandolin U Rajesh', 'Mandolin Srinivas', 'AK Pazhanivel', Pondicherry, rhythm, performance, art]
 ---
 {% include JB/setup %}
 

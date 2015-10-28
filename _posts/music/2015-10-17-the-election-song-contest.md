@@ -7,8 +7,9 @@ image: "ESCheader.png"
 category: "music"
 area: political
 genre: ['political','pop']
+location: [United Kingdom]
 artist: [Geoff Berner, Ben Glasstone, Son of Dave, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw]
-tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw, satire]
+tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw, satire, United Kingdom]
 ---
 {% include JB/setup %}
 

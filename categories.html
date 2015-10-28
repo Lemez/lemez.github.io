@@ -1,42 +1,16 @@
 ---
 layout: page
-title: Categories
-header: Posts By Category
+title: Tags
+header: Posts By Tag
 group: navigation
-weight: "C"
+weight: "CB"
 ---
 {% include JB/setup %}
 
+
 <!-- list of tags by location -->
 <div class='allindextags'>
-<div class="index">
-	<span class='catheader'>geo</span>
-	<ul class="tag_box inline">
 
-		{% assign locationArray = site.locationarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.location %}
-
-			 	{% unless locationArray contains tag %}
-				 	{% assign locationArray = locationArray | push: tag %}
-				{% endunless %}
-
-			 {% endfor %}
-		{% endfor %}
-
-		{% assign sortedLocations = (locationArray | sort )%}
-
-		{% for tag in sortedLocations %}
-			<li>
-				 		<a href="{{ BASE_PATH }}#{{ tag }}-ref">
-				 		{{tag}}
-				 		</a>
-			</li>
-
-		{% endfor %}
-
-	</ul>
-</div>
 
 <!-- list of tags by category -->
 <div class="index">
@@ -57,6 +31,7 @@ weight: "C"
 			 {% for tag in post.topic %}
 
 			 	{% unless topicArray contains tag %}
+			 		{% assign tag = tag | replace: ' ', '' %}
 				 	{% assign topicArray = topicArray | push: tag %}
 				{% endunless %}
 
@@ -85,7 +60,7 @@ weight: "C"
 		{% assign genreArray = site.genrearray %}
 		 {% for post in site.posts %} 
 			 {% for tag in post.genre %}
-
+			 	{% assign tag = tag | replace: ' ', '' %}
 			 	{% unless genreArray contains tag %}
 				 	{% assign genreArray = genreArray | push: tag %}
 				{% endunless %}
@@ -115,7 +90,7 @@ weight: "C"
 		{% assign artistArray = site.locationarray %}
 		 {% for post in site.posts %} 
 			 {% for tag in post.artist %}
-
+			 {% assign tag = tag | replace: ' ', '' %}
 			 	{% unless artistArray contains tag %}
 				 	{% assign artistArray = artistArray | push: tag %}
 				{% endunless %}
@@ -141,7 +116,7 @@ weight: "C"
 
 
 <!-- list of tags by source -->
-<!-- <div class="index">source
+<div class="index">source
 	<ul class="tag_box source_box inline">
 	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
@@ -150,7 +125,7 @@ weight: "C"
 		 {% if (source.items[0].source | size ) > 0 %}
 
 		 	<li>
-		 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source }}-ref">
+		 	 		<a href="{{ BASE_PATH }}#{{ source.items[0].source | replace: " ",'' }}-ref">
 		    		{{ source.items[0].source }} 
 		    		</a>
 		    </li>
@@ -160,7 +135,7 @@ weight: "C"
 	 {% endfor %}
 
 	</ul>
-</div> -->
+</div>
   
 <!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
 
@@ -188,7 +163,7 @@ weight: "C"
 
 	  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
 	  <ul class='icon'>
-	    {% assign pages_list = source.items %}  
+	    {% assign pages_list = source.items  %}  
 	    {% include JB/pages_list %}
 	  </ul>
 
@@ -202,7 +177,7 @@ weight: "C"
 {% for item in sortedTopics  %} 
   <h2 id="{{item}}-ref">{{item}}</h2>
    <ul class='icon'>
-    {% assign pages_list = site.tags[item] %}  
+    {% assign pages_list = site.tags[item]  %}  
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
@@ -214,7 +189,7 @@ weight: "C"
 {% for genre in sortedGenres  %} 
   <h2 id="{{genre}}-ref">{{genre}}</h2>
    <ul class='icon'>
-    {% assign pages_list = site.tags[genre] %}  
+    {% assign pages_list = site.tags[genre]  %}  
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
@@ -225,7 +200,7 @@ weight: "C"
 {% for artist in sortedArtists  %} 
   <h2 id="{{artist}}-ref">{{artist}}</h2>
    <ul class='icon'>
-    {% assign pages_list = site.tags[artist] %}  
+    {% assign pages_list = site.tags[artist]  %}  
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
@@ -233,12 +208,6 @@ weight: "C"
 <!--  -->
 <!-- headings and links to article by location -->
 
-{% for location in sortedLocations  %} 
-  <h2 id="{{location}}-ref">{{location}}</h2>
-  <ul class='icon'>
-    {% assign pages_list = site.tags[location] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
+
 
 </div>

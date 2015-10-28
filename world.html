@@ -1,0 +1,125 @@
+---
+layout: default
+title : World
+header : Post By GeoTag
+group: navigation
+weight: "CA"
+---
+{% include JB/setup %}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="{{ ASSET_PATH }}/js/datamaps.world.min.js"></script>
+<script src="{{ ASSET_PATH }}/js/locations.js"></script>
+<div id="container" style="position: relative; width: 100%; height: 400px;"></div>
+
+
+<div class="worldindex">
+	<span class='catheader'>geo</span>
+	<ul class="tag_box inline">
+
+		{% assign locationArray = site.locationarray %}
+		 {% for post in site.posts %} 
+			 {% for tag in post.location %}
+
+			 	{% unless locationArray contains tag %}
+				 	{% assign locationArray = locationArray | push: tag %}
+				{% endunless %}
+
+			 {% endfor %}
+		{% endfor %}
+
+		{% assign sortedLocations = (locationArray | sort )%}
+
+		{% for tag in sortedLocations %}
+			<li>
+				 		<a href="{{ BASE_PATH }}#{{ tag | replace: ' ', ''}}-ref">
+				 		{{tag}}
+				 		</a>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>
+
+<article>
+	<section>
+{% for location in sortedLocations  %} 
+  <h2 id="{{location | replace: ' ', ''}}-ref">{{location}}</h2>
+  <ul class='icon'>
+    {% assign pages_list = site.tags[location] | sort: "category" %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+</section>
+</article>
+
+
+<script>
+
+	makeMap();
+	function makeMap(){
+
+	    $('div#container').css("height", $(window).height()*0.7);
+
+	    var countries = Datamap.prototype.worldTopo.objects.world.geometries;
+		var placedict = {}
+		for (var i = 0, j = countries.length; i < j; i++) {
+			placedict[countries[i].properties.name] = countries[i].id
+		}
+
+		placedata = {};
+
+		for (var key in locationArray) {
+		  if (locationArray.hasOwnProperty(key)) {
+		    placename = locationArray[key];
+		    if (placename=="United States"){placename="United States of America"};
+		    if (placename=="Palestine"){placename="Palestine, State of"};
+		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
+		    placecode = placedict[placename];
+		    placedata[placecode] = { fillKey: "authorHasTraveledTo" };
+		  }
+		}
+
+		var map = new Datamap({
+			element: document.getElementById('container'),
+			  scope: 'world',
+
+			  setProjection: function(element) {
+			    var projection = d3.geo.mercator()
+			      .center([50, 23])
+			      .rotate([0, 0])
+			      .scale(200)
+			      .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+
+			    var path = d3.geo.path()
+			      .projection(projection);
+			   
+			    return {path: path, projection: projection};
+
+	  			},
+
+	  		fills: {
+			    defaultFill: "#ABDDA4",
+			    authorHasTraveledTo: "#fa0fa0"
+			  },
+	  		data: placedata
+
+		});
+	}
+
+    d3.select('svg').selectAll('.datamaps-subunit').on('click', function(e){
+
+    	var name = "#" + e.properties.name.replace(/ /g,'') + "-ref";
+
+	    $('html,body').animate({
+	        scrollTop: $(name).offset().top},
+	        'slow');
+		
+	});
+	
+
+
+
+</script>

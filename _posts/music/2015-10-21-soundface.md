@@ -6,9 +6,10 @@ description: "A voice film collaboration with Nimmy Raphael, Adishakti"
 image: "nimmy.jpg"
 category: "music"
 area: art
-genre: ['indian','experimental', theatre]
+location: [India]
+genre: ['experimental', theatre]
 artist: [Nimmy Raphael]
-tags: [Nimmy Raphael]
+tags: [Nimmy Raphael, India, Adishakti]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

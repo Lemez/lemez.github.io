@@ -4,7 +4,7 @@ category: music
 title: "The Wild Ones"
 description: "Moving documentary about teenagers, deprivation and wild horses."
 image: lucyhorses.jpg
-genre:
+genre: [soundtrack, film]
 artist: []
 label: First Cut
 publisher: 
@@ -13,11 +13,12 @@ director: Lucy Kaye
 writer: Lucy Kaye 
 producer: Channel 4
 area: film
+location: United Kingdom
 venue: 
 soundcloud: 926676
 video: 
 vimeo: 
-tags: []
+tags: [United Kingdom, soundtrack, film]
 ---
 {% include JB/setup %}
 

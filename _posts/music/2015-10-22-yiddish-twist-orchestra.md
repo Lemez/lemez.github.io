@@ -9,7 +9,8 @@ area: concept/production
 genre: ['twist','jazz']
 soundcloud: 136847343
 artist: [Yiddish Twist Orchestra]
-tags: [Yiddish Twist Orchestra, Soho]
+location: United Kingdom
+tags: [Yiddish Twist Orchestra, Soho, United Kingdom]
 ---
 
 {% include video id="0lC8A0P4y00" text="Natty Bo and crew doing what they do best" %}

@@ -7,8 +7,8 @@ image: "Dash-Weinstein 0131.jpg"
 category: "music"
 area: theatre
 genre: ['political','theatre']
-artist: []
-tags: [theatre]
+location: [United Kingdom, Israel, Palestine]
+tags: [theatre, United Kingdom, Israel, Palestine]
 vimeo: 31857201
 director: Tim Supple
 producer: Josephine Burton (Yad Arts)

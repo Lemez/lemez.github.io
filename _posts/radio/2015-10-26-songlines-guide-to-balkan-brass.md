@@ -5,20 +5,14 @@ title: "Songlines Guide to Balkan Brass"
 source: Songlines
 description: "A podcast to accompany my Balkan Brass feature"
 image: trubac.jpg
-genre: []
-artist: []
-label: 
-publisher: 
-year: 
-director: 
-writer: 
-producer: 
-venue: 
+location: [Serbia]
+genre: [balkan brass]
+artist: [Elvis Ajdinovic, Bojan Krstic, Goran Bregovic]
 area: radio
 soundcloud-track: 229980134
 video: 
 vimeo: 
-tags: []
+tags: [Serbia, balkan brass, Elvis Ajdinovic, Bojan Krstic, Goran Bregovic]
 ---
 {% include JB/setup %}
 

@@ -8,5 +8,9 @@ $(document).ready(function(){
      $('div.mainimage').on('click',function(){
         $(this).toggleClass("largermain");
      });
-      
+
+     
+
+     
+
 });

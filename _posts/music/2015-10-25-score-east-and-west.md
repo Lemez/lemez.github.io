@@ -9,7 +9,9 @@ area: live soundtrack
 genre: [live soundtrack]
 artist: [Lemez Lovas, Rohan Kriwaczek, Moshikop]
 video: a-g-FxEMaRk
+location: [Israel, France, United Kingdom]
 producer: Josephine Burton (Yad Arts)
+tags: [Israel, France, United Kingdom, live soundtrack, Yiddish, film, Lemez Lovas, Rohan Kriwaczek, Moshikop]
 venue: "Barbican Centre, London / Musee De L'art et Histoire du Judaisme, Paris / Cinematek, Jerusalem JFF, Israel"
 ---
 {% include JB/setup %}

@@ -393,6 +393,9 @@ ul.icon {
     padding-left: 25px; 
 }
 
+.tag_box a.caticon {
+  padding-left: 20px;
+}
 
 
 .journalismlink {background-image: url("../images/icon-journalism.png");}
@@ -420,4 +423,10 @@ ul.icon {
   border: 5px solid white;
 }
 
+/*svg {transform:scale(1.2,1.2);
+  transform-origin: 20% 20%;}*/
+
+.RSS{background-image: url("../images/rss.jpeg");
+
+}
 
