@@ -10,7 +10,7 @@ location: [Pondicherry, Bosnia, India, United Kingdom]
 genre: [music therapy, healing, carnatic]
 artist: [Nigel Osborne]
 topic: [special education, consciousness, war, technology]
-tags: [special education, consciousness, war, technology, music therapy, healing, Nigel Osborne,Pondicherry, Bosnia, carnatic, Bosnia, India, United Kingdom]
+tags: [special education, consciousness, war, technology, music therapy, healing, Nigel Osborne,Pondicherry, carnatic, Bosnia, India, United Kingdom]
 ---
 {% include JB/setup %}
 
