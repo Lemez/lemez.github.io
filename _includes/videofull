@@ -1,5 +1,5 @@
 <div class="videoWrapper">
-<p class='videofull'>
+<p>
 <span>
 <iframe width="560" height="349" src="https://www.youtube.com/embed/{{include.id}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
 </iframe>

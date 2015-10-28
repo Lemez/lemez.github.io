@@ -3,7 +3,7 @@ layout: post
 category: "tech"
 title: "British Newspaper Negativity Index"
 description: "A way to check empirically who is poisoning your mind this morning"
-image: 
+image: negativity.jpg
 genre: []
 artist: []
 label: 
@@ -15,5 +15,8 @@ soundcloud-track:
 video: 
 vimeo: 
 tags: []
+comments: true
 ---
 {% include JB/setup %}
+
+{% include sideimage img="negativity.jpg" text="You are what you read." %}

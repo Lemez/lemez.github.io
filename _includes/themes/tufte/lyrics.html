@@ -21,6 +21,10 @@
 {% if (page.year | size) > 0 %}
   <h3 class='lyrics'>year: {{page.year}}</h3>
 {% endif %}
+
+{% if (page.press | size) > 0 %}
+  <p class='lyrics'{{page.press}}[0],><em>{{page.press}}[1]</em></p>
+{% endif %}
 <br>
  {% if (page.video | size) > 0 %}
     <br>

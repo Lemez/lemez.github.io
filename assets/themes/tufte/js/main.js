@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
-	// $('#Tech').on('click', function(){
-	// 	$('img.navpic').attr('src','jonascii.png');
-	// });
 
+     $('img.sideimage').on('click',function(){
+        $(this).toggleClass("larger");
+     });
+
+     $('div.mainimage').on('click',function(){
+        $(this).toggleClass("largermain");
+     });
+      
 });

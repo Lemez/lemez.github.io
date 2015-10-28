@@ -3,7 +3,7 @@ layout: post
 category: "tech"
 title: "Lazy News / Twitter Bot"
 description: "Instant music startup news for those too lazy to browse"
-image: 
+image: twitterbot.jpg
 genre: []
 artist: []
 label: 

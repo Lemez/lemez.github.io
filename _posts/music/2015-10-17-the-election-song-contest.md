@@ -7,8 +7,8 @@ image: "ESCheader.png"
 category: "music"
 area: political
 genre: ['political','pop']
-artist: [Geoff Berner, Ben Glasstone, Son of Dave]
-tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop]
+artist: [Geoff Berner, Ben Glasstone, Son of Dave, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw]
+tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw, satire]
 ---
 {% include JB/setup %}
 
@@ -29,23 +29,26 @@ It was a spirited, collaborative outpouring borne out of anger and frustration s
 
 So two weeks before the election, I wrote some songs with some friends, posted them on Youtube under the banner ESC2010, and invited others to do the same. Inside two weeks, we had dozens of entries, national press coverage and an spontaneous artistic response to the <strike>inciteful</strike> insightful coverage of the UK elections.
 
-{% include videomain id="C5AO-DAl86g" text="Gordon Brown's worst nightmare.<br> Written with Yaniv Fridel and Paul Tkachenko, with vocals by Paul" %} 
+You can even see the <a href="https://electionsongcontest.wordpress.com/">legacy website</a> which Wordpress are kind enough to keep hosting for posterity.
 
-{% include videomain id="fvtWJNGmixc" text="Five years on and he still looks like a schoolboy who can't believe his luck. Written with Maiya James and Yaniv Fridel, with vocals by Maiya"  %} 
-
-{% include videomain id="i-QoGcKJsMM" text="Sterling support in the studio stairwell from Canada's finest squeeze merchant Geoff Berner" %} 
-
-{% include videomain id="xiPGO_zRJ8k" text="The very groovy BritTwang of the Southpaw - a personal favourite" %} 
-
-{% include videomain id="7SZ6aSEpiCg" text="Excellent Calpyso offering on the TV debates."  %} 
-
-{% include videomain id="JjQ1fsERGzk" text="Ben Glasstone falls for Nick Clegg, bigtime"  %} 
-
-{% include videomain id="2ZRIquiqAYw" text="Cleggmania was sweeping the nation."   %} 
-
-{% include videomain id="IsOZ8JFvd_c" text="And the contest winner - Sunnie Dae"  %} 
+<div class="clear">
+	<p class="videoWrapper"><iframe src="http://www.youtube.com/embed/?listType=playlist&list=PLPJ56FSR6VBEwD2mLqMKI-8bTt7J8uORP&showinfo=1" width="400" height="300"></iframe></p>  
+</div>
 
 <br>
+<div class="clear">
+<h3>Press</h3>
+<blockquote>
+<p>All the media's attention may be on tonight's party-leader debate -- but that's so, yawn, predictably mainstream. It's much more fun to choose where to cast your vote by following a much more nailbiting contest -- being fought out between satirical songs targeted at all the main political parties.
+
+Tonight, a loose network of UK record producers, musicians and lyricists are launching the  : -- their mission being "to inject some musical style into the 2010 UK elections".
+
+Led by a "fast-expanding team of songwriters/video directors/unemployed geniuses" based at Hot Salt Beef Studios, above a salt-beef bar in Soho, Central London, they are collecting together the sharpest and funniest satirical songs around. "It is a coming together of like-minded creatives who want to have some fun with this election," explains organiser Jonathan Walton, who is inviting creatives "to take part in any way you can".</p>
+<footer>WIRED</footer>
+</blockquote>
+</div>
+
+
 
 
 

@@ -32,4 +32,8 @@ Blurb from cover, published by <a href="http://oberonbooks.com/what-we-did-to-we
 
 <h3>Press</h3>
 
-<em>"Lemez Lovas and Yaniv Fridel’s low-level soundscapes are excellently disquieting.” </em>FT.com
+<blockquote>
+	<p>"Lemez Lovas and Yaniv Fridel’s low-level soundscapes are excellently disquieting.”</p> 
+
+<footer>FT.com</footer>
+</blockquote>

@@ -3,7 +3,7 @@ layout: post
 category: "tech"
 title: "Alphabet Ninja"
 description: "A noise game for toddlers and their parents"
-image: ninjass.png
+image: "Alphabet Ninja logo.png"
 genre: []
 artist: []
 area: education

@@ -23,7 +23,8 @@ weight: "DE"
 
     <h1>Jonathan Walton</h1>
     <subtitle>aka Lemez Lovas</subtitle> 
-    <p><span class="marginnote"><img src="{{IMAGE_PATH}}/LL.jpg"/></p>
+    {% include sideimage img="LL.jpg" %}
+   
     <section>
       <p><span class="newthought">Hello. </span>Here you can find some things about me, not least that someone once made me customised tins of Russian condensed milk, сгущёнка.<span class="sidenote-number"></span><span class="sidenote">Just to be clear, I'm not <a href="http://nypost.com/2015/01/04/harlem-man-dies-in-six-floor-plunge/"  >this person</a> or <a href="http://harvardmagazine.com/2012/04/jonathan-walton-named-memorial-church-minister"  >this person.</a></span></p>
       <p>If there are some things that aren't clear, don't worry as I will be providing notes.<span class="sidenote-number"></span><span class="sidenote topmargin">I crave academic legitimacy, you should know. Probably ever since I dropped out of my Masters to <a href="http://www.bandsintown.com/OiVaVoi/past_events?page=2"  >go on tour.</a></span>
@@ -33,7 +34,7 @@ weight: "DE"
     <section>
       <h2>Research</h2>
 
-       <p>I'm interested, in no particular order, in ethnomusicology, radio, languages, singing and vocal techniques, sound, acoustics, education, identity, language acquisition and loss, dance, natural language processing, machine learning, front end technologies, censorship, Russia and the former Soviet Union, India, Roma and Jewish issues, liminal spaces, sacred music, infrasound, social communication, ownership and politics.</p>
+       <p><span class="newthought">In no particular order, I'm interested in</span> folklore and ritual culture, analogue communications, human languages, singing and vocal techniques, sound, acoustics, informal education, identity, language acquisition and loss, dance and the body, computational linguistics, storytelling, statistics, digital hacking, censorship, Russia and the former Soviet Union, India, Roma and Jewish issues, liminal spaces, sacred music, infrasound, social structures, ownership and art as activism.</p>
 
       <h3>Language</h3>
        <p>I know a few languages, some better than others.<span class="sidenote-number"></span><span class="sidenote topmargin">Russian, French, Croatian, Japanese, Hungarian, Tamil, Hebrew, Arabic, Ruby, Javascript, Python, CSS.</span></p>
@@ -44,21 +45,20 @@ weight: "DE"
 
        <h3>Technology</h3>
       
-
-        <figure class='fullwidth'>
-            <img src="http://ghchart.rshah.io/lemez" alt="Lemez's Github chart" />
-          <figcaption>Green squares = machine addiction: grey squares = 'having a life'.</figcaption> 
-        </figure> 
+        {% include fullimage src="http://ghchart.rshah.io/lemez" alt="Lemez's Github chart" caption="The Github colour key: Green = machine addiction; Grey = 'having a life'." %}
 
         <br>
-         <p>
-          <span class='marginnote'><img src="{{IMAGE_PATH}}/listentowiki.jpg" /></span><span class='marginnote'>Geeks do beautiful things. Like <a href="http://listen.hatnote.com/">this.</a>, which I highly recommend listening to while browsing.</span>
+        
+          {% include sideimage img="listentowiki.jpg" text='Geeks do beautiful things. Like <a href="http://listen.hatnote.com/">this.</a>' %}
 
-          I taught myself to code because I love geeks and wanted to justify spending more time with them.   
+          {% assign codepage = (site.categories.tech | where: 'title', 'Me and Coding') %}
+
+           <p>
+        
+          I taught myself to code because I love geekery and it seemed like a perfect excuse.
+          Also I had just founded a startup and I realised that London was a terrible place  <a href="{{codepage[0].url}}">to look for programmers</a>.
 
           The graph above will show you how much time I've been coding recently: each coloured square represents a 'commit' - ie something that I've coded that I want to save online to my <a href="http://github.com/lemez">Github repository.</a> - a kind of backup system for code.</p>
-
-
 
     </section>
 
