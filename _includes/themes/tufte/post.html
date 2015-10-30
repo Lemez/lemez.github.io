@@ -30,21 +30,9 @@
               <span class="post_tagline">{{page.original_date}}</span>
             </p>
           {% endunless %} 
-
-        
-
-          {% unless page.categories == empty %}
-            <ul class="tag_box inline clear">
-              <li><i class="glyphicon glyphicon-open"></i></li>
-              {% assign categories_list = page.categories %}
-              {% include JB/categories_list %}
-               <li><i class="glyphicon glyphicon-tags"></i></li>
-              {% assign tags_list = page.tags %}
-              {% include JB/tags_list %}
-            </ul>
-            <br>
-          {% endunless %}  
         {% endunless %} 
+
+        {% include tags %}
 
         {% if (page.video | size) > 0 %}
           <br>
@@ -73,23 +61,7 @@
       {{ content }}
     </div>
 
-    {% unless page.categories contains 'music' %}
-
-      {% unless page.categories == empty %}
-        <ul class="tag_box inline clear">
-          <li><i class="glyphicon glyphicon-open"></i></li>
-          {% assign categories_list = page.categories %}
-          {% include JB/categories_list %}
-           <li><i class="glyphicon glyphicon-tags"></i></li>
-          {% assign tags_list = page.tags %}
-          {% include JB/tags_list %}
-        </ul>
-      {% endunless %}  
-
-      {% unless page.tags == empty %}
-        <ul class="tag_box inline clear">
-         
-      {% endunless %}  
+          {% include tags %}
       
         <hr>
        <!--  <ul class="pagination">
@@ -111,6 +83,6 @@
        
         <hr>
         {% include JB/comments %}
-      {% endunless %}  
+     
   </div>
 </div>

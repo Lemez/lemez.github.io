@@ -1,8 +1,8 @@
 ---
 layout: post
 category: "tech"
-title: "This website"
-description: "or An Exercise in Borderline Narcissism"
+title: "Let's Make A Website"
+description: "or Exercises in Borderline Narcissism"
 image: jonascii.png
 year: 2015
 area: website 
@@ -11,8 +11,17 @@ tags: [tech, narcissism]
 {% include JB/setup %}
 <br>
 
-{% include sideimageurl url="http://core0.staticworld.net/images/article/2015/01/11_software-development-100565790-gallery.idge.jpg" text="Then add a 'banking tax' for London, and you're close" %}
+This was a fun project: albeit one with severe undertones of narcissism.
 
-This is not one of those stories about how I've been playing around with machines since I was a small boy, and discovered that the machine and I were actually one and the same.
+Some great things have come out of it though: I got back in touch with some wonderful people from my past who I haven't spoken to for far too long. Who said that technology was a lonely business?  
 
-It is a story about how I started a startup called <a href="http://www.tonguesten.com">Tonguesten</a> and discovered that London was a great place to be a computer, and a nightmare place to start a startup. I won't bore you with the reasons here, but the infographic on the right says it all: London has a mighty financial sector with deep pockets, and a neanderthal visa regime for overseas programmers. Little startups who aren't able to build their own products need big investment upfront, or will die before their coffee gets cold.
+Future plans for this site include: pointing people here instead of writing long repetitive emails, and writing down my thoughts and refering back to them later when I've forgotten everything.
+
+I used <a href="http://jekyllrb.com">Jekyll</a>, a static site generator written in Ruby, and <a href="https://docs.shopify.com/themes/liquid-documentation/basics">Liquid</a>, an odd language written for Shopify that is severely restrictive, but at least gives the old gray matter a bit of a workout. Rather than making pages in html or html.erb as usual, I opted for the world of <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>.
+
+The styling is mostly down to the lovely <a href="https://github.com/edwardtufte/tufte-css">Tufte CSS.</a>
+
+The map page is built using the Datamaps wrapper for the "how on earth did anyone do anything before this?" godsend of a data visualisation library <a href="http://datamaps.github.io/">D3</a>.
+
+The site is hosted on <a href="https://pages.github.com/">Github Pages</a>. 
+
