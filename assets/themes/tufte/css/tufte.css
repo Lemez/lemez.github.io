@@ -441,3 +441,11 @@ ol > li > ul > li {
 .homepage {
   line-height: 1.2;
 }
+
+.tag_box.tagbox-top {
+  margin-bottom: 10px; 
+}
+
+.tag_box.tagbox-bottom {
+  margin-bottom: 10px; 
+}

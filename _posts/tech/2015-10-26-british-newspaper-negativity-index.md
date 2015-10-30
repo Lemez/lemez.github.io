@@ -2,8 +2,8 @@
 layout: post
 category: "tech"
 title: "British Newspaper Negativity Index"
-description: "A way to check empirically who is poisoning your mind this morning"
-image: negativity.jpg
+description: "A vaguely scientific way to check who is poisoning your mind this morning"
+image: racistpaper.jpg
 genre: []
 artist: []
 label: 

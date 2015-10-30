@@ -18,12 +18,12 @@ tags: []
 ---
 {% include JB/setup %}
 
-I hate LinkedIn. Or rather, I hate the way that social media insists on relentless self-promotion, urging us to trumpet every half-success from the rafters and dress up meh as amazeballs.
+My mum brought me up to think that only idiots talk about themselves. The digital world - as a static representation of ourselves - relies on turgid self-promotion, urging us to trumpet every half-success from the rafters and dress up meh as amazeballs. While we market ourselves to others, of course, we market them too. 
 
-Traditionally, there has only been one document in which white lies were the norm - the CV. All honest folk could live with that, however, because we only need to look at them once every few years at most.	
+Traditionally, there has only been one document in which this type of lying was the norm - the CV. All honest folk could live with that, however, because we only need to look at them once every few years at most. However, with the advent of social media, lying - aka making yourself look good - became the norm. It reaches its apex on LinkedIn, the place where people lie to make money.
 
-As a paradigm of dystopia, LinkedIn is hard to beat. It makes money through its jobs board, which targets you based on your CV
+As a paradigm of dystopia, LinkedIn is hard to beat. It makes money through its jobs board, which targets you based on your CV, after which recruiters are free to spam you all day long, as long as they pay LinkedIn of course.
 
-
+And so I wrote a little bot that 
 
 I have little doubt that it will 

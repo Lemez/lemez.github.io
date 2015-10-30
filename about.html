@@ -7,15 +7,14 @@ weight: "DE"
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
+<ul class="tag_box inline clear tagbox-top">
   {% for post in site.categories.cv %} 
   <li>
-    <a HREF="{{post.url}}">{{post.title}}</a>
+    <a href="{{post.url}}">{{post.title}}</a>
   </li>
   {% endfor %}
 </ul>
 
-  <article>
      <figure style="width:87.5%;">
           <img src="{{IMAGE_PATH}}/lemeztin.jpg"/>
           <figcaption>Condensed milk label, by Ariadne Arendt</figcaption>
@@ -28,6 +27,10 @@ weight: "DE"
     <section>
       <p><span class="newthought">Hello. </span>Here you can find some things about me, not least that someone once made me customised tins of Russian condensed milk, сгущёнка.<span class="sidenote-number"></span><span class="sidenote">Just to be clear, I'm not <a href="http://nypost.com/2015/01/04/harlem-man-dies-in-six-floor-plunge/"  >this person</a> or <a href="http://harvardmagazine.com/2012/04/jonathan-walton-named-memorial-church-minister"  >this person.</a></span></p>
       <p>If there are some things that aren't clear, don't worry as I will be providing notes.<span class="sidenote-number"></span><span class="sidenote topmargin">I crave academic legitimacy, you should know. Probably ever since I dropped out of my Masters to <a href="http://www.bandsintown.com/OiVaVoi/past_events?page=2"  >go on tour.</a></span>
+
+        {% assign thissite = site.posts | where: "title", "Let's Make A Website" %}
+
+        <p>If you want the "About This Site" page, that's <a href="{{thissite[0].url}}">here.</a></p>
       
     </section>
 
@@ -45,8 +48,7 @@ weight: "DE"
 
        <h3>Technology</h3>
       
-        {% include fullimage src="http://ghchart.rshah.io/lemez" alt="Lemez's Github chart" caption="The Github colour key: Green = machine addiction; Grey = 'having a life'." %}
-
+       
         <br>
         
           {% include sideimage img="listentowiki.jpg" text='Geeks do beautiful things. Like <a href="http://listen.hatnote.com/">this.</a>' %}
@@ -58,7 +60,7 @@ weight: "DE"
           I taught myself to code because I love geekery and it seemed like a perfect excuse.
           Also I had just founded a startup and I realised that London was a terrible place  <a href="{{codepage[0].url}}">to look for programmers</a>.
 
-          The graph above will show you how much time I've been coding recently: each coloured square represents a 'commit' - ie something that I've coded that I want to save online to my <a href="http://github.com/lemez">Github repository.</a> - a kind of backup system for code.</p>
+          The graph on the <a href="tech.html">tech</a> page shows how much time I've been coding recently: each coloured square represents a 'commit' - ie something that I've coded that I want to save online to my <a href="http://github.com/lemez">Github repository.</a> - a kind of backup system for code.</p>
 
     </section>
 
@@ -287,5 +289,4 @@ for (i = 0; i++; i <= num) {
       <iframe width="70%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/218640&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPJ56FSR6VBFNzpWBetbM_hYiA71Kxg29" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
     </section>
-  </article>
 

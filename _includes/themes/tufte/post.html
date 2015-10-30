@@ -9,9 +9,35 @@
     <div class="content">
 
       <h1>{{page.title}}</h1>
-      <h3>{{page.description}}</h3>
+      <h2>{{page.description}}</h2>
+      <br>
 
-       {% unless page.categories contains 'music' %}
+      {% if (page.director | size) > 0 %}
+     <h3 class='lyrics'>Director: {{page.director}}</h3>  
+       {% endif %}
+      {% if (page.writer | size) > 0 %}
+      <h3 class='lyrics'>Writer: {{page.writer}}  </h3>
+       {% endif %}
+      {% if (page.producer | size) > 0 %}
+      <h3 class='lyrics'>Producer: {{page.producer}} </h3> 
+       {% endif %}
+    {% if (page.venue | size) > 0 %}
+      <h3 class='lyrics'>Theatre: {{page.venue}}  </h3>
+       {% endif %}
+
+        {% if (page.label | size) > 0 %}
+      <h3 class='lyrics'>Label: {{page.label}}  </h3>
+       {% endif %}
+        {% if (page.publisher | size) > 0 %}
+      <h3 class='lyrics'>Publisher: {{page.publisher}}  </h3>
+       {% endif %}
+
+      {% if (page.year | size) > 0 %}
+      <h3 class='lyrics'>Year: {{page.year}}  </h3>
+       {% endif %}
+      
+       
+       {% unless page.categories contains 'music' or page.categories contains 'tv' %}
 
           {% assign words = page.content | size %}
           {% assign mins = words | divided_by: 900 %}
@@ -24,28 +50,31 @@
 
           <h5> {{indefarticle}} {{ mins }} minute read</h5>
 
+        {% endunless %} 
           {% unless page.source == empty %}
             <p>
               <span class="post_tagline">{{page.source}}</span>
               <span class="post_tagline">{{page.original_date}}</span>
-            </p>
-          {% endunless %} 
+            </p> 
         {% endunless %} 
 
         {% include tags %}
 
         {% if (page.video | size) > 0 %}
           <br>
-          <p class='videofull'>
+          <div class="videoWrapper">
+            <p>
             <span>
-            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
+            <iframe width="560" height="349" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
             </iframe>
             <br>
+            </div>
             </span>
             <span class='videomain-desc'>
             {{page.videotext}}
             </span>
-          </p>
+            </p>
+
 
         {% elsif (page.vimeo | size ) > 0 %}
          <br>

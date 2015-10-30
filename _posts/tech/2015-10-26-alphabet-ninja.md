@@ -7,18 +7,7 @@ image: "Alphabet Ninja logo.png"
 genre: []
 artist: []
 area: education
-label: 
-publisher: 
 year: 2013
-director: 
-writer: 
-producer: 
-venue: 
-area: games
-soundcloud: 
-soundcloud-track: 
-video: 
-vimeo: 
-tags: []
+tags: [game, education]
 ---
 {% include JB/setup %}

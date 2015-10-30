@@ -16,6 +16,8 @@ tags: [radio, empire, colonialism, military history, highlife, marching band, br
 
 This is what you call a good gig. Together with my radio production partner at the time, Miranda Hinkley, Radio 2 commissioned a series on brass music around the Commonwealth. Armed with a moc and a trumpet, I set off to investigate Ghana and Malta, and she went to Trinidad and India.
 
+More information <a href="http://nightjar.co.uk/tag/world-class-brass/">here</a>.
+
 <h3>Blurb</h3>
 
 In the twilight of British colonial rule brass bands were the soundtrack to Empire. But as a new era of Independence dawned, the old military tunes were replaced by more distinctive, local sounds.

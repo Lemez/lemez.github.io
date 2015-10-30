@@ -4,25 +4,23 @@ category: "tv"
 title: "Forbidden Games"
 source: "Journeyman Pictures"
 description: "Ideology and video games in the Middle East"
-image: 
-genre: []
-artist: []
-label: 
-publisher: DigressMedia
+image: gaza-man-game.jpg
 year: 2007
 director: Natasha Dudinski
-writer: 
 producer: DigressMedia
+topic: [propaganda, intifada, video games]
 venue: 
 soundcloud: 
 soundcloud-track: 
 video: DQ7EsgGMV3o
 vimeo: 
-tags: ['video games', 'Israel', 'Palestine', television]
+tags: ['video games', 'Israel', 'Palestine', propaganda, intifada]
 ---
 {% include JB/setup %}
 
-I'm a bit ashamed of the terribly serious tone, but this was a fascinating report to make.
+A short report on video games and propaganda in the Middle East. The terribly serious tone seems a bit dated now, but this was a fascinating report to make.
+
+For more background on games and propaganda in context, see this <a href="http://www.theguardian.com/technology/2012/mar/18/video-games-propaganda-tools-military">Guardian</a>  article.
 
 <h3>Full Transcript</h3>
 

@@ -5,30 +5,30 @@
         <h1>{{page.title}}</h1>
 
 
-        {% if (page.director | size) > 0 %}
-       <h3 class='lyrics'>Director: {{page.director}}</h3>  
-         {% endif %}
-        {% if (page.writer | size) > 0 %}
-        <h3 class='lyrics'>Writer: {{page.writer}}  </h3>
-         {% endif %}
-        {% if (page.producer | size) > 0 %}
-        <h3 class='lyrics'>Producer: {{page.producer}} </h3> 
-         {% endif %}
-      {% if (page.venue | size) > 0 %}
-        <h3 class='lyrics'>Theatre: {{page.venue}}  </h3>
-         {% endif %}
+          {% if (page.director | size) > 0 %}
+         <h3 class='lyrics'>Director: {{page.director}}</h3>  
+           {% endif %}
+          {% if (page.writer | size) > 0 %}
+          <h3 class='lyrics'>Writer: {{page.writer}}  </h3>
+           {% endif %}
+          {% if (page.producer | size) > 0 %}
+          <h3 class='lyrics'>Producer: {{page.producer}} </h3> 
+           {% endif %}
+        {% if (page.venue | size) > 0 %}
+          <h3 class='lyrics'>Theatre: {{page.venue}}  </h3>
+           {% endif %}
 
-          {% if (page.label | size) > 0 %}
-        <h3 class='lyrics'>Label: {{page.label}}  </h3>
-         {% endif %}
-          {% if (page.publisher | size) > 0 %}
-        <h3 class='lyrics'>Publisher: {{page.publisher}}  </h3>
-         {% endif %}
+            {% if (page.label | size) > 0 %}
+          <h3 class='lyrics'>Label: {{page.label}}  </h3>
+           {% endif %}
+            {% if (page.publisher | size) > 0 %}
+          <h3 class='lyrics'>Publisher: {{page.publisher}}  </h3>
+           {% endif %}
 
-        {% if (page.year | size) > 0 %}
-        <h3 class='lyrics'>Year: {{page.year}}  </h3>
-         {% endif %}
-          <br>
+          {% if (page.year | size) > 0 %}
+          <h3 class='lyrics'>Year: {{page.year}}  </h3>
+           {% endif %}
+            <br>
        
         {% include JB/base %}
         

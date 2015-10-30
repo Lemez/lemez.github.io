@@ -10,7 +10,7 @@ location: [Belarus]
 genre: [political, rock, punk, hiphop]
 artist: [Neurodubel, NRM]
 topic: [censorship, USSR]
-tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, street activism]
+tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, street activism, propaganda]
 video: 4e6t5t1rMTk
 videotext: Presenting at the Third World Conference on Music Censorship, Istanbul, 25th-26th Nov 2006
 ---
