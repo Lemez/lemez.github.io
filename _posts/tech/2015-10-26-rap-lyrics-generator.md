@@ -14,7 +14,7 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 
-tags: []
+tags: [rap, tech, machine learning]
 ---
 {% include JB/setup %}
 

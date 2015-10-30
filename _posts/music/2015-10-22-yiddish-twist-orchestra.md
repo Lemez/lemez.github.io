@@ -5,7 +5,7 @@ title: "Yiddish Twist Orchestra"
 description: "Soho's swingingest mambo twistniks"
 image: "yto1.jpg"
 category: "music"
-area: concept/production
+area: band
 genre: ['twist','jazz']
 soundcloud: 136847343
 artist: [Yiddish Twist Orchestra, Sam Lee, Ben Mandelson]

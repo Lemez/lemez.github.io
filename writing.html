@@ -12,6 +12,7 @@ weight: "AA"
     <li><a href="#diary">diary</a></li>
     <li><a href="#journalism">journalism</a></li>
     <li><a href="#radio">radio</a></li>
+    <li><a href="#reviews">reviews</a></li>
     <li><a href="#tv">tv</a></li>
 	</ul>
 </div>
@@ -83,6 +84,37 @@ weight: "AA"
 <hr class='nomargin thick'>
 
 {% for post in site.categories.radio %}
+<div class="all_page_links" >
+    <a href="{{post.url}}"> 
+
+    {% if forloop.index0 == 0 %}
+    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+    <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+
+    <br>
+    
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+         <h3> 
+          <span class="all_page_main">{{post.title}}</span><br>
+          <span class="all_page_tagline"> {{post.source}} / </span>
+          <span class="all_page_tagline">/ {{post.original_date}}</span>
+       </h3>
+       <br>
+         <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+  <hr class='nomargin'>
+
+{% endfor %}
+
+<hr class='nomargin thick'>
+<hr class='nomargin thick'>
+
+{% for post in site.categories.reviews %}
 <div class="all_page_links" >
     <a href="{{post.url}}"> 
 

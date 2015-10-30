@@ -7,9 +7,9 @@ weight: "AD"
 ---
 {% include JB/setup %}
 
-<subtitle>{{page.title}}</subtitle>
 
-	<ul class="tag_box inline">
+<subtitle>{{page.title}}</subtitle>
+<ul class="tag_box inline">
 
 		{% assign techArray = site.techarray %}
 
@@ -32,11 +32,23 @@ weight: "AD"
 		{% endfor %}
 	</ul>
 
-<div class='clear'>
-	 {% include fullimage src="http://ghchart.rshah.io/lemez" alt="My Github commits chart" caption="Github commits graph: green = addiction; grey = life." %}
-</clear>
+<div class='clear inline'>
+	<a href="http://github.com/lemez">
+	 <img class='realfullwidth left' src="http://ghchart.rshah.io/lemez" alt="My Github commits chart" />
+	  </a>
+	 <footer class="right">My Github commits: green = 'machine autism', grey = 'having a life'</footer>
+	
+</div>
+
+<br>
+<br>
 
 
+	
+
+
+
+<br>
 
 <div class='clear'>
 {% assign tech_list = (site.categories.tech | sort: 'area' ) %}

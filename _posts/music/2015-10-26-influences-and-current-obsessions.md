@@ -2,7 +2,7 @@
 layout: post
 category: "music"
 title: "Influences and Current Obsessions"
-description: "What I'm listening to and what I shouldn't be"
+description: "Listening playlists"
 image: colours_2012_33_zdenkohanout.jpeg
 genre: []
 artist: []

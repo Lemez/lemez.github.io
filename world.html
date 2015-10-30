@@ -19,14 +19,25 @@ weight: "CA"
 	<ul class="tag_box inline">
 
 		{% assign locationArray = site.locationarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.location %}
+		{% assign all = site.allpages %}
+		{% for post in site.posts %}
+			{% assign all = all | push: post %}
+		{% endfor %}
+		{% for post in site.reviews %}
+			{% assign all = all | push: post %}
+		{% endfor %}
 
-			 	{% unless locationArray contains tag %}
-				 	{% assign locationArray = locationArray | push: tag %}
-				{% endunless %}
+		 {% for post in all %} 
 
-			 {% endfor %}
+		 	{% if (post.location | size) > 0 %}
+				 {% for tag in post.location %}
+
+				 	{% unless locationArray contains tag %}
+					 	{% assign locationArray = locationArray | push: tag %}
+					{% endunless %}
+
+				 {% endfor %}
+			{% endif %}
 		{% endfor %}
 
 		{% assign sortedLocations = (locationArray | sort )%}
@@ -48,8 +59,19 @@ weight: "CA"
 {% for location in sortedLocations  %} 
   <h2 id="{{location | replace: ' ', ''}}-ref">{{location}}</h2>
   <ul class='icon'>
-    {% assign pages_list = site.tags[location] | sort: "category" %}  
+    {% assign pages_list = site.tags[location]  %} 
+
+    {% for review in site.reviews %}
+
+    	{% if review.location contains location or review.location == location %}
+    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+    	{% endif %}
+
+    {% endfor %}
+
+
     {% if (pages_list | size ) > 0%}
+    	{% assign pages_list = pages_list | sort: "category" %}
     	{% include JB/pages_list %}
     {% endif %}
   </ul>
@@ -72,13 +94,14 @@ weight: "CA"
 
 		placedata = {};
 
-		for (var key in locationArray) {
-		  if (locationArray.hasOwnProperty(key)) {
-		    placename = locationArray[key];
+		for (var key in JsLocationArray) {
+		  if (JsLocationArray.hasOwnProperty(key)) {
+		    placename = JsLocationArray[key];
 		    if (placename=="UK"){placename="United Kingdom"};
-		    if (placename=="US"){placename="United States of America"};
+		    if (placename=="USA"){placename="United States of America"};
 		    if (placename=="Palestine"){placename="Palestine, State of"};
 		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
+		    if (placename=="Serbia"){placename="Republic of Serbia"};
 		    placecode = placedict[placename];
 		    placedata[placecode] = { fillKey: "authorHasTraveledTo" };
 		  }

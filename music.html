@@ -32,34 +32,39 @@ weight: "AC"
 	</ul>
 
 <div class='clear'>
-{% assign music_list = (site.categories.music | sort: 'area' ) %}
+{% assign music_list = (site.categories.music | group_by: 'area' ) %}
 {% assign prevtag = '' %}
-{% for post in music_list %} 
+{% assign music_list = music_list | sort: "name" %}
 
-	{% if prevtag != post.area %}
-	    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
-	    {% else %}
-	    <span class="all_page_tagline category"> {{post.area}}</span>
-	 {% endif %}
+{% for area in music_list %}
+	{% assign group = (area.items | sort: "title") %}
+	{% for post in group %} 
 
-    <span class="all_page_tagline category">: {{post.year}}</span>
-    
-    <br>
-    <div class="all_page_links" >
-      <a  href={{post.url}}>
-      <!--     {{post.content | strip_html | truncatewords:50}} -->
-    <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-      <div class="index-title">
+		{% if prevtag != post.area %}
+		    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
+		    {% else %}
+		    <span class="all_page_tagline category"> {{post.area}}</span>
+		 {% endif %}
 
-      	<h3>	
-        	<span class="all_page_main">{{post.title}}</span><br>
-    	 </h3>
-    	 <p class='all_desc'> {{post.description}}</p>
-      </div>
-      </a>
-     </div>
-  
-  <hr class='nomargin'>
-  {% assign prevtag = post.area %}
+	    <span class="all_page_tagline category">: {{post.year}}</span>
+	    
+	    <br>
+	    <div class="all_page_links" >
+	      <a  href={{post.url}}>
+	      <!--     {{post.content | strip_html | truncatewords:50}} -->
+	    <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+	      <div class="index-title">
+
+	      	<h3>	
+	        	<span class="all_page_main">{{post.title}}</span><br>
+	    	 </h3>
+	    	 <p class='all_desc'> {{post.description}}</p>
+	      </div>
+	      </a>
+	     </div>
+	  
+	  <hr class='nomargin'>
+	  {% assign prevtag = post.area %}
+	{% endfor %}
 {% endfor %}
 </div>

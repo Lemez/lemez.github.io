@@ -14,9 +14,11 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 
-tags: []
+tags: [media, negativity, racism]
 comments: true
 ---
 {% include JB/setup %}
 
 {% include sideimage img="negativity.jpg" text="You are what you read." %}
+
+More info coming soon.

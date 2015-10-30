@@ -1,10 +1,10 @@
 ---
 layout: music
 category: "music"
-title: "Subversive Corner"
+title: "Oddities & Curios"
 description: "Hands down the wierdest/best things I've ever done"
 image: muaythaiceremony.jpg
-genre: [sephardic, bulgarian, turkish pop, sporting anthem]
+genre: [turkish pop, sporting anthem]
 artist: [Sevara Nazarkhan]
 area: about
 video: R-30UsxQnH4
@@ -24,11 +24,11 @@ NB - lyric video
 
 
 
-
+<!-- 
 It has spawned covers: it is an anthem
 
 https://www.youtube.com/watch?v=eL7B2fYjylU
 https://www.youtube.com/watch?v=1pjIgsCKXz4
 
-bar.png
+bar.png -->
 

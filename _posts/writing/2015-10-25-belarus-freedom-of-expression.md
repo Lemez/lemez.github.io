@@ -9,16 +9,24 @@ category: "journalism"
 location: [Belarus]
 genre: [political, rock, punk, hiphop]
 artist: [Neurodubel, NRM]
-topic: [censorship, USSR]
-tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, street activism, propaganda]
+topic: [censorship, USSR, UNESCO, protest]
+tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, protest, propaganda, UNESCO, Freemuse]
 video: 4e6t5t1rMTk
 videotext: Presenting at the Third World Conference on Music Censorship, Istanbul, 25th-26th Nov 2006
 ---
 {% include JB/setup %}
+{% include sideimage img='belarusfront.jpg' %}
+
+<h3>About</h3>
 
 I was commissioned by Freemuse, alongside Bosnian anthropologist Maya Medich, to go to Belarus around the time of the 2006 Presidential Elections to report on political censorship of music and musicians. 
 
 Belarus was then, as it is now, ruled by the 'last dictator in Europe', Aleksander Lukashenko, and with protest-driven revolutions taking place across the post-Soviet world, the government was cracking down mightily hard on oppositional politics of any kind, including artists and musicians.
+
+The six month research project included a hair-raising trip to Minsk during the street protests to talk to opposition activists and artists, and ended in the publication of a <a href="http://freemuse.org/graphics/Publications/PDF/Freemuse_Belarus-report.pdf">weighty report</a> into the state of music censorship, which was used as the key source for Belarus in a UNESCO research project, <a href='http://www.imc-cim.org/programmes/imc_diversity_report.pdf'>"The Protection and Promotion of Musical Diversity"</a>.
+
+
+
 
 
 

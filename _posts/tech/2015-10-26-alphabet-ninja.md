@@ -8,6 +8,9 @@ genre: []
 artist: []
 area: education
 year: 2013
-tags: [game, education]
+tags: [game, education, toddlers, reading]
 ---
 {% include JB/setup %}
+
+Currently live at http://alphabet.ninja
+More info coming soon.

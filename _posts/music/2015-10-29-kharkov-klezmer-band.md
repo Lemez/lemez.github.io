@@ -13,7 +13,7 @@ director:
 writer: 
 producer: 
 venue: 
-area: art
+area: band
 soundcloud: 
 soundcloud-track: 
 video: 

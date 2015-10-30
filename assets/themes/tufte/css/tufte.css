@@ -184,6 +184,8 @@ pre.code { padding: 0 0 0 2em; }
 
 .fullwidthtext { font-size: 1.0 rem; }
 
+.realfullwidth { min-width: 90%; }
+
 p.all_desc {clear: left;}
 
 @media screen and (max-width: 800px) {
@@ -404,6 +406,9 @@ ul.icon {
 .techlink {background-image: url("../images/icon-tech.png");}
 .musiclink {background-image: url("../images/icon-music.png");}
 .tvlink {background-image: url("../images/icon-tv.png");}
+.reviewlink {background-image: url("../images/icon-reviews.png");}
+.lplink {background-image: url("../images/icon-lp.png");}
+
 
 .larger {
   position: absolute;

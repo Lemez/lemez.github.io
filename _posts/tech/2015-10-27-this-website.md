@@ -6,7 +6,7 @@ description: "or Exercises in Borderline Narcissism"
 image: jonascii.png
 year: 2015
 area: website 
-tags: [tech, narcissism]
+tags: [tech, narcissism, jekyll, markdown, ruby]
 ---
 {% include JB/setup %}
 <br>

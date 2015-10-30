@@ -36,12 +36,16 @@ urlarray: []
 techarray: []
 relatedtitles: []
 relatedurls: []
+allpages: []
+temparray: []
 cathash: {}
 offset: 2
 
 
 collections:
   lyrics:
+    output: true
+  reviews:
     output: true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash

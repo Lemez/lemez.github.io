@@ -68,6 +68,15 @@ weight: "CB"
 			 {% endfor %}
 		{% endfor %}
 
+		 {% for post in site.reviews %} 
+		 	{% for genre in post.genre %}
+			 {% assign tag = genre %}
+			 	{% unless genreArray contains tag %}
+				 	{% assign genreArray = genreArray | push: tag %}
+				{% endunless %}
+			{% endfor %}
+		{% endfor %}
+
 		{% assign sortedGenres = (genreArray | sort )%}
 
 		{% for tag in sortedGenres %}
@@ -96,6 +105,12 @@ weight: "CB"
 				{% endunless %}
 
 			 {% endfor %}
+		{% endfor %}
+		 {% for post in site.reviews %} 
+			 {% assign tag = post.artist %}
+			 	{% unless artistArray contains tag %}
+				 	{% assign artistArray = artistArray | push: tag %}
+				{% endunless %}
 		{% endfor %}
 
 		{% assign sortedArtists = (artistArray | sort) %}
@@ -151,6 +166,14 @@ weight: "CB"
   <ul class='icon'>
     {% assign pages_list = (category[1] | sort: 'title') %}  
     {% include JB/pages_list %}
+
+    {% if category[0] == "review" %}
+    {% assign allreviews = (site.reviews | sort: "artist") %}
+    	 {% for review in allreviews %}
+    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+    	{% endfor %}
+    {% endif %}
+
   </ul>
 {% endfor %}
 
@@ -191,6 +214,13 @@ weight: "CB"
    <ul class='icon'>
     {% assign pages_list = site.tags[genre]  %}  
     {% include JB/pages_list %}
+
+    {% for review in site.reviews %}
+    	{% if review.genre contains genre %}
+    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+    	{% endif %}
+    {% endfor %}
+
   </ul>
 {% endfor %}
 <hr>
@@ -200,8 +230,16 @@ weight: "CB"
 {% for artist in sortedArtists  %} 
   <h2 id="{{artist}}-ref">{{artist}}</h2>
    <ul class='icon'>
-    {% assign pages_list = site.tags[artist]  %}  
+    {% assign pages_list = site.tags[artist]  %} 
     {% include JB/pages_list %}
+
+     {% for review in site.reviews %}
+    	{% if review.artist == artist %}
+    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+    	{% endif %}
+    {% endfor %}
+
+    
   </ul>
 {% endfor %}
 

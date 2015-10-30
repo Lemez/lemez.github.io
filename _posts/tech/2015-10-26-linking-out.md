@@ -14,7 +14,7 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 
-tags: []
+tags: [business, arrogance, fakery, algorithms, bot]
 ---
 {% include JB/setup %}
 
@@ -24,6 +24,6 @@ Traditionally, there has only been one document in which this type of lying was 
 
 As a paradigm of dystopia, LinkedIn is hard to beat. It makes money through its jobs board, which targets you based on your CV, after which recruiters are free to spam you all day long, as long as they pay LinkedIn of course.
 
-And so I wrote a little bot that 
+And so I wrote a little bot to play around with the algorithm. 
 
-I have little doubt that it will 
+Live link and more information coming soon.
