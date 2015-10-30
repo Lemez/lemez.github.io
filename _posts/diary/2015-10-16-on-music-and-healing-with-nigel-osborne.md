@@ -6,11 +6,11 @@ source:
 description: "Inside the magical, mystical world of sound, healing and great art"
 image: "musicasmedicine-sufi.png"
 category: "diary"
-location: [Pondicherry, Bosnia, India, United Kingdom]
+location: [Pondicherry, Bosnia, India, UK]
 genre: [music therapy, healing, carnatic]
 artist: [Nigel Osborne]
 topic: [special education, consciousness, war, technology]
-tags: [special education, consciousness, war, technology, music therapy, healing, Nigel Osborne,Pondicherry, carnatic, Bosnia, India, United Kingdom]
+tags: [special education, consciousness, war, technology, music therapy, healing, Nigel Osborne,Pondicherry, carnatic, Bosnia, India, UK]
 ---
 {% include JB/setup %}
 

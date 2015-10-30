@@ -7,10 +7,10 @@ description: "Herbie Hancock's epic synagogue recordings"
 image: "hearoisraelcover.jpg"
 category: "journalism"
 genre: [synagogue liturgy, jazz]
-location: [United States, United Kingdom]
+location: [USA, UK]
 artist: [Herbie Hancock,Jonny Trunk]
 topic: ['rare gems', reissue]
-tags: [jazz, rare gems, synagogue liturgy, United States, United Kingdom, Herbie Hancock, Jonny Trunk, reissue]
+tags: [jazz, rare gems, synagogue liturgy, USA, UK, Herbie Hancock, Jonny Trunk, reissue]
 ---
 {% include JB/setup %}
 

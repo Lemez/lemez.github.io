@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: What
 header: Posts By Tag
 group: navigation
 weight: "CB"
@@ -115,8 +115,8 @@ weight: "CB"
 
 
 
-<!-- list of tags by source -->
-<div class="index">source
+<!-- <!-- <!-- list of tags by source -->
+<!-- <div class="index">source
 	<ul class="tag_box source_box inline">
 	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
@@ -135,7 +135,7 @@ weight: "CB"
 	 {% endfor %}
 
 	</ul>
-</div>
+</div> --> 
   
 <!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
 
@@ -144,7 +144,7 @@ weight: "CB"
 <!-- headings and links to article by category -->
 
 <div class='allindexstories'>
-
+<h1>Category</h1>
 {% assign sorted_categories_list = (site.categories | sort ) %}
 {% for category in sorted_categories_list %} 
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
@@ -154,10 +154,10 @@ weight: "CB"
   </ul>
 {% endfor %}
 
-
+<hr>
 <!--  -->
 <!-- headings and links to article by source -->
-{% for source in source_list  %} 
+<!-- {% for source in source_list  %} 
 
 	{% if (source.items[0].source | size ) > 0 %}
 
@@ -169,11 +169,11 @@ weight: "CB"
 
 	{% endif %}
 	
-{% endfor %}
+{% endfor %} -->
 
 <!--  -->
 <!-- headings and links to article by topic -->
-
+<h1>Topic</h1>
 {% for item in sortedTopics  %} 
   <h2 id="{{item}}-ref">{{item}}</h2>
    <ul class='icon'>
@@ -182,10 +182,10 @@ weight: "CB"
   </ul>
 {% endfor %}
 
-
+<hr>
 <!--  -->
 <!-- headings and links to article by genre -->
-
+<h1>Music Genre</h1>
 {% for genre in sortedGenres  %} 
   <h2 id="{{genre}}-ref">{{genre}}</h2>
    <ul class='icon'>
@@ -193,10 +193,10 @@ weight: "CB"
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
-
+<hr>
 <!--  -->
 <!-- headings and links to article by artist -->
-
+<h1>Artist</h1>
 {% for artist in sortedArtists  %} 
   <h2 id="{{artist}}-ref">{{artist}}</h2>
    <ul class='icon'>

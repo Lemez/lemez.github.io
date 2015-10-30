@@ -8,12 +8,12 @@ category: "music"
 genre: [persian]
 area: theatre
 artist: [Tikran Aleksanyan, Matthaios Tsahourides]
-location: [United Kingdom, Iran]
+location: [UK, Iran]
 director: Tim Supple
 writer: Ferdowsi (adapted by Dick Davis)
 venue: National Theatre Studios
 producer: Dash Arts
-tags: [Iran, Shahnameh, United Kingdom, persian, Tikran Aleksanyan, Matthaios Tsahourides]
+tags: [Iran, Shahnameh, UK, persian, Tikran Aleksanyan, Matthaios Tsahourides]
 ---
 {% include JB/setup %}
 

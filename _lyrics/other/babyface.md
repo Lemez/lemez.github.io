@@ -5,7 +5,8 @@ year: 2010
 group: Various
 artist: Sweet F Allstars
 category: lyrics
-video: 
+video: fvtWJNGmixc
+videotext: "Five years into Cameron land - where is the satire?	"
 ---
 I know you may be taken now,  
 One less fish in the sea.  

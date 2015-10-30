@@ -8,7 +8,7 @@ category: "music"
 area: composition
 genre: [soundtrack]
 artist: [Lemez Lovas, Steve Reich]
-tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop]
+tags: [Lemez Lovas, Steve Reich, soundtrack, atmospheric, sampling]
 soundcloud-track: 2113427
 label: Trikont
 ---

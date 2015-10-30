@@ -9,21 +9,19 @@ area: live soundtrack
 genre: [live soundtrack]
 artist: [Lemez Lovas, Rohan Kriwaczek, Moshikop]
 video: a-g-FxEMaRk
-location: [Israel, France, United Kingdom]
+location: [Israel, France, UK]
 producer: Josephine Burton (Yad Arts)
-tags: [Israel, France, United Kingdom, live soundtrack, Yiddish, film, Lemez Lovas, Rohan Kriwaczek, Moshikop]
+tags: [Israel, France, UK, live soundtrack, Yiddish, film, Lemez Lovas, Rohan Kriwaczek, Moshikop]
 venue: "Barbican Centre, London / Musee De L'art et Histoire du Judaisme, Paris / Cinematek, Jerusalem JFF, Israel"
 ---
 {% include JB/setup %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{% include sideimage img='scorelive.jpg' text="Performing at the opening gala of the JJFF, Jerusalem" %}
 
+A great little commission from the JCC (now London's Jewish cultural centre, JW3), and Yad Arts. Together with multi-instrumentalists Rohan Kriwaczek and Moshikop, we scored a live soudtrack to this lovely Yiddish silent comedy.
 
+{% include sideimage img='scoreliveposter.jpg' text="The de rigeur posing with gig poster snap" %}
 
+We performed it several times 
 
 

@@ -277,7 +277,6 @@ img.navpic {
 .videofull {
   width: 95%;
   max-height: 280px;
-  text-align: center;
 }
 
 .left {
@@ -404,6 +403,7 @@ ul.icon {
 .radiolink {background-image: url("../images/icon-radio.png");}
 .techlink {background-image: url("../images/icon-tech.png");}
 .musiclink {background-image: url("../images/icon-music.png");}
+.tvlink {background-image: url("../images/icon-tv.png");}
 
 .larger {
   position: absolute;
@@ -430,3 +430,14 @@ ul.icon {
 
 }
 
+ol > li {
+  font-size: 16px;
+  margin-top: 8px;
+}
+ol > li > ul > li {
+  margin-top: 0;
+}
+
+.homepage {
+  line-height: 1.2;
+}

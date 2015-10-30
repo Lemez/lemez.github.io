@@ -1,8 +1,11 @@
+{% assign artist = page.artist %}
+{% assign title = page.title %}
+{% assign album = page.album %}
 
-<h1>{{page.title}}</h1>
+<h1>{{title}}</h1>
 
-{% if (page.album | size) > 0 %}
-  <h3 class='lyrics'>album: {{page.album}}</h3>
+{% if (album | size) > 0 %}
+  <h3 class='lyrics'>album: {{album}}</h3>
 {% endif %}
 {% if (page.band | size) > 0 and page.band != "Various" %}
   <h3 class='lyrics'>band: {{page.band}}</h3>
@@ -23,12 +26,33 @@
 {% endif %}
 
 {% if (page.press | size) > 0 %}
-  <p class='lyrics'{{page.press}}[0],><em>{{page.press}}[1]</em></p>
+<blockquote>
+  <p class='lyrics'>{{page.press[0]}}, <em>{{page.press[1]}}</em></p>
+  </blockquote>
 {% endif %}
-<br>
+
+
+{% assign pages_list = site.categories.music | where: "title", artist  %}
+{% assign page_size = pages_list | size  %}
+
+{% if page_size < 1 %}
+{% assign pages_list = site.categories.music | where: "title", title  %}
+{% assign page_size = pages_list | size  %}
+{% endif %}
+
+{% if page_size < 1 %}
+{% assign pages_list = site.categories.music | where: "title", album  %}
+{% assign page_size = pages_list | size  %}
+{% endif %}
+
+{% if page_size > 0 %}
+  <p>
+    <h3>background</h3>
+  {% include JB/pages_list %}
+  </p>
+{% endif %}
  {% if (page.video | size) > 0 %}
     <br>
-    <p class='videofull'>
       <span>
       <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
       </iframe>
@@ -37,11 +61,10 @@
       <span class='videomain-desc'>
       {{page.videotext}}
       </span>
-    </p>
 {% endif %}
 
 {% if (page.soundcloud | size) > 0 %}
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.soundcloud}}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.soundcloud}}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;"></iframe>  
 {% endif %}
 
 <div class="row post-full">
@@ -51,6 +74,8 @@
 
        
         <br>
+
+<h3>Lyrics</h3>
         {{ content }}
 
       </div>
@@ -71,34 +96,37 @@
     {% endif %}
   {% endfor %}
 
-  {% for title in album %}
+  {% unless (songs | size) == 1%}
 
-    {% if forloop.first %}
-      {% assign previndex = album | size | minus: 1 %}
-      {% assign nextindex = forloop.index %}
+    {% for title in album %}
 
-    {% elsif forloop.last %}
-      {% assign previndex = forloop.index | minus: 2 %}
-      {% assign nextindex = 0 %}
+      {% if forloop.first %}
+        {% assign previndex = album | size | minus: 1 %}
+        {% assign nextindex = forloop.index %}
 
-    {% else %}
-      {% assign previndex = forloop.index | minus: 2 %}
-      {% assign nextindex = forloop.index %}
-      
-    {% endif %}
+      {% elsif forloop.last %}
+        {% assign previndex = forloop.index | minus: 2 %}
+        {% assign nextindex = 0 %}
 
-    {% assign previous = album[previndex] %}
-    {% assign next = album[nextindex] %}
+      {% else %}
+        {% assign previndex = forloop.index | minus: 2 %}
+        {% assign nextindex = forloop.index %}
+        
+      {% endif %}
 
-    {% if title == page.title %}
-    <li class="previous"><a href="{{urls[previndex]}}" title="{{ previous}}">&laquo; {{ previous}}</a></li>
-    <li><a href="/lyrics.html">Lyrics</a></li>
- 
-     <li class="next"><a href="{{urls[nextindex]}}" title="{{next}}">&raquo; {{ next}}</a></li>
-    {% endif %}
+      {% assign previous = album[previndex] %}
+      {% assign next = album[nextindex] %}
 
-  {% endfor %}
+      {% if title == page.title %}
+      <li class="previous"><a href="{{urls[previndex]}}" title="{{ previous}}">&laquo; {{ previous}}</a></li>
+      <li><a href="/lyrics.html">Lyrics</a></li>
+   
+       <li class="next"><a href="{{urls[nextindex]}}" title="{{next}}">&raquo; {{ next}}</a></li>
+      {% endif %}
 
+    {% endfor %}
+
+  {% endunless%}
   </ul>
         
 </div>

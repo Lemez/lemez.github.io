@@ -8,7 +8,7 @@ label: V2
 album: Oi Va Voi
 publisher: Outcaste/EMI
 category: lyrics
-video: n8C60WUsGRk
+video: 5srG-kke7S4
 videotext: "Dry Your Eyes, vocals by Alice McLaughlin"
 tags: [Oi Va Voi]
 ---

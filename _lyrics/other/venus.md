@@ -4,7 +4,7 @@ title: "Venus"
 year: 2012
 group: Various
 publisher: 
-artist: Lazlo
+artist: "Lazlo/Kistehen"
 category: lyrics
 video: EBiijkKTHhU
 press: ["There hasn’t been a good song about a female with the male genitalia since Goldie Lookin’ Chain’s smash hit Your Mother Has a Penis", "Rock Reviews 24/7"]

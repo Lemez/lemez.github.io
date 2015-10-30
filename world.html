@@ -1,6 +1,6 @@
 ---
 layout: default
-title : World
+title : Where
 header : Post By GeoTag
 group: navigation
 weight: "CA"
@@ -13,8 +13,8 @@ weight: "CA"
 <script src="{{ ASSET_PATH }}/js/locations.js"></script>
 <div id="container" style="position: relative; width: 100%; height: 400px;"></div>
 
-
-<div class="worldindex">
+<section>
+<div class="index">
 	<span class='catheader'>geo</span>
 	<ul class="tag_box inline">
 
@@ -42,18 +42,19 @@ weight: "CA"
 
 	</ul>
 </div>
+</section>
 
-<article>
 	<section>
 {% for location in sortedLocations  %} 
   <h2 id="{{location | replace: ' ', ''}}-ref">{{location}}</h2>
   <ul class='icon'>
     {% assign pages_list = site.tags[location] | sort: "category" %}  
-    {% include JB/pages_list %}
+    {% if (pages_list | size ) > 0%}
+    	{% include JB/pages_list %}
+    {% endif %}
   </ul>
 {% endfor %}
 </section>
-</article>
 
 
 <script>
@@ -74,7 +75,8 @@ weight: "CA"
 		for (var key in locationArray) {
 		  if (locationArray.hasOwnProperty(key)) {
 		    placename = locationArray[key];
-		    if (placename=="United States"){placename="United States of America"};
+		    if (placename=="UK"){placename="United Kingdom"};
+		    if (placename=="US"){placename="United States of America"};
 		    if (placename=="Palestine"){placename="Palestine, State of"};
 		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
 		    placecode = placedict[placename];
@@ -95,24 +97,57 @@ weight: "CA"
 
 			    var path = d3.geo.path()
 			      .projection(projection);
-			   
-			    return {path: path, projection: projection};
 
+				  return {path: path, projection: projection};
+				
 	  			},
+	  			// done: function(datamap) {
+    		// 				datamap.svg.call(drag());
 
-	  		fills: {
-			    defaultFill: "#ABDDA4",
-			    authorHasTraveledTo: "#fa0fa0"
-			  },
-	  		data: placedata
+    		// 				function drag(){
+    		// 					var m0,
+			   //  					o0;
+
+						// 		var drag = d3.behavior.drag()
+						// 		    .on("dragstart", function() {
+						// 		    // Adapted from http://mbostock.github.io/d3/talk/20111018/azimuthal.html and updated for d3 v3
+						// 		      var proj = projection.rotate();
+						// 		      m0 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY];
+						// 		      o0 = [-proj[0],-proj[1]];
+						// 		    })
+						// 		    .on("drag", function() {
+						// 		      if (m0) {
+						// 		        var m1 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY],
+						// 		            o1 = [o0[0] + (m0[0] - m1[0]) / 4, o0[1] + (m1[1] - m0[1]) / 4];
+						// 		        projection.rotate([-o1[0], -o1[1]]);
+						// 		      }
+
+						// 		    // Update the map
+						// 		      path = d3.geo.path().projection(projection);
+						// 		      d3.selectAll("path").attr("d", path);
+						// 		    });
+    		// 					}
+    		// 			},
+
+		  		fills: {
+				    defaultFill: "#ABDDA4",
+				    authorHasTraveledTo: "#fa0fa0"
+				  },
+		  		data: placedata
 
 		});
 	}
 
+
+
+	 window.addEventListener('resize', function() {
+        map.resize();
+    });
+
+
+	    // click action scrolls to Heading 
     d3.select('svg').selectAll('.datamaps-subunit').on('click', function(e){
-
     	var name = "#" + e.properties.name.replace(/ /g,'') + "-ref";
-
 	    $('html,body').animate({
 	        scrollTop: $(name).offset().top},
 	        'slow');

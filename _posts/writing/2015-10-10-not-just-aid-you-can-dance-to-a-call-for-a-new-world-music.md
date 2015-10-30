@@ -6,11 +6,11 @@ source: "WOMEX Guide"
 description: "A Call For A New World Music"
 image: "womex1.jpg"
 category: "journalism"
-location: ["Denmark", "United Kingdom"]
+location: ["Denmark", "UK"]
 genres: [world music, folk, contemporary classical, jazz, acoustic, pop]
 artist: ["Sam Lee","Sarah McQuaid","Buena Vista"]
 topic: [sustainability, 'state subsidy', 'house concerts']
-tags: ['world music','house concerts','folk','sustainability',"Sam Lee","Sarah McQuaid","Buena Vista", state subsidy, contemporary classical, jazz, acoustic, pop, "Denmark", "United Kingdom" ]
+tags: ['world music','house concerts','folk','sustainability',"Sam Lee","Sarah McQuaid","Buena Vista", state subsidy, contemporary classical, jazz, acoustic, pop, "Denmark", "UK" ]
 ---
 {% include JB/setup %}
  

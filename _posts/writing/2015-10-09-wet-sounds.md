@@ -6,11 +6,11 @@ source: "Jewish Chronicle"
 description: "Profile of the underwater sound art festival"
 image: wetsounds.jpg
 category: journalism
-location: ["Galapagos", "United Kingdom", Ecuador]
+location: ["Galapagos", "UK", Ecuador]
 genre: ["sound art","experimental", noise]
 artist: ['Joel Cahen','Chris Watson','Nurse With Wound']
 topic: [festival]
-tags: ["sound art", "experimental", "festival", "Galapagos", 'Joel Cahen', 'Chris Watson', 'Nurse With Wound', noise, United Kingdom, Ecuador]
+tags: ["sound art", "experimental", "festival", "Galapagos", 'Joel Cahen', 'Chris Watson', 'Nurse With Wound', noise, UK, Ecuador]
 ---
 {% include JB/setup %}
 

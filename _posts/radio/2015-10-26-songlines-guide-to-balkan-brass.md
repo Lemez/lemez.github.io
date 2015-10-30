@@ -1,9 +1,10 @@
 ---
 layout: post
 category: "radio"
-title: "Songlines Guide to Balkan Brass"
+title: "Podcast: Essential Balkan Brass"
+original_date: "July 2006"
 source: Songlines
-description: "A podcast to accompany my Balkan Brass feature"
+description: "A podcast to accompany a feature on Balkan Brass bands"
 image: trubac.jpg
 location: [Serbia]
 genre: [balkan brass]

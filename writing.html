@@ -1,0 +1,143 @@
+---
+layout: default
+title : Writing
+header : Post Archive
+group: navigation
+weight: "AA"
+---
+{% include JB/setup %}
+<subtitle>{{page.title}}</subtitle>
+<div class="index">
+	<ul class="tag_box inline">
+    <li><a href="#diary">diary</a></li>
+    <li><a href="#journalism">journalism</a></li>
+    <li><a href="#radio">radio</a></li>
+    <li><a href="#tv">tv</a></li>
+	</ul>
+</div>
+
+<div class='clear'>
+{% for post in site.categories.diary %} 
+    <div class="all_page_links" >
+    <a href="{{post.url}}">
+
+    {% if forloop.index0 == 0 %}
+      <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+      <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+    <span class="all_page_tagline">/ {{post.date | date: "%-d %B %Y"}}</span>
+    <br>
+    
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+    	   <h3>
+          <span class="all_page_main">{{post.title}}</span><br>
+          
+        </h3>
+  	     <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+  <hr class='nomargin'>
+
+{% endfor %}
+
+ <hr class='nomargin thick'>
+ <hr class='nomargin thick'>
+
+<!-- <h6> Journalism</h6> -->
+
+{% for post in site.categories.journalism %} 
+
+<div class="all_page_links" >
+      <a  href={{post.url}}>
+
+  {% if forloop.index0 == 0 %}
+    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+    <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+    
+    <br>
+    
+      <!--     {{post.content | strip_html | truncatewords:50}} -->
+    <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+      <div class="index-title">
+
+      	<h3>	
+        	<span class="all_page_main">{{post.title}}</span><br>
+      	 	<span class="all_page_tagline">	{{post.source}} / </span>
+    	  	<span class="all_page_tagline">/ {{post.original_date}}</span>
+    	 </h3>
+       <br>
+    	 <p class='all_desc'> {{post.description}}</p>
+      </div>
+      </a>
+     </div>
+  
+  <hr class='nomargin'>
+{% endfor %}
+
+<hr class='nomargin thick'>
+<hr class='nomargin thick'>
+
+{% for post in site.categories.radio %}
+<div class="all_page_links" >
+    <a href="{{post.url}}"> 
+
+    {% if forloop.index0 == 0 %}
+    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+    <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+
+    <br>
+    
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+         <h3> 
+          <span class="all_page_main">{{post.title}}</span><br>
+          <span class="all_page_tagline"> {{post.source}} / </span>
+          <span class="all_page_tagline">/ {{post.original_date}}</span>
+       </h3>
+       <br>
+         <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+  <hr class='nomargin'>
+
+{% endfor %}
+
+<hr class='nomargin thick'>
+<hr class='nomargin thick'>
+
+{% for post in site.categories.tv %}
+<div class="all_page_links" >
+    <a href="{{post.url}}"> 
+
+    {% if forloop.index0 == 0 %}
+    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+    <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+
+    <br>
+    
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+         <h3> 
+          <span class="all_page_main">{{post.title}}</span><br>
+          <span class="all_page_tagline"> {{post.source}} / </span>
+          <span class="all_page_tagline">/ {{post.original_date}}</span>
+       </h3>
+       <br>
+         <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+
+<hr class='nomargin thick'>
+{% endfor %}
+</div>

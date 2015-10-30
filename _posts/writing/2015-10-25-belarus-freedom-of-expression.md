@@ -9,7 +9,7 @@ category: "journalism"
 location: [Belarus]
 genre: [political, rock, punk, hiphop]
 artist: [Neurodubel, NRM]
-topic: [censorship, USSR, democracy]
+topic: [censorship, USSR]
 tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, street activism]
 video: 4e6t5t1rMTk
 videotext: Presenting at the Third World Conference on Music Censorship, Istanbul, 25th-26th Nov 2006
@@ -18,7 +18,7 @@ videotext: Presenting at the Third World Conference on Music Censorship, Istanbu
 
 I was commissioned by Freemuse, alongside Bosnian anthropologist Maya Medich, to go to Belarus around the time of the 2006 Presidential Elections to report on political censorship of music and musicians. 
 
-Belarus was then, as it is now, ruled by the 'last dictator in Europe', Aleksander Lukashenko, and with 'coloured' revolutions taking place across the post-Soviet world, the government was cracking down mightily hard on oppositional politics of any kind, including artists and musicians.
+Belarus was then, as it is now, ruled by the 'last dictator in Europe', Aleksander Lukashenko, and with protest-driven revolutions taking place across the post-Soviet world, the government was cracking down mightily hard on oppositional politics of any kind, including artists and musicians.
 
 
 

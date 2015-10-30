@@ -6,11 +6,11 @@ source:
 description: "Reflections on a week with Nigel Osborne"
 image: musictherapy-new.jpg
 category: "diary"
-location: [Pondicherry, India, United Kingdom]
+location: [Pondicherry, India, UK]
 genre: [music therapy, hindu devotional]
 artist: [Nigel Osborne]
 topic: [music therapy, special education]
-tags: [music therapy, hindu devotional, Nigel Osborne, Pondicherry, India, United Kingdom]
+tags: [music therapy, hindu devotional, Nigel Osborne, Pondicherry, India, UK]
 ---
 {% include JB/setup %}
 

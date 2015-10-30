@@ -4,7 +4,7 @@ title: "I Will Eat"
 year: 2012
 group: Various
 publisher: 
-artist: Lazlo
+artist: "Lazlo/Kistehen"
 category: lyrics
 soundcloud: 229535638
 press: ["five minutes of jumbled ranting that sounds a bit like Iggy Pop succumbing to inevitable dementia", "Shout 4 Music"]

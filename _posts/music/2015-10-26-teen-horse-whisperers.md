@@ -13,12 +13,12 @@ director: Lucy Kaye
 writer: Lucy Kaye 
 producer: Channel 4
 area: film
-location: United Kingdom
+location: UK
 venue: 
 soundcloud: 926676
 video: 
 vimeo: 
-tags: [United Kingdom, soundtrack, film]
+tags: [UK, soundtrack, film]
 ---
 {% include JB/setup %}
 

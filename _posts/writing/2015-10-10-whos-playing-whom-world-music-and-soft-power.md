@@ -7,10 +7,10 @@ image: "bclogo.jpg"
 source: "WOMEX Guide"
 category: "journalism"
 genre: [world music, jazz, political]
-location: [United States, United Kingdom, New Zealand, Canada, Quebec]
+location: [USA, UK, New Zealand, Canada, Quebec]
 artist: [Ozomatli, Benny Goodman, Flight Of The Conchords, Tom Lehrer]
 topic: [neoliberalism,'soft power', 'selling out', 'cultural diplomacy', 'Iraq war']
-tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism, soft power, United States, United Kingdom, New Zealand, Canada, Quebec, Ozomatli, selling out, Benny Goodman, Duke Ellington, Flight Of The Conchords, Tom Lehrer]
+tags: [world music, political, jazz, cultural diplomacy, Iraq war, neoliberalism, soft power, USA, UK, New Zealand, Canada, Quebec, Ozomatli, selling out, Benny Goodman, Duke Ellington, Flight Of The Conchords, Tom Lehrer]
 ---
 
 {% include JB/setup %}

@@ -8,6 +8,7 @@ label: V2
 album: Oi Va Voi
 publisher: Outcaste/EMI
 category: lyrics
+soundcloud: 230583039
 video: pO5dS7WoWgs
 videotext: "Original studio recording."
 tags: [Oi Va Voi]
@@ -27,7 +28,7 @@ The circus begins
 And I’m walking along  
 Doing anything not to look down.  
   
-Don’t let go my hand, 
+Don’t let go my hand,   
 I’m doing anything not to look down.  
   
 When I need you beside me, at times I’m afraid that I don’t know the cost.  

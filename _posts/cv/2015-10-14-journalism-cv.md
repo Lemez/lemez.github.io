@@ -34,7 +34,7 @@ DQ7EsgGMV3o
 - dozens of interviews to international media on subject of culture and politics 
 
 <h3>Major Print</h3>
-- <a href='/categories.html#WOMEX Guide-ref'>Articles on world music and politics / industry</a> for WOMEX , 2008-11
+- <a href='/categories.html#WOMEXGuide-ref'>Articles on world music and politics / industry</a> for WOMEX , 2008-11
 - "Music of Ukraine", Rough Guide to World Music, 2nd edition, 2012
 - <a href='http://freemuse.org/graphics/Publications/PDF/Freemuse_Belarus-report.pdf' target='_blank'>“Hidden Truths: Music Politics and Censorship in Lukashenko’s Belarus”</a>, Freemuse, 2007
 - <a href='http://www.imc-cim.org/programmes/imc_diversity_report.pdf' target='_blank'>"The Protection and Promotion of Musical Diversity"</a>, UNESCO / International Music Council, ed Richard Letts, 2006 (main source, Belarus section)

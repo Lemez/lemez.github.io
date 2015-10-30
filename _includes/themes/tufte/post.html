@@ -31,6 +31,8 @@
             </p>
           {% endunless %} 
 
+        
+
           {% unless page.categories == empty %}
             <ul class="tag_box inline clear">
               <li><i class="glyphicon glyphicon-open"></i></li>
@@ -90,19 +92,22 @@
       {% endunless %}  
       
         <hr>
-        <ul class="pagination">
+       <!--  <ul class="pagination">
         {% if page.previous %}
           <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
         {% else %}
           <li class="prev disabled"><a>&larr; Previous</a></li>
         {% endif %}
-          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">All Posts</a></li>
         {% if page.next %}
           <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">&raquo; {{ page.next.title }}</a></li>
         {% else %}
           <li class="next disabled"><a>Next &rarr;</a>
         {% endif %}
-        </ul>
+        </ul> -->
+
+        {% assign posttags = page.tags %}
+        {% include related_posts_by_tag %}
        
         <hr>
         {% include JB/comments %}

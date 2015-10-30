@@ -43,7 +43,7 @@
         {% endif %}
 
          {% if (page.video | size) > 0 %}
-          <p class='videofull'>
+ 
             <div class="videoWrapper">
             <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
             </iframe>
@@ -52,12 +52,16 @@
             <span class='videomain-desc'>
             {{page.videotext}}
             </span>
-          </p>
 
         {% elsif (page.vimeo | size ) > 0 %}
             <div class="videoWrapper left">
           <iframe src="https://player.vimeo.com/video/{{page.vimeo}}" width="500" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
+             <br>
+            </div>
+            <span class='videomain-desc'>
+            {{page.vimeotext}}
+            </span>
       {% endif %} 
 
            {% assign image = {{page.image}} %}
@@ -66,8 +70,6 @@
             </span>
         </p> -->
         {{ content }}
-
-
 
          {% for tag in {{page.artist}} %}
 

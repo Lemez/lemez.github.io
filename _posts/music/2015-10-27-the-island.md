@@ -5,13 +5,13 @@ title: "The Island - Al Jones"
 description: "Cover released as a tribute to great UK folk label Village Thing "
 image: aljonescover.jpg
 genre: [folk]
-artist: [Lemez Duo ft. Ben Mandelson]
+artist: [Lemez Lovas, Ben Mandelson]
 label: Rif Mountain
 year: 2010
 area: tribute
 soundcloud-track: 4883910
-tags: [United Kingdom, Bristol, folk]
-location: [United Kingdom, Bristol]
+location: [UK, Bristol]
+tags: [UK, Bristol, folk, Lemez Lovas, Ben Mandelson]
 ---
 {% include JB/setup %}
 {% include sideimage img='aljonescoverback.jpg' %}
