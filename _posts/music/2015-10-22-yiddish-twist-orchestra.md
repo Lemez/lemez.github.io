@@ -6,11 +6,11 @@ description: "Soho's swingingest mambo twistniks"
 image: "yto1.jpg"
 category: "music"
 area: band
-genre: ['twist','jazz']
+genre: ['twist','jazz',  mambo, surf]
 soundcloud: 136847343
 artist: [Yiddish Twist Orchestra, Sam Lee, Ben Mandelson]
-location: UK
-tags: [Yiddish Twist Orchestra, Soho, UK, Sam Lee, Ben Mandelson]
+location: [UK]
+tags: [Yiddish Twist Orchestra, Soho, UK, Sam Lee, Ben Mandelson, twist, jazz, mambo, surf]
 ---
 
 {% include video id="0lC8A0P4y00" text="Natty Bo and crew doing what they do best" %}

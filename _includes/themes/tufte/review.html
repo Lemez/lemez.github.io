@@ -1,9 +1,14 @@
 <div class="row post-full">
+
+  {% assign reviewspage = site.posts | where: "title", "World music articles & reviews" %}
+  <ul class="pagination">
+  <li class="prev"><a href="{{ reviewspage[0].url }}" title="{{ reviewspage[0].title }}">&laquo; {{ reviewspage[0].title }}</a></li>
+  </ul>
+
   <div class="col-xs-12">
     <div class="content">
       <div class='lyrics'>
         <h1>{{page.title}}</h1>
-
 
           {% if (page.artist | size) > 0 %}
          <h3 class='lyrics'>{{page.artist}}</h3>  
@@ -62,21 +67,16 @@
             <span class='marginnote'><img src='{{base}}/assets/themes/tufte/images/{{image}}' />
             </span>
         </p> -->
+
+        <em>This review was originally published in Songlines magazine.</em>
+        <br>
         {{ content }}
 
-         {% for tag in {{page.artist}} %}
+        <br>
+        <hr>
 
-          {% assign pages_list = site.lyrics | where: "artist", tag  %}
-          {% assign page_size = pages_list | size  %}
-
-          {% if page_size > 0 %}
-            <h3>Lyrics</h3>
-            <p>
-            {% include JB/pages_list %}
-            </p>
-          {% endif %}
-
-        {% endfor %}
+        {% assign posttags = page.tags %}
+        {% include related_reviews_by_tag %}
 
       </div>
     </div>

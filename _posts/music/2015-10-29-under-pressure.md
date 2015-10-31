@@ -1,8 +1,8 @@
 ---
 layout: music
 year: 2012
-title: "Commercial Sabotage"
-description: "Or what to do with a supermodel in her underwear"
+title: "Commercial Subterfuge"
+description: "Or you won't believe what you can do with a supermodel in her underwear"
 image: "bar.png"
 category: "music"
 area: art
@@ -14,4 +14,4 @@ video: r4iVLKzDPrI
 ---
 {% include JB/setup %}
 
-I used to work in a commercial music studio. An international campaign for an underwear model came in. My response was this. The clients allowed themselves to be persuaded that this was a good idea. It got them a lot of attention, but not in the way that they hoped. We were removed from the job. I still love it almost more than anything else I have ever done.
+I used to work in a commercial music studio. An international campaign for an underwear model came in. My response was this. My partner, and the clients both allowed themselves to be persuaded that this was a good idea. It got them a lot of attention, but not in the way that they hoped. We were taken off the job. I still love it almost more than anything else I have ever done.

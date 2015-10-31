@@ -8,6 +8,7 @@ location: [Germany, USA]
 catalogue: Oriente RIEN CD 73
 rating: "***"
 genre: [yiddish, political]
+video: PmSKBFM-WWk
 classification: "Full Price"
 tags: [Germany, USA, yiddish, political]
 ---

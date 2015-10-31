@@ -406,7 +406,7 @@ ul.icon {
 .techlink {background-image: url("../images/icon-tech.png");}
 .musiclink {background-image: url("../images/icon-music.png");}
 .tvlink {background-image: url("../images/icon-tv.png");}
-.reviewlink {background-image: url("../images/icon-reviews.png");}
+.reviewslink {background-image: url("../images/icon-reviews.png");}
 .lplink {background-image: url("../images/icon-lp.png");}
 
 
@@ -453,4 +453,12 @@ ol > li > ul > li {
 
 .tag_box.tagbox-bottom {
   margin-bottom: 10px; 
+}
+
+ul.review {
+  list-style-type:none;
+}
+
+ul.review li a{
+/*  text-decoration: none;*/
 }

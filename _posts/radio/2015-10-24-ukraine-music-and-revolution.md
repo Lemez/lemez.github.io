@@ -8,9 +8,9 @@ image: ruslana.jpg
 category: radio
 location: [Ukraine, Russia]
 genre: [radio, folk, rock]
-artist: [Vopli Vidopliassova, Greenjolly, Mandry]
-topic: [USSR, revolution, protest, politics, language, Ukraine, Russia]
-tags: [radio, USSR, revolution, protest, politics, language, Ukraine, Russia, Vopli Vidopliassova, Greenjolly, Mandry, folk, rock ]
+artist: [Vopli Vidopliassova]
+topic: [USSR, revolution, activism, politics, language, Ukraine, Russia]
+tags: [USSR, revolution, activism, politics, language, Ukraine, Russia, Vopli Vidopliassova, folk, rock ]
 ---
 {% include JB/setup %}
 {% include sideimage img="andrewwilson-faking.jpeg" %}

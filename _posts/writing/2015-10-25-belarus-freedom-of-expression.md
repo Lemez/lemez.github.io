@@ -7,10 +7,10 @@ description: "A major report from Freemuse-SIDA on political repression of music
 image: "freemusebel.jpg"
 category: "journalism"
 location: [Belarus]
-genre: [political, rock, punk, hiphop]
+genre: [political, rock, punk, hip-hop]
 artist: [Neurodubel, NRM]
 topic: [censorship, USSR, UNESCO, protest]
-tags: [Belarus, political, rock, punk, hiphop, Neurodubel, NRM, censorship, USSR, protest, propaganda, UNESCO, Freemuse]
+tags: [Belarus, political, rock, punk, hip-hop, Neurodubel, NRM, censorship, USSR, activism, propaganda, UNESCO, Freemuse]
 video: 4e6t5t1rMTk
 videotext: Presenting at the Third World Conference on Music Censorship, Istanbul, 25th-26th Nov 2006
 ---

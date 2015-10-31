@@ -6,8 +6,8 @@ source: "WOMEX Guide"
 description: "As the music industry goes into freefall, which new models are worth pursuing?"
 image: "industry.jpg"
 category: "journalism"
-genre: [world music, hip-hop, norwegian punk]
-tags: [world music, music industry, crowdfunding, networks, copyright, streaming, UK, Senegal, Kenya, Mali, South Africa, Netherlands, Norway, Kaizer's Orchestra, hip-hop, norwegian punk,Bryce,Spotify,Sellaband]
+genre: [world music, hip-hop, norwegian, punk]
+tags: [world music, music industry, crowdfunding, networks, copyright, streaming, UK, Senegal, Kenya, Mali, South Africa, Netherlands, Norway, Kaizer's Orchestra, hip-hop, norwegian, punk,Bryce,Spotify,Sellaband]
 location: [UK, Senegal, Kenya, Mali, South Africa, Netherlands, Norway]
 topic: [music industry, crowdfunding, networks, copyright, streaming]
 artist: [Kaizer's Orchestra, Bryce]

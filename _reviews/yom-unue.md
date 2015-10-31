@@ -9,6 +9,7 @@ rating: "*****"
 location: [France, China]
 classification: "Full Price (46 mins)"
 genre: [klezmer, jazz, acoustic, cinematic, duet]
+video: TcyTsQokuyI
 tags: [France, Lebanon, Iran, Romania, klezmer, jazz, acoustic, cinematic, duet]
 ---
 

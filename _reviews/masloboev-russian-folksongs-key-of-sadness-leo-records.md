@@ -8,6 +8,7 @@ catalogue: Leo Records CD LR 559
 location: [Russia, Siberia]
 rating: "****"
 classification: "Full Price (43 mins)"
+video: J10sDP4KBK8
 genre: [folk, acoustic]
 tags: [Russia, folk, Siberia, acoustic]
 ---

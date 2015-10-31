@@ -167,7 +167,7 @@ weight: "CB"
     {% assign pages_list = (category[1] | sort: 'title') %}  
     {% include JB/pages_list %}
 
-    {% if category[0] == "review" %}
+    {% if category[0] == "reviews" %}
     {% assign allreviews = (site.reviews | sort: "artist") %}
     	 {% for review in allreviews %}
     			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>

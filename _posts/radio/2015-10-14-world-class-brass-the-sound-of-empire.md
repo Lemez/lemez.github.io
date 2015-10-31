@@ -7,10 +7,10 @@ description: "BBC Radio 2 series on the musical legacy of the British Empire"
 image: darbarband_640x480.jpg
 category: radio
 location: [Ghana, Malta, Trinidad, New Orleans, India]
-genre: [radio, highlife, marching band, brass]
+genre: [highlife, marching band, brass]
 artist: [Ebo Taylor, Fela Kuti ]
 topic: [empire, colonialism, military history]
-tags: [radio, empire, colonialism, military history, highlife, marching band, brass, Ghana, Malta, Trinidad, New Orleans, India]
+tags: [empire, colonialism, military history, highlife, marching band, brass, Ghana, Malta, Trinidad, New Orleans, India, Ebo Taylor, Fela Kuti ]
 ---
 {% include JB/setup %}
 
