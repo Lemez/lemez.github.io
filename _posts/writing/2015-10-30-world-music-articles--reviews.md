@@ -4,7 +4,7 @@ title: "World music articles & reviews"
 original_date: 2005-2010
 source: Songlines
 description: "for Songlines Magazine"
-image: ""
+image: hack.jpg
 category: reviews
 location: [UK]
 genre: [world music]

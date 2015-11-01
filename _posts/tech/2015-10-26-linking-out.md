@@ -1,19 +1,14 @@
 ---
-layout: post
+layout: tech
 category: "tech"
+area: art
+year: 2014 
 title: "Linking Out"
 description: "A bot to create the ultimate algorithm-busting LinkedIn profile"
 image: linked-out.png
-genre: []
-artist: []
-label: 
-publisher: 
-year: 2014 
-area: art
-soundcloud: 
-soundcloud-track: 
-video: 
-vimeo: 
+
+github: LinkingOut
+demo: 0
 tags: [business, arrogance, fakery, algorithms, bot]
 ---
 {% include JB/setup %}
@@ -26,4 +21,3 @@ As a paradigm of dystopia, LinkedIn is hard to beat. It makes money through its 
 
 And so I wrote a little bot to play around with the algorithm. 
 
-Live link and more information coming soon.

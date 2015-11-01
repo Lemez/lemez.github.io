@@ -55,7 +55,7 @@ And so began the kernel of a project: to experiment with music therapy, to see i
 
 For the next seven days, Dr Nigel invited us to get stuck in, practising music therapy with toddlers, children, teenagers and the elderly. With occasional visits to village programmes in rural Tamil Nadu, we explored Pondicherry and some of its more forward-thinking institutions - a hospital with an established music therapy programme, the kindergarten at the Sri Aurobindo Ashram, and Satya Special School, a beautiful institution for children with severe disabilities - autism, cerebral palsy, Downs and so on.
 
-{% include sideimage img="musictherapy5.jpg" text="A session at Satya Special School in full flow" %}
+{% include sideimage img="musictherapy5.JPG" text="A session at Satya Special School in full flow" %}
 
 It is Satya School that will become the headquarters for this ambitious project: training educators to use music therapy with people of all ages, and in a few mornings' work together with local specialist staff, we all witnessed moments of magic: a profoundly deaf boy composing a song based on vibration alone; a sullen autistic boy engaged in an ecstatic drumming conversation; a ninety-year old lady on a palliative care programme dancing and singing her heart out.
 

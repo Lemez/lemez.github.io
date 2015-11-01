@@ -1,11 +1,15 @@
 ---
-layout: post
+layout: tech
 category: "tech"
+area: website
+year: 2015
+
 title: "Let's Make A Website"
 description: "or Exercises in Borderline Narcissism"
 image: jonascii.png
-year: 2015
-area: website 
+
+github: lemez.github.io
+demo: http://lemez.github.io
 tags: [tech, narcissism, jekyll, markdown, ruby]
 ---
 {% include JB/setup %}

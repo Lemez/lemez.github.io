@@ -9,7 +9,7 @@ area: art
 location: [India]
 genre: ['experimental', theatre]
 artist: [Nimmy Raphael]
-tags: [Nimmy Raphael, India, Adishakti]
+tags: [Nimmy Raphael, India, adishakti]
 ---
 
 Coming soon.

@@ -1,10 +1,10 @@
 ---
 layout: music
+category: "music"
 year: 2010
 title: "The Election Song Contest"
 description: "A nationwide satirical pop song contest"
 image: "ESCheader.png"
-category: "music"
 area: political
 genre: ['political','pop']
 location: [UK]

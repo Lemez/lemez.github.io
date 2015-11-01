@@ -1,19 +1,15 @@
 ---
-layout: post
+layout: tech
 category: "tech"
+area: about 
+year: 2012 - present 
 title: "Me and Coding"
 description: "or How I Learnt To Love My Computer"
+
 image: jonascii.png
-genre: []
-artist: []
-label: 
-publisher: 
-year: 2012 - present 
-area: about 
-soundcloud: 
-soundcloud-track: 
-video: 
-vimeo: 
+
+github: lemez.github.io
+demo: http://lemez.github.io
 tags: [tech, coding, education, lifelong learning]
 ---
 {% include JB/setup %}
