@@ -51,17 +51,27 @@
   {% include JB/pages_list %}
   </p>
 {% endif %}
- {% if (page.video | size) > 0 %}
-    <br>
-      <span>
-      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
-      </iframe>
-      <br>
-      </span>
-      <span class='videomain-desc'>
-      {{page.videotext}}
-      </span>
-{% endif %}
+  {% if (page.video | size) > 0 %}
+ 
+            <div class="videoWrapper">
+            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
+            </iframe>
+            <br>
+            </div>
+            <span class='videomain-desc'>
+            {{page.videotext}}
+            </span>
+
+        {% elsif (page.vimeo | size ) > 0 %}
+            <div class="videoWrapper left">
+          <iframe src="https://player.vimeo.com/video/{{page.vimeo}}" width="500" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+             <br>
+            </div>
+            <span class='videomain-desc'>
+            {{page.vimeotext}}
+            </span>
+      {% endif %} 
 
 {% if (page.soundcloud | size) > 0 %}
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.soundcloud}}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;"></iframe>  

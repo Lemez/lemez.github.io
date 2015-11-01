@@ -39,29 +39,31 @@ weight: "AC"
 {% for area in music_list %}
 	{% assign group = (area.items | sort: "title") %}
 	{% for post in group %} 
+		<div class="all_page_links" >
+	      	<a  href={{post.url}}>
 
-		{% if prevtag != post.area %}
-		    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
-		    {% else %}
-		    <span class="all_page_tagline category"> {{post.area}}</span>
-		 {% endif %}
+				{% if prevtag != post.area %}
+				    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
+				    {% else %}
+				    <span class="all_page_tagline category"> {{post.area}}</span>
+				 {% endif %}
 
-	    <span class="all_page_tagline category">: {{post.year}}</span>
-	    
-	    <br>
-	    <div class="all_page_links" >
-	      <a  href={{post.url}}>
-	      <!--     {{post.content | strip_html | truncatewords:50}} -->
-	    <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-	      <div class="index-title">
+			    <span class="all_page_tagline category">: {{post.year}}</span>
+			    
+			    <br>
 
-	      	<h3>	
-	        	<span class="all_page_main">{{post.title}}</span><br>
-	    	 </h3>
-	    	 <p class='all_desc'> {{post.description}}</p>
-	      </div>
-	      </a>
-	     </div>
+		    	 <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+
+			      <div class="index-title">
+			      	<h3>	
+			        	<span class="all_page_main">{{post.title}}</span>
+			        	<br>
+			    	 </h3>
+			    	 <p class='all_desc'> {{post.description}}</p>
+			      </div>
+
+	      	</a>
+	    </div>
 	  
 	  <hr class='nomargin'>
 	  {% assign prevtag = post.area %}

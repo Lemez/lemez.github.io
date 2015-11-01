@@ -2,7 +2,7 @@
 layout: music
 year: 2005
 title: "What We Did To Weinstein"
-description: "A new play by Ryan Craig"
+description: "A play about occupation and the mind"
 image: "Dash-Weinstein 0131.jpg"
 category: "music"
 area: theatre
@@ -13,10 +13,11 @@ vimeo: 31857201
 director: Tim Supple
 producer: Josephine Burton (Yad Arts)
 writer: Ryan Craig
+people: [Yaniv Fridel - composition/mix/production]
 venue: Menier Chocolate Factory
 ---
 
-Together with collaborator Yaniv Fridel, I composed the music for this dark play about brutality and identity around the Israeli-Palestinian conflict.
+A dark play about brutality and identity around the Israeli-Palestinian conflict.
 
 It ran in the Menier Chocolate Factory for 5 weeks, won writer Ryan Craig an Evening Standard Theatre Award for best script, and was a fantastic introduction to writing for theatre.
 

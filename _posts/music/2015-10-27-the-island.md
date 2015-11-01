@@ -11,6 +11,7 @@ year: 2010
 area: tribute
 soundcloud-track: 4883910
 location: [UK, Bristol]
+people: [Yaniv Fridel - mix/production/composition, Ben Mandelson - guitar/harp]
 tags: [UK, Bristol, folk, Lemez Lovas, Ben Mandelson]
 ---
 {% include JB/setup %}

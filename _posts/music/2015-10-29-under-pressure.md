@@ -9,6 +9,7 @@ area: art
 genre: [commercial, songwriting]
 artist: [Bar Rafaeli]
 location: [UK, Israel]
+people: [Yaniv Fridel - mix/composition]
 tags: [tennis, Israel, UK, commercial, songwriting, Bar Rafaeli]
 video: r4iVLKzDPrI
 ---

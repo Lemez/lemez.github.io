@@ -65,10 +65,18 @@
       {% endif %} 
 
            {% assign image = {{page.image}} %}
-       <!--   <p>
-            <span class='marginnote'><img src='{{base}}/assets/themes/tufte/images/{{image}}' />
-            </span>
-        </p> -->
+
+            {% if (page.people | size) > 0 %}
+              <p> With: </p>
+              <ul>
+
+                {% for person in page.people %}
+                  <li>{{person}}</li>
+                {% endfor %}
+
+              </ul>
+           {% endif %}
+
         {{ content }}
 
          {% for tag in {{page.artist}} %}

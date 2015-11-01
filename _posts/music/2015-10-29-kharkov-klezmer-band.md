@@ -18,6 +18,7 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 
+people: [Daniel Bloom - mix/recording]
 tags: [klezmer, Kharkov Klezmer Band, album production]
 ---
 {% include JB/setup %}

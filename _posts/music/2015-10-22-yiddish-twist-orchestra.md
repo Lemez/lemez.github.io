@@ -10,6 +10,7 @@ genre: ['twist','jazz',  mambo, surf]
 soundcloud: 136847343
 artist: [Yiddish Twist Orchestra, Sam Lee, Ben Mandelson]
 location: [UK]
+people: [Yaniv Fridel - mix/production, Ben Mandelson - concept, Robin Harris/Ben Mandelson/David Bitelli - arrangements]
 tags: [Yiddish Twist Orchestra, Soho, UK, Sam Lee, Ben Mandelson, twist, jazz, mambo, surf]
 ---
 

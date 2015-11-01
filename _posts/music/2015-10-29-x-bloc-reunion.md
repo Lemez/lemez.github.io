@@ -18,6 +18,7 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 
+people: [Josephine Burton - production]
 tags: []
 ---
 {% include JB/setup %}

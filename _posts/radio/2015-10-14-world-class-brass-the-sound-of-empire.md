@@ -10,6 +10,7 @@ location: [Ghana, Malta, Trinidad, New Orleans, India]
 genre: [highlife, marching band, brass]
 artist: [Ebo Taylor, Fela Kuti ]
 topic: [empire, colonialism, military history]
+people: [Miranda Hinkley - production]
 tags: [empire, colonialism, military history, highlife, marching band, brass, Ghana, Malta, Trinidad, New Orleans, India, Ebo Taylor, Fela Kuti ]
 ---
 {% include JB/setup %}

@@ -6,6 +6,7 @@ year: 2015
 title: "British Newspaper Negativity Index"
 description: "A vaguely scientific way to check who is poisoning your mind this morning"
 image: racistpaper.jpg
+icon: "jonascii.png"
 
 github: serenity-padrino
 demo: 0

@@ -16,6 +16,7 @@ venue: Bush Theatre
 area: theatre
 soundcloud-track: 66611360
 vimeo: 31848740
+people: [Yaniv Fridel - mix/production/composition]
 tags: [sitcom theme, Bush Theatre]
 ---
 {% include JB/setup %}

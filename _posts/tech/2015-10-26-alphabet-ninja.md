@@ -7,6 +7,7 @@ title: "Alphabet Ninja"
 description: "A noise game for toddlers and their parents"
 
 image: "Alphabet Ninja logo.png"
+icon: "jonascii.png"
 
 github: Animals-Live
 demo: http://alphabet.ninja

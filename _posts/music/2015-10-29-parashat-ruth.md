@@ -17,6 +17,7 @@ area: film
 location: [Israel, Palestine, Gaza]
 soundcloud: 
 soundcloud-track: 
+people: [Yaniv Fridel - mix/production/composition]
 video: XFXlJcwL93k
 tags: [Israel, Palestine, Gaza, soundtrack]
 ---

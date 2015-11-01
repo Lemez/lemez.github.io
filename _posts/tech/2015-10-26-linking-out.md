@@ -6,6 +6,7 @@ year: 2014
 title: "Linking Out"
 description: "A bot to create the ultimate algorithm-busting LinkedIn profile"
 image: linked-out.png
+icon: "jonascii.png"
 
 github: LinkingOut
 demo: 0

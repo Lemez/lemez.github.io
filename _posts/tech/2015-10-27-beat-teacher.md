@@ -6,6 +6,8 @@ year: 2015
 title: "Beat Teacher"
 description: "A simple interface for practising Kerala mizhavu drums"
 image: vp.jpg
+icon: "jonascii.png"
+
 genre: [South Indian drumming]
 artist: [Adishakti]
 

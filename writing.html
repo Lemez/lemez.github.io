@@ -52,30 +52,30 @@ weight: "AA"
 {% for post in site.categories.journalism %} 
 
 <div class="all_page_links" >
-      <a  href={{post.url}}>
+  <a  href={{post.url}}>
 
-  {% if forloop.index0 == 0 %}
-    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
-    {% else %}
-    <span class="all_page_tagline category"> {{post.category}}</span>
-    {% endif %}
-    
-    <br>
-    
-      <!--     {{post.content | strip_html | truncatewords:50}} -->
-    <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+      {% if forloop.index0 == 0 %}
+        <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+        {% else %}
+        <span class="all_page_tagline category"> {{post.category}}</span>
+      {% endif %}
+        
+      <br>
+      <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+
       <div class="index-title">
-
       	<h3>	
         	<span class="all_page_main">{{post.title}}</span><br>
       	 	<span class="all_page_tagline">	{{post.source}} / </span>
     	  	<span class="all_page_tagline">/ {{post.original_date}}</span>
-    	 </h3>
-       <br>
-    	 <p class='all_desc'> {{post.description}}</p>
+      	 </h3>
+         <br>
+      	 <p class='all_desc'> {{post.description}}</p>
       </div>
-      </a>
-     </div>
+
+    </a>
+
+</div>
   
   <hr class='nomargin'>
 {% endfor %}

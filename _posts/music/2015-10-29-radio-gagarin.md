@@ -18,6 +18,7 @@ soundcloud:
 soundcloud-track: 
 video: 
 vimeo: 24259486
+people: [Max Reinhardt - concept, Max/Misha Maltsev/Mourrka - DJ, Adrian Philpott/Zoe Philpott/Cathy Gale - live artwork]
 vimeotext: a live dance video by the Friends of Gagarin
 tags: [DJ, Notting Hill Arts Club, socialism]
 ---

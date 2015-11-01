@@ -9,6 +9,7 @@ category: radio
 location: [Ukraine, Russia]
 genre: [radio, folk, rock]
 artist: [Vopli Vidopliassova]
+people: [Kate Howells - production, Nick Rankin - production, Masha Karp - production]
 topic: [USSR, revolution, activism, politics, language, Ukraine, Russia]
 tags: [USSR, revolution, activism, politics, language, Ukraine, Russia, Vopli Vidopliassova, folk, rock ]
 ---

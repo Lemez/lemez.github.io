@@ -8,6 +8,7 @@ title: "Lazy News / Twitter Bot"
 description: "Instant music startup news for those too lazy to browse"
 
 image: twitterbot.jpg 
+icon: "jonascii.png"
 
 github: serenity-padrino
 demo: 0

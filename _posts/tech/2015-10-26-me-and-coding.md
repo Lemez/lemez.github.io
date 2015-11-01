@@ -7,6 +7,7 @@ title: "Me and Coding"
 description: "or How I Learnt To Love My Computer"
 
 image: jonascii.png
+icon: "jonascii.png"
 
 github: lemez.github.io
 demo: http://lemez.github.io

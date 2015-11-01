@@ -41,6 +41,14 @@ temparray: []
 cathash: {}
 offset: 2
 
+defaults:
+  -
+    scope:
+      path: "tech"
+      type: "posts"
+    values:
+      icon: "jonascii.png"
+
 
 collections:
   lyrics:

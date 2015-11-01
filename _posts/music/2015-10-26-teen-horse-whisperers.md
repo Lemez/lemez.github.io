@@ -18,6 +18,7 @@ venue:
 soundcloud: 926676
 video: 
 vimeo: 
+people: [Yaniv Fridel - mix/production/composition]
 tags: [UK, soundtrack, film]
 ---
 {% include JB/setup %}

@@ -6,6 +6,8 @@ year: 2015
 title: "Rap Lyrics Generator"
 description: "What would happen if you asked a Markov chain to write lyrics?"
 image: garkov.png
+icon: "jonascii.png"
+
 github: markov-lyrics
 demo: 0
 

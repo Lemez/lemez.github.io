@@ -409,6 +409,40 @@ ul.icon {
 .reviewslink {background-image: url("../images/icon-reviews.png");}
 .lplink {background-image: url("../images/icon-lp.png");}
 
+.hand {
+  background-repeat: no-repeat;
+    min-height: 80px;
+    max-width: 100px;
+    background-size: 80px;
+    clear: none;
+}
+
+.a{background-image: url("../images/a.png");}
+.b{background-image: url("../images/b.png");}
+.c{background-image: url("../images/c.png");}
+.d{background-image: url("../images/d.png");}
+.e{background-image: url("../images/e.png");}
+.f{background-image: url("../images/f.png");}
+.g{background-image: url("../images/g.png");}
+.h{background-image: url("../images/h.png");}
+.i{background-image: url("../images/i.png");}
+.j{background-image: url("../images/j.png");}
+.k{background-image: url("../images/k.png");}
+.l{background-image: url("../images/l.png");}
+.m{background-image: url("../images/m.png");}
+.n{background-image: url("../images/n.png");}
+.o{background-image: url("../images/o.png");}
+.p{background-image: url("../images/p.png");}
+.q{background-image: url("../images/q.png");}
+.r{background-image: url("../images/r.png");}
+.s{background-image: url("../images/s.png");}
+.t{background-image: url("../images/t.png");}
+.u{background-image: url("../images/u.png");}
+.v{background-image: url("../images/v.png");}
+.w{background-image: url("../images/w.png");}
+.x{background-image: url("../images/x.png");}
+.y{background-image: url("../images/y.png");}
+.z{background-image: url("../images/z.png");}
 
 .larger {
   position: absolute;

@@ -7,6 +7,7 @@ year: 2015
 title: "Let's Make A Website"
 description: "or Exercises in Borderline Narcissism"
 image: jonascii.png
+icon: "jonascii.png"
 
 github: lemez.github.io
 demo: http://lemez.github.io
