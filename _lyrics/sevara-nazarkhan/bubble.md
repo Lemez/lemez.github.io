@@ -2,7 +2,7 @@
 layout: lyrics
 title: "Love Song in a Pocket Of Air / Bubble"
 year: 2008
-group: Various
+group: Sevara Nazarkhan
 publisher: 
 artist: Sevara Nazarkhan
 category: lyrics

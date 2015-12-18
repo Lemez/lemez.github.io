@@ -2,7 +2,7 @@
 layout: music
 category: "music"
 title: "Ruth"
-description: "Debut feature film by Keren Abitan"
+description: "A feature film for television"
 image: ruth.jpg
 genre: [soundtrack]
 artist: []

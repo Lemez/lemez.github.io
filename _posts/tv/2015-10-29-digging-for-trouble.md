@@ -5,6 +5,7 @@ original_date: "December 2006"
 source: "Journeyman Pictures / Al Jazeera"
 description: "Feature documentary on the politics of settler archaeology in Jerusalem"
 category: tv
+area: tv
 director: Natasha Dudinski
 image: digging.jpg
 location: ['Israel', 'Palestine']

@@ -1,8 +1,8 @@
 ---
 layout: music
 year: 2012
-title: "Commercial Subterfuge"
-description: "Or you won't believe what you can do with a supermodel in her underwear"
+title: "Commercial Subterfuge with Bar Rafaeli"
+description: "Mockery and Boring, Sexist Advertising"
 image: "bar.png"
 category: "music"
 area: art

@@ -36,7 +36,7 @@
       <h3 class='lyrics'>Year: {{page.year}}  </h3>
        {% endif %}
 
-       {% unless page.categories contains 'music' or page.categories contains 'tv' %}
+       {% unless page.categories contains 'music' or page.categories contains 'tv' or page.categories contains 'cv' %}
 
           {% assign words = page.content | size %}
           {% assign mins = words | divided_by: 900 %}

@@ -11,127 +11,129 @@ weight: "CB"
 <!-- list of tags by location -->
 <div class='allindextags'>
 
+	<!-- list of tags by category -->
+	<div class="index">
+		<span class='catheader'>category</span>
+		<ul class="tag_box inline">
+			{% assign categories_list = (site.categories | sort ) %}
+		   {% include JB/categories_list %}
 
-<!-- list of tags by category -->
-<div class="index">
-	<span class='catheader'>category</span>
-	<ul class="tag_box inline">
-		{% assign categories_list = (site.categories | sort ) %}
-	   {% include JB/categories_list %}
-	</ul>
-</div>
+		</ul>
+	</div>
 
-<!-- list of tags by topic -->
-<div class="index">
-	<span class='catheader'>topic</span>
-	<ul class="tag_box inline">
+	<!-- list of tags by topic -->
+	<div class="index">
+		<span class='catheader'>topic</span>
+		<ul class="tag_box inline">
 
-		{% assign topicArray = site.topicarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.topic %}
+			{% assign topicArray = site.topicarray %}
+			 {% for post in site.posts %} 
+			 	{% if (post.topic | size) > 0 %}
+					 {% for tag in post.topic %}
+					 	{% unless topicArray contains tag %}
 
-			 	{% unless topicArray contains tag %}
-			 		{% assign tag = tag | replace: ' ', '' %}
-				 	{% assign topicArray = topicArray | push: tag %}
-				{% endunless %}
+					 		{% assign tag = tag | replace: ' ', '' %}
+						 	{% assign topicArray = topicArray | push: tag %}
 
-			 {% endfor %}
-		{% endfor %}
-
-		{% assign sortedTopics = (topicArray | sort )%}
-
-		{% for tag in sortedTopics %}
-			<li>
-				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
-				 		{{tag}}
-				 		</a>
-			</li>
-
-		{% endfor %}
-
-	</ul>
-</div>
-
-<!-- list of tags by genre -->
-<div class="index">
-	<span class='catheader'>genre</span>
-	<ul class="tag_box inline">
-
-		{% assign genreArray = site.genrearray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.genre %}
-			 	{% assign tag = tag | replace: ' ', '' %}
-			 	{% unless genreArray contains tag %}
-				 	{% assign genreArray = genreArray | push: tag %}
-				{% endunless %}
-
-			 {% endfor %}
-		{% endfor %}
-
-		 {% for post in site.reviews %} 
-		 	{% for genre in post.genre %}
-			 {% assign tag = genre %}
-			 	{% unless genreArray contains tag %}
-				 	{% assign genreArray = genreArray | push: tag %}
-				{% endunless %}
+						{% endunless %}
+					 {% endfor %}
+				 {% endif %}
 			{% endfor %}
-		{% endfor %}
 
-		{% assign sortedGenres = (genreArray | sort )%}
+			{% assign sortedTopics = (topicArray | sort )%}
 
-		{% for tag in sortedGenres %}
-			<li>
-				 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
-				 		{{tag}}
-				 		</a>
-			</li>
+			{% for tag in sortedTopics %}
+				<li>
+					 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+					 		{{tag}}
+					 		</a>
+				</li>
 
-		{% endfor %}
+			{% endfor %}
 
-	</ul>
-</div>
+		</ul>
+	</div>
 
-<!-- list of tags by artist -->
-<div class="index">
-	<span class='catheader'>artist</span>
-	<ul class="tag_box inline">
+	<!-- list of tags by genre -->
+	<div class="index">
+		<span class='catheader'>genre</span>
+		<ul class="tag_box inline">
 
-		{% assign artistArray = site.locationarray %}
-		 {% for post in site.posts %} 
-			 {% for tag in post.artist %}
-			 {% assign tag = tag | replace: ' ', '' %}
-			 	{% unless artistArray contains tag %}
-				 	{% assign artistArray = artistArray | push: tag %}
-				{% endunless %}
+			{% assign genreArray = site.genrearray %}
+			 {% for post in site.posts %} 
+				 {% for tag in post.genre %}
+				 	{% assign tag = tag | replace: ' ', '' %}
+				 	{% unless genreArray contains tag %}
+					 	{% assign genreArray = genreArray | push: tag %}
+					{% endunless %}
+
+				 {% endfor %}
+			{% endfor %}
+
+			 {% for post in site.reviews %} 
+			 	{% for genre in post.genre %}
+				 {% assign tag = genre %}
+				 	{% unless genreArray contains tag %}
+					 	{% assign genreArray = genreArray | push: tag %}
+					{% endunless %}
+				{% endfor %}
+			{% endfor %}
+
+			{% assign sortedGenres = (genreArray | sort )%}
+
+			{% for tag in sortedGenres %}
+				<li>
+					 		<a href="{{ BASE_PATH }}#{{tag}}-ref">
+					 		{{tag}}
+					 		</a>
+				</li>
+
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<!-- list of tags by artist -->
+	<div class="index">
+		<span class='catheader'>artist</span>
+		<ul class="tag_box inline">
+
+			{% assign artistArray = site.locationarray %}
+			 {% for post in site.posts %} 
+				 {% for tag in post.artist %}
+				 {% assign tag = tag | replace: ' ', '' %}
+				 	{% unless artistArray contains tag %}
+					 	{% assign artistArray = artistArray | push: tag %}
+					{% endunless %}
+
+				 {% endfor %}
+			{% endfor %}
+			 {% for post in site.reviews %} 
+				 {% assign tag = post.artist %}
+				 	{% unless artistArray contains tag %}
+					 	{% assign artistArray = artistArray | push: tag %}
+					{% endunless %}
+			{% endfor %}
+
+			{% assign sortedArtists = (artistArray | sort) %}
+
+			 {% for tag in sortedArtists %} 
+			
+			 	 <li>
+
+					<a href="{{ BASE_PATH }}#{{ tag }}-ref">{{tag}} </a>
+
+			    </li>
 
 			 {% endfor %}
-		{% endfor %}
-		 {% for post in site.reviews %} 
-			 {% assign tag = post.artist %}
-			 	{% unless artistArray contains tag %}
-				 	{% assign artistArray = artistArray | push: tag %}
-				{% endunless %}
-		{% endfor %}
-
-		{% assign sortedArtists = (artistArray | sort) %}
-
-		 {% for tag in sortedArtists %} 
-		
-		 	 <li>
-
-				<a href="{{ BASE_PATH }}#{{ tag }}-ref">{{tag}} </a>
-
-		    </li>
-
-		 {% endfor %}
-	</ul>
-</div>
+		</ul>
+	</div>
 </div>
 
 
 
 <!-- <!-- <!-- list of tags by source -->
-<!-- <div class="index">source
+<div class="index">source
 	<ul class="tag_box source_box inline">
 	 {% assign source_list = (site.posts | sort:"source" | group_by:"source" ) %}
 
@@ -150,7 +152,7 @@ weight: "CB"
 	 {% endfor %}
 
 	</ul>
-</div> --> 
+</div> 
   
 <!-- <a href="{{ BASE_PATH }}#{{ location }}-ref">{{location}} </a>
 
@@ -159,93 +161,92 @@ weight: "CB"
 <!-- headings and links to article by category -->
 
 <div class='allindexstories'>
-<h1>Category</h1>
-{% assign sorted_categories_list = (site.categories | sort ) %}
-{% for category in sorted_categories_list %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul class='icon'>
-    {% assign pages_list = (category[1] | sort: 'title') %}  
-    {% include JB/pages_list %}
-
-    {% if category[0] == "reviews" %}
-    {% assign allreviews = (site.reviews | sort: "artist") %}
-    	 {% for review in allreviews %}
-    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
-    	{% endfor %}
-    {% endif %}
-
-  </ul>
-{% endfor %}
-
-<hr>
-<!--  -->
-<!-- headings and links to article by source -->
-<!-- {% for source in source_list  %} 
-
-	{% if (source.items[0].source | size ) > 0 %}
-
-	  <h2 id="{{ source.items[0].source }}-ref">{{ source.items[0].source | join: "/" }}</h2>
+	<h1>Category</h1>
+	{% assign sorted_categories_list = (site.categories | sort ) %}
+	{% for category in sorted_categories_list %} 
+	  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
 	  <ul class='icon'>
-	    {% assign pages_list = source.items  %}  
+	    {% assign pages_list = (category[1] | sort: 'title') %}  
+	    {% include JB/pages_list %}
+
+	    {% if category[0] == "reviews" %}
+	    {% assign allreviews = (site.reviews | sort: "artist") %}
+	    	 {% for review in allreviews %}
+	    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+	    	{% endfor %}
+	    {% endif %}
+
+	  </ul>
+	{% endfor %}
+
+	<hr>
+	<!--  -->
+
+
+	<!--  -->
+	<!-- headings and links to article by topic -->
+	<h1>Topic</h1>
+	{% for item in sortedTopics  %} 
+	  <h2 id="{{item}}-ref">{{item}}</h2>
+	   <ul class='icon'>
+	    {% assign pages_list = site.tags[item]  %}  
 	    {% include JB/pages_list %}
 	  </ul>
+	{% endfor %}
 
-	{% endif %}
-	
-{% endfor %} -->
+	<hr>
+	<!--  -->
+	<!-- headings and links to article by genre -->
+	<h1>Music Genre</h1>
+	{% for genre in sortedGenres  %} 
+	  <h2 id="{{genre}}-ref">{{genre}}</h2>
+	   <ul class='icon'>
+	    {% assign pages_list = site.tags[genre]  %}  
+	    {% include JB/pages_list %}
 
-<!--  -->
-<!-- headings and links to article by topic -->
-<h1>Topic</h1>
-{% for item in sortedTopics  %} 
-  <h2 id="{{item}}-ref">{{item}}</h2>
-   <ul class='icon'>
-    {% assign pages_list = site.tags[item]  %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
+	    {% for review in site.reviews %}
+	    	{% if review.genre contains genre %}
+	    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+	    	{% endif %}
+	    {% endfor %}
 
-<hr>
-<!--  -->
-<!-- headings and links to article by genre -->
-<h1>Music Genre</h1>
-{% for genre in sortedGenres  %} 
-  <h2 id="{{genre}}-ref">{{genre}}</h2>
-   <ul class='icon'>
-    {% assign pages_list = site.tags[genre]  %}  
-    {% include JB/pages_list %}
+	  </ul>
+	{% endfor %}
+	<hr>
+	<!--  -->
+	<!-- headings and links to article by artist -->
+	<h1>Artist</h1>
+	{% for artist in sortedArtists  %} 
+	  <h2 id="{{artist}}-ref">{{artist}}</h2>
+	   <ul class='icon'>
+	    {% assign pages_list = site.tags[artist]  %} 
+	    {% include JB/pages_list %}
 
-    {% for review in site.reviews %}
-    	{% if review.genre contains genre %}
-    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
-    	{% endif %}
-    {% endfor %}
+	     {% for review in site.reviews %}
+	    	{% if review.artist == artist %}
+	    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+	    	{% endif %}
+	    {% endfor %}
 
-  </ul>
-{% endfor %}
-<hr>
-<!--  -->
-<!-- headings and links to article by artist -->
-<h1>Artist</h1>
-{% for artist in sortedArtists  %} 
-  <h2 id="{{artist}}-ref">{{artist}}</h2>
-   <ul class='icon'>
-    {% assign pages_list = site.tags[artist]  %} 
-    {% include JB/pages_list %}
+	    
+	  </ul>
+	{% endfor %}
+	<hr>
 
-     {% for review in site.reviews %}
-    	{% if review.artist == artist %}
-    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
-    	{% endif %}
-    {% endfor %}
+	<!-- headings and links to article by source -->
+	<h1>Source</h1>
+	{% for source in source_list  %} 
 
-    
-  </ul>
-{% endfor %}
+		{% if (source.items[0].source | size ) > 0 %}
 
-<!--  -->
-<!-- headings and links to article by location -->
+		  <h2 id="{{ source.items[0].source | replace: " ",''}}-ref">{{ source.items[0].source | join: "/" }}</h2>
+		  <ul class='icon'>
+		    {% assign pages_list = source.items  %}  
+		    {% include JB/pages_list %}
+		  </ul>
 
-
+		{% endif %}
+		
+	{% endfor %}
 
 </div>

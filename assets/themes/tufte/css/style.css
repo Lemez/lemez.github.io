@@ -98,6 +98,11 @@ padding-left: 0;
   border: 1px solid #4c964d;
   color: #FFF; }
 
+.tag_box a.active.no_border {
+  background: #57A957;
+  border: none;
+  color: #FFF; }
+
 .source_box a {
 }
 
@@ -110,4 +115,10 @@ ul li {
 }
 .allindexstories{
   clear: both;
+}
+
+.videomain-desc {
+  float: right;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
 }

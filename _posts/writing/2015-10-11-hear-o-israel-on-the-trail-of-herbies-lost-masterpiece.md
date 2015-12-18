@@ -5,7 +5,7 @@ original_date: "Autumn 2008"
 source: Jewish Quarterly
 description: "Herbie Hancock's epic synagogue recordings"
 image: "hearoisraelcover.jpg"
-category: "journalism"
+category: "print"
 genre: [synagogue liturgy, jazz]
 location: [USA, UK]
 artist: [Herbie Hancock,Jonny Trunk]

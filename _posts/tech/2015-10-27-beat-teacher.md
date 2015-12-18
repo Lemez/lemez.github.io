@@ -8,7 +8,7 @@ description: "A simple interface for practising Kerala mizhavu drums"
 image: vp.jpg
 icon: "jonascii.png"
 
-genre: [South Indian drumming]
+genre: [drumming]
 artist: [Adishakti]
 
 demo: http://beats.adishaktitheatrearts.com

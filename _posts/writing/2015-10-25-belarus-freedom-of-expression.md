@@ -5,7 +5,7 @@ original_date: "Jan 2007"
 source: Freemuse
 description: "A major report from Freemuse-SIDA on political repression of musicians in Belarus"
 image: "freemusebel.jpg"
-category: "journalism"
+category: "print"
 location: [Belarus]
 genre: [political, rock, punk, hip-hop]
 artist: [Neurodubel, NRM]
@@ -25,6 +25,8 @@ I was commissioned by Freemuse, alongside Bosnian anthropologist Maya Medich, to
 Belarus was then, as it is now, ruled by the 'last dictator in Europe', Aleksander Lukashenko, and with protest-driven revolutions taking place across the post-Soviet world, the government was cracking down mightily hard on oppositional politics of any kind, including artists and musicians.
 
 The six month research project included a hair-raising trip to Minsk during the street protests to talk to opposition activists and artists, and ended in the publication of a <a href="http://freemuse.org/graphics/Publications/PDF/Freemuse_Belarus-report.pdf">weighty report</a> into the state of music censorship, which was used as the key source for Belarus in a UNESCO research project, <a href='http://www.imc-cim.org/programmes/imc_diversity_report.pdf'>"The Protection and Promotion of Musical Diversity"</a>.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233561265&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 
 

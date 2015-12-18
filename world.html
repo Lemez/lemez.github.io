@@ -54,8 +54,20 @@ weight: "CA"
 	</ul>
 </div>
 </section>
+<hr>
+<section id='worldglossary'>
+<!-- list of tags by category -->
+<div class="index">
 
-	<section>
+	<ul class="tag_box inline">
+		{% assign categories_list = (site.categories | sort ) %}
+
+	   {% include JB/categories_list_inactive %}
+	</ul>
+</div>
+</section>
+
+<section>
 {% for location in sortedLocations  %} 
   <h2 id="{{location | replace: ' ', ''}}-ref">{{location}}</h2>
   <ul class='icon'>
@@ -98,6 +110,8 @@ weight: "CA"
 		  if (JsLocationArray.hasOwnProperty(key)) {
 		    placename = JsLocationArray[key];
 		    if (placename=="UK"){placename="United Kingdom"};
+		    if (placename=="Czech"){placename="Czech Republic"};
+		    if (placename=="Trinidad"){placename="Trinidad and Tobago"};
 		    if (placename=="USA"){placename="United States of America"};
 		    if (placename=="Palestine"){placename="Palestine, State of"};
 		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
@@ -106,6 +120,55 @@ weight: "CA"
 		    placedata[placecode] = { fillKey: "authorHasTraveledTo" };
 		  }
 		}
+
+
+		// var defaultOptions = {
+  //   scope: 'world', //currently supports 'usa' and 'world', however with custom map data you can specify your own
+  //   setProjection: setProjection, //returns a d3 path and projection functions
+  //   projection: 'equirectangular', //style of projection to be used. try "mercator"
+  //   height: null, //if not null, datamaps will grab the height of 'element'
+  //   width: null, //if not null, datamaps will grab the width of 'element'
+  //   done: function() {}, //callback when the map is done drawing
+  //   fills: {
+  //     defaultFill: '#ABDDA4' //the keys in this object map to the "fillKey" of [data] or [bubbles]
+  //   },
+  //   dataType: 'json', //for use with dataUrl, currently 'json' or 'csv'. CSV should have an `id` column
+  //   dataUrl: null, //if not null, datamaps will attempt to fetch this based on dataType ( default: json )
+  //   geographyConfig: {
+  //       dataUrl: null, //if not null, datamaps will fetch the map JSON (currently only supports topojson)
+  //       hideAntarctica: true,
+  //       borderWidth: 1,
+  //       borderColor: '#FDFDFD',
+  //       popupTemplate: function(geography, data) { //this function should just return a string
+  //         return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
+  //       },
+  //       popupOnHover: true, //disable the popup while hovering
+  //       highlightOnHover: true,
+  //       highlightFillColor: '#FC8D59',
+  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+  //       highlightBorderWidth: 2
+  //   },
+  //   bubblesConfig: {
+  //       borderWidth: 2,
+  //       borderColor: '#FFFFFF',
+  //       popupOnHover: true,
+  //       popupTemplate: function(geography, data) {
+  //         return '<div class="hoverinfo"><strong>' + data.name + '</strong></div>';
+  //       },
+  //       fillOpacity: 0.75,
+  //       highlightOnHover: true,
+  //       highlightFillColor: '#FC8D59',
+  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+  //       highlightBorderWidth: 2,
+  //       highlightFillOpacity: 0.85
+  //   },
+  //   arcConfig: {
+  //     strokeColor: '#DD1C77',
+  //     strokeWidth: 1,
+  //     arcSharpness: 1,
+  //     animationSpeed: 600
+  //   }
+  // };
 
 		var map = new Datamap({
 			element: document.getElementById('container'),
@@ -121,51 +184,25 @@ weight: "CA"
 			    var path = d3.geo.path()
 			      .projection(projection);
 
+			    var zoom = d3.behavior.zoom()
+					    .scaleExtent([1, 8])
+					    .on("zoom", zoomed);
+
+				function zoomed() {
+						  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+						}
+
 				  return {path: path, projection: projection};
 				
 	  			},
-	  			// done: function(datamap) {
-    		// 				datamap.svg.call(drag());
-
-    		// 				function drag(){
-    		// 					var m0,
-			   //  					o0;
-
-						// 		var drag = d3.behavior.drag()
-						// 		    .on("dragstart", function() {
-						// 		    // Adapted from http://mbostock.github.io/d3/talk/20111018/azimuthal.html and updated for d3 v3
-						// 		      var proj = projection.rotate();
-						// 		      m0 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY];
-						// 		      o0 = [-proj[0],-proj[1]];
-						// 		    })
-						// 		    .on("drag", function() {
-						// 		      if (m0) {
-						// 		        var m1 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY],
-						// 		            o1 = [o0[0] + (m0[0] - m1[0]) / 4, o0[1] + (m1[1] - m0[1]) / 4];
-						// 		        projection.rotate([-o1[0], -o1[1]]);
-						// 		      }
-
-						// 		    // Update the map
-						// 		      path = d3.geo.path().projection(projection);
-						// 		      d3.selectAll("path").attr("d", path);
-						// 		    });
-    		// 					}
-    		// 			},
-
+	  			
 		  		fills: {
 				    defaultFill: "#ABDDA4",
 				    authorHasTraveledTo: "#fa0fa0"
 				  },
 		  		data: placedata
-
 		});
-	}
-
-
-
-	 window.addEventListener('resize', function() {
-        map.resize();
-    });
+	}	
 
 
 	    // click action scrolls to Heading 

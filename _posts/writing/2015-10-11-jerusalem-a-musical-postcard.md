@@ -5,12 +5,12 @@ original_date: "June 2007"
 source: "Songlines"
 description: "Exploring the sonic mashup of the ill-named City of Peace"
 image: "jerusalem-emahoy.jpg"
-category: "journalism"
-genre: [synagogue liturgy, marching band,ethiopian piano, pop, choral, arabic]
+category: "print"
+genre: [synagogue liturgy, marching band,ethiopian piano, solo, pop, choral, arabic]
 location: [Israel, "Palestine"]
 artist: [Jerusalem Catholic Arab Scout Band, Black Eyed Peas, Tsege Mariam Gebru, Khabarovsk Symphony Orchestra]
 topic: ['urban soundscape', 'culture clash']
-tags: [Israel, "Palestine", evangelist, bagpipes, Sufi, Korean choir,Jerusalem Catholic Arab Scout Band, Black Eyed Peas, Tsege Mariam Gebru, Khabarovsk Symphony Orchestra, Eurovision, synagogue liturgy, marching band,ethiopian piano, pop, choral, arabic, 'urban soundscape', 'culture clash']
+tags: [Israel, "Palestine", evangelist, bagpipes, Sufi, Korean choir,Jerusalem Catholic Arab Scout Band, Black Eyed Peas, Tsege Mariam Gebru, Khabarovsk Symphony Orchestra, Eurovision, synagogue liturgy, marching band, ethiopian piano, solo, pop, choral, arabic, 'urban soundscape', 'culture clash']
 ---
 {% include JB/setup %}
 

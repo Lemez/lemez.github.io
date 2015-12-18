@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "diary"
+category: "blog"
 title: "Indian Music Therapy - A Glossary"
 description: "A place to remember and refresh common concepts"
 image: mantras.jpg

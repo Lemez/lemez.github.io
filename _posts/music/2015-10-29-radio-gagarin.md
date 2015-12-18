@@ -1,8 +1,8 @@
 ---
 layout: music
 category: "music"
-title: "Radio Gagarin"
-description: "Experiments in Sunday Socialism"
+title: "Radio Gagarin - Experiments in Sunday Socialism"
+description: "Longstanding Art Club Night in West London"
 image: gagarin1.jpg
 genre: []
 artist: []

@@ -93,6 +93,11 @@
 
         {% endfor %}
 
+        <hr>
+        
+         {% assign posttags = page.tags %}
+        {% include related_posts_by_tag %}
+
       </div>
     </div>
   </div>

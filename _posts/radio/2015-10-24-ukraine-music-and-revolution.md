@@ -6,6 +6,7 @@ source: "BBC World Service"
 description: "Feature documentaries on Ukraine, politics and culture"
 image: ruslana.jpg
 category: radio
+area: radio
 location: [Ukraine, Russia]
 genre: [radio, folk, rock]
 artist: [Vopli Vidopliassova]

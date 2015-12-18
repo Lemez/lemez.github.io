@@ -1,6 +1,7 @@
 ---
 layout: review
 category: review
+source: Songlines
 title: The Shin - Black Sea Fire
 artist: The Shin
 album: Black Sea Fire

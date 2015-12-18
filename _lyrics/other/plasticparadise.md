@@ -7,6 +7,7 @@ publisher:
 artist: Ofer Bashan
 category: lyrics
 soundcloud: 229402407
+about: "Ofer Bashan is a talented singer and writer from Israel who writes moody, melodic songs with soaring hook lines."
 ---
 
 Something happened  

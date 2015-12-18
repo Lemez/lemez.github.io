@@ -5,7 +5,7 @@ original_date: "October 2010"
 source: "WOMEX Guide"
 description: "A Call For A New World Music"
 image: "womex1.jpg"
-category: "journalism"
+category: "print"
 location: ["Denmark", "UK"]
 genres: [world music, folk, contemporary classical, jazz, acoustic, pop]
 artist: ["Sam Lee","Sarah McQuaid","Buena Vista"]

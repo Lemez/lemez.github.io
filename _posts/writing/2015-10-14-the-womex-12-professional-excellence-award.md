@@ -5,7 +5,7 @@ original_date: "October 2012"
 source: "WOMEX Guide"
 description: "Speech for award presentation to Pussy Riot associate, Sasha Cheparukhin"
 image: "pussyriot.jpg"
-category: "journalism"
+category: "print"
 location: ["Siberia","Russia", "Tuva", Ukraine]
 genres: [world music, throat singing, agitpunk, political]
 artist: ["Pussy Riot", "Huun Huur Tu"]

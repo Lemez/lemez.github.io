@@ -1,6 +1,7 @@
 ---
 layout: review
 category: review
+source: Songlines
 title: BandAdriatica - Contagio Musiche dai porti dell’Adriatico
 artist: BandAdriatica
 album: Contagio Musiche dai porti dell’Adriatico

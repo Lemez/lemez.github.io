@@ -1,0 +1,41 @@
+---
+layout: default
+title : Blog
+header : Blog Archive
+group: navigation
+weight: "AA"
+---
+{% include JB/setup %}
+<subtitle>{{page.title}}</subtitle>
+
+
+<div class='clear'>
+{% for post in site.categories.blog %} 
+    <div class="all_page_links" >
+    <a href="{{post.url}}">
+
+    {% if forloop.index0 == 0 %}
+      <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+    {% else %}
+      <span class="all_page_tagline category"> {{post.category}}</span>
+    {% endif %}
+    <span class="all_page_tagline">/ {{post.date | date: "%-d %B %Y"}}</span>
+    <br>
+    
+       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+       <div class="index-title">
+    	   <h3>
+          <span class="all_page_main">{{post.title}}</span><br>
+          
+        </h3>
+  	     <p class='all_desc'> {{post.description}}</p>
+        </div>
+    </a>
+  </div>
+  <hr class='nomargin'>
+
+{% endfor %}
+
+ <hr class='nomargin thick'>
+ <hr class='nomargin thick'>
+

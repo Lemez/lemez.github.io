@@ -5,12 +5,12 @@ year: 2010
 title: "The Election Song Contest"
 description: "A nationwide satirical pop song contest"
 image: "ESCheader.png"
-area: political
-genre: ['political','pop']
+area: art
+genre: ['art', political, 'pop']
 location: [UK]
 people: [Yaniv Fridel(mix/production), Maiya James(vocals), Paul Tkachenko(vocals, keyboard), Richard Reynolds(press), musicalcomedy.co.uk, Darbukka(venue), Ariadne Arendt(artwork)]
-artist: [Geoff Berner, Ben Glasstone, Son of Dave, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw]
-tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, the Southpaw, satire, UK]
+artist: [Geoff Berner, Ben Glasstone, Son of Dave, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, The Southpaw]
+tags: [Geoff Berner, Ben Glasstone, Son of Dave, political, pop, Sweet F Allstars, Sunnie Dae, Trotsky's Talking Blues Band, The Southpaw, satire, UK]
 ---
 {% include JB/setup %}
 

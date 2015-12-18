@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Songs
-header: Songs
+title: Lyrics
+header: Lyrics
 group: navigation
 weight: "B"
 ---
 {% include JB/setup %}
 
-{% assign songs = (site.lyrics | sort: 'album') %}
+{% assign songs = (site.lyrics | sort: 'group') %}
+{% assign songs = (songs | sort: 'album') %}
 {% assign prevalbum = '' %}
 {% assign prevband = '' %}
 

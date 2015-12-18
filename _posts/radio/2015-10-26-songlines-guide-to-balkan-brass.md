@@ -1,20 +1,20 @@
 ---
 layout: post
-category: "radio"
+category: radio
 title: "Podcast: Essential Balkan Brass"
 original_date: "July 2006"
 source: Songlines
 description: "A podcast to accompany a feature on Balkan Brass bands"
 image: trubac.jpg
 location: [Serbia]
-genre: [balkan brass]
+genre: [balkan, brass]
 artist: [Elvis Ajdinovic, Bojan Krstic, Goran Bregovic]
 area: radio
 soundcloud-track: 229980134
 video: 
 vimeo:
 year: 2007 
-tags: [Serbia, balkan brass, Elvis Ajdinovic, Bojan Krstic, Goran Bregovic]
+tags: [Serbia, balkan, brass, Elvis Ajdinovic, Bojan Krstic, Goran Bregovic]
 ---
 {% include JB/setup %}
 

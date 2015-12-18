@@ -25,7 +25,7 @@ Feels like I wrote the storyline
 I refuse to replay  
 The mistakes that we made yesterday.  
   
-They were yesterdays mistakes  
+They were yesterday's mistakes  
   
 I like to think I’m stronger now  
 Victim of common sense  
@@ -37,7 +37,7 @@ That sticks in my mind
 When I try to move on  
 The same image comes back every time  
     
-They were yesterdays mistakes   
+They were yesterday's mistakes   
   
 Forgive my selfishness  
 I’d be grateful if you can  
@@ -49,6 +49,6 @@ What has gone before
 I refuse to replay  
 The mistakes that we made yesterday  
   
-They were yesterdays mistakes  
+They were yesterday's mistakes  
 
 

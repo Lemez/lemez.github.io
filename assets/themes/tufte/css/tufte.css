@@ -399,15 +399,16 @@ ul.icon {
 }
 
 
-.journalismlink {background-image: url("../images/icon-journalism.png");}
-.diarylink {background-image: url("../images/icon-diary.png");}
-.cvlink {background-image: url("../images/icon-cv.png");}
-.radiolink {background-image: url("../images/icon-radio.png");}
-.techlink {background-image: url("../images/icon-tech.png");}
-.musiclink {background-image: url("../images/icon-music.png");}
-.tvlink {background-image: url("../images/icon-tv.png");}
+.printlink, .print-nolink {background-image: url("../images/icon-journalism.png");}
+.bloglink, .blog-nolink  {background-image: url("../images/icon-blog.png");}
+.publicationslink, .publications-nolink {background-image: url("../images/icon-cv.png");}
+.radiolink, .radio-nolink {background-image: url("../images/icon-radio.png");}
+.techlink, .tech-nolink {background-image: url("../images/icon-tech.png");}
+.musiclink, .music-nolink {background-image: url("../images/icon-music.png");}
+.tvlink, .tv-nolink {background-image: url("../images/icon-tv.png");}*/
 .reviewslink {background-image: url("../images/icon-reviews.png");}
-.lplink {background-image: url("../images/icon-lp.png");}
+
+.lplink, .reviews-nolink  {background-image: url("../images/icon-lp.png");}
 
 .hand {
   background-repeat: no-repeat;
@@ -415,6 +416,10 @@ ul.icon {
     max-width: 100px;
     background-size: 80px;
     clear: none;
+}
+
+.blog {
+  margin-top: 50px;
 }
 
 .a{background-image: url("../images/a.png");}
@@ -495,4 +500,13 @@ ul.review {
 
 ul.review li a{
 /*  text-decoration: none;*/
+}
+
+#worldglossary {
+  margin: 10px 0 10px 0;
+  clear: both;
+}
+
+li.nolink a:hover {
+  color: black;
 }

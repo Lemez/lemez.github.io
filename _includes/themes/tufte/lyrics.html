@@ -1,94 +1,118 @@
 {% assign artist = page.artist %}
 {% assign title = page.title %}
 {% assign album = page.album %}
+{% assign related = page.related %}
 
 <h1>{{title}}</h1>
 
-{% if (album | size) > 0 %}
-  <h3 class='lyrics'>album: {{album}}</h3>
-{% endif %}
-{% if (page.band | size) > 0 and page.band != "Various" %}
-  <h3 class='lyrics'>band: {{page.band}}</h3>
-{% endif %}
-
-{% if (page.label | size) > 0 %}
-  <h3 class='lyrics'>label: {{page.label}}</h3>
-{% endif %}
-{% if (page.publisher | size) > 0 %}
-  <h3 class='lyrics'>publisher: {{page.publisher}}</h3>
-{% endif %}
-{% if (page.artist | size) > 0 %}
-  <h3 class='lyrics'>artist: {{page.artist}}</h3>
-{% endif %}
-
-{% if (page.year | size) > 0 %}
-  <h3 class='lyrics'>year: {{page.year}}</h3>
-{% endif %}
-
-{% if (page.press | size) > 0 %}
-<blockquote>
-  <p class='lyrics'>{{page.press[0]}}, <em>{{page.press[1]}}</em></p>
-  </blockquote>
-{% endif %}
-
-
+<!-- background -->
 {% assign pages_list = site.categories.music | where: "title", artist  %}
 {% assign page_size = pages_list | size  %}
 
 {% if page_size < 1 %}
-{% assign pages_list = site.categories.music | where: "title", title  %}
-{% assign page_size = pages_list | size  %}
+  {% assign pages_list = site.categories.music | where: "title", title  %}
+  {% assign page_size = pages_list | size  %}
 {% endif %}
 
 {% if page_size < 1 %}
-{% assign pages_list = site.categories.music | where: "title", album  %}
-{% assign page_size = pages_list | size  %}
+  {% assign pages_list = site.categories.music | where: "title", album  %}
+  {% assign page_size = pages_list | size  %}
+{% endif %}
+
+{% if page_size < 1 %}
+  {% assign pages_list = site.categories.music | where: "title", related  %}
+  {% assign page_size = pages_list | size  %}
 {% endif %}
 
 {% if page_size > 0 %}
-  <p>
     <h3>background</h3>
   {% include JB/pages_list %}
-  </p>
 {% endif %}
-  {% if (page.video | size) > 0 %}
- 
-            <div class="videoWrapper">
-            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
-            </iframe>
-            <br>
-            </div>
-            <span class='videomain-desc'>
-            {{page.videotext}}
-            </span>
+<br>
 
-        {% elsif (page.vimeo | size ) > 0 %}
-            <div class="videoWrapper left">
-          <iframe src="https://player.vimeo.com/video/{{page.vimeo}}" width="500" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-             <br>
-            </div>
-            <span class='videomain-desc'>
-            {{page.vimeotext}}
-            </span>
-      {% endif %} 
+<!-- audio/video -->
+ {% if (page.video | size) > 0 %}
+ 
+      <div class="videoWrapper">
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen modestbranding rel="0" showinfo="0" theme="light">
+      </iframe>
+      <br>
+      </div>
+      <span class='videomain-desc'>
+      {{page.videotext}}
+      </span>
+      <br>
+
+  {% elsif (page.vimeo | size ) > 0 %}
+      <div class="videoWrapper left">
+    <iframe src="https://player.vimeo.com/video/{{page.vimeo}}" width="500" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+       <br>
+       <span class='videomain-desc'>
+      {{page.vimeotext}}
+      </span>
+      </div>
+      
+      <br>
+{% endif %} 
 
 {% if (page.soundcloud | size) > 0 %}
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.soundcloud}}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;"></iframe>  
+<br>
 {% endif %}
+
+
+
+<!-- content -->
 
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="content">
       <div class='lyrics'>
 
-       
-        <br>
 
-<h3>Lyrics</h3>
+      <!-- metadata -->
+      {% if (album | size) > 0 %}
+        <h3 class='lyrics'>album: {{album}}</h3>
+      {% endif %}
+      {% if (page.band | size) > 0 and page.band != "Various" %}
+        <h3 class='lyrics'>band: {{page.band}}</h3>
+      {% endif %}
+
+      {% if (page.label | size) > 0 %}
+        <h3 class='lyrics'>label: {{page.label}}</h3>
+      {% endif %}
+      {% if (page.publisher | size) > 0 %}
+        <h3 class='lyrics'>publisher: {{page.publisher}}</h3>
+      {% endif %}
+      {% if (page.artist | size) > 0 %}
+        <h3 class='lyrics'>artist: {{page.artist}}</h3>
+      {% endif %}
+
+      {% if (page.year | size) > 0 %}
+        <h3 class='lyrics'>year: {{page.year}}</h3>
+      {% endif %}
+
+      <!-- about -->
+
+       {% if (page.about | size) > 0 %}
+       <h3>About</h3>
+       <p><em>{{page.about}}</em></p>
+       {% endif %}
+
+        <!-- lyrics -->
+
+      <h3>Lyrics</h3>
+
         {{ content }}
 
       </div>
+
+      {% if (page.press | size) > 0 %}
+      <h3>Press</h3>
+       <blockquote> <p>{{page.press[0]}}, <em>{{page.press[1]}}</em></p></blockquote>
+      {% endif %}
+
     </div>
   </div>
       
@@ -140,3 +164,4 @@
   </ul>
         
 </div>
+

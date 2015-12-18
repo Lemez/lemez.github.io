@@ -6,6 +6,7 @@ year: 2007
 source: "Journeyman Pictures"
 description: "On the movement to bring Palestine to the world's kitschest party"
 category: tv
+area: tv
 image: palestine-eurovision.jpg
 genre: [pop, arabic, political]
 location: ['Israel', 'Palestine', Denmark]

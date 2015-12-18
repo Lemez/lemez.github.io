@@ -1,24 +1,68 @@
 ---
 layout: default
-title : Writing
+title : Reporting
 header : Post Archive
 group: navigation
-weight: "AA"
+weight: "AD"
 ---
 {% include JB/setup %}
 <subtitle>{{page.title}}</subtitle>
 <div class="index">
+
 	<ul class="tag_box inline">
-    <li><a href="#diary">diary</a></li>
-    <li><a href="#journalism">journalism</a></li>
+
+    <li><a href="#print">print</a></li>
     <li><a href="#radio">radio</a></li>
-    <li><a href="#reviews">reviews</a></li>
     <li><a href="#tv">tv</a></li>
+    {% for post in site.categories.cv %} 
+    <li>
+      <a href="{{post.url}}">{{post.title}}</a>
+    </li>
+    {% endfor %}
+
+    
 	</ul>
+
 </div>
 
+<!-- list of tags by topic -->
+
+  <!-- <div class='clear'>
+    <div class="index">
+      <span class='catheader'>topic</span>
+      <ul class="tag_box inline">
+
+        {% assign topicArray = site.topicarray %}
+         {% for post in site.posts %} 
+           {% for tag in post.topic %}
+
+            {% unless topicArray contains tag %}
+              {% assign tag = tag | replace: ' ', '' %}
+              {% assign topicArray = topicArray | push: tag %}
+            {% endunless %}
+
+           {% endfor %}
+        {% endfor %}
+
+        {% assign sortedTopics = (topicArray | sort )%}
+
+        {% for tag in sortedTopics %}
+          <li>
+                <a href="#">
+                {{tag}}
+                </a>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div> -->
+<!-- 
+
+
 <div class='clear'>
-{% for post in site.categories.diary %} 
+{% for post in site.categories.blog %} 
     <div class="all_page_links" >
     <a href="{{post.url}}">
 
@@ -46,130 +90,139 @@ weight: "AA"
 
  <hr class='nomargin thick'>
  <hr class='nomargin thick'>
-
+ -->
 <!-- <h6> Journalism</h6> -->
 
-{% for post in site.categories.journalism %} 
+<div class='clear'>
+  {% for post in site.categories.publications %}
 
-<div class="all_page_links" >
-  <a  href={{post.url}}>
+  <div class="all_page_links" >
+
+    <a  href={{post.url}}>
+
+          <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+          
+        <br>
+        <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+
+        <div class="index-title">
+          <h3>  
+            <span class="all_page_main">{{post.title}}</span><br>
+            <span class="all_page_tagline"> {{post.source}} / </span>
+            <span class="all_page_tagline">/ {{post.original_date}}</span>
+           </h3>
+           <br>
+           <p class='all_desc'> {{post.description}}</p>
+        </div>
+
+      </a>
+
+  </div>
+
+   <hr class='nomargin thick'>
+
+  {% endfor %}
+
+  <hr class='nomargin thick'>
+
+
+  {% assign articles = site.categories.print | sort: "title" %}
+  {% for post in articles %} 
+
+  <div class="all_page_links" >
+    <a  href={{post.url}}>
+
+        {% if forloop.index0 == 0 %}
+          <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
+          {% else %}
+          <span class="all_page_tagline category"> {{post.category}}</span>
+        {% endif %}
+          
+        <br>
+        <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+
+        <div class="index-title">
+        	<h3>	
+          	<span class="all_page_main">{{post.title}}</span><br>
+        	 	<span class="all_page_tagline">	{{post.source}} / </span>
+      	  	<span class="all_page_tagline">/ {{post.original_date}}</span>
+        	 </h3>
+           <br>
+        	 <p class='all_desc'> {{post.description}}</p>
+        </div>
+
+      </a>
+
+  </div>
+    
+    <hr class='nomargin'>
+  {% endfor %}
+
+  <hr class='nomargin thick'>
+  <hr class='nomargin thick'>
+
+  {% for post in site.categories.radio %}
+  <div class="all_page_links" >
+      <a href="{{post.url}}"> 
 
       {% if forloop.index0 == 0 %}
-        <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
-        {% else %}
-        <span class="all_page_tagline category"> {{post.category}}</span>
+      <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
+      {% else %}
+      <span class="all_page_tagline category"> {{post.area}}</span>
       {% endif %}
-        
+
       <br>
-      <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-
-      <div class="index-title">
-      	<h3>	
-        	<span class="all_page_main">{{post.title}}</span><br>
-      	 	<span class="all_page_tagline">	{{post.source}} / </span>
-    	  	<span class="all_page_tagline">/ {{post.original_date}}</span>
-      	 </h3>
+      
+         <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+         <div class="index-title">
+           <h3> 
+            <span class="all_page_main">{{post.title}}</span><br>
+            <span class="all_page_tagline"> {{post.source}} / </span>
+            <span class="all_page_tagline">/ {{post.original_date}}</span>
+         </h3>
          <br>
-      	 <p class='all_desc'> {{post.description}}</p>
-      </div>
+           <p class='all_desc'> {{post.description}}</p>
+          </div>
+      </a>
+    </div>
+    <hr class='nomargin'>
 
-    </a>
+  {% endfor %}
 
-</div>
-  
-  <hr class='nomargin'>
-{% endfor %}
 
-<hr class='nomargin thick'>
-<hr class='nomargin thick'>
+  <hr class='nomargin thick'>
+  <hr class='nomargin thick'>
 
-{% for post in site.categories.radio %}
-<div class="all_page_links" >
-    <a href="{{post.url}}"> 
+  {% for post in site.categories.tv %}
+  <div class="all_page_links" >
+      <a href="{{post.url}}"> 
 
-    {% if forloop.index0 == 0 %}
-    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
-    {% else %}
-    <span class="all_page_tagline category"> {{post.category}}</span>
-    {% endif %}
+      {% if forloop.index0 == 0 %}
+      <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
+      {% else %}
+      <span class="all_page_tagline category"> {{post.area}}</span>
+      {% endif %}
 
-    <br>
-    
-       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-       <div class="index-title">
-         <h3> 
-          <span class="all_page_main">{{post.title}}</span><br>
-          <span class="all_page_tagline"> {{post.source}} / </span>
-          <span class="all_page_tagline">/ {{post.original_date}}</span>
-       </h3>
-       <br>
-         <p class='all_desc'> {{post.description}}</p>
-        </div>
-    </a>
-  </div>
-  <hr class='nomargin'>
+      <br>
+      
+         <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+         <div class="index-title">
+           <h3> 
+            <span class="all_page_main">{{post.title}}</span><br>
+            <span class="all_page_tagline"> {{post.source}} / </span>
+            <span class="all_page_tagline">/ {{post.original_date}}</span>
+         </h3>
+         <br>
+           <p class='all_desc'> {{post.description}}</p>
+          </div>
+      </a>
+    </div>
+    <hr class='nomargin'>
 
-{% endfor %}
+  {% endfor %}
 
-<hr class='nomargin thick'>
-<hr class='nomargin thick'>
 
-{% for post in site.categories.reviews %}
-<div class="all_page_links" >
-    <a href="{{post.url}}"> 
+  <hr class='nomargin thick'>
+  <hr class='nomargin thick'>
 
-    {% if forloop.index0 == 0 %}
-    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
-    {% else %}
-    <span class="all_page_tagline category"> {{post.category}}</span>
-    {% endif %}
-
-    <br>
-    
-       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-       <div class="index-title">
-         <h3> 
-          <span class="all_page_main">{{post.title}}</span><br>
-          <span class="all_page_tagline"> {{post.source}} / </span>
-          <span class="all_page_tagline">/ {{post.original_date}}</span>
-       </h3>
-       <br>
-         <p class='all_desc'> {{post.description}}</p>
-        </div>
-    </a>
-  </div>
-  <hr class='nomargin'>
-
-{% endfor %}
-
-<hr class='nomargin thick'>
-<hr class='nomargin thick'>
-
-{% for post in site.categories.tv %}
-<div class="all_page_links" >
-    <a href="{{post.url}}"> 
-
-    {% if forloop.index0 == 0 %}
-    <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}</span>
-    {% else %}
-    <span class="all_page_tagline category"> {{post.category}}</span>
-    {% endif %}
-
-    <br>
-    
-       <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
-       <div class="index-title">
-         <h3> 
-          <span class="all_page_main">{{post.title}}</span><br>
-          <span class="all_page_tagline"> {{post.source}} / </span>
-          <span class="all_page_tagline">/ {{post.original_date}}</span>
-       </h3>
-       <br>
-         <p class='all_desc'> {{post.description}}</p>
-        </div>
-    </a>
-  </div>
-
-<hr class='nomargin thick'>
-{% endfor %}
 </div>

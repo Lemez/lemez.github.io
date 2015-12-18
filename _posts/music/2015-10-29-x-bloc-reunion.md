@@ -1,7 +1,7 @@
 ---
 layout: music
 category: "music"
-title: "X BLOC Reunion"
+title: "X BLOC Reunion at The Barbican"
 description: "Europe's biggest ever festival of culture from former Eastern bloc"
 image: mostarsevdah.jpg
 genre: []
@@ -16,7 +16,7 @@ venue: Barbican Centre, London
 area: concept/production
 soundcloud: 
 soundcloud-track: 
-video: 
+video: 8bHc_ps9HCU
 vimeo: 
 people: [Josephine Burton - production]
 tags: []

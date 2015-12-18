@@ -1,6 +1,7 @@
 ---
 layout: post
-category: "tv"
+category: tv
+area: tv
 title: "Forbidden Games"
 source: "Journeyman Pictures"
 description: "Ideology and video games in the Middle East"

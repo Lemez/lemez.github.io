@@ -1,6 +1,7 @@
 ---
 layout: review
 category: review
+source: Songlines
 title: Golden Brass Summit - Fiesta Mania DVD
 artist: Golden Brass Summit
 album: Fiesta Mania DVD
