@@ -32,6 +32,7 @@ weight: "AC"
 	</ul>
 
 <div class='clear'>
+
 {% assign music_list = (site.categories.music | group_by: 'area' ) %}
 {% assign prevtag = '' %}
 {% assign music_list = music_list | sort: "name" %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "blog"
-title: "On Music and Healing, with Nigel Osborne"
+title: "On Music and Healing"
 original_date: ""
 source: 
 description: "Inside the magical, mystical world of sound, healing and great art"

@@ -36,7 +36,7 @@
 
 	<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">All Posts</a></li>
 
-	<li class="next"><a href="{{ BASE_PATH }}{{ relatedUrlsArray[-2] }}" title="{{ relatedTitlesArray[-2] }}"> {{ relatedTitlesArray[-2] }}</a></li>
+	<li class="next"><a href="{{ BASE_PATH }}{{ relatedUrlsArray[-2] }}" title="{{ relatedTitlesArray[-2] }}"> {{ relatedTitlesArray[0] }}</a></li>
 
 {% elsif (relatedTitlesArray | size) > 0 %}
 	<li class="prev"><a href="{{ BASE_PATH }}{{ relatedUrlsArray[-1] }}" title="{{ relatedTitlesArray[-1] }}">{{ relatedTitlesArray[-1] }}</a></li>

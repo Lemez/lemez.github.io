@@ -8,7 +8,7 @@ body {
 }
 
 /* Wrapper for page content to push down footer */
-#wrap {
+#stickywrap {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
@@ -18,12 +18,11 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-#footer {
+#stickyfooter {
   height: 30px;
-  background-color: #f5f5f5;
 }
 
-#footer p {
+#stickyfooter p {
   line-height: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }

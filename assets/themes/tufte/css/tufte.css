@@ -46,6 +46,11 @@ h2 { font-style: italic;
      font-size: 2.2rem;
      line-height: 1; }
 
+h2.index {
+  font-style: normal;
+  font-size: 2.6rem;
+} 
+
 h3 { font-style: italic;
      font-weight: 400;
      font-size: 1.7rem;
@@ -400,7 +405,7 @@ ul.icon {
 
 
 .printlink, .print-nolink {background-image: url("../images/icon-journalism.png");}
-.bloglink, .blog-nolink  {background-image: url("../images/icon-blog.png");}
+.bloglink, .blog-nolink  {background-image: url("../images/icon-diary.png");}
 .publicationslink, .publications-nolink {background-image: url("../images/icon-cv.png");}
 .radiolink, .radio-nolink {background-image: url("../images/icon-radio.png");}
 .techlink, .tech-nolink {background-image: url("../images/icon-tech.png");}
@@ -509,4 +514,12 @@ ul.review li a{
 
 li.nolink a:hover {
   color: black;
+}
+
+.mainstory {
+  border-top: 5px solid #222;
+  border-bottom: 5px solid #222;
+  background-color: white;
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }

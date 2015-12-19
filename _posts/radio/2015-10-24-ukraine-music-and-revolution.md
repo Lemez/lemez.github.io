@@ -15,9 +15,11 @@ topic: [USSR, revolution, activism, politics, language, Ukraine, Russia]
 tags: [USSR, revolution, activism, politics, language, Ukraine, Russia, Vopli Vidopliassova, folk, rock ]
 ---
 {% include JB/setup %}
-{% include sideimage img="andrewwilson-faking.jpeg" %}
+
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/158684281&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+{% include sideimage img="andrewwilson-faking.jpeg" %}
 
 Three feature documentaries for the BBC World Service Masterpiece series looking at the 'Orange Revolution' in Ukraine, and the role that music and language played in the political realities on the ground.
 

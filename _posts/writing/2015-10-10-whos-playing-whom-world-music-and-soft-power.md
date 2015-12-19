@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "World Music and Soft Power: Who's Playing Whom? "
+title: "World Music and Soft Power: Who's Playing Whom?"
 original_date: "October 2012"
 description: "Cultural diplomacy for musicians - why we need to be careful"
 image: "bclogo.jpg"
