@@ -177,16 +177,18 @@ weight: "CA"
 		  			popupTemplate: function(geography, data) { 
 		  				
 		  				var visited=geography.properties.name;
-		  				
+		  				var openBold = '', closeBold = '';
+
 		  				try {
 						    var colon = ': ';
-		  					var visited = visited.concat(colon.concat(data.size.toString()));	
+		  					var visited = visited.concat(colon.concat(data.size.toString()));
+		  					var openBold = '<strong>', closeBold = "</strong>";	
 						}
 						catch(err) {
 						    var visited=geography.properties.name;
 						} 
 						finally {
-		  					return '<div class="hoverinfo"><strong>' + visited + '</strong></div>'
+		  					return '<div class="hoverinfo">' + openBold + visited + closeBold + '</div>'
 		  				}
 		  			}
 		  		}
