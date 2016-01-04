@@ -73,27 +73,37 @@ weight: "CA"
   <ul class='icon'>
     {% assign pages_list = site.tags[location]  %} 
 
-    {% for review in site.reviews %}
+    {% if (pages_list | size ) > 0 %}
+
+    	{% assign pages_list = pages_list | sort: "category" %}
+    	{% include JB/pages_list class='bigger' %}
+    {% endif %}
+
+     {% for review in site.reviews %}
 
     	{% if review.location contains location or review.location == location %}
-    			<li class="lplink iconic"><a href="{{review.url}}">{{review.title}}</a></li>
+    			<li class="lplink iconic"><a class="smaller" href="{{review.url}}">{{review.title}}</a></li>
     	{% endif %}
 
     {% endfor %}
-
-
-    {% if (pages_list | size ) > 0%}
-    	{% assign pages_list = pages_list | sort: "category" %}
-    	{% include JB/pages_list %}
-    {% endif %}
   </ul>
 {% endfor %}
 </section>
 
 
 <script>
+		var replacedNames = {
+			"United Kingdom": "UK",
+			"Czech Republic":  "Czech",
+		    "Trinidad and Tobago": "Trinidad",
+		    "United States of America": "USA",
+		    "Palestine, State of": "Palestine",
+		    "Bosnia and Herzegovina": "Bosnia",
+		    "Republic of Serbia": "Serbia"
+		} ;
 
 	makeMap();
+
 	function makeMap(){
 
 	    $('div#container').css("height", $(window).height()*0.7);
@@ -101,14 +111,17 @@ weight: "CA"
 	    var countries = Datamap.prototype.worldTopo.objects.world.geometries;
 		var placedict = {}
 		for (var i = 0, j = countries.length; i < j; i++) {
-			placedict[countries[i].properties.name] = countries[i].id
+			placedict[countries[i].properties.name] = countries[i].id;
 		}
 
 		placedata = {};
+		
 
 		for (var key in JsLocationArray) {
 		  if (JsLocationArray.hasOwnProperty(key)) {
 		    placename = JsLocationArray[key];
+		    numberOfEntries = JsLocationArray.filter(function(x){return x==placename}).length;
+
 		    if (placename=="UK"){placename="United Kingdom"};
 		    if (placename=="Czech"){placename="Czech Republic"};
 		    if (placename=="Trinidad"){placename="Trinidad and Tobago"};
@@ -116,59 +129,18 @@ weight: "CA"
 		    if (placename=="Palestine"){placename="Palestine, State of"};
 		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
 		    if (placename=="Serbia"){placename="Republic of Serbia"};
+
 		    placecode = placedict[placename];
-		    placedata[placecode] = { fillKey: "authorHasTraveledTo" };
+		    placedata[placecode] = { fillKey: "authorHasTraveledTo",
+		     size: numberOfEntries
+		 	};
+
 		  }
 		}
 
-
-		// var defaultOptions = {
-  //   scope: 'world', //currently supports 'usa' and 'world', however with custom map data you can specify your own
-  //   setProjection: setProjection, //returns a d3 path and projection functions
-  //   projection: 'equirectangular', //style of projection to be used. try "mercator"
-  //   height: null, //if not null, datamaps will grab the height of 'element'
-  //   width: null, //if not null, datamaps will grab the width of 'element'
-  //   done: function() {}, //callback when the map is done drawing
-  //   fills: {
-  //     defaultFill: '#ABDDA4' //the keys in this object map to the "fillKey" of [data] or [bubbles]
-  //   },
-  //   dataType: 'json', //for use with dataUrl, currently 'json' or 'csv'. CSV should have an `id` column
-  //   dataUrl: null, //if not null, datamaps will attempt to fetch this based on dataType ( default: json )
-  //   geographyConfig: {
-  //       dataUrl: null, //if not null, datamaps will fetch the map JSON (currently only supports topojson)
-  //       hideAntarctica: true,
-  //       borderWidth: 1,
-  //       borderColor: '#FDFDFD',
-  //       popupTemplate: function(geography, data) { //this function should just return a string
-  //         return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
-  //       },
-  //       popupOnHover: true, //disable the popup while hovering
-  //       highlightOnHover: true,
-  //       highlightFillColor: '#FC8D59',
-  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
-  //       highlightBorderWidth: 2
-  //   },
-  //   bubblesConfig: {
-  //       borderWidth: 2,
-  //       borderColor: '#FFFFFF',
-  //       popupOnHover: true,
-  //       popupTemplate: function(geography, data) {
-  //         return '<div class="hoverinfo"><strong>' + data.name + '</strong></div>';
-  //       },
-  //       fillOpacity: 0.75,
-  //       highlightOnHover: true,
-  //       highlightFillColor: '#FC8D59',
-  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
-  //       highlightBorderWidth: 2,
-  //       highlightFillOpacity: 0.85
-  //   },
-  //   arcConfig: {
-  //     strokeColor: '#DD1C77',
-  //     strokeWidth: 1,
-  //     arcSharpness: 1,
-  //     animationSpeed: 600
-  //   }
-  // };
+		var toType = function(obj) {
+  return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase()
+}
 
 		var map = new Datamap({
 			element: document.getElementById('container'),
@@ -200,16 +172,88 @@ weight: "CA"
 				    defaultFill: "#ABDDA4",
 				    authorHasTraveledTo: "#fa0fa0"
 				  },
-		  		data: placedata
+		  		data: placedata,
+		  		geographyConfig: {
+		  			popupTemplate: function(geography, data) { 
+		  				
+		  				var visited=geography.properties.name;
+		  				
+		  				try {
+						    var colon = ': ';
+		  					var visited = visited.concat(colon.concat(data.size.toString()));	
+						}
+						catch(err) {
+						    var visited=geography.properties.name;
+						} 
+						finally {
+		  					return '<div class="hoverinfo"><strong>' + visited + '</strong></div>'
+		  				}
+		  			}
+		  		}
 		});
-	}	
+	}
+
+				// var defaultOptions = {
+		  //   scope: 'world', //currently supports 'usa' and 'world', however with custom map data you can specify your own
+		  //   setProjection: setProjection, //returns a d3 path and projection functions
+		  //   projection: 'equirectangular', //style of projection to be used. try "mercator"
+		  //   height: null, //if not null, datamaps will grab the height of 'element'
+		  //   width: null, //if not null, datamaps will grab the width of 'element'
+		  //   done: function() {}, //callback when the map is done drawing
+		  //   fills: {
+		  //     defaultFill: '#ABDDA4' //the keys in this object map to the "fillKey" of [data] or [bubbles]
+		  //   },
+		  //   dataType: 'json', //for use with dataUrl, currently 'json' or 'csv'. CSV should have an `id` column
+		  //   dataUrl: null, //if not null, datamaps will attempt to fetch this based on dataType ( default: json )
+		  //   geographyConfig: {
+		  //       dataUrl: null, //if not null, datamaps will fetch the map JSON (currently only supports topojson)
+		  //       hideAntarctica: true,
+		  //       borderWidth: 1,
+		  //       borderColor: '#FDFDFD',
+		  //       popupTemplate: function(geography, data) { //this function should just return a string
+		  //         return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
+		  //       },
+		  //       popupOnHover: true, //disable the popup while hovering
+		  //       highlightOnHover: true,
+		  //       highlightFillColor: '#FC8D59',
+		  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+		  //       highlightBorderWidth: 2
+		  //   },
+		  //   bubblesConfig: {
+		  //       borderWidth: 2,
+		  //       borderColor: '#FFFFFF',
+		  //       popupOnHover: true,
+		  //       popupTemplate: function(geography, data) {
+		  //         return '<div class="hoverinfo"><strong>' + data.name + '</strong></div>';
+		  //       },
+		  //       fillOpacity: 0.75,
+		  //       highlightOnHover: true,
+		  //       highlightFillColor: '#FC8D59',
+		  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+		  //       highlightBorderWidth: 2,
+		  //       highlightFillOpacity: 0.85
+		  //   },
+		  //   arcConfig: {
+		  //     strokeColor: '#DD1C77',
+		  //     strokeWidth: 1,
+		  //     arcSharpness: 1,
+		  //     animationSpeed: 600
+		  //   }
+		  // };	
 
 
 	    // click action scrolls to Heading 
     d3.select('svg').selectAll('.datamaps-subunit').on('click', function(e){
-    	var name = "#" + e.properties.name.replace(/ /g,'') + "-ref";
+    	var d3name = e.properties.name;
+
+    	var nameId = "#" + d3name.replace(/ /g,'') + "-ref";
+
+    	if (replacedNames.hasOwnProperty(d3name)) {
+    		nameId = "#" + replacedNames[d3name].replace(/ /g,'') + "-ref";
+    	}
+
 	    $('html,body').animate({
-	        scrollTop: $(name).offset().top},
+	        scrollTop: $(nameId).offset().top},
 	        'slow');
 		
 	});

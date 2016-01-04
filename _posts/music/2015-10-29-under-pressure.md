@@ -2,7 +2,7 @@
 layout: music
 year: 2012
 title: "Commercial Subterfuge with Bar Rafaeli"
-description: "Mockery Vs. Boring, Sexist Advertising"
+description: "Irony Vs. Sexist Advertising"
 image: "bar.png"
 category: "music"
 area: art

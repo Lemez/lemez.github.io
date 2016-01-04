@@ -16,6 +16,8 @@ author :
   github : Lemez
   twitter : lemez1
 
+gems:
+  - octopress-debugger
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,8 +27,12 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
+baseurl: ""
+url: "lemez.github.io"
 production_url : http://lemez.github.io
 locationarray: []
+locationarray2: []
+counterarray: []
 genrearray: []
 topicarray: []
 albumarray: []
@@ -38,6 +44,7 @@ relatedtitles: []
 relatedurls: []
 allpages: []
 temparray: []
+temparray2: []
 cathash: {}
 offset: 2
 
