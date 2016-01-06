@@ -42,14 +42,6 @@ icon: "jonascii.png"
 </div>
 
 <br>
-<br>
-
-
-	
-
-
-
-<br>
 
 <div class='clear'>
 {% assign tech_list = (site.categories.tech | sort: 'area' ) %}
@@ -85,3 +77,5 @@ icon: "jonascii.png"
 {% assign prevtag = post.area %}
 {% endfor %}
 </div>
+
+{% include summary_table %}

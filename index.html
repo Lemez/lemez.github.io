@@ -6,15 +6,19 @@ header : Hello
 {% include JB/setup %}
 <!-- {% include signs text="w,e,l,c,o,m,e" %} -->
       
- {% assign lyrics = site.posts | where: "title", "Song Lyrics" %}     
-<h1 class='homepage'> Hello. I'm <a href="/about.html">Jonathan</a>. Thanks for dropping by.</h1>
-<h2 class='index'>
+ {% assign lyrics = site.posts | where: "title", "Song Lyrics" %} 
+ {% assign reviews = site.posts | where: "title", "World music reviews, guides and sleeve notes" %} 
+
+
+<h1 class='homepage clear'> Hello. I'm <a href="/about.html">Jonathan</a>. Thanks for dropping by.</h1>  
+<h2 class='indexpage'> 
 The <a href="/music.html">music</a> page has music and art projects; the <a href="/writing.html">media</a> page has broadcasting, print and other publications;  the <a href="/tech.html">tech</a> and <a href="{{lyrics[0].url}}">lyrics</a> pages have... you get the picture.</h2>
-<h2 class='index'> If you want to search by <a href="/world.html">location</a> or by <a href="/categories.html">topic</a>, you can do that too.</h2> 
-<h2 class='index'>And if you don't want to browse at all, you can watch my YouTube favourites below - same idea: more succinct. </h2>
+<h2 class='indexpage'> If you want to search by <a href="/world.html">location</a> or by <a href="/categories.html">topic</a>, you can do that too.</h2> 
+<h2 class='indexpage'>And if you don't want to browse at all, you can watch my YouTube favourites below - same idea: more succinct. </h2>
 <br>
 <br>
 {% include videoplaylistfull url="LLRQVtG1GPjsa0YHOmGyiiqQ" %}
+{% include summary_table %}
   
 
 <!-- or if you just want to jump right into the good stuff, start here. just want to watch a good film, or listen to something, go right ahead. -->

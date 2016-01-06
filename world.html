@@ -28,14 +28,11 @@ weight: "CA"
 		{% endfor %}
 
 		 {% for post in all %} 
-
 		 	{% if (post.location | size) > 0 %}
 				 {% for tag in post.location %}
-
 				 	{% unless locationArray contains tag %}
 					 	{% assign locationArray = locationArray | push: tag %}
 					{% endunless %}
-
 				 {% endfor %}
 			{% endif %}
 		{% endfor %}
@@ -48,7 +45,6 @@ weight: "CA"
 				 		{{tag}}
 				 		</a>
 			</li>
-
 		{% endfor %}
 
 	</ul>
@@ -61,7 +57,6 @@ weight: "CA"
 
 	<ul class="tag_box inline">
 		{% assign categories_list = (site.categories | sort ) %}
-
 	   {% include JB/categories_list_inactive %}
 	</ul>
 </div>
@@ -72,23 +67,19 @@ weight: "CA"
   <h2 id="{{location | replace: ' ', ''}}-ref">{{location}}</h2>
   <ul class='icon'>
     {% assign pages_list = site.tags[location]  %} 
-
     {% if (pages_list | size ) > 0 %}
-
     	{% assign pages_list = pages_list | sort: "category" %}
     	{% include JB/pages_list class='bigger' %}
     {% endif %}
-
      {% for review in site.reviews %}
-
     	{% if review.location contains location or review.location == location %}
     			<li class="lplink iconic"><a class="smaller" href="{{review.url}}">{{review.title}}</a></li>
     	{% endif %}
-
     {% endfor %}
   </ul>
 {% endfor %}
 </section>
+{% include summary_table %}
 
 
 <script>

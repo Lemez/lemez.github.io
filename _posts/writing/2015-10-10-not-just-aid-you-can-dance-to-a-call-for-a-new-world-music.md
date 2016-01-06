@@ -10,7 +10,7 @@ location: ["Denmark", "UK"]
 genres: [world music, folk, contemporary classical, jazz, acoustic, pop]
 artist: ["Sam Lee","Sarah McQuaid","Buena Vista"]
 topic: [sustainability, 'state subsidy', 'house concerts']
-tags: ['world music','house concerts','folk','sustainability',"Sam Lee","Sarah McQuaid","Buena Vista", state subsidy, contemporary classical, jazz, acoustic, pop, "Denmark", "UK" ]
+tags: ['world music','house concerts','folk','sustainability',"Sam Lee","Sarah McQuaid","Buena Vista", state subsidy, contemporary classical, jazz, acoustic, pop, "Denmark", "UK", "WOMEX" ]
 ---
 {% include JB/setup %}
  
@@ -35,11 +35,11 @@ tags: ['world music','house concerts','folk','sustainability',"Sam Lee","Sarah M
 <p><span class="newthought">For the consumers who enjoyed our product</span>, we were the ultimate form of budget holiday, and for the governments who supported us, a family-friendly, feel-good cause: aid you can dance to. But the golden days of world music are over. The malaise affecting the rest of the music business – sinking sales, fracturing markets and collapsing distributors – is one thing. But as the mainstream industry looks to live performance income to make up for disappearing sales, world music’s fundamental selling point in the good times – exotic culture from somewhere else – is looking like a profound structural problem. </p>
 <p>If promoters in rich countries – hit by massive cuts in government support for the arts – are no longer able to import bands from far-off places for a specialist audience, the live world music scene as we know it is not sustainable. So if world music is to be more than a luxury for liberal elites and to thrive in the tough times ahead, we need new ideas, and fast.</p>
 
-<p>Where those ideas come from is another matter. The mainstream industry seems to have settled – finally – on a plan of action for new music: 360 degree deals and global rights management replacing old-fashioned record and publishing contracts; a growing digital sector supported by tough file-sharing legislation, and the biggest hope of all – a ‘live revolution’ fuelled by high ticket prices and public hunger for an undownloadable experience.
+Where those ideas come from is another matter. The mainstream industry seems to have settled – finally – on a plan of action for new music: 360 degree deals and global rights management replacing old-fashioned record and publishing contracts; a growing digital sector supported by tough file-sharing legislation, and the biggest hope of all – a ‘live revolution’ fuelled by high ticket prices and public hunger for an undownloadable experience.
 
 {% include video id="ZCrDAmi1OJo" text="Fred & Ginger: Eggs In One Basket.<br/> Just because I can." %}
 
-The cracks, however, are already showing: increasing opposition to the concept of boosting online sales through punishment; big promoters for top names spending much of this year scrambling to sell off cut-price tickets like traders on a market stall; and we have yet to find a grandmother who will advise artists to put all their eggs in one basket.</p>
+The cracks, however, are already showing: increasing opposition to the concept of boosting online sales through punishment; big promoters for top names spending much of this year scrambling to sell off cut-price tickets like traders on a market stall; and we have yet to find a grandmother who will advise artists to put all their eggs in one basket.
 
 <p>	World music would be advised to look elsewhere for its models.</p>
 
@@ -50,7 +50,7 @@ The cracks, however, are already showing: increasing opposition to the concept o
 
 {% include video id="1it2M7-ME0Y" text="English folk star Sam Lee" %}
 
-<p> There is a huge network of local folk clubs run by volunteers – some 420 in England at the last count. The catch is that most of them are sessions for local players that don’t often book external artists. So how can professionals make a living? One commercial and independent grass-roots phenomenon from the USA is taking live self-empowerment to a new level: house concerts.
+There is a huge network of local folk clubs run by volunteers – some 420 in England at the last count. The catch is that most of them are sessions for local players that don’t often book external artists. So how can professionals make a living? One commercial and independent grass-roots phenomenon from the USA is taking live self-empowerment to a new level: house concerts.
 
 <blockquote >
 <p>“The idea is rather than having a concert in a standard venue that is totally open to the public, it is a concert by invitation, publicised to friends. Some people have massive houses with interconnecting rooms to seat 40 or 50 people – others, like one man in Yorkshire, has a purpose built shed in his garden with seating for 30 friends. Most of the hosts don’t take anything from the door –they charge about the same as normal venue, even sell your CDs for you and give all profit to the artist directly.”</p>
@@ -65,15 +65,15 @@ The cracks, however, are already showing: increasing opposition to the concept o
 
 </blockquote> 
 
-{% include video id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a>bringing the music industry up to speed" %}
+{% include video id="CspgkFXF_y4" text="<a target='_blank' href='https://www.sofarsounds.com/'>Sofar Sounds</a> bringing the music industry up to speed" %}
 
-One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com"  >Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu"  >houseconcert.eu</a> looks to provide a similar, free service.</p>
+One organisation that works to make more musicians’ experiences as good as possible is <a href="http://ConcertsInYourHome.com"  >Concerts In Your Home</a>, a support network that connects travelling artists with recommended hosts across the US for a small annual fee. Their well-researched advice sheets for prospective bands and hosts alike are available for free download. Across the water, <a href="http://houseconcert.eu"  >houseconcert.eu</a> looks to provide a similar, free service.
 
- <p>Folk music’s attitude towards commercial self-reliance may well be just what world music needs. As the global economic crisis continues to bite, major reduction in state funding for culture looks certain, and the more subsidy a sector has, the more pain it will feel. World music initiatives – with our walk-on role as the cheerleader of multi-cultural politics – will be at the front of the firing line. </p>
+ Folk music’s attitude towards commercial self-reliance may well be just what world music needs. As the global economic crisis continues to bite, major reduction in state funding for culture looks certain, and the more subsidy a sector has, the more pain it will feel. World music initiatives – with our walk-on role as the cheerleader of multi-cultural politics – will be at the front of the firing line.
 
-<p>One of the most heavily subsidized sectors anywhere in the world is classical music, and one man who knows a lot about both the benefits and precariousness of this economic reliance is Henrik Rørdam, Managing Director of Copenhagen-based Da Capo Records, a label that releases Danish contemporary classical music within the Naxos distribution network.</p> 
+One of the most heavily subsidized sectors anywhere in the world is classical music, and one man who knows a lot about both the benefits and precariousness of this economic reliance is Henrik Rørdam, Managing Director of Copenhagen-based Da Capo Records, a label that releases Danish contemporary classical music within the Naxos distribution network.<
 
-<p>Nothing highlights the difference between the commercial and state subsidized sector better than the approach to making and selling records.</p>
+Nothing highlights the difference between the commercial and state subsidized sector better than the approach to making and selling records.
 
 <blockquote >
 <p>In an industry which has seen sales fall by 20-30% year on year, the situation for independent classical labels like ours looks very positive. Sales are stable and our market is growing, developing slowly. Most classical labels are defined by their repertoire, not their artists. This means that the back catalogue is important to us, not an individual CD. I don’t expect to break even from an album in the first year: when it has been in our catalogue for five or six years we can reissue it. We don’t have the same financial pressures to have everything balanced over a short period of time, which allows us to work more freely with artists.</p>

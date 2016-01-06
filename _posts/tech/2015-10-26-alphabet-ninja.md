@@ -17,8 +17,10 @@ tags: [game, education, toddlers, reading]
 
 I was learning to code at the same time as a new little person came into our lives, and so it was only natural that I would try to make a little toy for her.
 
-I taught myself the basics of CSS animations and transitions, alongside Javascript logic.
+I stumbled across the wonderful icon repository <a href="http://thenounproject.com">Noun Project</a>, added some sounds from <a href="http://landfmusic.com">our studio</a>.
 
-It was fun, and most importantly, my little one loved it, and still asks to play it nearly every day.
+I taught myself the basics of Javascript and CSS animations and transitions, and it was good to go.
+
+My daughter's now three and she still asks to play 'the sounds game' almost every time she sees me opening up my laptop. 
 
 

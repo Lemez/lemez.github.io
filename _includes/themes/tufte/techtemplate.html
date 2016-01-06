@@ -24,16 +24,17 @@
       {{ content }}
 
       {% if page.github and page.demo %}
-        <p>You can browse the codebase <a href="http://www.github.com/lemez/{{page.github}}">here</a> and play with the live app <a href="{{page.demo}}">here</a>.</p>
+      
+        <p class='techfooter'>You can browse, fork and improve the codebase <a href="http://www.github.com/lemez/{{page.github}}">here</a> and play with the live app <a href="{{page.demo}}">here</a>.</p>
 
         {% elsif page.github  %} 
 
-         <p>You can browse the codebase <a href="http://www.github.com/lemez/{{page.github}}">here</a>. There isn't an online live demo at the moment, sorry.</p>
+         <p class='techfooter'>You can browse, fork and improve the codebase <a href="http://www.github.com/lemez/{{page.github}}">here</a>. There isn't an online live demo at the moment, sorry.</p>
 
         {% elsif page.demo %}
 
-         <p>You can play with the app online <a href="{{page.demo}}">here</a>. The codebase isn't public yet, sorry.</p>
-
+         <p class='techfooter'>You can play with the app online <a href="{{page.demo}}">here</a>. The codebase isn't public yet, sorry, but I'm working on it.</p>
+     
        {% endif %}
   
           {% include tags %}

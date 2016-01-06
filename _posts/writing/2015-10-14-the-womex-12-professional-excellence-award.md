@@ -10,7 +10,7 @@ location: ["Siberia","Russia", "Tuva", Ukraine]
 genres: [world music, throat singing, agitpunk, political]
 artist: ["Pussy Riot", "Huun Huur Tu"]
 topic: [community, 'censorship', 'Chernobyl', 'activism']
-tags: [world music, "throat singing", agitpunk, political, "Pussy Riot", community, 'censorship', 'Chernobyl', 'activism', "Putin", "Huun Huur Tu", "Siberia", "Russia", "Tuva", Ukraine ]
+tags: [world music, "throat singing", agitpunk, political, "Pussy Riot", community, 'censorship', 'Chernobyl', 'activism', "Putin", "Huun Huur Tu", "Siberia", "Russia", "Tuva", Ukraine, "WOMEX"]
 ---
 {% include JB/setup %}
 
