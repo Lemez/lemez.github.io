@@ -186,7 +186,9 @@ sub { top: 0.4rem; }
 p, footer, pre.code { width: 55%; }
 
 @media screen and (max-width: 600px) { p, footer, pre.code { width: 65%; }
-                                       blockquote p, blockquote footer { width: 60%; }}
+                                       blockquote p, blockquote footer { width: 60%; }
+                                      
+                                     }
 @media screen and (max-width: 400px) { p, footer, pre.code { width: 90%; }
                                        blockquote p, blockquote footer { width: 90%; }}
 
@@ -552,6 +554,7 @@ li.nolink a:hover {
   /*border-bottom: 2px solid #777;*/
   min-width: 100%;
   display: table;
+  position: relative;
 }
 
 .index-row {
@@ -576,18 +579,39 @@ div.index-item > a {
   border-color: transparent;
   border-width:10px; 
   border-radius:100%;
+  background-color: rgba(215, 140, 140, 0.2)
   
 
 }
 
-.index-overall{background-color: rgba(215, 40, 40, 0.2)}
-.index-music{background-color: rgba(215, 60, 60, 0.2)}
+.index-overall{background-color: rgba(215, 40, 40, 0.3)}
+/*.index-music{background-color: rgba(215, 60, 60, 0.2)}
 .index-print{background-color: rgba(215, 80, 80, 0.2)}
 .index-tech{background-color: rgba(215, 100, 100, 0.2)}
 .index-blog{background-color: rgba(215, 120, 120, 0.2)}
 .index-radio{background-color: rgba(215, 140, 140, 0.2)}
 .index-tv{background-color: rgba(215, 160, 160, 0.2)}
-.index-reviews{background-color: rgba(215, 180, 180, 0.2)}
+.index-reviews{background-color: rgba(215, 180, 180, 0.2)}*/
 
+@media screen and (max-width: 800px) {
+   .index-table {left: -5%;font-size: 1em; min-width: 110%;}
+}
 
+@media screen and (max-width: 600px) {
+   .index-table {left: -9%;font-size: 1em; min-width: 118%;}
+   .index-item{font-size: 14px;}
+   .index-number{font-size: 1.5em; } 
+}
+@media screen and (max-width: 400px) {
+  .index-item{font-size: 12px;}
+  .index-number{font-size: 1.2em;}
+  }
 
+.right {float: right;}
+
+.footer {display: inline;text-align: center;width: 100%;margin-top: 10px; border-top: 2px solid #777;font-style: italic;}
+.full {
+  width: 100%;
+  height: 80%;
+  display: block;
+}

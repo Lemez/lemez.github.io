@@ -93,7 +93,6 @@
             {% assign pages_list = (site.pages | sort:"weight" )%}
             {% assign group = 'navigation' %}
             {% include JB/pages_list_nav %}
-            <li><a href="rss.xml">RSS</a> </li>
           </ul>
        <!--    <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
@@ -113,6 +112,7 @@
     </div>
 
     <!-- {% include footerform %} -->
+     {% include footerlinks.html %}
 
     {% include JB/analytics %}
 

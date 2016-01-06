@@ -1,7 +1,6 @@
-
-<div id="stickyfooter">
+<div class='full'>	
   <div class="container">
-	    <form action="http://formspree.io/lemez9@gmail.com" method="POST">
+	    <form method="POST">
 	      <input type="email" name="_replyto" placeholder="Your email">
 	      <textarea name="body" placeholder="Your message"></textarea>
 	      <input type="submit" value="Send message">

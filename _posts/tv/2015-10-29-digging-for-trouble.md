@@ -10,7 +10,7 @@ director: Natasha Dudinski
 image: digging.jpg
 location: ['Israel', 'Palestine']
 producer: DigressMedia
-topic: [television, archaeology, conflict, propaganda]
+topic: [television, archaeology, propaganda]
 video: aRNAJCHxa7w
 videotext: The film in full.
 tags: ['archaeology','arabic','history', 'Israel', 'Palestine', Jerusalem, propaganda]

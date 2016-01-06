@@ -9,7 +9,7 @@ category: "print"
 location: [Belarus]
 genre: [political, rock, punk, hip-hop]
 artist: [Neurodubel, NRM]
-topic: [censorship, USSR, UNESCO, protest]
+topic: [censorship, USSR, UNESCO, activism]
 tags: [Belarus, political, rock, punk, hip-hop, Neurodubel, NRM, censorship, USSR, activism, propaganda, UNESCO, Freemuse]
 people: [Maya Medich - co-author]
 video: 4e6t5t1rMTk
