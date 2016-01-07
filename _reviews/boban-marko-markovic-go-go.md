@@ -3,7 +3,7 @@ layout: review
 category: review
 source: Songlines
 title: Boban I Marko Marković Orkestar - Go Marko Go !
-artist: Boban I Marko Marković Orkestar
+artist: Boban Marković
 album: Go Marko Go !
 catalogue: Piranha  CD-PIR2121
 classification: "Full Price (50 mins)"

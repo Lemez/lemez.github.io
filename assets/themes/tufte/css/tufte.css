@@ -255,18 +255,6 @@ span.post_tagline:last-child  {
   padding: 0;
 }
 
-.index{
-  margin: 0;
-  padding: 0;
-  margin-bottom: 1em;
-}
-
-.index > ul {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 20px;
-}
-
 span.all_page_tagline{
   float: left;
   font-size: 16px;
@@ -539,6 +527,8 @@ li.nolink a:hover {
   margin: 10px 0 10px 0;
 }
 
+/*footer summary*/
+
 .techfooter {
   background-color: white;
 }
@@ -580,8 +570,6 @@ div.index-item > a {
   border-width:10px; 
   border-radius:100%;
   background-color: rgba(215, 140, 140, 0.2)
-  
-
 }
 
 .index-overall{background-color: rgba(215, 40, 40, 0.3)}
@@ -614,4 +602,104 @@ div.index-item > a {
   width: 100%;
   height: 80%;
   display: block;
+}
+
+/*contact form page*/
+
+input[type='email'], textarea, #success-flash {
+  font-family: inherit;
+  width: 55%;
+  display: block;
+  margin: 0 50px 0 50px;
+  color: inherit;
+  font-weight: 400;
+  font-size: 1.7rem;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+textarea {
+  height: 200px;
+}
+
+.form {
+  text-align: center;
+}
+
+input[type='submit']{
+  width: 100px; 
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.7rem;
+}
+
+
+#success-flash {
+  color: red;
+  margin: 25px 0 25px 0;
+  visibility: hidden;
+}
+
+/*tag page filtering*/
+div.tagpage-buttons {
+  width: 100%;
+  line-height: 2;
+  margin: 20px 0 20px 0;
+  text-align: left;
+}
+
+div.tagpage-buttons > span {
+  display: inline;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  font-size: 2rem;
+  border: 1px #555 solid; 
+  border-radius: 5px;
+}
+div.tagpage-buttons > span:hover {
+  cursor: pointer;
+}
+
+div#tagpage-categories-list, div#tagpage-categories,
+div#tagpage-sources-list, div#tagpage-sources,
+div#tagpage-artists-list, div#tagpage-artists,
+div#tagpage-genres-list, div#tagpage-genres,
+div#tagpage-topics-list, div#tagpage-topics {
+  display: none;
+}
+
+.tagpage-active {
+  background-color: pink;
+  font-weight: bold;
+}
+
+span.catheader {
+  float: left;
+}
+
+h1.tagpageh1 {
+  margin-top: 10px;
+}
+
+.index{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.no_border {
+  border-bottom: none;
+}
+
+
+.index > ul {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+div.tagpage-view {
+    display: block;
 }

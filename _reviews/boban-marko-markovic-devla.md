@@ -3,7 +3,7 @@ layout: review
 category: review
 source: Songlines
 title: Boban i Marko Markovic Orkestar - Devla
-artist: BandAdriatica
+artist: Boban Marković
 album: Devla / Blown Away To Dancefloor Heaven
 catalogue: Piranha CD-PIR 2339
 classification: "Full Price (46 mins)"

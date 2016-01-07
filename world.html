@@ -26,7 +26,6 @@ weight: "CA"
 		{% for post in site.reviews %}
 			{% assign all = all | push: post %}
 		{% endfor %}
-
 		 {% for post in all %} 
 		 	{% if (post.location | size) > 0 %}
 				 {% for tag in post.location %}
@@ -36,9 +35,7 @@ weight: "CA"
 				 {% endfor %}
 			{% endif %}
 		{% endfor %}
-
 		{% assign sortedLocations = (locationArray | sort )%}
-
 		{% for tag in sortedLocations %}
 			<li>
 				 		<a href="{{ BASE_PATH }}#{{ tag | replace: ' ', ''}}-ref">
@@ -46,7 +43,6 @@ weight: "CA"
 				 		</a>
 			</li>
 		{% endfor %}
-
 	</ul>
 </div>
 </section>
@@ -54,8 +50,9 @@ weight: "CA"
 <section id='worldglossary'>
 <!-- list of tags by category -->
 <div class="index">
+	<span class='catheader'>category</span>
+	<ul class="tag_box inline no_border">
 
-	<ul class="tag_box inline">
 		{% assign categories_list = (site.categories | sort ) %}
 	   {% include JB/categories_list_inactive %}
 	</ul>

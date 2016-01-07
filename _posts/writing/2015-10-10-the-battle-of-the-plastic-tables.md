@@ -10,7 +10,7 @@ location: ["Serbia"]
 genres: [balkan, brass, turbofolk, gypsy, jazz]
 artist: ['RTB Big Band','Goran Bregovic','Bojan Krstic', 'Boban Markovic']
 topic: ['festival', trumpet]
-tags: ['festival','gypsy',balkan, brass, 'turbofolk', Serbia, 'RTB Big Band', Goran Bregovic, 'Bojan Krstic', 'Boban Markovic', jazz, trumpet, Guca]
+tags: ['festival','gypsy',balkan, brass, 'turbofolk', Serbia, 'RTB Big Band', Goran Bregović, 'Bojan Krstić', 'Boban Marković', jazz, trumpet, Guća]
 ---
 {% include JB/setup %}
 
