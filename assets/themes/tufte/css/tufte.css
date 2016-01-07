@@ -607,7 +607,7 @@ div.index-item > a {
 
 /*contact form page*/
 
-input[type='email'], textarea, #success-flash {
+input[name='email'], input[name='name'], textarea, #success-flash {
   font-family: inherit;
   width: 55%;
   display: block;
@@ -638,7 +638,7 @@ input[type='submit']{
 #success-flash {
   color: red;
   margin: 25px 0 25px 0;
-  visibility: hidden;
+  border: none; 
 }
 
 /*tag page filtering*/
