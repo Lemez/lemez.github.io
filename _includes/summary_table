@@ -4,8 +4,6 @@
 {% assign overall = totposts | plus: totreviews | plus: totlyrics %}
  {% assign lyrics = site.posts | where: "title", "Song Lyrics" %} 
  {% assign reviews = site.posts | where: "title", "World music reviews, guides and sleeve notes" %} 
- <hr class='nomargin thick'>
- <hr class='nomargin thick'>
 
 <div class='index-table clear'> 
 		<div class='index-row'>

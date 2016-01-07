@@ -1,5 +1,6 @@
 <div id="stickyfooter">
-  	<ul class="navbar-nav footer nav">
+	{% include summary_table %}
+  	<ul class="navbar-nav footer-down nav">
 	     {% assign pages_list = (site.pages)%}
             {% assign group = 'foot' %}
             {% include JB/pages_list %}
