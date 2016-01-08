@@ -106,7 +106,6 @@ tags: [media, BBC Radio 2, BBC Radio 3, BBC Radio 4, BBC World Service, BBC Russ
 - Report presentation: <a href="{{belarus[0].url}}">"Hidden Truths: Music, Politics and Censorship in Lukashenko's Belarus"</a>, 3rd World Conference on Music and Censorship, Freemuse, Bilgi University, Istanbul, 2006
 - Report presentation: Censorship in Belarus, Freemuse/Swedish Helsinki Committee, Gothenburg Book Fair, Gothenburg, 2006
 - Panellist: Cultural Boycotts, WOMEX, Seville, 2004
-- Panellist: Cultural Boycotts, WOMEX, Seville, 2004
 - Panellist: Anglosemitic Bastards, WOMEX, Rotterdam, 2001
 
 <h2>Teaching</h2>

@@ -17,9 +17,9 @@
 	 		<div class='gap'></div>
 	 		<div class='index-item index-blog index-number'><a href="/blog.html">{{site.categories.blog | size}}</a></div>
 	 		<div class='gap'></div>
-	 		<div class='index-item index-radio index-number'><a href="/writing.html">{{site.categories.radio | size}}</a></div>
+	 		<div class='index-item index-radio index-number'><a href="/writing.html#radio">{{site.categories.radio | size}}</a></div>
 	 		<div class='gap'></div>
-	 		<div class='index-item index-tv index-number'><a href="/writing.html">{{site.categories.tv | size}}</a></div>
+	 		<div class='index-item index-tv index-number'><a href="/writing.html#tv">{{site.categories.tv | size}}</a></div>
 	 		<div class='gap'></div>
 	 		<div class='index-item index-tv index-number'><a href="{{lyrics[0].url}}">{{site.lyrics | size}}</a></div>
 	 		<div class='gap'></div>
@@ -36,9 +36,9 @@
 	 		<div class='gap'></div>
 	 		<div class='index-item'><a href="/blog.html">Blog</a></div>
 	 		<div class='gap'></div>
-	 		<div class='index-item'><a href="/writing.html">Radio</a></div>
+	 		<div class='index-item'><a href="/writing.html#radio">Radio</a></div>
 	 		<div class='gap'></div>
-	 		<div class='index-item'><a href="/writing.html">TV</a></div>
+	 		<div class='index-item'><a href="/writing.html#tv">TV</a></div>
 	 		<div class='gap'></div>
 	 		<div class='index-item'><a href="{{lyrics[0].url}}">Lyrics</a></div>
 	 		<div class='gap'></div>

@@ -10,7 +10,6 @@ image: jonascii.png
 icon: "jonascii.png"
 
 github: lemez.github.io
-demo: http://lemez.github.io
 tags: [tech, coding, education, lifelong learning]
 ---
 {% include JB/setup %}

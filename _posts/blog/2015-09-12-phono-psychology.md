@@ -1,10 +1,10 @@
 ---
 layout: post
 category: "blog"
-title: "On the acoustics of personality"
+title: "You Are What You Hear"
 original_date: 
 source: 
-description: "Experiencing the Tomatis Method for the first time"
+description: "An initiation into the world of Tomatis and phono-psychology"
 image: "dr-tomatis.jpg"
 location: [India, Pondicherry]
 genre: [listening]
