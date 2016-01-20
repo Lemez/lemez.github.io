@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "If I Wasn't Such A Poor Man"
-year: 2012
+year: '2012'
 artist: Shtetl Superstars
 group: Shtetl Superstars
 label: Skycap

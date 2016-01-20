@@ -24,7 +24,7 @@ tags: [Shtetl Superstars, political, pop, UK, Germany, Louis Theroux]
 
 <h3>Recordings</h3>
 
-<p><span class="newthought">The band</span> ceased to exist before our debut album was ever released internationally, yet we got some great international shows. The artwork, courtesy of <a href="http://shmariadne.com/">Ariadne Arendt</a>, was pure genius. Our official merchandise included a salted, dried fish necklace with lyrics printed on the ribbon, and customised condensed milk. I'm banking on the whole package being rediscovered one day as a lost treasure, along the lines of Sugarman. Ahem.
+<p><span class="newthought">The band</span> ceased to exist before our debut album was ever released internationally beyond a limited release in Germany, Austria and Switzerland, yet we got some great international shows. The artwork, courtesy of <a href="http://shmariadne.com/">Ariadne Arendt</a>, was pure genius. Our official merchandise included a salted, dried fish necklace with lyrics printed on the ribbon, and customised condensed milk. I'm banking on the whole package being rediscovered one day as a lost treasure, along the lines of Sugarman. Ahem.
 </p>
 
 <p>Somehow or other, the songs made it onto the soundtrack of a flagship BBC documentary, when Louis Theroux went venturing into the West Bank to meet settlers with a yearning for armageddon. We didn't get paid, but - hey - that's showbusiness !</p>

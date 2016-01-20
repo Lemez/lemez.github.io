@@ -1,12 +1,13 @@
 ---
 layout: lyrics
 title: "We Are Muay Thai"
-year: 2012
+year: '2012'
 group: Sevara Nazarkhan
 publisher: 
 artist: Sevara Nazarkhan
 category: lyrics
 soundcloud: 44011646
+about: "You get a phone call asking you to compose an anthem for the forthcoming Thai Kickboxing World Championships. The theme is - a heroic battlecry. I really enjoyed writing this one (with apologies to ass-kicking daughters and mothers)."
 video: 
 ---
 

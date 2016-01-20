@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "I Will Eat"
-year: 2012
+year: '2012'
 group: Lazlo
 album: "Venus EP"
 publisher: 

@@ -32,6 +32,34 @@ weight: "AC"
 	</ul>
 
 <div class='clear'>
+  {% for post in site.categories.songs %}
+
+  <div class="all_page_links mainstory" >
+
+    <a  href={{post.url}}>
+
+         <!--  <span id="{{post.category}}" class="all_page_tagline category"> {{post.category}}: {{post.year}}</span> -->
+          
+        <!-- <br> -->
+        <img class="allnote first" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
+
+        <div class="index-title">
+          <h3>  
+            <span class="all_page_main">{{post.title}}</span><br>
+           </h3>
+           <br>
+           <p class='all_desc'> {{post.description}}</p>
+        </div>
+
+      </a>
+
+  </div>
+
+  {% endfor %}
+
+
+
+<div class='clear'>
 
 {% assign music_list = (site.categories.music | group_by: 'area' ) %}
 {% assign prevtag = '' %}

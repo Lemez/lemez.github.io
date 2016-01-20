@@ -91,8 +91,6 @@ Rhythms are pulled apart, sliced and diced, multiplied, cross-threaded and woven
 <h3>Precision</h3>
 This is a precise form: articulation matters. All of the above is delivered with intent. It is never a free for all: carnatic music always has poise and elegance. 
 
-
-
 <h3>Lack of pretension</h3>
 
 There is something about the simplicity of the surroundings, the sheer unpretentiousness of the environment that makes its greatness all the more impressive.

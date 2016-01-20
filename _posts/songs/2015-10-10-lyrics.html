@@ -1,0 +1,46 @@
+---
+layout: music
+category: "all_lyrics"
+year: 2001-
+title: "Song Lyrics"
+description: "Selected song lyrics from bands, artists and theatre"
+image: "pencil.jpg"
+area: songwriting
+genre: ['lyrics']
+location: [UK]
+tags: [lyrics, UK]
+---
+{% include JB/setup %}
+{% include JB/setup %}
+
+{% assign songs = (site.lyrics | sort: 'group') %}
+{% assign songs = (songs | sort: 'album') %}
+{% assign prevalbum = '' %}
+{% assign prevband = '' %}
+
+<ul>
+{% for song in songs reversed %}
+
+	{% if prevband != song.group %}
+		</ul>
+		<h2 class='band'>{{song.group}}</h2>
+		<ul class='album'>
+	{% endif %}
+		
+	{% if prevalbum != song.album %}
+		</ul>
+		<h3 class='album'>{{song.album}}</h3>
+		<ul class='album'>
+	{% endif %}
+
+      <li>
+	<a href="{{song.url}}">{{ song.title }}</a>
+      </li>
+
+      {% assign prevband = song.group %}
+      {% assign prevalbum = song.album %}
+
+
+{% endfor %}
+
+</ul>

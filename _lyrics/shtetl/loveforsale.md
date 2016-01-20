@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "A Modern Matchmaker"
-year: 2010
+year: '2012'
 artist: Shtetl Superstars
 group: Shtetl Superstars
 label: Skycap
@@ -20,7 +20,8 @@ Well, you wouldn’t leave your own front door.
   
 You can think of me as a modern matchmaker  
 Helping people far and wide  
-But tell me why should it be that only we get to have ourselves a Russian bride.  
+But tell me why should it be that only we
+Get to have ourselves a Russian bride.  
   
 Come for the weekend  
 Hand-pick your angels  

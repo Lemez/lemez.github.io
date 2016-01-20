@@ -1,13 +1,14 @@
 ---
 layout: lyrics
 title: "Yesterday's Mistakes"
-year: 2003
+year: '2003'
 artist: Oi Va Voi
 group: Oi Va Voi
 label: Outcaste
 album: Laughter Through Tears
 publisher: Outcaste/EMI
 category: lyrics
+press: ["KT Tunstall's buttery voice really stands out - the perfect accompaniment to Lvas's heartfelt lyrics", "Independent"]
 video: 9n-LJ3PpfMU
 videotext: "Original studio recording, vocals by KT Tunstall, video by BAFTA winners, Siri Melchior & Lisbeth Svarling"
 ---

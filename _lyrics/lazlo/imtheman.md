@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "I'm The Man"
-year: 2012
+year: '2012'
 group: Lazlo
 publisher: 
 album: "Venus EP"

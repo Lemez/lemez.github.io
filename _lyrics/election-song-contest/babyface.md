@@ -2,7 +2,7 @@
 layout: lyrics
 title: "You're My Babyface"
 related: "The Election Song Contest"
-year: 2010
+year: '2010'
 group: "Election Song Contest"
 album: "Election Song Contest"
 artist: Sweet F Allstars

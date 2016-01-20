@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Lullabye Bye"
-year: 2008
+year: '2010'
 group: Sevara Nazarkhan
 publisher: 
 artist: Sevara Nazarkhan

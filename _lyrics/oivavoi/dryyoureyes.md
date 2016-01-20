@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: Dry Your Eyes
-year: 2007
+year: '2007'
 artist: Oi Va Voi
 group: Oi Va Voi
 label: V2

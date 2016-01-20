@@ -5,7 +5,7 @@ title: "Commercial Subterfuge with Bar Rafaeli"
 description: "Irony Vs. Sexist Advertising"
 image: "bar.png"
 category: "music"
-area: art
+area: commercial
 genre: [commercial, songwriting]
 artist: [Bar Rafaeli]
 location: [UK, Israel]

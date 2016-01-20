@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Refugee"
-year: 2003
+year: '2003'
 artist: Oi Va Voi
 group: Oi Va Voi
 label: Outcaste
@@ -10,6 +10,7 @@ publisher: Outcaste/EMI
 category: lyrics
 video: nJ4j0Xc4e1Q
 videotext: "Original studio recording, vocals by KT Tunstall"
+press: ["Dido with a political conscience, BBC"]
 ---
 {% include JB/setup %}
 

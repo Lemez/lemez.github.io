@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Hora"
-year: 2003
+year: '2003'
 artist: Oi Va Voi
 group: Oi Va Voi
 label: Outcaste

@@ -3,7 +3,7 @@ layout: post
 title: "Hear O Israel! On the Trail of Herbie's Lost Masterpiece"
 original_date: "Autumn 2008"
 source: Jewish Quarterly
-description: "Herbie Hancock's epic synagogue recordings"
+description: "On the re-release of Herbie Hancock's epic forgotten gem"
 image: "hearoisraelcover.jpg"
 category: "print"
 genre: [synagogue liturgy, jazz]

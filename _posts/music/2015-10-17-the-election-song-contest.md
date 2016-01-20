@@ -5,7 +5,7 @@ year: 2010
 title: "The Election Song Contest"
 description: "A nationwide satirical pop song contest"
 image: "ESCheader.png"
-area: art
+area: political
 genre: ['art', political, 'pop']
 location: [UK]
 people: [Yaniv Fridel(mix/production), Maiya James(vocals), Paul Tkachenko(vocals/keyboard), Richard Reynolds(press), musicalcomedy.co.uk, Darbukka(venue), Ariadne Arendt(artwork)]

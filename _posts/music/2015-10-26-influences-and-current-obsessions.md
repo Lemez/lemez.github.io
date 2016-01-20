@@ -1,8 +1,8 @@
 ---
 layout: post
 category: "music"
-title: "Influences and Current Obsessions"
-description: "Listening playlists"
+title: "How I Became A Musician"
+description: "Influences and things to listen to"
 image: colours_2012_33_zdenkohanout.jpeg
 genre: []
 artist: []
@@ -22,6 +22,12 @@ vimeo:
 tags: [Serbia, Turkey, India, Desert Island Discs]
 ---
 {% include JB/setup %}
+
+I do not come from a family of musicians, but they are music lovers, and music was always a key part of my life. I was lucky enough to find that singing came naturally at a young age, and learned the trumpet and alto saxophone at school. But I was always afraid of my saxophone teacher, and soon fell out of love with the idea of music as something worth doing, especially as a teenager when the world of languages put my imagination on fire.
+
+
+
+
 
 I want to use this page to share my influences and latest obsessions.
 Thanks to the magic of the interwebs, the playlists below will update as I browse Youtube, so if you come back to any page on this entire site at least once, it should be this one.

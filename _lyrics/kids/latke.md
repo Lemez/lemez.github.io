@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "There's Noone Luckier Than a Latke"
-year: 2012
+year: '2012'
 group: Children's
 album: "The Latke Who Couldn't Stop Screaming"
 publisher: 

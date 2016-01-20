@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Shtetl Superstar"
-year: 2012
+year: '2012'
 group: Shtetl Superstars
 artist: Shtetl Superstars
 label: Skycap

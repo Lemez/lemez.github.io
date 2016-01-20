@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Don't Misunderstand Me"
-year: 2012
+year: '2012'
 artist: Shtetl Superstars
 group: Shtetl Superstars
 label: Skycap

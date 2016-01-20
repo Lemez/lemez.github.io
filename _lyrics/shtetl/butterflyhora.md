@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Butterfly Hora"
-year: 2012
+year: '2012'
 artist: Shtetl Superstars
 group: Shtetl Superstars
 label: Skycap

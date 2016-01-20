@@ -7,13 +7,16 @@ header : Hello
 <!-- {% include signs text="w,e,l,c,o,m,e" %} -->
       
  {% assign lyrics = site.posts | where: "title", "Song Lyrics" %} 
+ {% assign ovv = site.posts | where: "title", "Oi Va Voi" %} 
+ {% assign tonguesten = site.posts | where: "title", "Tonguesten" %}
+ {% assign carnatic = site.posts | where: 'title', "At A Carnatic Concert, Pondicherry" %} 
  {% assign reviews = site.posts | where: "title", "World music reviews, guides and sleeve notes" %} 
 
 
-<h1 class='homepage clear'> Hello. I'm <a href="/about.html">Jonathan</a>. Thanks for dropping by.</h1>  
+<h1 class='homepage clear'> Hello. I'm <a class='indexlink' href="/about.html">Jonathan</a>. Thanks for dropping by.</h1>  
 <h2 class='indexpage'> 
-The <a href="/music.html">music</a> page has music and art projects; the <a href="/writing.html">media</a> page has broadcasting, print and other publications;  the <a href="/tech.html">tech</a> and <a href="{{lyrics[0].url}}">lyrics</a> pages have... you get the picture.</h2>
-<h2 class='indexpage'> If you want to search by <a href="/world.html">location</a> or by <a href="/categories.html">topic</a>, you can do that too.</h2> 
+The <a class='indexlink' href="/music.html">music</a> page has music and art projects; the <a class='indexlink' href="/writing.html">media</a> page has broadcasting, print and other scribbles;  the <a class='indexlink' href="/blog.html">blog</a>, <a class='indexlink' href="/tech.html">tech</a> and <a href="{{lyrics[0].url}}">lyrics</a> pages have... you get the picture.</h2>
+<h2 class='indexpage'> If you want to search by <a class='indexlink' href="/world.html">location</a> or <a class='indexlink' href="/categories.html">topic</a>, you can do that too. If you like what you see, please use the <a href="/subscribe.html">subscribe</a> link at the bottom. </h2> 
 <h2 class='indexpage'>And if you don't want to browse at all, you can watch my YouTube favourites below - same idea: more succinct. </h2>
 <br>
 <br>

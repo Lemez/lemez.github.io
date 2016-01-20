@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Money On The Man at Number Ten"
-year: 2010
+year: '2010'
 artist: Sweet F Allstars
 related: "The Election Song Contest"
 group: "Election Song Contest"

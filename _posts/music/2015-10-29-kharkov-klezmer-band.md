@@ -27,9 +27,9 @@ I was lucky enough to be at independent Ukraine's first klezmer festival - after
 
 It was like an emotional coming-out - many small groups across the country had been playing, often in secret, and they were stunned to know that they were part of a larger community, and a larger cultural revival that, having started in the US in the late 70s, was going to give them a firm badge of cultural identity that really belonged to them.
 
-It was a beautiful experience, not least because the quality of music was so good - from the KKB - a young, feisty traditional band from Eastern Ukraine who played the traditional style much better than I'd ever heard before.
+It was a beautiful experience, not least because the quality of music was so good - from the KKB - a young, feisty band from Eastern Ukraine who played the traditional style much better than I'd ever heard before.
 
-I managed to get them to the UK for workshops, and there we recorded their first album, the whole thing in one take.
+I managed to get them to the UK for workshops, and there we recorded their first album, the whole thing in one take. It still ranks as one of the best old-school klezmer records out there.
 
 <h3>Liner Notes</h3>
 

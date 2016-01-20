@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Rabbit Not A Man"
-year: 2012
+year: '2012'
 group: Lazlo
 publisher: 
 album: "Venus EP"

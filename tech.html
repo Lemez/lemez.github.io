@@ -49,32 +49,35 @@ icon: "jonascii.png"
 {% assign prevtag = '' %}
 {% for post in tech_list %} 
 
- {% if prevtag != post.area %}
-    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
-    {% else %}
-    <span class="all_page_tagline category"> {{post.area}}</span>
- {% endif %}
+		<div class="all_page_links" >
+	      	<a  href={{post.url}}>
 
-<span class="all_page_tagline category">: {{post.year}}</span>
-<br>
-<div class="all_page_links" >
+				{% if prevtag != post.area %}
+				    <span id="{{post.area}}" class="all_page_tagline category"> {{post.area}}</span>
+				    {% else %}
+				    <span class="all_page_tagline category"> {{post.area}}</span>
+				 {% endif %}
 
-<a  href={{post.url}}>
-<!--     {{post.content | strip_html | truncatewords:50}} -->
-<span class="allnote"><img src="{{IMAGE_CROP_PATH}}/{{post.image}}" height="100"/></span>
- 
-<h3 class="music">	
-<span class="all_page_main">{{post.title}}</span><br>
-</h3>
+			    <span class="all_page_tagline category">: {{post.year}}</span>
+			    
+			    <br>
 
+		    	 <img class="allnote" src="{{IMAGE_CROP_PATH}}/{{post.image}}"/>
 
-<p> {{post.description}}</p>
-</a>
-<div>
+			      <div class="index-title">
+			      	<h3>	
+			        	<span class="all_page_main">{{post.title}}</span>
+			        	<br>
+			    	 </h3>
+			    	 <p class='all_desc'> {{post.description}}</p>
+			      </div>
 
-<hr class='nomargin'>
+	      	</a>
+	    </div>
+	  
+	  <hr class='nomargin'>
+	  {% assign prevtag = post.area %}
+	{% endfor %}
 
-{% assign prevtag = post.area %}
-{% endfor %}
 </div>
 
