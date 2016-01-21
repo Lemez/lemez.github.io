@@ -12,7 +12,7 @@ location: [UK, Germany]
 soundcloud: 153135409
 video: 25owARaHmoM
 videotext: "Yes, I am singing in Czech. And yes, I'm surprised too."
-people: [Yaniv Fridel - mix/production, Yuriy Gurzhy/Maiya James - songwriting]
+people: [Yaniv Fridel - mix/production, Yuriy Gurzhy/Maiya James - co-writing, Roy Pfeffer/Olly Blackman - drums, Andrea Terrano - guitar, Toby Knowles - keyboards/vocals, Liran Donin/Paul Tkachenko - bass, Kathy Toy - accordion]
 tags: [Shtetl Superstars, political, pop, UK, Germany, Louis Theroux]
 ---
 
@@ -37,3 +37,7 @@ Never properly released, so I'm officially free to make up whatever quotes I wan
 <blockquote><p>"We predict their debut album will be one of the biggest hits of the decade"</p>
 <footer>Sziget Festival, official programme</footer> 
 </blockquote>
+
+Live recording as a 5-piece from the wonderful Folk Holidays Festival, Náměšť Nad Oslavou, 2012
+<br>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/187798993&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>

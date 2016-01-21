@@ -10,13 +10,16 @@ area: radio
 location: [Ghana, Malta, Trinidad, New Orleans, India]
 genre: [highlife, marching band, brass]
 artist: [Ebo Taylor, Fela Kuti ]
+video: vWGkcpYvb6E
 topic: [empire, colonialism, military history]
 people: [Miranda Hinkley - production]
 tags: [empire, colonialism, military history, highlife, marching band, brass, Ghana, Malta, Trinidad, New Orleans, India, Ebo Taylor, Fela Kuti ]
 ---
 {% include JB/setup %}
 
-This is what you call a good gig. Together with my radio production partner at the time, Miranda Hinkley, Radio 2 commissioned a series on brass music around the Commonwealth. Armed with a moc and a trumpet, I set off to investigate Ghana and Malta, and she went to Trinidad and India.
+
+
+This is what you call a good gig. Together with my radio production partner at the time, Miranda Hinkley, Radio 2 commissioned a series on brass music around the Commonwealth. Armed with a mic and a trumpet, I set off to investigate Ghana and Malta, and she went to Trinidad and India.
 
 More information <a href="http://nightjar.co.uk/tag/world-class-brass/">here</a>.
 

@@ -1,0 +1,13 @@
+
+
+{% for story in storyarray %}
+<ul class="indented">
+  <li>
+<a href="{{story.url}}">{{ story.title }}</a>
+  </li>
+</ul>
+<p class="indented">{{story.description}}</p>
+  {% endfor %}
+
+
+

@@ -2,12 +2,13 @@
 layout: lyrics
 title: "Plastic Paradise"
 year: '2010'
-group: Various
+group: Ofer Bashan
 publisher: 
+album: Demos
 artist: Ofer Bashan
 category: lyrics
 soundcloud: 229402407
-about: "Ofer Bashan is a talented singer and writer from Israel who writes moody, melodic songs with soaring hook lines."
+about: "Ofer Bashan is a talented singer and writer from Israel who writes moody, melodic songs with soaring hook lines. Demo recorded in London, 2012"
 ---
 
 Something happened  

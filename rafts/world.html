@@ -1,0 +1,9588 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+
+    
+    
+    <meta name="author" content="Jonathan Walton">
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World</title>
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+    
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/tufte/css/tufte.css?" rel="stylesheet" type="text/css" media="all">
+
+    <link href="/assets/themes/tufte/css/style.css?" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images -->
+      <link rel="shortcut icon" href="/assets/themes/tufte/images/JW.ico">
+      <link rel="apple-touch-icon" href="/assets/themes/tufte/images/JW.ico">
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/themes/tufte/images/JW.ico">
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/themes/tufte/images/JW.ico">
+   
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+     <script src="/assets/themes/tufte/js/jquery-1.11.3.min.js"></script>
+    <script src="/assets/themes/tufte/js/main.js"></script>
+    <script src="/assets/themes/tufte/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43041250-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+
+  <body>
+   
+
+    <div id="stickywrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            
+             <img class='navpic' src='/assets/themes/tufte/images/LL.jpg' height='50' />
+             
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/blog.html"  id="Blog">Blog</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/music.html"  id="Music">Music</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/writing.html"  id="Media">Media</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/tech.html"  id="Tech">Tech</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="active link iconic" ><a class="" href="/world.html" class="active" id="World">World</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/categories.html"  id="Tags">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+       <!--    <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> -->
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <!-- <div class="container"> -->
+
+        
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="/assets/themes/tufte/js/datamaps.world.min.js"></script>
+<script src="/assets/themes/tufte/js/locations.js"></script>
+<div id="container" style="position: relative; width: 100%; height: 400px;"></div>
+
+<section>
+<div class="index">
+	<span class='catheader'>geo</span>
+	<ul class="tag_box inline">
+
+		
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		  
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+		 
+		 	
+		 
+		 	
+		 
+		 	
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+			
+		 
+		 	
+				 
+				 	
+				 
+				 	
+					 	
+					
+				 
+			
+		 
+		 	
+				 
+				 	
+					 	
+					
+				 
+			
+		
+		
+		
+			<li>
+				 		<a href="#Algeria-ref">
+				 		Algeria
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Argentina-ref">
+				 		Argentina
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Armenia-ref">
+				 		Armenia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Austria-ref">
+				 		Austria
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Belarus-ref">
+				 		Belarus
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Belgium-ref">
+				 		Belgium
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Bosnia-ref">
+				 		Bosnia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Bristol-ref">
+				 		Bristol
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Bulgaria-ref">
+				 		Bulgaria
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Canada-ref">
+				 		Canada
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#China-ref">
+				 		China
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Croatia-ref">
+				 		Croatia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Cyprus-ref">
+				 		Cyprus
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#CzechRepublic-ref">
+				 		Czech Republic
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Denmark-ref">
+				 		Denmark
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Ecuador-ref">
+				 		Ecuador
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Estonia-ref">
+				 		Estonia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#France-ref">
+				 		France
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Galapagos-ref">
+				 		Galapagos
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Gaza-ref">
+				 		Gaza
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Georgia-ref">
+				 		Georgia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Germany-ref">
+				 		Germany
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Ghana-ref">
+				 		Ghana
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Greece-ref">
+				 		Greece
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Hungary-ref">
+				 		Hungary
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#India-ref">
+				 		India
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Iran-ref">
+				 		Iran
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Ireland-ref">
+				 		Ireland
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Israel-ref">
+				 		Israel
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Italy-ref">
+				 		Italy
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Kenya-ref">
+				 		Kenya
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#LaReunion-ref">
+				 		La Reunion
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Mali-ref">
+				 		Mali
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Malta-ref">
+				 		Malta
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Moldova-ref">
+				 		Moldova
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Netherlands-ref">
+				 		Netherlands
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#NewOrleans-ref">
+				 		New Orleans
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#NewZealand-ref">
+				 		New Zealand
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Norway-ref">
+				 		Norway
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Palestine-ref">
+				 		Palestine
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Poland-ref">
+				 		Poland
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Pondicherry-ref">
+				 		Pondicherry
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Quebec-ref">
+				 		Quebec
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Romania-ref">
+				 		Romania
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Russia-ref">
+				 		Russia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Senegal-ref">
+				 		Senegal
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Serbia-ref">
+				 		Serbia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Siberia-ref">
+				 		Siberia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Slovenia-ref">
+				 		Slovenia
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#SouthAfrica-ref">
+				 		South Africa
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Tajikistan-ref">
+				 		Tajikistan
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Trinidad-ref">
+				 		Trinidad
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Turkey-ref">
+				 		Turkey
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Tuva-ref">
+				 		Tuva
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#UK-ref">
+				 		UK
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#USA-ref">
+				 		USA
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Uganda-ref">
+				 		Uganda
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Ukraine-ref">
+				 		Ukraine
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Uzbekistan-ref">
+				 		Uzbekistan
+				 		</a>
+			</li>
+		
+			<li>
+				 		<a href="#Zimbabwe-ref">
+				 		Zimbabwe
+				 		</a>
+			</li>
+		
+	</ul>
+</div>
+</section>
+<hr>
+<section id='worldglossary'>
+<!-- list of tags by category -->
+<div class="index">
+	<span class='catheader'>category</span>
+	<ul class="tag_box inline no_border">
+
+		
+	   
+
+
+  
+     
+    	<li class="all_lyrics-nolink iconic inactive nolink"><a  class="caticon">
+    		all_lyrics </a>
+    	</li>
+     
+    	<li class="blog-nolink iconic inactive nolink"><a  class="caticon">
+    		blog </a>
+    	</li>
+     
+    	<li class="music-nolink iconic inactive nolink"><a  class="caticon">
+    		music </a>
+    	</li>
+     
+    	<li class="print-nolink iconic inactive nolink"><a  class="caticon">
+    		print </a>
+    	</li>
+     
+    	<li class="publications-nolink iconic inactive nolink"><a  class="caticon">
+    		publications </a>
+    	</li>
+     
+    	<li class="radio-nolink iconic inactive nolink"><a  class="caticon">
+    		radio </a>
+    	</li>
+     
+    	<li class="songs-nolink iconic inactive nolink"><a  class="caticon">
+    		songs </a>
+    	</li>
+     
+    	<li class="tech-nolink iconic inactive nolink"><a  class="caticon">
+    		tech </a>
+    	</li>
+     
+    	<li class="tv-nolink iconic inactive nolink"><a  class="caticon">
+    		tv </a>
+    	</li>
+    
+  
+
+
+
+	</ul>
+</div>
+</section>
+
+<section>
+ 
+  <h2 id="Algeria-ref">Algeria</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Argentina-ref">Argentina</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/zingaros-cirkari.html">Zingaros - Cirkari</a></li>
+    	
+    
+  </ul>
+ 
+  <h2 id="Armenia-ref">Armenia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/shahnameh"  id="Shahnameh">Shahnameh</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Austria-ref">Austria</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ahilea-cafe-svetlana.html">Ahilea - Café Svetlana</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/la-cherga-fake-no-more.html">La Cherga - Fake No More</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/russkaja-kasathcok-superstar.html">Russkaja - Kasatchok Superstar</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Belarus-ref">Belarus</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/27/album-61"  id="Album 61">Album 61</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/25/belarus-freedom-of-expression"  id="Hidden Truths: Music, Politics and Censorship in Lukashenko's Belarus">Hidden Truths: Music, Politics and Censorship in Lukashenko's Belarus</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Belgium-ref">Belgium</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Bosnia-ref">Bosnia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/16/on-music-and-healing-with-nigel-osborne"  id="On Music and Healing">On Music and Healing</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/goran-bregovic-welcome-to-goran-bregovic.html">Goran Bregovic - Welcome to Goran Bregovic</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-rough-guide-to-the-music-of-the-gypsies.html">Various Artists - The Rough Guide to Gypsy Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Bristol-ref">Bristol</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/27/the-island"  id="The Island - Al Jones">The Island - Al Jones</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Bulgaria-ref">Bulgaria</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/the-shin-black-sea-fire.html">The Shin - Black Sea Fire</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Canada-ref">Canada</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/whos-playing-whom-world-music-and-soft-power"  id="World Music and Soft Power: Who's Playing Whom?">World Music and Soft Power: Who's Playing Whom?</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="China-ref">China</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/yom-unue.html">Yom - Unue</a></li>
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Croatia-ref">Croatia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/little-miss-roma"  id="Little Miss Roma">Little Miss Roma</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Cyprus-ref">Cyprus</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/dogan-mehmet-dogan.html">Dogan Mehmet - Dogan</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="CzechRepublic-ref">Czech Republic</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/cankisou-le-la.html">Čankišou - Lé La</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/gipsy-cz-reprezent.html">Gipsy.cz - Reprezent</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Denmark-ref">Denmark</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/not-just-aid-you-can-dance-to-a-call-for-a-new-world-music"  id="Not Just Aid You Can Dance To">Not Just Aid You Can Dance To</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/palestinian-eurovision"  id="La Palestine - Douze Points?">La Palestine - Douze Points?</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Ecuador-ref">Ecuador</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/wet-sounds"  id="Wet Sounds">Wet Sounds</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Estonia-ref">Estonia</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ersatz-voice.html">Ersatz Musika - Voice Letter</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="France-ref">France</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/25/score-east-and-west"  id="SCORE: East and West">SCORE: East and West</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/yom-unue.html">Yom - Unue</a></li>
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Galapagos-ref">Galapagos</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/wet-sounds"  id="Wet Sounds">Wet Sounds</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Gaza-ref">Gaza</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/29/parashat-ruth"  id="Ruth">Ruth</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/mira-awad"  id="Mira Awad">Mira Awad</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Georgia-ref">Georgia</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/the-shin-black-sea-fire.html">The Shin - Black Sea Fire</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Germany-ref">Germany</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/shtetl-superstars"  id="Shtetl Superstars">Shtetl Superstars</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/balkanbeats-a-night-in-berlin.html">Balkanbeats - A Night in Berlin</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/daniel-kahn-broken-tongue.html">Daniel Kahn - The Broken Tongue</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ersatz-voice.html">Ersatz Musika - Voice Letter</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/konsonans-retro.html">Konsonans Retro - A Podolian Affair</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/la-brass-banda-habediehre.html">LaBrassBanda - Habediehre</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/la-brass-banda-ubersee.html">LaBrassBanda - Ubersee</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-balkan-grooves-eastblok.html">Various Artists - Balkan Grooves</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-fiesta-balkanica.html">Various Artists - Fiesta Balkanica</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Ghana-ref">Ghana</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/14/world-class-brass-the-sound-of-empire"  id="World Class Brass: The Sound of Empire">World Class Brass: The Sound of Empire</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Greece-ref">Greece</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/shahnameh"  id="Shahnameh">Shahnameh</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Hungary-ref">Hungary</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/lazlo"  id="Lazlo/Kistehen">Lazlo/Kistehen</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/beshodrom-liner-notes.html">BeshoDrom - Gyi!</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-rough-guide-to-the-music-of-the-gypsies.html">Various Artists - The Rough Guide to Gypsy Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="India-ref">India</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/09/12/phono-psychology"  id="You Are What You Hear">You Are What You Hear</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/11/at-a-carnatic-concert-pondicherry"  id="At A Carnatic Concert, Pondicherry">At A Carnatic Concert, Pondicherry</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/22/music-therapy-observations---a-week-with-nigel-osborne"  id="Towards an Indian Music Therapy">Towards an Indian Music Therapy</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/16/on-music-and-healing-with-nigel-osborne"  id="On Music and Healing">On Music and Healing</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/27/album-61"  id="Album 61">Album 61</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/26/influences-and-current-obsessions"  id="How I Became A Musician">How I Became A Musician</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/14/world-class-brass-the-sound-of-empire"  id="World Class Brass: The Sound of Empire">World Class Brass: The Sound of Empire</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Iran-ref">Iran</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/shahnameh"  id="Shahnameh">Shahnameh</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Ireland-ref">Ireland</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Israel-ref">Israel</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/29/under-pressure"  id="Commercial Subterfuge with Bar Rafaeli">Commercial Subterfuge with Bar Rafaeli</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/29/parashat-ruth"  id="Ruth">Ruth</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/weinstein"  id="What We Did To Weinstein">What We Did To Weinstein</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/25/score-east-and-west"  id="SCORE: East and West">SCORE: East and West</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/27/album-61"  id="Album 61">Album 61</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/mira-awad"  id="Mira Awad">Mira Awad</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/jerusalem-a-musical-postcard"  id="Jerusalem, a Musical Postcard">Jerusalem, a Musical Postcard</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/palestinian-eurovision"  id="La Palestine - Douze Points?">La Palestine - Douze Points?</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/forbidden-games"  id="Forbidden Games">Forbidden Games</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/digging-for-trouble"  id="Digging For Trouble / In the Shadow of King David">Digging For Trouble / In the Shadow of King David</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/amir-perelman-prayers-beyond-words.html">Amir Perelman - Prayers Beyond Words</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/amsterdam-klezmer-band-zaraza.html">Amsterdam Klezmer Band - Zaraza</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/boom-pam-puerto-rican-nights.html">Boom Pam - Puerto Rican Nights</a></li>
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/chava-alberstein-motsei-chag.html">Chava Alberstein - Motsei Chag, End of the Holiday</a></li>
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/daphna-sadeh-voyagers-reconciliation.html">Daphna Sadeh & The Voyagers - Reconciliation</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/moshe-berlin-aneinu.html">Moshe Berlin Ensemble - Aneinu</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Italy-ref">Italy</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/banda-adriatica-contagia.html">BandAdriatica - Contagio Musiche dai porti dell’Adriatico</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/figli-di-madre-ignota-fez-club.html">Figli Di Madre Ignota - Fez Club</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Kenya-ref">Kenya</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="LaReunion-ref">La Reunion</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/cankisou-le-la.html">Čankišou - Lé La</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Mali-ref">Mali</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Malta-ref">Malta</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/14/world-class-brass-the-sound-of-empire"  id="World Class Brass: The Sound of Empire">World Class Brass: The Sound of Empire</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Moldova-ref">Moldova</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/veretski-pass-traditional-east-european-jewish-music.html">Veretski Pass - Traditional East European Jewish Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Netherlands-ref">Netherlands</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/alik"  id="Alec Kopyt">Alec Kopyt</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="NewOrleans-ref">New Orleans</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/14/world-class-brass-the-sound-of-empire"  id="World Class Brass: The Sound of Empire">World Class Brass: The Sound of Empire</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="NewZealand-ref">New Zealand</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/whos-playing-whom-world-music-and-soft-power"  id="World Music and Soft Power: Who's Playing Whom?">World Music and Soft Power: Who's Playing Whom?</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Norway-ref">Norway</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Palestine-ref">Palestine</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/29/parashat-ruth"  id="Ruth">Ruth</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/weinstein"  id="What We Did To Weinstein">What We Did To Weinstein</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/jerusalem-a-musical-postcard"  id="Jerusalem, a Musical Postcard">Jerusalem, a Musical Postcard</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/mira-awad"  id="Mira Awad">Mira Awad</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/forbidden-games"  id="Forbidden Games">Forbidden Games</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/palestinian-eurovision"  id="La Palestine - Douze Points?">La Palestine - Douze Points?</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="tvlink iconic" ><a class="bigger" href="/tv/2015/10/29/digging-for-trouble"  id="Digging For Trouble / In the Shadow of King David">Digging For Trouble / In the Shadow of King David</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Poland-ref">Poland</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-polska-rootz.html">Various Artists - Polska Rootz</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Pondicherry-ref">Pondicherry</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/22/music-therapy-observations---a-week-with-nigel-osborne"  id="Towards an Indian Music Therapy">Towards an Indian Music Therapy</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/16/on-music-and-healing-with-nigel-osborne"  id="On Music and Healing">On Music and Healing</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/11/at-a-carnatic-concert-pondicherry"  id="At A Carnatic Concert, Pondicherry">At A Carnatic Concert, Pondicherry</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Quebec-ref">Quebec</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/whos-playing-whom-world-music-and-soft-power"  id="World Music and Soft Power: Who's Playing Whom?">World Music and Soft Power: Who's Playing Whom?</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Romania-ref">Romania</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/mahala-rai-banda-ghetto-blasters.html">Mahala Rai Banda - Ghetto Blasters</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-rough-guide-to-the-music-of-the-gypsies.html">Various Artists - The Rough Guide to Gypsy Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Russia-ref">Russia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/alik"  id="Alec Kopyt">Alec Kopyt</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/14/the-womex-12-professional-excellence-award"  id="The WOMEX 12 Professional Excellence Award">The WOMEX 12 Professional Excellence Award</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/24/ukraine-music-and-revolution"  id="Ukraine: Music and Revolution">Ukraine: Music and Revolution</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ersatz-voice.html">Ersatz Musika - Voice Letter</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/masloboev-russian-folksongs-key-of-rhythm-leo-records.html">Russian Folksongs in the Key of Rhythm - Evgeny Masloboev and Anastasia Masloboeva</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/masloboev-russian-folksongs-key-of-sadness-leo-records.html">Russian Folksongs in the Key of Sadness - Evgeny Masloboev and Anastasia Masloboeva</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/russkaja-kasathcok-superstar.html">Russkaja - Kasatchok Superstar</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-rough-guide-to-music-of-russian-gypsies.html">Various Artists - Rough Guide To the Music of Russian Gypsies</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Senegal-ref">Senegal</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Serbia-ref">Serbia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/26/influences-and-current-obsessions"  id="How I Became A Musician">How I Became A Musician</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/the-battle-of-the-plastic-tables"  id="The Battle of the Plastic Tables">The Battle of the Plastic Tables</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/26/songlines-guide-to-balkan-brass"  id="Podcast: Essential Balkan Brass">Podcast: Essential Balkan Brass</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/boban-marko-markovic-devla.html">Boban i Marko Markovic Orkestar - Devla</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/boban-marko-markovic-go-go.html">Boban I Marko Marković Orkestar - Go Marko Go !</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/golden-brass-summit-fiesta-mania-dvd.html">Golden Brass Summit - Fiesta Mania DVD</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/goran-bregovic-welcome-to-goran-bregovic.html">Goran Bregovic - Welcome to Goran Bregovic</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/vrelo-preko-reke.html">Vrelo - Preko Reke</a></li>
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Siberia-ref">Siberia</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/14/the-womex-12-professional-excellence-award"  id="The WOMEX 12 Professional Excellence Award">The WOMEX 12 Professional Excellence Award</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/masloboev-russian-folksongs-key-of-rhythm-leo-records.html">Russian Folksongs in the Key of Rhythm - Evgeny Masloboev and Anastasia Masloboeva</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/masloboev-russian-folksongs-key-of-sadness-leo-records.html">Russian Folksongs in the Key of Sadness - Evgeny Masloboev and Anastasia Masloboeva</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Slovenia-ref">Slovenia</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/fake-orchestra-made-in-china.html">Fake Orchestra - Made In China</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="SouthAfrica-ref">South Africa</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Tajikistan-ref">Tajikistan</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/omfo-omnipresence.html">OMFO - Omnipresence</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Trinidad-ref">Trinidad</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/14/world-class-brass-the-sound-of-empire"  id="World Class Brass: The Sound of Empire">World Class Brass: The Sound of Empire</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Turkey-ref">Turkey</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/26/influences-and-current-obsessions"  id="How I Became A Musician">How I Became A Musician</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Tuva-ref">Tuva</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/14/the-womex-12-professional-excellence-award"  id="The WOMEX 12 Professional Excellence Award">The WOMEX 12 Professional Excellence Award</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="UK-ref">UK</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="all_lyricslink iconic" ><a class="bigger" href="/all_lyrics/2015/10/10/lyrics"  id="Song Lyrics">Song Lyrics</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/16/on-music-and-healing-with-nigel-osborne"  id="On Music and Healing">On Music and Healing</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="bloglink iconic" ><a class="bigger" href="/blog/2015/10/22/music-therapy-observations---a-week-with-nigel-osborne"  id="Towards an Indian Music Therapy">Towards an Indian Music Therapy</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/shtetl-superstars"  id="Shtetl Superstars">Shtetl Superstars</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/26/teen-horse-whisperers"  id="The Wild Ones">The Wild Ones</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/25/the-table"  id="The Table">The Table</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/25/score-east-and-west"  id="SCORE: East and West">SCORE: East and West</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/yiddish-twist-orchestra"  id="Yiddish Twist Orchestra">Yiddish Twist Orchestra</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/27/the-island"  id="The Island - Al Jones">The Island - Al Jones</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/29/under-pressure"  id="Commercial Subterfuge with Bar Rafaeli">Commercial Subterfuge with Bar Rafaeli</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/lazlo"  id="Lazlo/Kistehen">Lazlo/Kistehen</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/dj-moniker"  id="Island In The Sun: Election Mashup">Island In The Sun: Election Mashup</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/11/21/watch"  id="Watch">Watch</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/shahnameh"  id="Shahnameh">Shahnameh</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/latke"  id="The Latke Who Couldn't Stop Screaming">The Latke Who Couldn't Stop Screaming</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/17/the-election-song-contest"  id="The Election Song Contest">The Election Song Contest</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/21/weinstein"  id="What We Did To Weinstein">What We Did To Weinstein</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/hear-o-israel-on-the-trail-of-herbies-lost-masterpiece"  id="Hear O Israel! On the Trail of Herbie's Lost Masterpiece">Hear O Israel! On the Trail of Herbie's Lost Masterpiece</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/altogether-now-rethinking-strategies-for-new-artists"  id="Altogether Now: Rethinking Strategies for New Artists">Altogether Now: Rethinking Strategies for New Artists</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/whos-playing-whom-world-music-and-soft-power"  id="World Music and Soft Power: Who's Playing Whom?">World Music and Soft Power: Who's Playing Whom?</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/09/wet-sounds"  id="Wet Sounds">Wet Sounds</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/30/world-music-articles--reviews"  id="World music reviews, guides and sleeve notes">World music reviews, guides and sleeve notes</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/not-just-aid-you-can-dance-to-a-call-for-a-new-world-music"  id="Not Just Aid You Can Dance To">Not Just Aid You Can Dance To</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="songslink iconic" ><a class="bigger" href="/songs/2015/10/10/lyrics"  id="Song Lyrics">Song Lyrics</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/daphna-sadeh-voyagers-reconciliation.html">Daphna Sadeh & The Voyagers - Reconciliation</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/dogan-mehmet-dogan.html">Dogan Mehmet - Dogan</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/konsonans-retro.html">Konsonans Retro - A Podolian Affair</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/max-pashm-never-mind-the-balkans.html">Max Pashm - Never Mind the Balkans… Here’s Max Pashm</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/the-destroyers-out-of-babel.html">The Destroyers - Out Of Babel</a></li>
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ukrainians-diaspora.html">The Ukrainians - Diaspora</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ukrainians-live-in-czeremcha.html">The Ukrainians - Live in Czeremcha</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/various-balkan-fever-london.html">Various Artists - Balkan Fever London</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="USA-ref">USA</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/11/hear-o-israel-on-the-trail-of-herbies-lost-masterpiece"  id="Hear O Israel! On the Trail of Herbie's Lost Masterpiece">Hear O Israel! On the Trail of Herbie's Lost Masterpiece</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/10/whos-playing-whom-world-music-and-soft-power"  id="World Music and Soft Power: Who's Playing Whom?">World Music and Soft Power: Who's Playing Whom?</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/daniel-kahn-broken-tongue.html">Daniel Kahn - The Broken Tongue</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/margot-leverett-klezmer-mountain-boys.html">Margot Leverett - Margot Leverett & The Klezmer Mountain Boys</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/veretski-pass-traditional-east-european-jewish-music.html">Veretski Pass - Traditional East European Jewish Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Uganda-ref">Uganda</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Ukraine-ref">Ukraine</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/alik"  id="Alec Kopyt">Alec Kopyt</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="printlink iconic" ><a class="bigger" href="/print/2015/10/14/the-womex-12-professional-excellence-award"  id="The WOMEX 12 Professional Excellence Award">The WOMEX 12 Professional Excellence Award</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="radiolink iconic" ><a class="bigger" href="/radio/2015/10/24/ukraine-music-and-revolution"  id="Ukraine: Music and Revolution">Ukraine: Music and Revolution</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/konsonans-retro.html">Konsonans Retro - A Podolian Affair</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/omfo-omnipresence.html">OMFO - Omnipresence</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/rough-guide-to-world-music-ukraine.html">Ukraine - Discography </a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ukrainians-diaspora.html">The Ukrainians - Diaspora</a></li>
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/ukrainians-live-in-czeremcha.html">The Ukrainians - Live in Czeremcha</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/veretski-pass-traditional-east-european-jewish-music.html">Veretski Pass - Traditional East European Jewish Music</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Uzbekistan-ref">Uzbekistan</h2>
+  <ul class='icon'>
+     
+    
+    	
+    	
+
+
+  
+    
+      
+      	
+      	<li class="musiclink iconic" ><a class="bigger" href="/music/2015/10/22/sevara"  id="Sevara Nazarkhan">Sevara Nazarkhan</a></li>
+      	
+      
+    
+  
+
+
+
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+ 
+  <h2 id="Zimbabwe-ref">Zimbabwe</h2>
+  <ul class='icon'>
+     
+    
+     
+    	
+    
+    	
+    
+    	
+    
+    	
+    			<li class="lplink iconic"><a class="smaller" href="/reviews/assorted-short-reviews.html">Short Reviews (assorted)</a></li>
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+    	
+    
+  </ul>
+
+</section>
+
+
+
+<script>
+		var replacedNames = {
+			"United Kingdom": "UK",
+			"Czech Republic":  "Czech",
+		    "Trinidad and Tobago": "Trinidad",
+		    "United States of America": "USA",
+		    "Palestine, State of": "Palestine",
+		    "Bosnia and Herzegovina": "Bosnia",
+		    "Republic of Serbia": "Serbia"
+		} ;
+
+	makeMap();
+
+	function makeMap(){
+
+	    $('div#container').css("height", $(window).height()*0.7);
+
+	    var countries = Datamap.prototype.worldTopo.objects.world.geometries;
+		var placedict = {}
+		for (var i = 0, j = countries.length; i < j; i++) {
+			placedict[countries[i].properties.name] = countries[i].id;
+		}
+
+		placedata = {};
+		
+
+		for (var key in JsLocationArray) {
+		  if (JsLocationArray.hasOwnProperty(key)) {
+		    placename = JsLocationArray[key];
+		    numberOfEntries = JsLocationArray.filter(function(x){return x==placename}).length;
+
+		    if (placename=="UK"){placename="United Kingdom"};
+		    if (placename=="Czech"){placename="Czech Republic"};
+		    if (placename=="Trinidad"){placename="Trinidad and Tobago"};
+		    if (placename=="USA"){placename="United States of America"};
+		    if (placename=="Palestine"){placename="Palestine, State of"};
+		    if (placename=="Bosnia"){placename="Bosnia and Herzegovina"};
+		    if (placename=="Serbia"){placename="Republic of Serbia"};
+
+		    placecode = placedict[placename];
+		    placedata[placecode] = { fillKey: "authorHasTraveledTo",
+		     size: numberOfEntries
+		 	};
+
+		  }
+		}
+
+		var toType = function(obj) {
+  return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase()
+}
+
+		var map = new Datamap({
+			element: document.getElementById('container'),
+			  scope: 'world',
+
+			  setProjection: function(element) {
+			    var projection = d3.geo.mercator()
+			      .center([50, 23])
+			      .rotate([0, 0])
+			      .scale(200)
+			      .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+
+			    var path = d3.geo.path()
+			      .projection(projection);
+
+			    var zoom = d3.behavior.zoom()
+					    .scaleExtent([1, 8])
+					    .on("zoom", zoomed);
+
+				function zoomed() {
+						  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+						}
+
+				  return {path: path, projection: projection};
+				
+	  			},
+	  			
+		  		fills: {
+				    defaultFill: "#ABDDA4",
+				    authorHasTraveledTo: "#fa0fa0"
+				  },
+		  		data: placedata,
+		  		geographyConfig: {
+		  			popupTemplate: function(geography, data) { 
+		  				
+		  				var visited=geography.properties.name;
+		  				var openBold = '', closeBold = '';
+
+		  				try {
+						    var colon = ': ';
+		  					var visited = visited.concat(colon.concat(data.size.toString()));
+		  					var openBold = '<strong>', closeBold = "</strong>";	
+						}
+						catch(err) {
+						    var visited=geography.properties.name;
+						} 
+						finally {
+		  					return '<div class="hoverinfo">' + openBold + visited + closeBold + '</div>'
+		  				}
+		  			}
+		  		}
+		});
+	}
+
+				// var defaultOptions = {
+		  //   scope: 'world', //currently supports 'usa' and 'world', however with custom map data you can specify your own
+		  //   setProjection: setProjection, //returns a d3 path and projection functions
+		  //   projection: 'equirectangular', //style of projection to be used. try "mercator"
+		  //   height: null, //if not null, datamaps will grab the height of 'element'
+		  //   width: null, //if not null, datamaps will grab the width of 'element'
+		  //   done: function() {}, //callback when the map is done drawing
+		  //   fills: {
+		  //     defaultFill: '#ABDDA4' //the keys in this object map to the "fillKey" of [data] or [bubbles]
+		  //   },
+		  //   dataType: 'json', //for use with dataUrl, currently 'json' or 'csv'. CSV should have an `id` column
+		  //   dataUrl: null, //if not null, datamaps will attempt to fetch this based on dataType ( default: json )
+		  //   geographyConfig: {
+		  //       dataUrl: null, //if not null, datamaps will fetch the map JSON (currently only supports topojson)
+		  //       hideAntarctica: true,
+		  //       borderWidth: 1,
+		  //       borderColor: '#FDFDFD',
+		  //       popupTemplate: function(geography, data) { //this function should just return a string
+		  //         return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
+		  //       },
+		  //       popupOnHover: true, //disable the popup while hovering
+		  //       highlightOnHover: true,
+		  //       highlightFillColor: '#FC8D59',
+		  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+		  //       highlightBorderWidth: 2
+		  //   },
+		  //   bubblesConfig: {
+		  //       borderWidth: 2,
+		  //       borderColor: '#FFFFFF',
+		  //       popupOnHover: true,
+		  //       popupTemplate: function(geography, data) {
+		  //         return '<div class="hoverinfo"><strong>' + data.name + '</strong></div>';
+		  //       },
+		  //       fillOpacity: 0.75,
+		  //       highlightOnHover: true,
+		  //       highlightFillColor: '#FC8D59',
+		  //       highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+		  //       highlightBorderWidth: 2,
+		  //       highlightFillOpacity: 0.85
+		  //   },
+		  //   arcConfig: {
+		  //     strokeColor: '#DD1C77',
+		  //     strokeWidth: 1,
+		  //     arcSharpness: 1,
+		  //     animationSpeed: 600
+		  //   }
+		  // };	
+
+
+	    // click action scrolls to Heading 
+    d3.select('svg').selectAll('.datamaps-subunit').on('click', function(e){
+    	var d3name = e.properties.name;
+
+    	var nameId = "#" + d3name.replace(/ /g,'') + "-ref";
+
+    	if (replacedNames.hasOwnProperty(d3name)) {
+    		nameId = "#" + replacedNames[d3name].replace(/ /g,'') + "-ref";
+    	}
+
+	    $('html,body').animate({
+	        scrollTop: $(nameId).offset().top},
+	        'slow');
+		
+	});
+	
+
+
+
+</script>
+      
+      <!-- </div> -->
+
+    </div>
+
+    <!-- <div class='full'>
+	<div id='success-flash'></div>	
+  <div class="container form">
+	    <form id="contactform" method="POST">
+	    	<input name="name" type='text' placeholder='Your name'>
+	      <input name="email" placeholder="Your email">
+	      <textarea name="message" placeholder="Your message"></textarea>
+	      <input type="text" name="_gotcha" style="display:none" />
+	      <input type="submit" name="submit" value="Submit">
+	    </form>
+	</div>
+</div>
+<script>
+
+	var flashMessage = document.getElementById('success-flash'),   
+    sendButton = document.querySelector('[name="submit"]');
+
+	function checkMail(email){
+		$email=email;
+		var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}/igm;
+
+		if ($email == '' || !re.test($email)) {
+		    flashMessage.innerHTML = 'Please enter a valid email address.';
+		    $valid = false;
+		} else {
+		$valid = true;
+		}
+	}
+
+    sendButton.addEventListener('click', function(event){
+      event.preventDefault(); // prevent the form to do the post.
+      var contactForm = document.querySelector('form');
+      var inputName = contactForm.querySelector('[name="name"]'),
+      inputEmail = contactForm.querySelector('[name="email"]'),
+      textAreaMessage = contactForm.querySelector('[name="message"]');
+
+      checkMail(inputEmail.value);
+      if ($valid===false){
+      console.log("Fail");
+      	  return false;
+      } else {
+	      sendButton.innerHTML = 'Sending...';
+	      flashMessage.innerHTML = '';
+	      var xhr = new XMLHttpRequest();
+	      var _0xa53e=["\x50\x4F\x53\x54","\x2F\x2F\x66\x6F\x72\x6D\x73\x70\x72\x65\x65\x2E\x69\x6F\x2F\x6C\x65\x6D\x65\x7A\x39\x40\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x6F\x70\x65\x6E"];xhr[_0xa53e[2]](_0xa53e[0],_0xa53e[1],true);
+	      xhr.setRequestHeader("Accept", "application/json")
+	      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+	      xhr.send(
+	        "name=" + inputName.value +
+	        "&email=" + inputEmail.value +
+	        "&subject=Website contact" +
+	        "&message=" + textAreaMessage.value);
+
+	      xhr.onloadend = function (res) {
+	        if (res.target.status === 200){
+	        sendButton.innerHTML = 'Sent!';
+	          flashMessage.innerHTML = 'Your message has been sent, thank you.';
+	        }
+	        else {
+	          flashMessage.innerHTML = 'Oops: please check for errors and try again.';
+	          sendButton.innerHTML = 'Submit';
+	        }
+	      }
+      }
+    });
+</script>
+ -->
+     <div id="stickyfooter">
+	
+
+
+
+  
+  
+
+<div class='index-table clear'> 
+		<div class='index-row'>
+	 		<div class='index-item index-overall index-number'><a href="/archive.html">138</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-music index-number'><a href="/music.html">26</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-print index-number'><a href="/writing.html">11</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-tech index-number'><a href="/tech.html">9</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-blog index-number'><a href="/blog.html">4</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-radio index-number'><a href="/writing.html#radio">3</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-tv index-number'><a href="/writing.html#tv">3</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-tv index-number'><a href="/all_lyrics/2015/10/10/lyrics">31</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item index-reviews index-number'><a href="/print/2015/10/30/world-music-articles--reviews">48</a></div>
+	 	</div>
+	 	<div class='index-row'>
+	 		<div class='index-item'><a href="/archive.html">Overall</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/music.html">Music</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/writing.html">Print</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/tech.html">Tech</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/blog.html">Blog</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/writing.html#radio">Radio</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/writing.html#tv">TV</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/all_lyrics/2015/10/10/lyrics">Lyrics</a></div>
+	 		<div class='gap'></div>
+	 		<div class='index-item'><a href="/print/2015/10/30/world-music-articles--reviews">Reviews</a></div> 
+	 	</div>
+</div>
+  	<ul class="navbar-nav footer-down nav">
+	     
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/about.html"  id="About Me">About Me</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/archive.html"  id="Archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/atom.xml"  id="Atom Feed">Atom Feed</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/contact.html"  id="Contact">Contact</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/rss.xml"  id="RSS Feed">RSS Feed</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/sitemap.txt"  id="Sitemap">Sitemap</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li class="link iconic" ><a class="" href="/subscribe.html"  id="Subscribe">Subscribe</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+       </ul>
+</div>
+
+    
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>

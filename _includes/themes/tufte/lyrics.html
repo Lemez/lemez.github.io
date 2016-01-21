@@ -88,6 +88,10 @@
       {% if (page.artist | size) > 0 %}
         <h3 class='lyrics'>artist: {{page.artist}}</h3>
       {% endif %}
+      
+      {% if (page.credits | size) > 0 %}
+        <h3 class='lyrics'>credits: {{page.credits}}</h3>
+      {% endif %}
 
       {% if (page.year | size) > 0 %}
         <h3 class='lyrics'>year: {{page.year}}</h3>

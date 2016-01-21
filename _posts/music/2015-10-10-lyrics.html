@@ -2,8 +2,8 @@
 layout: music
 category: "songs"
 year: 2000-
-title: "Song Lyrics"
-description: "Selected song lyrics from bands, artists and theatre"
+title: "Song Lyrics, Poetry and Creative Writing"
+description: "Selected poems, stories and song lyrics"
 image: "pencil.jpg"
 area: songwriting
 genre: ['lyrics']
@@ -11,48 +11,54 @@ location: [UK]
 tags: [lyrics, UK]
 ---
 {% include JB/setup %}
-<subtitle>{{page.description}}</subtitle>		
+<subtitle>{{page.description}}</subtitle>
+<h2>Lyrics</h2>		
 
-{% assign songsarray = (site.lyrics | sort: 'artist' | group_by: 'year') %}
+{% assign songsarray = (site.lyrics | sort: 'group' | group_by: 'artist') %}
+{% assign poetryarray = (site.lyrics | where: 'group', 'Poetry' | sort: 'title') %}
+{% assign storyarray = (site.lyrics | where: 'group', "Fiction" ) %}
 {% assign prevalbum = '' %}
 {% assign prevband = '' %} 
 {% assign prevyear = '' %}
 
 <ul>
 
-{% for yeararray in songsarray %}
+{% for artistarray in songsarray %}
 
-	{% assign dataArr = yeararray.items %}
+	{% assign dataArr = (artistarray.items | sort: 'album') %}
 	{% for song in dataArr %}
+		{% if song.group != 'Poetry' and song.group != "Fiction" %}
 
-		{% if prevyear != song.year %}
-				</ul>
-				<h2 class='band'>{{song.year}}</h2>
-				<h2 class='band indented'>{{song.artist}}</h2>
-				<ul class='album indented'>
+			{% include lyricshelper %}
 
-		{% elsif prevband != song.artist %}
-			</ul>
-			<h2 class='band indented'>{{song.artist}}</h2>
-			<ul class='album indented'>
-		{% endif %}
-			
-		{% if prevalbum != song.album %}
-			</ul>
-			<h3 class='album indented'>{{song.album}}</h3>
-			<ul class='album indented'>
-		{% endif %}
-
-	      <li>
-		<a href="{{song.url}}">{{ song.title }}</a>
-	      </li>
-
-	      {% assign prevband = song.artist %}
+		  {% assign prevband = song.group %}
 	      {% assign prevalbum = song.album %}
 	      {% assign prevyear = song.year %}
 
-
+		{% endif %}
 	{% endfor %}
 {% endfor %}
 
 </ul>
+
+<br>
+<hr>
+
+<h2>Poetry</h2>
+<br>
+<ul class="indented">
+{% for poem in poetryarray %}
+
+			{% include poetryhelper %}
+
+{% endfor %}
+</ul>
+
+<br>
+<hr>
+
+<h2>Creative Writing</h2>
+<br>
+{% include novelhelper %}
+
+
