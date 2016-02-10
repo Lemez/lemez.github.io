@@ -29,6 +29,7 @@ gems:
 #
 baseurl: ""
 url: "lemez.github.io"
+fbcomments: yes
 production_url : http://lemez.github.io
 locationarray: []
 locationarray2: []
