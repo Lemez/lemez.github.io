@@ -33,5 +33,5 @@ Maurice is still going strong, having moved to Israel in recent years from Marse
 Together with BBC Radio 3's Max Reinhardt, I am collecting essays and articles about his life, to be published along with his autobiography in 2016.
 
 <h3>Blurb</h3>
-
+The book tells the story of how Maurice learnt to play his unique "orientale" piano fusion style, his experience during WW2 with the Dominican and Puerto Rican GIs, the subsequent golden years of nightlife in Oran, the “Paris of the South”, and horrific years of bloodshed that followed in the Algerian war of Independence, his exile from Algeria, his difficulties assimilating into Israel as an "unwanted" Sephardi artist in the early 1960s, his move to Paris and then Marseilles, and an account of emigre life and nightlife there amongst North African Jewish communities.
 

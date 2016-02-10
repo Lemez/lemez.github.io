@@ -31,7 +31,7 @@ And I'm the best
 She's minty, so minty fresh  
   
 Some girls like jammie dodgers  
-Some like peny sweets  
+Some like penny sweets  
 Some like gobstoppers  
 Or even wagon wheels  
 Some boys like pink wafers  

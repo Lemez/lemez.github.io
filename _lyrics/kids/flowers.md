@@ -23,13 +23,6 @@ You know that everything
 That the day may bring  
 Will be alright.  
 
-And when the world is still  
-I'm on the other side.  
-While you are sleeping  
-Other children play.  
-Please don't be sad for me,  
-I promise you I'm never far away.  
-
 While you're dreaming  
 When youre sleeping  
 I'm the first to wake  
@@ -41,6 +34,14 @@ A time when nothing moves
 You'll see my friend the moon  
 Watching over you -  
 I'll be back soon.  
+
+CHORUS
+And when the world is still  
+I'm on the other side.  
+While you are sleeping  
+Other children play.  
+Please don't be sad for me,  
+I promise you I'm never far away.  
 
 And when the world is still  
 I'm on the other side.  
@@ -59,6 +60,7 @@ See all the birds take wing
 With my friend the wind  
 To wave me goodbye.  
 
+CHORUS
 And when the world is still  
 I'm on the other side.  
 While you are sleeping  
