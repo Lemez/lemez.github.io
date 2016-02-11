@@ -13,7 +13,7 @@ artist: [Adishakti]
 
 demo: http://beats.adishaktitheatrearts.com
 github: adishaki_beat_teacher
-tags: [practice, education, adishakti, music, drumming]
+tags: [practice, education, Adishakti, music, drumming]
 ---
 {% include JB/setup %}
 

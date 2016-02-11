@@ -6,8 +6,9 @@ description: "Sound healing, intent, receptivity and magic"
 image: "soundbath.jpg"
 category: "blog"
 location: [India]
+artist: [Svaram, Michael Ormiston & Candida Valentino]
 topic: [sound, healing, touch, mysticism]
-tags: [sound, healing, touch, mysticism, India]
+tags: [sound, healing, touch, mysticism, India, Michael Ormiston & Candida Valentino, Svaram]
 ---
 I have always been interested in how music and sound affects an audience, except that my experience has mostly been to large audiences, where the faces are often hidden from view by the blinding lights on stage. If music can move thousands at a concert, what imapct could it have if you were one on one, concentrating entirely on the energy and mood of the person in front of you? What magic could you create with an audience of one?
 
