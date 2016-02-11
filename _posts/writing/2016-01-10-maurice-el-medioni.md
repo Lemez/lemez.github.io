@@ -10,7 +10,7 @@ category: "print"
 location: [Algeria, Israel, France]
 artist: [Maurice El Medioni]
 topic: [anti-colonialism, discrimination, fusion, godfather]
-tags: [Algeria, Israel, France, Maurice El Medioni]
+tags: [Algeria, Israel, France, Maurice El Medioni, anti-colonialism, discrimination, fusion, godfather]
 ---
 {% include videofull id="" hidden="true" %}
 {% include sideimage img="Lili Labassi w Maurice Canastel, Oran 1956.jpg" text="Performing with Lili Labassi, Canastel, Oran 1956" %}

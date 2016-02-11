@@ -10,7 +10,7 @@ location: [UK, Tibet, Mongolia]
 genre: [music therapy, buddhist, shamanic]
 artist: [Michael Ormiston & Candida Valentino, Nimmy Raphel, Adishakti]
 topic: [music therapy, healing, esoteric]
-tags: [music therapy, buddhist, Michael Ormiston & Candida Valentino, sanskrit, Tibet, UK, Mongolia, Nimmy Raphel, Adishakti]
+tags: [music therapy, buddhist, Michael Ormiston & Candida Valentino, sanskrit, Tibet, UK, Mongolia, Nimmy Raphel, Adishakti, buddhist, shamanic, healing, esoteric]
 ---
 {% include JB/setup %}
 

@@ -12,7 +12,7 @@ genre: [radio, folk, rock]
 artist: [Vopli Vidopliassova]
 people: [Kate Howells - production, Nick Rankin - production, Masha Karp - production]
 topic: [USSR, revolution, activism, politics, language, Chernobyl]
-tags: [USSR, revolution, activism, politics, language, Ukraine, Russia, Vopli Vidopliassova, folk, rock, Chernobyl]
+tags: [USSR, revolution, activism, politics, language, Ukraine, Russia, Vopli Vidopliassova, folk, rock, Chernobyl, radio]
 ---
 {% include JB/setup %}
 
