@@ -3,7 +3,7 @@ layout: music
 year: 2015
 title: "The Other Seder Quartet"
 description: "Compositions for string trio and percussion"
-image: 
+image: seder.jpg
 category: "music"
 area: composition
 location: [UK]

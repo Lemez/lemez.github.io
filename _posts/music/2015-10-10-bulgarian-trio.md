@@ -3,7 +3,7 @@ layout: music
 year: 2015
 title: "Bulgarian Vocal Trio"
 description: "Arrangements of Sephardic folk songs"
-image: ""
+image: "Bulgerian 02.JPG"
 category: "music"
 area: composition
 location: [Bulgaria, Croatia]
