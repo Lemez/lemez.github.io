@@ -9,6 +9,10 @@
     {% if page.description %}
       <meta name="description" content="{{ page.description }}">
     {% endif %}
+    
+    {% if page.image %}
+      <meta property="og:image" content="{{ IMAGE_PATH}}/{{page.image}}" />
+    {% endif %}
 
     {% if page.tags %}
       <meta name="tags" content="{{ page.tags | join: ' ' }}">
