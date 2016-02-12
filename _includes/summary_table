@@ -2,7 +2,7 @@
 {% assign totreviews = site.reviews | size %}
 {% assign totlyrics = site.lyrics | size %}
 {% assign overall = totposts | plus: totreviews | plus: totlyrics %}
- {% assign lyrics = site.posts | where: "title", "Song Lyrics" %} 
+ {% assign lyrics = site.posts | where: "title", "Song Lyrics, Poetry and Creative Writing" %}
  {% assign reviews = site.posts | where: "title", "World music reviews, guides and sleeve notes" %} 
 
 <div class='index-table clear'> 

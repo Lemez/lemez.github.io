@@ -51,6 +51,16 @@ get Ss to face front, back, side as they attempt to reproduce notes exactly
 - you will see that they can, depending on how they stand
 
 
+
+
+
+
+
+
+
+Sayon - laugher
+
+
 - game
 pass sound (pitch) to each other, and receive in exact same way, then pass on new one
 - game 2
