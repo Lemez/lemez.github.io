@@ -23,9 +23,11 @@ But to understand how device addiction is actually *a integral part of their des
 
 While IPO offerings for Facebook and Twitter might take up more headlines, this is the 1% of startups who actually get to be listed on the stock market, and opening up their shares for public trading. For everyone else, there are institutional private equity investors, known in the business as venture capitalists, or VCs.
 
-<a href="http://thebusinessprofessor.com/venture-capital-method/">Venture capital</a> is high-risk capital by nature - nine out of ten startups do not make it past their third year. In order for a VC firm to invest in your business, companies need to show ten, twenty or thirty times growth in as little as two years. To be clear - you need to show how your company will become turbo-charged on steroids the minute their investment hits your bank account if you want to stand a chance of getting investment. As so many of their investments will fail, the VCs argue, the bar must be set high enough that even if only one out of twenty succeeds, it will be worth their while. Companies that desire sustainable growth, growing slowly but steadily based on increasing revenues need not apply.
+<a href="http://thebusinessprofessor.com/venture-capital-method/">Venture capital</a> is high-risk capital by nature - nine out of ten startups do not make it past their third year. In order for a VC firm to invest in your business, companies need to show ten, twenty or thirty times growth in as little as two years. 
 
-Therefore at the heart of almost every technology startup that receives investment is, by definition, an unsustainable business model. Startups are pressured to think in terms of 
+To be clear - in order to get investment, you need to show how your company will become turbo-charged on steroids the minute their cash hits your bank account. As so many of their investments will fail, the VCs argue, the bar must be set high enough that even if only one out of twenty succeeds it will be worth their while. Companies that desire sustainable growth, growing slowly but steadily based on increasing revenues, need not apply.
+
+Therefore, at the heart of almost every technology startup that receives investment is, by definition, an unsustainable business model. Startups are pressured to think in terms of 
 
 
 

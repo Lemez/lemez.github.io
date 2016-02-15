@@ -10,7 +10,7 @@ topic: [special needs, cerebral palsy, education]
 tags: [cerebral palsy, special needs, India, education]
 ---
 
-In the speech therapy room at the Satya Outreach school in Pondicherry are a boy, a man and a woman. The boy is sitting on the floor, clinging onto the French speech therapist Judykael's legs. His own legs are folded underneath him, Japanese-style. His parents are talking animatedly. Most parents in Satya school are somewhat deferential to foreign teachers, but Sayon's parents are not in the slightest, talking with confidence in fluent French. Sayon was born in France, as were his brothers and sisters, and his parents are asking what paperwork will be necessary to get his younger siblings accepted into the French lycée, the most prestigious school in the area. 
+In the speech therapy room at the Satya Outreach school in Pondicherry are a boy, a man and a woman. The boy is sitting on the floor, clinging onto the French speech therapist Judykael's legs. His own legs are folded underneath him, Japanese-style. His parents are talking animatedly. Many parents in Satya school are somewhat deferential to foreign teachers, but Sayon's parents are not in the slightest, talking with confidence in fluent French. Sayon was born in France, as were his brothers and sisters, and his parents are asking what paperwork will be necessary to get his younger siblings accepted into the French lycée, the most prestigious school in the area. 
 
 Every now and then, to get Judykael's attention, Sayon gently bites his leg. Judykael breaks off and looks down at Sayon, smiling.
 
