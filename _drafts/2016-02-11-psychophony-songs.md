@@ -35,8 +35,17 @@ What is exciting about the project is that there are plenty of overlaps between 
 
 Today I sat in on some 1 on 1 sessions with autistic children led by Judykael, the resident speech therapist. Many of these children are locked into silence, and their parents are desperate that their children seem totally uninterested in communicating verbally with them. Often they do not understand that their children prefer non-verbal communication - it was a revelation to see Judykael at work.
 
-He sits with autistic children on his lap, and works towards helping them to pronouce vowels and consonants. First, he takes each child's name - Jo-Na-Than - and writes a small melody on his flute that 
+{% assign healing = site.posts | where: 'title', "An Audience of One" %}
 
+I have talked <a href="{{healing[0].url}}">before</a> about the impact that the healing framework of intent and receptivity has had on me - in fact, once you know it, it is difficult not to see all human communications through this lens.
+
+Never is the truth of these two communication axioms more obvious than in watching a special needs professional.
+
+Judy sits with autistic children on his lap, and works towards helping them to pronouce vowels and consonants. The way he does this is beautiful: first, he takes each child's name - Jo-Na-Than - and writes a small melody on his flute that reflects the vowel sounds, rhythm and changes in speaking pitch that occur in the child's name. 
+
+Here is the astonishing bit: even if two children have names that have similar pitch, rhythmic and vowel patterns - for example Santhy and Shakti - *the children will only respond to the melody that was written expressly for them.*  
+
+Santhy does not respond to Shakti's melody, and vice-versa. Whether this is because Judy's intent itself is purer when he uses a melody that he has written for an individual child, I don't know. But as we sit in the room, you can clearly see the communicative magic at work when 
 - hugging, v physical communication
 - kids want to touch him all the time
 - he is v intimate, vibration on head on neck on back
@@ -58,7 +67,7 @@ get Ss to face front, back, side as they attempt to reproduce notes exactly
 
 
 
-Sayon - laugher
+
 
 
 - game
