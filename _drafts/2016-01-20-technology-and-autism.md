@@ -10,14 +10,14 @@ topic: [autism, venture capital]
 tags: [UK, autism, venture capital]
 ---
 
-I have started working at school for special needs in Pondicherry. For the first time in my life, I am spending time with autistic children. Prior to this, my only knowledge about autism was Dustin Hoffman's character in RainMan, a cheesy 90s film with Tom Cruise. You may remember that Hoffman's character had a brilliant mind, was an awkward communicator, and was obsessed with certain objects.
+I have started working at school for special needs in Pondicherry. For the first time in my life, I am spending time with autistic children. Prior to this, my only knowledge about autism was Dustin Hoffman's character in RainMan, a 90s film with Tom Cruise. You may remember that Hoffman's character had a brilliant mind, was an awkward communicator, and was obsessed with certain objects.
 
 There is more than a whiff of reality in the Hollywood portrayal. Autistic children can get obsessed with toys or ordinary objects - and with smartphones and tablets in particular. They can have violent tantrums if you try to take the device away. Sometimes parents give them a device just to get some time off. As the father of a three year-old, this is all too familiar territory - who out there does not use Youtube as a babysitter when we just want a few quiet minutes? 
 
 It is not just children, autistic or otherwise, who find it impossible to put their devices away. <a href="http://www.telegraph.co.uk/technology/news/8436831/Student-addiction-to-technology-similar-to-drug-cravings-study-finds.html">Device withdrawal</a> is described as 
 being similar to drug addiction, with cravings leading to physical pain and worse.
 
-What is it about consumer technology that seems to be sucking up ever more of our time? It may come as no surprise to learn that this is not by accident, but by design.
+What is it about consumer technology that seems to be taking up ever more of our time? It may come as no surprise to learn that this is not by accident, but by design.
 
 But to understand how device addiction is actually *a integral part of their design*, it helps to understand how the technology industry itself works. All the examples I use here are taken from my personal experience running a startup in one of London's most prestigious accelerator, WAYRA, owned by telecoms behemoth Telefonica.
 
