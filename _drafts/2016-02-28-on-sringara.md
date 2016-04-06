@@ -14,7 +14,28 @@ tags: [tantra, philosophy, music, India]
 day 1 - Tantrotsav 28th feb 2016
 =======
 
-In the Natya Shastra, the world's first treatise on the performing arts, are detailed the nine universal primary emotions of man.
+Today's post is a linguistic one, about the word *sringara*. That may not mean much to you now, but hopefully I can explain why this word is what I - and perhaps you - have been seeking for a long, long time.
+
+If you look it up in a Sanskrit dictionary, most likely you'll see the translation "love". But like most direct translations, especially from Sanskrit, the concept touches on love while going far beyond. The idea of sringara is less *love*, and more everything that inspires that feeling.
+
+A bit of history: there exists in India a *sastra* - a manuscript - on the performing arts, called the Natya Sastra. It is the world's first comprehensive treatise on the performing arts, and it explains a system of nine emotions, known as *rasas*, which still define the classical arts in India. 
+
+A *rasa*, poorly translated again as "taste" or "emotion" according to our useless Sanskrit dictionary, is actually the defining emotional onject of a play or performance. What is it that a performer wants the audience to feel? What emotional flavour does the performer want the audience to savour?
+
+The selected rasa then becomes an unseen director for the piece, guiding the set, the scenery, the dialogues. If the chosen rasa for the performance is *sringara*, then should the balcony in the scene have flowers on it? Presumably so. And if so, what flowers? 
+
+Sringara is the Bollywood framework par excellence. When the boy and girl cavort in the meadow, how is it that the audience do not get bored, thinking "we've seen this before"? Of course they have, but that is the beauty of sringara - the job of a piece of entertainment is to lead us to an emotional state that we already know.
+
+But sringara is much more than just romantic love. According to Tantric mystical practice, sringara is every state in which something new is created. Think about that for a moment: of course, romantic love - in the best or worst instances, depending on how you look at it - leads to the creation of new life. It certainly leads to the creation of new energy and desire, no matter what results. But sringara is also the state of inspiration, which Csikentmihaly calls 'flow'. Sringara is that creative state of making something out of nothing, which every artist knows and tries desperately to recreate each day. Sringara is the state in which new ideas flow out of you effortlessly: sringara is quite simply being 'in the zone'.
+
+In Tantra, sringara is not just another emotion, but the heighest of all human states. And so, anything that can lead to sringara - meditation, art, physical practice, meaningful interaction with another person - has equal value as spiritual practice. Some people prefer to pray, others to sing or dance or write - whatever it is that you do, as long as it leads you to sringara, you are on the right path.
+
+Sringara is not content, cat on the sofa happiness. It is not wellbeing, and balance, and all of those things that are sometimes said to be an ultimate goal. It is the feeling of magic, that you are growing as an individual, that the world is changing around you, and you are the force behind it.
+
+This is what I seek - sringara.
+
+My studio partner Yaniv
+
 
 Sringara - creation
 
@@ -26,12 +47,6 @@ Sringara is any experience that causes you to create, including:
 - artistic inspiration, as you come up with new ideas
 - conversations with people that cause new ideas to flower
 - any inspired piece of on-the-spot creativity
-
-It is not contentedness, fat cat on the sofa happiness. It is not wellbeing, and balance, and all of those things that are sometimes said to be an ultimate goal. It is the feeling of magic, that you are growing, that the world is changing around you, and you are the force behind it.
-
-This is what I seek - sringara.
-
-My studio partner Yaniv
 
 There are nine emotions - sringara is the greatest of these.
 Positivity, anger, love - how can we understand these emotions? Are they even emotions?

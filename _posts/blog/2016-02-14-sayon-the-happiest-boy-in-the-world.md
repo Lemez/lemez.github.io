@@ -10,15 +10,15 @@ topic: [special needs, cerebral palsy, education]
 tags: [cerebral palsy, special needs, India, education]
 ---
 
-In the speech therapy room at the Satya Outreach school in Pondicherry are a boy, a man and a woman. The boy is sitting on the floor, clinging onto the French speech therapist Judykael's legs. His own legs are folded underneath him, Japanese-style. His parents are talking animatedly. Many parents in Satya school are somewhat deferential to foreign teachers, but Sayon's parents are not in the slightest, talking with confidence in fluent French. Sayon was born in France, as were his brothers and sisters, and his parents are asking what paperwork will be necessary to get his younger siblings accepted into the French lycée, the most prestigious school in the area. 
+In the speech therapy room at the Satya Outreach school in Pondicherry are a man, a woman, a boy and Judykael, the French speech therapist. The boy is sitting on the floor, clinging onto Judykael's legs. His own legs are folded underneath him, Japanese-style. His parents are talking animatedly. Many parents in Satya school are somewhat deferential to foreign teachers, but Sayon's parents are not in the slightest, talking with confidence in fluent French. Sayon was born in France, as were his brothers and sisters, and his parents are asking what paperwork will be necessary to get his younger siblings accepted into the French lycée, the most prestigious school in the area. 
 
-Every now and then, to get Judykael's attention, Sayon gently bites his leg. Judykael breaks off and looks down at Sayon, smiling.
+Every now and then, to get Judykael's attention, Sayon gently bites his leg. Judykael breaks off from the conversation and looks down at Sayon, smiling.
 
 "Cheeky boy! I know your game! I am not a dosa! Don't eat me!" 
 
 He turns back to his parents: "He is always playing, this one."
 
-I sit on the floor and Sayon catches my eye, while the conversation continues above our heads. He has a big smile on his face. His mouth is open at all times, saliva constantly dribbling onto the floor as from a leaky tap. His movements are jerky, his head lolling from one side to the other. He is leaning on Judykael's legs, unable to support himself, smiling at me.
+I sit on the floor and Sayon catches my eye, while the conversation continues in the air above our heads. He has a big smile on his face. His mouth is open at all times, saliva constantly dribbling onto the floor as from a leaky tap. His movements are jerky, his head lolling from one side to the other. He is leaning on Judykael's legs, unable to support himself, smiling at me.
 
 I walk my fingers across the floor with a cartoon 'boing' sound. Sayon laughs. I do it again. He laughs again, as if this is the funniest thing he has ever seen. One more time and he is creased up with laughter, and the minute he stops, a single movement from my fingers sends him back into long fits of laughter.
 

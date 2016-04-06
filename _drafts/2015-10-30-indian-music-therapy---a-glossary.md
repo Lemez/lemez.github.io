@@ -14,6 +14,10 @@ tags: [mantras, sanskrit, language, healing, music therapy]
 
 - anubhava, experience
 - atman, self
+- bhava, devotional intent
+- mukti, divine beauty
+- rasa, experiental emotion
+- swara, note
 - vivaksā , a desire to express
 
 <h3>Key texts</h3>

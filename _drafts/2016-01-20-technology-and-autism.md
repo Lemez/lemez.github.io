@@ -19,15 +19,24 @@ being similar to drug addiction, with cravings leading to physical pain and wors
 
 What is it about consumer technology that seems to be taking up ever more of our time? It may come as no surprise to learn that this is not by accident, but by design.
 
-But to understand how device addiction is actually *a integral part of their design*, it helps to understand how the technology industry itself works. All the examples I use here are taken from my personal experience running a startup in one of London's most prestigious accelerator, WAYRA, owned by telecoms behemoth Telefonica.
+But to understand how device addiction is actually *an integral part of their design*, it helps to understand how the technology industry itself works. All the examples I use here are taken from my personal experience running a startup in one of London's most prestigious accelerator, WAYRA, owned by telecoms behemoth Telefonica.
 
 While IPO offerings for Facebook and Twitter might take up more headlines, this is the 1% of startups who actually get to be listed on the stock market, and opening up their shares for public trading. For everyone else, there are institutional private equity investors, known in the business as venture capitalists, or VCs.
 
 <a href="http://thebusinessprofessor.com/venture-capital-method/">Venture capital</a> is high-risk capital by nature - nine out of ten startups do not make it past their third year. In order for a VC firm to invest in your business, companies need to show ten, twenty or thirty times growth in as little as two years. 
 
+<blockquote>
+	<p>
+	Another thing I’m learning in my new job is that while people still refer to this business as the “tech industry,” in truth it is no longer really about technology at all. “You don’t get rewarded for creating great technology, not anymore,” says a friend of mine who has worked in tech since the 1980s, a former investment banker who now advises startups. “It’s all about the business model. The market pays you to have a company that scales quickly. It’s all about getting big fast. Don’t be profitable, just get big.”
+</p>
+<footer><a href="http://fortune.com/disrupted-excerpt-hubspot-startup-dan-lyons/">My Year In Startup Hell</a>Dan Lyons, Fortune</footer>
+</blockquote>
+
 To be clear - in order to get investment, you need to show how your company will become turbo-charged on steroids the minute their cash hits your bank account. As so many of their investments will fail, the VCs argue, the bar must be set high enough that even if only one out of twenty succeeds it will be worth their while. Companies that desire sustainable growth, growing slowly but steadily based on increasing revenues, need not apply.
 
-Therefore, at the heart of almost every technology startup that receives investment is, by definition, an unsustainable business model. Startups are pressured to think in terms of 
+Therefore, at the heart of almost every technology startup that receives investment is, by definition, an unsustainable business model. 
+
+There is a dirty social secret behind the biggest technology companies in the world - they are founded and run by <a href="https://www.washingtonpost.com/news/innovations/wp/2015/04/03/why-shades-of-aspergers-syndrome-are-the-secret-to-building-a-great-tech-company/">autists</a>. Microsoft, Google, Facebook, PayPal, Twitter... the list goes on. The more money these founders make, the more we are all encouraged to behave like them, to model our success on ours. A successful founder needs to have <a href="http://www.businessinsider.in/John-Doerr-the-greatest-tech-entrepreneurs-are-white-male-nerds/articleshow/46461475.cms">"absolutely no social life"</a>.
 
 
 
