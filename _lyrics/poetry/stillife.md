@@ -6,6 +6,7 @@ group: Poetry
 publisher: 
 artist: Poetry
 category: lyrics
+grouping: "Tribal Stories"
 tag: [poetry]
 about: "I once had to give a semen sample in a grubby London hospital room. Never again."
 ---

@@ -8,6 +8,7 @@ publisher:
 artist: "Lazlo/Kistehen"
 category: lyrics
 soundcloud: 36467809
+theme: food
 press: ["No other artist out there comes close to his unique mix of apocalyptic comment and razor-sharp humour", "AltSounds"]
 about: "One of my favourite songs of all time: a wry, funny song that drops another subtle socio-political bomb. Keep eating, folks, while you can."
 ---

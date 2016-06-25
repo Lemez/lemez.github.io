@@ -8,11 +8,12 @@ album: "Venus EP"
 artist: "Lazlo/Kistehen"
 category: lyrics
 video: EBiijkKTHhU
+theme: trans
 press: ["There hasn’t been a good song about a female with the male genitalia since Goldie Lookin’ Chain’s smash hit Your Mother Has a Penis", "Rock Reviews 24/7"]
 tags: transgender
 about: "How many artists write tender, funny transgender love songs? I wish there more artists around like him."
 ---
-CHORUS:
+CHORUS:  
 Venus  
 My girl  
 with a penis.  

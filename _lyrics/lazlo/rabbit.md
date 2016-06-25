@@ -8,6 +8,7 @@ album: "Venus EP"
 artist: "Lazlo/Kistehen"
 category: lyrics
 soundcloud: 36467465
+theme: sex
 press: ["...second track Rabbit Not A Man is so frighteningly, impossibly, balls to the wall AWESOME. The only time on the E.P Lazlo seems to cut loose and not worry about sounding utterly mental, over a wall of savage, power pop guitar riffs, one note keyboard lines and an utterly thrilling sense of momentum that never lets up. It’s completely wonderful...", "AAAMusic"]
 ---
 CHORUS

@@ -6,6 +6,7 @@ group: Poetry
 publisher: 
 artist: Poetry
 category: lyrics
+grouping: "Tribal Stories"
 tag: [poetry]
 about: "Written after the devastating earthquake in Haiti, 2008" 
 ---

@@ -132,6 +132,7 @@ ul li a.smaller {
 
 .videomain-desc {
   float: right;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-style: italic; 
   margin-bottom: 20px;
 }

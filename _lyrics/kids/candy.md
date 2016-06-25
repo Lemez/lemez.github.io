@@ -9,6 +9,7 @@ artist: Tall Stories
 category: lyrics
 tag: [latke, theatre, kids]
 soundcloud: 243072845 
+theme: sweets
 about: "A song written for the play The Latke Who Couldn't Stop Screaming, with a devised script based on the Lemony Snicket book and directed by the wonderful Tall Stories. At this point in the play, a peppermint candy cane makes an entrance. We decided that she rated herself a little too highly, so I wrote my first ever song about sweets and snacks with attitude. "
 ---
 

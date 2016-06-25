@@ -5,6 +5,7 @@ description: "A fantastical story about words and where they come from - for chi
 year: '2015'
 group: "Fiction"
 category: lyrics
+grouping: "Children's Novel"
 tags: [novel, creative writing]
 ---
 {% include JB/setup %}

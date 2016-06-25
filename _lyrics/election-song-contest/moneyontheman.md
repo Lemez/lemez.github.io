@@ -10,6 +10,7 @@ category: lyrics
 soundcloud: 
 credits: Paul Tkachenko, Maiya James, Yaniv Fridel
 video: C5AO-DAl86g
+theme: politics
 video-text: "Gordon: he runs that ship 'West Minister'"
 ---
 When judgement day comes knocking on your door  

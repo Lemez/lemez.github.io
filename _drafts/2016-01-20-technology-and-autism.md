@@ -72,7 +72,14 @@ To understand how you pay, first you need to understand what consumer technology
 
 Behind that innocent word is an entire sub-industry dedicated to tracking your every digital movement: how often you click, where you click, what colours you like to click on, what your clicking pattern says about you, and so on. The most important part of the entire tracking procedure is 
 
+<h4>Education</h4>
 
+Steiner Schools
+http://www.theguardian.com/politics/2014/jun/17/trojan-horse-some-extremists-more-acceptable
+
+http://www.theguardian.com/education/2016/jun/14/steiner-schools-children-tablets-tech
+
+https://www.washingtonpost.com/news/answer-sheet/wp/2016/03/13/the-overselling-of-ed-tech/
 
 
 

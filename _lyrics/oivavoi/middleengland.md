@@ -1,12 +1,13 @@
 ---
 layout: lyrics
 title: "Middle England"
-year: "2007"
+year: "2006"
 artist: Oi Va Voi
 group: Oi Va Voi
 label: unreleased
 album: unreleased
 category: lyrics
+theme: fear
 about: "An unreleased song about the stupidness of Little Englanders, the tribe to which I am ashamed sometimes to belong. To be sung as a country song in the style of early Johnny Cash."
 tags: [Oi Va Voi]
 ---

@@ -9,6 +9,7 @@ album: Oi Va Voi
 publisher: Outcaste/EMI
 category: lyrics
 video: hUYEsMKlRIg
+theme: loss
 videotext: "Oi Va Voi performing Black Sheep, live at Paradiso, Amsterdam, 2004"
 tags: [Oi Va Voi]
 ---

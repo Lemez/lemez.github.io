@@ -9,6 +9,7 @@ album: Oi Va Voi
 publisher: Outcaste/EMI
 category: lyrics
 video: xp9XcsXA2Tc
+theme: loss
 videotext: "Further Deeper, vocals by Alice McLaughlin"
 tags: [Oi Va Voi]
 ---

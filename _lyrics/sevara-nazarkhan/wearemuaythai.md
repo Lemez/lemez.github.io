@@ -1,9 +1,10 @@
 ---
 layout: lyrics
 title: "We Are Muay Thai"
-year: '2012'
+year: '2011'
 group: Sevara Nazarkhan
 publisher: 
+album: Anthem for World Thai Boxing Federation 
 artist: Sevara Nazarkhan
 category: lyrics
 soundcloud: 44011646

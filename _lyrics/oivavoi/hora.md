@@ -9,6 +9,7 @@ album: Laughter Through Tears
 publisher: Outcaste/EMI
 category: lyrics
 video: CqDKWmjz-AE
+theme: "Who am I"
 videotext: "Hora, with extra vocals by Lenny Breslaw (aged 72) and a lovely sample from Farid El Atrash."
 tags: [Oi Va Voi]
 ---

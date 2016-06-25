@@ -9,6 +9,7 @@ album: Oi Va Voi
 publisher: Outcaste/EMI
 category: lyrics
 video: 5srG-kke7S4
+theme: food
 videotext: "Dry Your Eyes, vocals by Alice McLaughlin"
 tags: [Oi Va Voi]
 ---

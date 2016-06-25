@@ -4,6 +4,7 @@ title: "Love Song in a Pocket Of Air / Bubble"
 year: '2010'
 group: Sevara Nazarkhan
 publisher: 
+album: English LP
 artist: Sevara Nazarkhan
 category: lyrics
 ---

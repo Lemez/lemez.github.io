@@ -10,6 +10,7 @@ publisher: Outcaste/EMI
 category: lyrics
 soundcloud: 230583039
 video: pO5dS7WoWgs
+theme: loss
 videotext: "Original studio recording."
 tags: [Oi Va Voi]
 ---

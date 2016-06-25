@@ -7,9 +7,9 @@
 <br>
 </span>
 </p>
-
-<p>
-<span class='videomain-desc'>{{include.text}}</span>
-</p>
+<br>
 </div>
+<p>
+<span class='videomain-desc'><em>{{include.text}}</em></span>
+</p>
 {% endunless %}

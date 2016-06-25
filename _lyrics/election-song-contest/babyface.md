@@ -8,6 +8,7 @@ album: "Election Song Contest"
 artist: Sweet F Allstars
 category: lyrics
 video: fvtWJNGmixc
+theme: politics
 videotext: "Five years into Cameron land - where is the satire?	"
 ---
 I know you may be taken now,  

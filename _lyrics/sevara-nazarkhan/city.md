@@ -3,7 +3,8 @@ layout: lyrics
 title: "City"
 year: '2010'
 group: Sevara Nazarkhan
-publisher: 
+publisher:
+album: English LP 
 artist: Sevara Nazarkhan
 category: lyrics
 ---

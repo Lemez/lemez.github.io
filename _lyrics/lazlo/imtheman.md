@@ -8,6 +8,7 @@ album: "Venus EP"
 artist: "Lazlo/Kistehen"
 category: lyrics
 video: BK4nO9nYlCM
+theme: alcohol
 press: ["Title track 'I’m The Man' sounds like Till Lindemann of Rammstein having a jolly sing and dance... [and] telling everyone to get fucked up", "Rock Reviews 24/7"]
 about: "I've met the guy who sings this song far too many times. He might come up to you after a concert: 'Come drink with me.'' Not an offer, a threat. You tell him you need to drive, it’s late. 'No worries, the local police chief is my buddy.'' He takes off his clothes, wants to ‘measure up’ against you. Gropes your girlfriend’s arse then calls you a faggot, takes a swing at you. He runs this place (Hungary)."
 ---

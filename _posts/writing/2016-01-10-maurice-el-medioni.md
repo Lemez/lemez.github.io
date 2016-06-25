@@ -16,6 +16,7 @@ tags: [Algeria, Israel, France, Maurice El Medioni, anti-colonialism, discrimina
 {% include sideimage img="Lili Labassi w Maurice Canastel, Oran 1956.jpg" text="Performing with Lili Labassi, Canastel, Oran 1956" %}
 
 I was first introduced to Maurice's music by Ben Mandelson and the good folk at Piranha Records.
+
 Maurice was a total joy to listen to: an eighty-something year old pianist who became alive at the piano, with a driving Latin left hand and a fluttering, Arabic right hand. He was a key figure in the Golden Years of Algerian Music, just before the War of Independence, one of the bloodiest anti-colonial struggles of the 20th century, and is recognised as one of the fathers of modern Algerian music, collaborating in recent years with Khaled, who called him the godfather of rai.
 
 {% include sideimage img="Mahieddine troupe - seated in front - Maurice in beret and red scarf standing on right.jpg" text="On the road with the Mahieddine Theatre Company, Algeria, 1950s - Maurice in scarf standing on the right" %}

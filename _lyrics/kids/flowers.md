@@ -9,6 +9,7 @@ artist: "Children's"
 category: lyrics
 tag: [kids]
 soundcloud: 243072358
+theme: nature
 about: "A song about why the sun goes away at night-time. Raw home demo recorded in Banja Luka, Bosnia and Herzegovina, Jan 2008"
 credits: "Siniśa Stanić - guitar"
 ---

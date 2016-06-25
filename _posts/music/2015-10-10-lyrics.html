@@ -21,30 +21,40 @@ tags: [lyrics, UK]
 {% assign prevband = '' %} 
 {% assign prevyear = '' %}
 
-<ul>
 
-{% for artistarray in songsarray %}
+{% assign bandlist = site.bandlist %}
+{% for band in bandlist %}
 
-	{% assign dataArr = (artistarray.items | sort: 'album') %}
-	{% for song in dataArr %}
-		{% if song.group != 'Poetry' and song.group != "Fiction" %}
+	{% assign songsbyband = (site.lyrics | where: 'group', band | sort: 'album' %}
+	{% assign prevalbum = '' %}
 
-			{% include lyricshelper %}
+	<h2 class='band'>{{band}}</h2>
+	<ul class='album'>
 
-		  {% assign prevband = song.group %}
-	      {% assign prevalbum = song.album %}
-	      {% assign prevyear = song.year %}
+	{% for song in songsbyband reversed %}
 
+		{% if prevalbum != song.album %}
+			</ul>
+			<h3 class='album'>{{song.album}} ({{song.year}})</h3>
+			<ul class='album'>
 		{% endif %}
-	{% endfor %}
-{% endfor %}
 
-</ul>
+	      <li>
+		<a href="{{song.url}}">{{ song.title }}</a>
+	      </li>
+
+	      {% assign prevalbum = song.album %}
+
+	{% endfor %}
+	</ul>
+
+{% endfor %}
 
 <br>
 <hr>
 
 <h2>Poetry</h2>
+<h3 class='album'>{{poetryarray[0].grouping}}</h3>
 <br>
 <ul class="indented">
 {% for poem in poetryarray %}

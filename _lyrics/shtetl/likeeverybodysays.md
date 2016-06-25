@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 title: "Like Everybody Says"
-year: '2012'
+year: '2014'
 artist: Shtetl Superstars
 group: Shtetl Superstars
 label: Skycap
