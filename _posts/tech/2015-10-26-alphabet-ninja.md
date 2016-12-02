@@ -10,7 +10,7 @@ image: "Alphabet Ninja logo.png"
 icon: "jonascii.png"
 
 github: Animals-Live
-demo: http://alphabet.ninja
+demo: http://lemez.github.io/alphabet-ninja/home.html
 tags: [game, education, toddlers, reading]
 ---
 {% include JB/setup %}
