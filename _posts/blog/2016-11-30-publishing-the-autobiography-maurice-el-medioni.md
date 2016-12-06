@@ -30,6 +30,8 @@ By now we had a good team of supporters who wanted to be involved and help getti
 
 Maurice writes of his childhood in the <em>derb</em>, the Jewish quarter of Oran, as a beautiful, unpretentious stream of images. It seemed to me that the book could work incredibly well as a graphic novel: Waltz With Bashir had just come out, and showed how what a potent form for historical storytelling it could be. We got in touch with Joann Sfar, the bestselling French graphic novelist and author of <a href="http://www.chat-du-rabbin.com/">Le Chat Du Rabbin</a>. He was a perfect fit with the story, and might have taken it on if he wasn't just about to start shooting Gainsbourg -  a big budget, big deal in French cinema about an even bigger figure - as his directorial debut.
 
+So now, I am frantically looking again at my translations in advance of the publishing deadline, wondering what everything meant and using the Francophone part of my brain which has been left untroubled for the best part of ten years.
+Vive Maurice!
 
 
 

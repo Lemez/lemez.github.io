@@ -212,7 +212,20 @@ p, footer, pre.code { width: 55%; }
 
 pre.code { padding: 0 0 0 2em; }
 
+.cvfull p {
+  width: 80vw;
+}
+
+.cvfull table {
+  width: 90vw;
+}
+
+.cvfull td {
+  margin-left: 5px; 
+}
+
 .fullwidth { max-width: 95%; }
+.fullwidthmin { min-width: 95%; }
 
 .fullwidthtext { font-size: 1.0 rem; }
 

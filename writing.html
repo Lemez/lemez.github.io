@@ -95,7 +95,9 @@ weight: "AD"
 <!-- <h6> Journalism</h6> -->
 
 <div class='clear'>
-  {% for post in site.categories.publications %}
+  {% assign posts = site.posts | where: "title", "Full Media & Publications List" %}
+   {% assign post = posts[0] %}
+
 
   <div class="all_page_links mainstory" >
 
@@ -118,7 +120,6 @@ weight: "AD"
 
   </div>
 
-  {% endfor %}
 
 
 

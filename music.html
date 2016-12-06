@@ -32,7 +32,8 @@ weight: "AC"
 	</ul>
 
 <div class='clear'>
-  {% for post in site.categories.songs %}
+   {% assign posts = site.posts | where: "title", "Music CV & Biography" %}
+   {% assign post = posts[0] %}
 
   <div class="all_page_links mainstory" >
 
@@ -55,7 +56,7 @@ weight: "AC"
 
   </div>
 
-  {% endfor %}
+
 
 
 

@@ -86,6 +86,23 @@ padding-left: 0;
   text-decoration: none;
   border: 1px dashed #cccccc; }
 
+span.span-box {
+  font-size: 80%;
+  color:red;
+  display: inline;
+  border-radius: 1px;
+  margin: 2px;
+  padding: 2px;
+}
+span.span-box-year {
+  background-color: white;
+  display: block;
+  border-radius: 1px;
+  margin: 2px;
+  padding: 2px;
+  font-weight: 700;
+}
+
 .tag_box a span {
   vertical-align: super;
   font-size: 0.8em; }

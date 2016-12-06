@@ -15,7 +15,7 @@ author :
   email : lemez9@gmail.com
   github : Lemez
   twitter : lemez1
-
+markdown: kramdown
 gems:
   - octopress-debugger
 
@@ -46,6 +46,7 @@ relatedurls: []
 allpages: []
 temparray: []
 temparray2: []
+musicarray: []
 cathash: {}
 bandlist: ["Oi Va Voi", "Shtetl Superstars", "Sevara Nazarkhan", "Lazlo", "Children's", "Election Song Contest", "Ofer Bashan", "Unreleased"]
 offset: 2

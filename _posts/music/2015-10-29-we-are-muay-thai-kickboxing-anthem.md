@@ -20,7 +20,7 @@ tags: [Sevara Nazarkhan, Thai kickboxing, national anthem]
 
 I had been working with the Uzbek pop star <a href="{{sev[0].url}}">Sevara</a>, and the World Championships in Thai Kickboxing - Muay Thai - were just about to land in Tashkent. Would I write <a href="{{song[0].url}}">lyrics</a> to a new anthem for the sport, one to make even the most bloodied warrior blub his little socks off?
 
-Apparently it is still played at every major international event. One of my proudest and most ridiculous moments in music, ever.
+It was <a href="http://www.ifmamuaythai.org/2012/07/official-muaythai-anthem/">subsequently adopted by the International Federation</a>, and apparently is still played at every major international event. One of my proudest and most ridiculous moments in music, ever.
 
 
 

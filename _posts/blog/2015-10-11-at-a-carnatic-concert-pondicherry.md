@@ -65,7 +65,7 @@ Even to the relatively untrained ear, it is hard not to appreciate the beauty of
 
 
 <h3>Skill and sensitivity</h3>
-The emotional moods of the ragas - each one demands a particular sequence of notes, which can be different depending on the direction of a musical phrase - requires great dexterity. The Carnatic music audience is famously knowledgeable, and therefore ready to pounce on a musician who plays a single note out of raga. This is not jazz, where you can play in or out. In Carnatic, to play out will lead in you being thrown out. 
+The emotional moods of the ragas - each one demands a particular sequence of notes, which can be different depending on the direction of a musical phrase - requires great dexterity. The Carnatic music audience is famously knowledgeable, and therefore ready to pounce on a musician who plays a single note out of raga. This is not jazz, where you can play in or out. In Carnatic, to play out will lead to you being thrown out. 
 
 <h3>Speed and technique</h3>
 The man shreds like Hendrix - I kid you not. Enough said.
