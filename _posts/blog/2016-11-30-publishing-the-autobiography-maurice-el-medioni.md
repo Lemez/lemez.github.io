@@ -7,7 +7,7 @@ image: "mauriceatthepiano.jpg"
 category: "blog"
 location: [Algeria, USA, UK, France, Israel]
 topic: [publishing, memoirs, karma]
-tags: [publishing, memoirs, karma, Algeria, USA, UK, France, Israel]
+tags: [publishing, memoirs, andalous, karma, Algeria, USA, UK, France, Israel]
 ---
 
 {% assign momo = site.posts | where, 'title', "Maurice El Medioni"%}

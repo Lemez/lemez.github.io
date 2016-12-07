@@ -10,10 +10,11 @@ category: "print"
 location: [Algeria, Israel, France]
 artist: [Maurice El Medioni]
 topic: [anti-colonialism, discrimination, fusion, godfather]
-tags: [Algeria, Israel, France, Maurice El Medioni, anti-colonialism, discrimination, fusion, godfather]
+tags: [Algeria, Israel, France, Maurice El Medioni, andalous, anti-colonialism, discrimination, fusion, godfather]
 ---
 {% include videofull id="" hidden="true" %}
 {% include sideimage img="Lili Labassi w Maurice Canastel, Oran 1956.jpg" text="Performing with Lili Labassi, Canastel, Oran 1956" %}
+{% assign momo = site.posts | where: 'title', "Publishing The Autobiography of Maurice El Medioni" %}
 
 I was first introduced to Maurice's music by Ben Mandelson and the good folk at Piranha Records.
 
@@ -31,7 +32,9 @@ He writes his life story in pictures, and through contacts in Paris, Joann Sfar,
 
 Maurice is still going strong, having moved to Israel in recent years from Marseille to be with his children. This project is my way of saying thank you to him for those years of inspiration and good music, and for showing me how anyone can age with bags of style and good humour.
 
-Together with BBC Radio 3's Max Reinhardt, I am collecting essays and articles about his life, to be published along with his autobiography in 2016.
+Together with BBC Radio 3's Max Reinhardt, I am collecting essays and articles about his life, to be published along with his autobiography by Repeater Books in May 2017.
+
+Update: see my blogpost about publishing the book, [here]({{momo[0].url}})
 
 <h3>Blurb</h3>
 The book tells the story of how Maurice learnt to play his unique "orientale" piano fusion style, his experience during WW2 with the Dominican and Puerto Rican GIs, the subsequent golden years of nightlife in Oran, the “Paris of the South”, and horrific years of bloodshed that followed in the Algerian war of Independence, his exile from Algeria, his difficulties assimilating into Israel as an "unwanted" Sephardi artist in the early 1960s, his move to Paris and then Marseilles, and an account of emigre life and nightlife there amongst North African Jewish communities.
