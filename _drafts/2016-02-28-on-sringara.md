@@ -20,7 +20,7 @@ If you look it up in a Sanskrit dictionary, most likely you'll see the translati
 
 A bit of history: there exists in India a *sastra* - a manuscript - on the performing arts, called the Natya Sastra. It is the world's first comprehensive treatise on the performing arts, and it explains a system of nine emotions, known as *rasas*, which still define the classical arts in India. 
 
-A *rasa*, poorly translated again as "taste" or "emotion" according to our useless Sanskrit dictionary, is actually the defining emotional onject of a play or performance. What is it that a performer wants the audience to feel? What emotional flavour does the performer want the audience to savour?
+A *rasa*, poorly translated again as "taste" or "emotion" according to our useless Sanskrit dictionary, is actually the defining emotional object of a play or performance. What is it that a performer wants the audience to feel? What emotional flavour does the performer want the audience to savour?
 
 The selected rasa then becomes an unseen director for the piece, guiding the set, the scenery, the dialogues. If the chosen rasa for the performance is *sringara*, then should the balcony in the scene have flowers on it? Presumably so. And if so, what flowers? 
 
