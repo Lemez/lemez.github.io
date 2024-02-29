@@ -8,13 +8,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jonathan Walton
+title : Lemez Lovas
 tagline: some people call me Lemez
 author :
-  name : Jonathan Walton
-  email : lemez9@gmail.com
+  name : Lemez Lovas
+  email : lovaslemez@gmail.com
   github : Lemez
-  twitter : lemez1
 markdown: kramdown
 gems:
   - octopress-debugger
