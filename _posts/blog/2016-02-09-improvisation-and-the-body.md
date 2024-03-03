@@ -16,7 +16,7 @@ I love Carnatic music for many reasons, but the reason that is easiest to explai
 
 {% include videofull id="qadQmXH5skg" text="A typical jazz woodshedding practice session" %}
 
-Musicians in jazz often improvise fast - especially so since many of them follow John Coltrane, known for his phenomenal 'sheets of sound' technique. In the worst cases, playing fast is a goal in and of itself, a kind of musical dick contest in which everyone on stage drops their technical trousers and sizes up. The technical skills on display are honed by years of 'woodshedding' - practising flurries of notes, chord structures and phrase patterns ad infinitum. 
+Musicians in jazz often improvise fast - especially so since many of them follow John Coltrane, known for his phenomenal 'sheets of sound' technique. In the worst cases, playing fast can become a goal in and of itself, a display of pure technique with no regard for how musical or not it may sound. The technical skills on display are honed by years of 'woodshedding' - practising flurries of notes, chord structures and phrase patterns ad infinitum. 
 
 Carnatic music is a different beast entirely. The masters have much less to work with. Firstly,  the mood in jazz is created by its shifting chord patterns, and good solos are built by creating rhythmic patterns of tension and release around these changing chords. Carnatic music has no chords at all - just one mode, or raga, that evokes a particular mood. Where jazz musicians can create tension by playing 'out' of the scale, and carve out a release by going back 'in', Carnatic musicians only play 'in'. 
 
